@@ -30,44 +30,24 @@ public class REST {
         PathHandler path = Handlers.path()
                 .addPrefixPath("/api", Handlers.routing()
                         .get("/method", exchange -> {
-                            System.out.println("EXCAHNE" + exchange);
-
                             Map<String,Deque<String>> params = exchange.getQueryParameters();
-
                             String owner = params.get("owner").getFirst();
-                            System.out.println("Owner" + owner);
                             String repoName = params.get("repoName").getFirst();
-                            System.out.println("repo" + repoName);
-
                             String filePath = params.get("filePath").getFirst();
-                            System.out.println("filePath" + filePath);
-
-
                             String commitId = params.get("commitId").getFirst();
-                            System.out.println("commitId" + commitId);
-
-
                             String methodName = params.get("methodName").getFirst();
-                            System.out.println("methodName" + methodName);
 
                             Integer lineNumber = Integer.parseInt(params.get("lineNumber").getFirst());
-                            System.out.println("lN" + lineNumber);
-
-
-                            System.out.println(owner + " " + repoName + " " + filePath + " " + commitId + " " + methodName + " " + lineNumber);
-
                             exchange.getResponseHeaders()
                                     .put(new HttpString("Access-Control-Allow-Origin"), "*")
                                     .put(Headers.CONTENT_TYPE, "text/plain");
-
                             String response = CTMethod(owner, repoName, filePath, commitId, methodName, lineNumber);
-
                             exchange.getResponseSender()
                                     .send(response);
                         }));
 
         Undertow server = Undertow.builder()
-                .addHttpListener(8080, "0.0.0.0")
+                .addHttpListener(5000, "0.0.0.0")
                 .setHandler(path).build();
 
         server.start();
