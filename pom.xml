@@ -14,6 +14,12 @@
     </properties>
 
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.kohsuke/github-api -->
+        <dependency>
+            <groupId>org.kohsuke</groupId>
+            <artifactId>github-api</artifactId>
+            <version>1.306</version>
+        </dependency>
         <dependency>
             <groupId>com.github.tsantalis</groupId>
             <artifactId>refactoring-miner</artifactId>
