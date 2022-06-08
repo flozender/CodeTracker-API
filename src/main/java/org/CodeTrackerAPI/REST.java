@@ -2,6 +2,7 @@ package org.CodeTrackerAPI;
 
 import java.time.*;
 import java.util.*;
+import java.util.concurrent.CompletableFuture;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.PropertyAccessor;
@@ -23,14 +24,18 @@ import org.codetracker.element.Method;
 import org.codetracker.change.Change;
 
 import org.eclipse.jgit.lib.Repository;
-
+import org.kohsuke.github.GHCommit;
+import org.kohsuke.github.GHUser;
+import org.kohsuke.github.GitHub;
+import org.kohsuke.github.GitHubBuilder;
+import org.kohsuke.github.GHCommit.File;
 
 public class REST {
     public static void main(String[] args) {
         PathHandler path = Handlers.path()
                 .addPrefixPath("/api", Handlers.routing()
                         .get("/method", exchange -> {
-                            Map<String,Deque<String>> params = exchange.getQueryParameters();
+                            Map<String, Deque<String>> params = exchange.getQueryParameters();
                             String owner = params.get("owner").getFirst();
                             String repoName = params.get("repoName").getFirst();
                             String filePath = params.get("filePath").getFirst();
@@ -53,12 +58,14 @@ public class REST {
         server.start();
     }
 
-    private static String CTMethod(String owner, String repoName, String filePath, String commitId, String methodName, Integer lineNumber){
+    private static String CTMethod(String owner, String repoName, String filePath, String commitId, String methodName,
+            Integer lineNumber) {
         GitService gitService = new GitServiceImpl();
         ArrayList<CTHMElement> changeLog = new ArrayList<>();
+        CompletableFuture<List<File>> currentFiles;
 
         try (Repository repository = gitService.cloneIfNotExists("tmp/" + repoName,
-                "https://github.com/"+owner+"/"+repoName+".git")){
+                "https://github.com/" + owner + "/" + repoName + ".git")) {
 
             MethodTracker methodTracker = CodeTracker.methodTracker()
                     .repository(repository)
@@ -83,10 +90,12 @@ public class REST {
                     System.out.println(change.getType().getTitle() + ": " + change);
                     currentChanges.add(change.getType().getTitle() + ": " + change);
                 }
+                currentFiles = CompletableFuture
+                        .supplyAsync(() -> getCommitFiles(owner, repoName, historyInfo.getCommitId()));
                 CTHMElement currentElement = new CTHMElement(historyInfo.getCommitId(),
                         LocalDateTime.ofEpochSecond(historyInfo.getCommitTime(), 0, ZoneOffset.UTC),
                         historyInfo.getElementBefore().getName(), historyInfo.getElementAfter().getName(),
-                        currentChanges);
+                        currentChanges, currentFiles.get());
                 changeLog.add(currentElement);
             }
             System.out.println("======================================================");
@@ -94,7 +103,7 @@ public class REST {
             mapper.setVisibility(PropertyAccessor.FIELD, JsonAutoDetect.Visibility.ANY);
             try {
                 String json = mapper.writeValueAsString(changeLog);
-//                System.out.println("JSON = " + json);
+                // System.out.println("JSON = " + json);
                 return json;
             } catch (JsonProcessingException e) {
                 e.printStackTrace();
@@ -106,6 +115,18 @@ public class REST {
         return "";
     }
 
+    public static List<File> getCommitFiles(String owner, String repoName, String commitId) {
+        try {
+            GitHub gitHub = GitHubBuilder.fromEnvironment().build();
+            GHCommit commit = gitHub.getRepository(owner + "/" + repoName).getCommit(commitId);
+            List<File> files = commit.getFiles();
+            return files;
+        } catch (Exception e) {
+            System.out.println("An error has occured: " + e);
+            return null;
+        }
+    }
+
     // CodeTracker History Method Element
     private static class CTHMElement {
         String commitId;
@@ -113,13 +134,16 @@ public class REST {
         String before;
         String after;
         ArrayList<String> changes;
+        List<File> files;
 
-        private CTHMElement(String commitId, LocalDateTime date, String before, String after, ArrayList<String> changes){
+        private CTHMElement(String commitId, LocalDateTime date, String before, String after, ArrayList<String> changes,
+                List<File> files) {
             this.commitId = commitId;
             this.date = date;
             this.before = before;
             this.after = after;
             this.changes = changes;
+            this.files = files;
         }
     }
 }
