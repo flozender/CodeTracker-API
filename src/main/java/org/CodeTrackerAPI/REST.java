@@ -90,12 +90,18 @@ public class REST {
                     System.out.println(change.getType().getTitle() + ": " + change);
                     currentChanges.add(change.getType().getTitle() + ": " + change);
                 }
-                currentFiles = CompletableFuture
-                        .supplyAsync(() -> getCommitFiles(owner, repoName, historyInfo.getCommitId()));
+                // Uncomment for git commit files in API response
+                // 
+                // currentFiles = CompletableFuture
+                //         .supplyAsync(() -> getCommitFiles(owner, repoName, historyInfo.getCommitId()));
+                // CTHMElement currentElement = new CTHMElement(historyInfo.getCommitId(),
+                //         LocalDateTime.ofEpochSecond(historyInfo.getCommitTime(), 0, ZoneOffset.UTC),
+                //         historyInfo.getElementBefore().getName(), historyInfo.getElementAfter().getName(),
+                //         currentChanges, currentFiles.get());
                 CTHMElement currentElement = new CTHMElement(historyInfo.getCommitId(),
                         LocalDateTime.ofEpochSecond(historyInfo.getCommitTime(), 0, ZoneOffset.UTC),
                         historyInfo.getElementBefore().getName(), historyInfo.getElementAfter().getName(),
-                        currentChanges, currentFiles.get());
+                        currentChanges);
                 changeLog.add(currentElement);
             }
             System.out.println("======================================================");
@@ -129,21 +135,19 @@ public class REST {
 
     // CodeTracker History Method Element
     private static class CTHMElement {
+        // for files add  List<File> files
         String commitId;
         LocalDateTime date;
         String before;
         String after;
         ArrayList<String> changes;
-        List<File> files;
 
-        private CTHMElement(String commitId, LocalDateTime date, String before, String after, ArrayList<String> changes,
-                List<File> files) {
+        private CTHMElement(String commitId, LocalDateTime date, String before, String after, ArrayList<String> changes) {
             this.commitId = commitId;
             this.date = date;
             this.before = before;
             this.after = after;
             this.changes = changes;
-            this.files = files;
         }
     }
 }
