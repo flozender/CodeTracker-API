@@ -99,7 +99,7 @@ public class REST {
                 //         historyInfo.getElementBefore().getName(), historyInfo.getElementAfter().getName(),
                 //         currentChanges, currentFiles.get());
                 CTHMElement currentElement = new CTHMElement(historyInfo.getCommitId(),
-                        LocalDateTime.ofEpochSecond(historyInfo.getCommitTime(), 0, ZoneOffset.UTC),
+                        LocalDateTime.ofEpochSecond(historyInfo.getCommitTime(), 0, ZoneOffset.UTC).toString(),
                         historyInfo.getElementBefore().getName(), historyInfo.getElementAfter().getName(),
                         currentChanges);
                 changeLog.add(currentElement);
@@ -137,12 +137,12 @@ public class REST {
     private static class CTHMElement {
         // for files add  List<File> files
         String commitId;
-        LocalDateTime date;
+        String date;
         String before;
         String after;
         ArrayList<String> changes;
 
-        private CTHMElement(String commitId, LocalDateTime date, String before, String after, ArrayList<String> changes) {
+        private CTHMElement(String commitId, String date, String before, String after, ArrayList<String> changes) {
             this.commitId = commitId;
             this.date = date;
             this.before = before;
