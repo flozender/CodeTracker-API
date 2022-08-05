@@ -1,5 +1,6 @@
 package org.CodeTrackerAPI;
 
+import java.io.File;
 import java.time.*;
 import java.util.*;
 import java.util.concurrent.CompletableFuture;
@@ -22,19 +23,17 @@ import org.refactoringminer.api.GitService;
 import org.codetracker.api.*;
 import org.codetracker.element.Method;
 import org.codetracker.change.Change;
-
+import org.eclipse.jgit.api.Git;
+import org.eclipse.jgit.api.PullResult;
 import org.eclipse.jgit.lib.Repository;
-import org.kohsuke.github.GHCommit;
-import org.kohsuke.github.GHUser;
-import org.kohsuke.github.GitHub;
-import org.kohsuke.github.GitHubBuilder;
-import org.kohsuke.github.GHCommit.File;
+import org.eclipse.jgit.storage.file.FileRepositoryBuilder;
 
 public class REST {
     public static void main(String[] args) {
         PathHandler path = Handlers.path()
                 .addPrefixPath("/api", Handlers.routing()
                         .get("/method", exchange -> {
+
                             Map<String, Deque<String>> params = exchange.getQueryParameters();
                             String owner = params.get("owner").getFirst();
                             String repoName = params.get("repoName").getFirst();
@@ -62,10 +61,15 @@ public class REST {
             Integer lineNumber) {
         GitService gitService = new GitServiceImpl();
         ArrayList<CTHMElement> changeLog = new ArrayList<>();
-        CompletableFuture<List<File>> currentFiles;
+        // CompletableFuture<List<File>> currentFiles;
 
         try (Repository repository = gitService.cloneIfNotExists("tmp/" + repoName,
                 "https://github.com/" + owner + "/" + repoName + ".git")) {
+
+            try (Git git = new Git(repository)) {
+                PullResult call = git.pull().call();
+                System.out.println("Pulled from the remote repository: " + call);
+            }
 
             MethodTracker methodTracker = CodeTracker.methodTracker()
                     .repository(repository)
@@ -91,16 +95,19 @@ public class REST {
                     currentChanges.add(change.getType().getTitle() + ": " + change);
                 }
                 // Uncomment for git commit files in API response
-                // 
+                //
                 // currentFiles = CompletableFuture
-                //         .supplyAsync(() -> getCommitFiles(owner, repoName, historyInfo.getCommitId()));
+                // .supplyAsync(() -> getCommitFiles(owner, repoName,
+                // historyInfo.getCommitId()));
                 // CTHMElement currentElement = new CTHMElement(historyInfo.getCommitId(),
-                //         LocalDateTime.ofEpochSecond(historyInfo.getCommitTime(), 0, ZoneOffset.UTC),
-                //         historyInfo.getElementBefore().getName(), historyInfo.getElementAfter().getName(),
-                //         currentChanges, currentFiles.get());
+                // LocalDateTime.ofEpochSecond(historyInfo.getCommitTime(), 0, ZoneOffset.UTC),
+                // historyInfo.getElementBefore().getName(),
+                // historyInfo.getElementAfter().getName(),
+                // currentChanges, currentFiles.get());
                 CTHMElement currentElement = new CTHMElement(historyInfo.getCommitId(),
                         LocalDateTime.ofEpochSecond(historyInfo.getCommitTime(), 0, ZoneOffset.UTC).toString(),
                         historyInfo.getElementBefore().getName(), historyInfo.getElementAfter().getName(),
+                        historyInfo.getCommitterName(),
                         currentChanges);
                 changeLog.add(currentElement);
             }
@@ -121,32 +128,37 @@ public class REST {
         return "";
     }
 
-    public static List<File> getCommitFiles(String owner, String repoName, String commitId) {
-        try {
-            GitHub gitHub = GitHubBuilder.fromEnvironment().build();
-            GHCommit commit = gitHub.getRepository(owner + "/" + repoName).getCommit(commitId);
-            List<File> files = commit.getFiles();
-            return files;
-        } catch (Exception e) {
-            System.out.println("An error has occured: " + e);
-            return null;
-        }
-    }
+    // public static List<File> getCommitFiles(String owner, String repoName, String
+    // commitId) {
+    // try {
+    // GitHub gitHub = GitHubBuilder.fromEnvironment().build();
+    // GHCommit commit = gitHub.getRepository(owner + "/" +
+    // repoName).getCommit(commitId);
+    // List<File> files = commit.getFiles();
+    // return files;
+    // } catch (Exception e) {
+    // System.out.println("An error has occured: " + e);
+    // return null;
+    // }
+    // }
 
     // CodeTracker History Method Element
     private static class CTHMElement {
-        // for files add  List<File> files
+        // for files add List<File> files
         String commitId;
         String date;
         String before;
         String after;
+        String committer;
         ArrayList<String> changes;
 
-        private CTHMElement(String commitId, String date, String before, String after, ArrayList<String> changes) {
+        private CTHMElement(String commitId, String date, String before, String after, String committer,
+                ArrayList<String> changes) {
             this.commitId = commitId;
             this.date = date;
             this.before = before;
             this.after = after;
+            this.committer = committer;
             this.changes = changes;
         }
     }
