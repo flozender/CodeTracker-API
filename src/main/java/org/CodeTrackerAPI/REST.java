@@ -37,14 +37,20 @@ public class REST {
     public static void main(String[] args) {
         PathHandler path = Handlers.path()
                 .addPrefixPath("/api", Handlers.routing()
-                        .get("/method", exchange -> {
+                        .get("/track", exchange -> {
 
                             Map<String, Deque<String>> params = exchange.getQueryParameters();
                             String owner = params.get("owner").getFirst();
                             String repoName = params.get("repoName").getFirst();
                             String commitId = params.get("commitId").getFirst();
                             String filePath = params.get("filePath").getFirst();
-                            String methodName = params.get("methodName").getFirst();
+                            String name = params.get("selection").getFirst();
+                            String parentMethod = null;
+                            Integer parentMethodLine = 0;
+                            try {
+                                parentMethod = params.get("parentMethod").getFirst();
+                                parentMethodLine = Integer.parseInt(params.get("parentMethodLine").getFirst());
+                            } catch (Exception e) {}
                             Integer lineNumber = Integer.parseInt(params.get("lineNumber").getFirst());
                             String response;
 
@@ -58,23 +64,22 @@ public class REST {
                                     System.out.println("Pulled from the remote repository: " + call);
                                 }
                                 CodeElementLocator locator = new CodeElementLocator(repository, commitId, filePath,
-                                methodName, lineNumber);
+                                        name, lineNumber);
                                 CodeElement codeElement = locator.locate();
-                                if (codeElement == null){
+                                if (codeElement == null) {
                                     throw new Exception("Selected code element is invalid.");
                                 }
-                                if (codeElement.getClass() == Method.class){
-                                    response = CTMethod(owner, repository, filePath, commitId, methodName, lineNumber);
-                                } else if (codeElement.getClass() == Variable.class){
-                                    response = "";
-                                    // response = CTVariable();
-                                } else if (codeElement.getClass() == Attribute.class){
-                                    // response = CTAttribute();
-                                    response = "";
+                                if (codeElement.getClass() == Method.class) {
+                                    response = CTMethod(owner, repository, filePath, commitId, name, lineNumber);
+                                } else if (codeElement.getClass() == Variable.class) {
+                                    response = CTVariable(owner, repository, filePath, commitId, parentMethod, name,
+                                            parentMethodLine, lineNumber);
+                                } else if (codeElement.getClass() == Attribute.class) {
+                                    response = CTAttribute(owner, repository, filePath, commitId, name, lineNumber);
                                 } else {
                                     response = "";
                                 }
-                                
+
                                 exchange.getResponseHeaders()
                                         .put(new HttpString("Access-Control-Allow-Origin"), "*")
                                         .put(Headers.CONTENT_TYPE, "text/plain");
@@ -93,9 +98,10 @@ public class REST {
         server.start();
     }
 
-    private static String CTMethod(String owner, Repository repository, String filePath, String commitId, String methodName,
+    private static String CTMethod(String owner, Repository repository, String filePath, String commitId,
+            String methodName,
             Integer lineNumber) {
-        ArrayList<CTHMElement> changeLog = new ArrayList<>();
+        ArrayList<CTHMethod> changeLog = new ArrayList<>();
         try {
 
             MethodTracker methodTracker = CodeTracker.methodTracker()
@@ -122,12 +128,12 @@ public class REST {
                     System.out.println(change.getType().getTitle() + ": " + change);
                     currentChanges.add(change.getType().getTitle() + ": " + change);
                     evolutionPresent = change.getEvolutionHook().isPresent();
-                    if(evolutionPresent) {
+                    if (evolutionPresent) {
                         evolutionHook = change.getEvolutionHook().get().getElementAfter();
                     }
                 }
 
-                CTHMElement currentElement = new CTHMElement(historyInfo.getCommitId(),
+                CTHMethod currentElement = new CTHMethod(historyInfo.getCommitId(),
                         LocalDateTime.ofEpochSecond(historyInfo.getCommitTime(), 0, ZoneOffset.UTC).toString(),
                         historyInfo.getElementBefore(), historyInfo.getElementAfter(),
                         historyInfo.getCommitterName(),
@@ -144,7 +150,131 @@ public class REST {
             } catch (JsonProcessingException e) {
                 e.printStackTrace();
             }
-        } catch(Exception e){
+        } catch (Exception e) {
+            return e.toString();
+        }
+
+        return "";
+    }
+
+    private static String CTVariable(String owner, Repository repository, String filePath, String commitId,
+            String methodName,
+            String variableName,
+            Integer methodLineNumber,
+            Integer variableLineNumber) {
+        ArrayList<CTHVariable> changeLog = new ArrayList<>();
+        try {
+
+            VariableTracker variableTracker = CodeTracker.variableTracker()
+                    .repository(repository)
+                    .filePath(filePath)
+                    .startCommitId(commitId)
+                    .methodName(methodName)
+                    .methodDeclarationLineNumber(methodLineNumber)
+                    .variableName(variableName)
+                    .variableDeclarationLineNumber(variableLineNumber)
+                    .build();
+
+            History<Variable> variableHistory = variableTracker.track();
+
+            for (History.HistoryInfo<Variable> historyInfo : variableHistory.getHistoryInfoList()) {
+                ArrayList<String> currentChanges = new ArrayList<>();
+                CodeElement evolutionHook = null;
+                Boolean evolutionPresent = false;
+                System.out.println("======================================================");
+                System.out.println("Commit ID: " + historyInfo.getCommitId());
+                System.out.println("Date: " +
+                        LocalDateTime.ofEpochSecond(historyInfo.getCommitTime(), 0, ZoneOffset.UTC));
+                System.out.println("Before: " + historyInfo.getElementBefore().getName());
+                System.out.println("After: " + historyInfo.getElementAfter().getName());
+                for (Change change : historyInfo.getChangeList()) {
+                    System.out.println(change.getType().getTitle() + ": " + change);
+                    currentChanges.add(change.getType().getTitle() + ": " + change);
+                    evolutionPresent = change.getEvolutionHook().isPresent();
+                    if (evolutionPresent) {
+                        evolutionHook = change.getEvolutionHook().get().getElementAfter();
+                    }
+                }
+
+                CTHVariable currentElement = new CTHVariable(historyInfo.getCommitId(),
+                        LocalDateTime.ofEpochSecond(historyInfo.getCommitTime(), 0, ZoneOffset.UTC).toString(),
+                        historyInfo.getElementBefore(), historyInfo.getElementAfter(),
+                        historyInfo.getCommitterName(),
+                        currentChanges, evolutionPresent, evolutionHook);
+                changeLog.add(currentElement);
+            }
+            System.out.println("======================================================");
+
+            ObjectMapper mapper = new ObjectMapper();
+            mapper.setVisibility(PropertyAccessor.FIELD, JsonAutoDetect.Visibility.ANY);
+            try {
+                String json = mapper.writeValueAsString(changeLog);
+                // System.out.println("JSON = " + json);
+                return json;
+            } catch (JsonProcessingException e) {
+                e.printStackTrace();
+            }
+        } catch (Exception e) {
+            System.out.println(e);
+            return e.toString();
+        }
+
+        return "";
+    }
+
+    private static String CTAttribute(String owner, Repository repository, String filePath, String commitId,
+            String attributeName,
+            Integer lineNumber) {
+        ArrayList<CTHAttribute> changeLog = new ArrayList<>();
+        try {
+
+            AttributeTracker attributeTracker = CodeTracker.attributeTracker()
+                    .repository(repository)
+                    .filePath(filePath)
+                    .startCommitId(commitId)
+                    .attributeName(attributeName)
+                    .attributeDeclarationLineNumber(lineNumber)
+                    .build();
+
+            History<Attribute> attributeHistory = attributeTracker.track();
+
+            for (History.HistoryInfo<Attribute> historyInfo : attributeHistory.getHistoryInfoList()) {
+                ArrayList<String> currentChanges = new ArrayList<>();
+                CodeElement evolutionHook = null;
+                Boolean evolutionPresent = false;
+                System.out.println("======================================================");
+                System.out.println("Commit ID: " + historyInfo.getCommitId());
+                System.out.println("Date: " +
+                        LocalDateTime.ofEpochSecond(historyInfo.getCommitTime(), 0, ZoneOffset.UTC));
+                System.out.println("Before: " + historyInfo.getElementBefore().getName());
+                System.out.println("After: " + historyInfo.getElementAfter().getName());
+                for (Change change : historyInfo.getChangeList()) {
+                    System.out.println(change.getType().getTitle() + ": " + change);
+                    currentChanges.add(change.getType().getTitle() + ": " + change);
+                    evolutionPresent = change.getEvolutionHook().isPresent();
+                    if (evolutionPresent) {
+                        evolutionHook = change.getEvolutionHook().get().getElementAfter();
+                    }
+                }
+
+                CTHAttribute currentElement = new CTHAttribute(historyInfo.getCommitId(),
+                        LocalDateTime.ofEpochSecond(historyInfo.getCommitTime(), 0, ZoneOffset.UTC).toString(),
+                        historyInfo.getElementBefore(), historyInfo.getElementAfter(),
+                        historyInfo.getCommitterName(),
+                        currentChanges, evolutionPresent, evolutionHook);
+                changeLog.add(currentElement);
+            }
+            System.out.println("======================================================");
+            ObjectMapper mapper = new ObjectMapper();
+            mapper.setVisibility(PropertyAccessor.FIELD, JsonAutoDetect.Visibility.ANY);
+            try {
+                String json = mapper.writeValueAsString(changeLog);
+                // System.out.println("JSON = " + json);
+                return json;
+            } catch (JsonProcessingException e) {
+                e.printStackTrace();
+            }
+        } catch (Exception e) {
             return e.toString();
         }
 
@@ -152,7 +282,7 @@ public class REST {
     }
 
     // CodeTracker History Method Element
-    private static class CTHMElement {
+    private static class CTHMethod {
         String commitId;
         String date;
         String before;
@@ -166,8 +296,9 @@ public class REST {
         String evolutionHook;
         Integer evolutionHookLine;
         String evolutionHookPath;
+        String type = "method";
 
-        private CTHMElement(String commitId, String date, CodeElement before, CodeElement after, String committer,
+        private CTHMethod(String commitId, String date, CodeElement before, CodeElement after, String committer,
                 ArrayList<String> changes, Boolean evolutionPresent, CodeElement evolutionHook) {
             this.commitId = commitId;
             this.date = date;
@@ -183,7 +314,90 @@ public class REST {
             this.committer = committer;
             this.changes = changes;
 
-            if(evolutionPresent){
+            if (evolutionPresent) {
+                this.evolutionHook = evolutionHook.getName();
+                this.evolutionHookLine = evolutionHook.getLocation().getStartLine();
+                this.evolutionHookPath = evolutionHook.getLocation().getFilePath();
+            }
+        }
+    }
+
+    // CodeTracker History Variable Element
+    private static class CTHVariable {
+        String commitId;
+        String date;
+        String before;
+        Integer beforeLine;
+        String beforePath;
+        String after;
+        Integer afterLine;
+        String afterPath;
+        String committer;
+        ArrayList<String> changes;
+        String evolutionHook;
+        Integer evolutionHookLine;
+        String evolutionHookPath;
+        String type = "variable";
+
+        private CTHVariable(String commitId, String date, CodeElement before, CodeElement after, String committer,
+                ArrayList<String> changes, Boolean evolutionPresent, CodeElement evolutionHook) {
+            this.commitId = commitId;
+            this.date = date;
+
+            this.before = before.getName();
+            this.beforeLine = before.getLocation().getStartLine();
+            this.beforePath = before.getLocation().getFilePath();
+
+            this.after = after.getName();
+            this.afterLine = after.getLocation().getStartLine();
+            this.afterPath = after.getLocation().getFilePath();
+            System.out.println("ID: " + after.getIdentifierIgnoringVersion());
+
+            this.committer = committer;
+            this.changes = changes;
+
+            if (evolutionPresent) {
+                this.evolutionHook = evolutionHook.getName();
+                this.evolutionHookLine = evolutionHook.getLocation().getStartLine();
+                this.evolutionHookPath = evolutionHook.getLocation().getFilePath();
+            }
+        }
+    }
+
+    // CodeTracker History Method Element
+    private static class CTHAttribute {
+        String commitId;
+        String date;
+        String before;
+        Integer beforeLine;
+        String beforePath;
+        String after;
+        Integer afterLine;
+        String afterPath;
+        String committer;
+        ArrayList<String> changes;
+        String evolutionHook;
+        Integer evolutionHookLine;
+        String evolutionHookPath;
+        String type = "attribute";
+
+        private CTHAttribute(String commitId, String date, CodeElement before, CodeElement after, String committer,
+                ArrayList<String> changes, Boolean evolutionPresent, CodeElement evolutionHook) {
+            this.commitId = commitId;
+            this.date = date;
+
+            this.before = before.getName();
+            this.beforeLine = before.getLocation().getStartLine();
+            this.beforePath = before.getLocation().getFilePath();
+
+            this.after = after.getName();
+            this.afterLine = after.getLocation().getStartLine();
+            this.afterPath = after.getLocation().getFilePath();
+
+            this.committer = committer;
+            this.changes = changes;
+
+            if (evolutionPresent) {
                 this.evolutionHook = evolutionHook.getName();
                 this.evolutionHookLine = evolutionHook.getLocation().getStartLine();
                 this.evolutionHookPath = evolutionHook.getLocation().getFilePath();
