@@ -32,6 +32,7 @@ import org.codetracker.change.EvolutionHook;
 import org.eclipse.jgit.api.Git;
 import org.eclipse.jgit.api.PullResult;
 import org.eclipse.jgit.lib.Repository;
+import org.eclipse.jgit.revwalk.RevCommit;
 
 public class REST {
     public static void main(String[] args) {
@@ -47,13 +48,13 @@ public class REST {
                             String name = params.get("selection").getFirst();
                             String parentMethod = null;
                             Integer parentMethodLine = 0;
+                            String latestCommitHash;
                             try {
                                 parentMethod = params.get("parentMethod").getFirst();
                                 parentMethodLine = Integer.parseInt(params.get("parentMethodLine").getFirst());
                             } catch (Exception e) {}
                             Integer lineNumber = Integer.parseInt(params.get("lineNumber").getFirst());
                             String response;
-
                             GitService gitService = new GitServiceImpl();
 
                             try (Repository repository = gitService.cloneIfNotExists("tmp/" + repoName,
@@ -62,7 +63,12 @@ public class REST {
                                 try (Git git = new Git(repository)) {
                                     PullResult call = git.pull().call();
                                     System.out.println("Pulled from the remote repository: " + call);
+                                    latestCommitHash = git.log().setMaxCount(1).call().iterator().next().getName();
                                 }
+                                if ("master".equals(commitId)){
+                                    commitId = latestCommitHash;
+                                }
+
                                 CodeElementLocator locator = new CodeElementLocator(repository, commitId, filePath,
                                         name, lineNumber);
                                 CodeElement codeElement = locator.locate();
