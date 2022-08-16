@@ -95,7 +95,64 @@ public class REST {
                             } catch (Exception e) {
                                 System.out.println("Something went wrong: " + e);
                             }
-                        }));
+                        }).get("/codeElementType", exchange -> {
+
+                            Map<String, Deque<String>> params = exchange.getQueryParameters();
+                            String owner = params.get("owner").getFirst();
+                            String repoName = params.get("repoName").getFirst();
+                            String commitId = params.get("commitId").getFirst();
+                            String filePath = params.get("filePath").getFirst();
+                            String name = params.get("selection").getFirst();
+                            String latestCommitHash;
+
+                            Integer lineNumber = Integer.parseInt(params.get("lineNumber").getFirst());
+                            String response;
+                            GitService gitService = new GitServiceImpl();
+
+                            try (Repository repository = gitService.cloneIfNotExists("tmp/" + repoName,
+                                    "https://github.com/" + owner + "/" + repoName + ".git")) {
+
+                                try (Git git = new Git(repository)) {
+                                    PullResult call = git.pull().call();
+                                    System.out.println("Pulled from the remote repository: " + call);
+                                    latestCommitHash = git.log().setMaxCount(1).call().iterator().next().getName();
+                                }
+                                if ("master".equals(commitId)){
+                                    commitId = latestCommitHash;
+                                }
+
+                                CodeElementLocator locator = new CodeElementLocator(repository, commitId, filePath,
+                                        name, lineNumber);
+                                CodeElement codeElement = locator.locate();
+                                if (codeElement == null) {
+                                    throw new Exception("Selected code element is invalid.");
+                                }
+                                if (codeElement.getClass() == Method.class) {
+                                    response = "{\"type\": \"Method\"}";
+                                } else if (codeElement.getClass() == Variable.class) {
+                                    response = "{\"type\": \"Variable\"}";
+                                } else if (codeElement.getClass() == Attribute.class) {
+                                    response = "{\"type\": \"Attribute\"}";
+                                } else {
+                                    response = "{\"type\": \"Invalid Element\"}";
+                                }
+
+                                exchange.getResponseHeaders()
+                                        .put(new HttpString("Access-Control-Allow-Origin"), "*")
+                                        .put(Headers.CONTENT_TYPE, "text/plain");
+                                exchange.getResponseSender()
+                                        .send(response);
+
+                            } catch (Exception e) {
+                                System.out.println("Something went wrong: " + e);
+                                exchange.getResponseHeaders()
+                                .put(new HttpString("Access-Control-Allow-Origin"), "*")
+                                .put(Headers.CONTENT_TYPE, "text/plain");
+                                exchange.getResponseSender()
+                                .send("{\"type\": \"Invalid Element\"}");
+                            }
+                        })
+                        );
 
         Undertow server = Undertow.builder()
                 .addHttpListener(5000, "0.0.0.0")
