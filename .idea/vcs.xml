@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
-    <mapping directory="$PROJECT_DIR$/../.." vcs="Git" />
+    <mapping directory="$USER_HOME$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/tmp/RefactoringMiner" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tmp/SOEN6441-AK_G03" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/tmp/checkstyle" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tmp/code-tracker" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tmp/commons-lang" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tmp/flink" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tmp/guava" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tmp/hibernate-orm" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tmp/javaparser" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tmp/junit5" vcs="Git" />
   </component>
 </project>
