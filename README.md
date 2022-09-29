@@ -1,6 +1,6 @@
 
 To run the API: 
-`$env:GITHUB_OAUTH = '%key_here%'`
+`mvn install`
 
 `mvn clean compile exec:java -D exec.mainClass="org.CodeTrackerAPI.REST"`
 
