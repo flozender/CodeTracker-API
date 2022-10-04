@@ -25,6 +25,8 @@ import org.codetracker.element.Block;
 import org.codetracker.element.Method;
 import org.codetracker.element.Variable;
 import org.codetracker.util.CodeElementLocator;
+import org.codetracker.util.GitRepository;
+import org.codetracker.util.IRepository;
 import org.eclipse.jgit.api.Git;
 import org.eclipse.jgit.api.PullResult;
 import org.eclipse.jgit.lib.Repository;
@@ -167,7 +169,14 @@ public class REST {
                     codeElement.getLocation().getEndLine() +
                     ",";
                   changes =
-                    CTBlock(owner, repository, filePath, commitId, codeElement);
+                    CTBlock(
+                      owner,
+                      repository,
+                      filePath,
+                      commitId,
+                      codeElement,
+                      false
+                    );
                 }
 
                 response =
@@ -304,6 +313,9 @@ public class REST {
                   commitId = latestCommitHash;
                 }
 
+                IRepository gitRepository = new GitRepository(repository);
+                Version currentVersion = gitRepository.getVersion(commitId);
+
                 CodeElementLocator locator = new CodeElementLocator(
                   repository,
                   commitId,
@@ -332,25 +344,37 @@ public class REST {
                   "\"," +
                   "\"filePath\": \"" +
                   filePath +
-                  "\"," +
-                  "\"selectionType\": \"" +
-                  codeElement.getClass().getSimpleName() +
-                  "\"," +
-                  "\"codeElementType\": \"" +
-                  codeElement.getLocation().getCodeElementType() +
                   "\",";
 
                 Block block = (Block) codeElement;
                 changes =
-                  CTBlock(owner, repository, filePath, commitId, codeElement);
+                  CTBlock(
+                    owner,
+                    repository,
+                    filePath,
+                    commitId,
+                    codeElement,
+                    true
+                  );
+
+                Method method = Method.of(block.getOperation(), currentVersion);
                 response =
                   response +
                   "\"functionName\": \"" +
                   block.getOperation().getName() +
                   "\"," +
+                  "\"functionKey\": \"" +
+                  method.getName() +
+                  "\"," +
                   "\"functionStartLine\": " +
-                  block.getOperation().getLocationInfo().getStartLine() +
+                  method.getLocation().getStartLine() +
                   "," +
+                  "\"blockName\": \"" +
+                  codeElement.getLocation().getCodeElementType() +
+                  "\"," +
+                  "\"blockKey\": \"" +
+                  codeElement.getName() +
+                  "\"," +
                   "\"blockStartLine\": " +
                   codeElement.getLocation().getStartLine() +
                   "," +
@@ -360,7 +384,7 @@ public class REST {
                   "\"startCommitId\": \"" +
                   commitId +
                   "\"," +
-                  "\"changes\": " +
+                  "\"expectedChanges\": " +
                   changes +
                   "}";
 
@@ -372,7 +396,15 @@ public class REST {
                     "/" +
                     repoName +
                     "-" +
-                    block.getOperation().getClassName().split("\\.")[block.getOperation().getClassName().split("\\.").length -1]+
+                    block
+                      .getOperation()
+                      .getClassName()
+                      .split("\\.")[block
+                        .getOperation()
+                        .getClassName()
+                        .split("\\.")
+                        .length -
+                      1] +
                     "-" +
                     block.getOperation().getName() +
                     "-" +
@@ -395,7 +427,9 @@ public class REST {
 
                   // Writes the program to file
                   output.write(response);
-                  System.out.println("Data is written to the file: " + fileName);
+                  System.out.println(
+                    "Data is written to the file: " + fileName
+                  );
 
                   // Closes the writer
                   output.close();
@@ -706,9 +740,10 @@ public class REST {
     Repository repository,
     String filePath,
     String commitId,
-    CodeElement codeElement
+    CodeElement codeElement,
+    boolean oracleGeneration
   ) {
-    ArrayList<CTHBlock> changeLog = new ArrayList<>();
+    ArrayList<Object> changeLog = new ArrayList<Object>();
     try {
       Block block = (Block) codeElement;
       BlockTracker blockTracker = CodeTracker
@@ -747,29 +782,62 @@ public class REST {
           "Before: " + historyInfo.getElementBefore().getName()
         );
         System.out.println("After: " + historyInfo.getElementAfter().getName());
-        for (Change change : historyInfo.getChangeList()) {
-          System.out.println(change.getType().getTitle() + ": " + change);
-          currentChanges.add(change.getType().getTitle() + ": " + change);
-          evolutionPresent = change.getEvolutionHook().isPresent();
-          if (evolutionPresent) {
-            evolutionHook = change.getEvolutionHook().get().getElementAfter();
-          }
-        }
 
-        CTHBlock currentElement = new CTHBlock(
-          historyInfo.getCommitId(),
-          LocalDateTime
-            .ofEpochSecond(historyInfo.getCommitTime(), 0, ZoneOffset.UTC)
-            .toString(),
-          historyInfo.getElementBefore(),
-          historyInfo.getElementAfter(),
-          historyInfo.getCommitterName(),
-          historyInfo.getCommitTime(),
-          currentChanges,
-          evolutionPresent,
-          evolutionHook
-        );
-        changeLog.add(currentElement);
+        if (oracleGeneration) {
+          IRepository gitRepository = new GitRepository(repository);
+          for (Change change : historyInfo.getChangeList()) {
+            // if comment is the same as the title, no comment in object
+            System.out.println("COMMETNS >>>>>>" + change.getType().getTitle() +" "+ change.toString().toLowerCase() + " " + Boolean.toString(change.getType().getTitle().equals(change.toString().toLowerCase())));
+            if (
+              change.getType().getTitle().equals(change.toString().toLowerCase())
+            ) {
+              CTHBlockOracle currentElement = new CTHBlockOracle(
+                gitRepository.getParentId(historyInfo.getCommitId()),
+                historyInfo.getCommitId(),
+                historyInfo.getCommitTime(),
+                change.getType().getTitle(),
+                historyInfo.getElementBefore(),
+                historyInfo.getElementAfter()
+              );
+              changeLog.add(currentElement);
+            } else {
+              CTHBlockOracleComment currentElement = new CTHBlockOracleComment(
+                gitRepository.getParentId(historyInfo.getCommitId()),
+                historyInfo.getCommitId(),
+                historyInfo.getCommitTime(),
+                change.getType().getTitle(),
+                historyInfo.getElementBefore(),
+                historyInfo.getElementAfter(),
+                change.toString()
+              );
+              
+              changeLog.add(currentElement);
+            }
+          }
+        } else {
+          for (Change change : historyInfo.getChangeList()) {
+            System.out.println(change.getType().getTitle() + ": " + change);
+            currentChanges.add(change.getType().getTitle() + ": " + change);
+            evolutionPresent = change.getEvolutionHook().isPresent();
+            if (evolutionPresent) {
+              evolutionHook = change.getEvolutionHook().get().getElementAfter();
+            }
+          }
+          CTHBlock currentElement = new CTHBlock(
+            historyInfo.getCommitId(),
+            LocalDateTime
+              .ofEpochSecond(historyInfo.getCommitTime(), 0, ZoneOffset.UTC)
+              .toString(),
+            historyInfo.getElementBefore(),
+            historyInfo.getElementAfter(),
+            historyInfo.getCommitterName(),
+            historyInfo.getCommitTime(),
+            currentChanges,
+            evolutionPresent,
+            evolutionHook
+          );
+          changeLog.add(currentElement);
+        }
       }
       System.out.println(
         "======================================================"
@@ -992,7 +1060,6 @@ public class REST {
       this.after = after.getName();
       this.afterLine = after.getLocation().getStartLine();
       this.afterPath = after.getLocation().getFilePath();
-      System.out.println("ID: " + after.getIdentifierIgnoringVersion());
 
       this.committer = committer;
       this.commitTime = commitTime;
@@ -1003,6 +1070,75 @@ public class REST {
         this.evolutionHookLine = evolutionHook.getLocation().getStartLine();
         this.evolutionHookPath = evolutionHook.getLocation().getFilePath();
       }
+    }
+  }
+
+  // CodeTracker History Block Element For Oracle Generation
+  private static class CTHBlockOracle {
+
+    String parentCommitId;
+    String commitId;
+    Long commitTime;
+    String changeType;
+    String blockFileBefore;
+    String blockNameBefore;
+    String blockFileAfter;
+    String blockNameAfter;
+
+    private CTHBlockOracle(
+      String parentCommitId,
+      String commitId,
+      Long commitTime,
+      String changeType,
+      CodeElement before,
+      CodeElement after
+    ) {
+      this.parentCommitId = parentCommitId;
+      this.commitId = commitId;
+      this.commitTime = commitTime;
+      this.changeType = changeType;
+
+      this.blockNameBefore = before.getName();
+      this.blockFileBefore = before.getLocation().getFilePath();
+
+      this.blockNameAfter = after.getName();
+      this.blockFileAfter = after.getLocation().getFilePath();
+    }
+  }
+
+  // CodeTracker History Block Element For Oracle Generation with Comment
+  private static class CTHBlockOracleComment {
+
+    String parentCommitId;
+    String commitId;
+    Long commitTime;
+    String changeType;
+    String blockFileBefore;
+    String blockNameBefore;
+    String blockFileAfter;
+    String blockNameAfter;
+    String comment;
+
+    private CTHBlockOracleComment(
+      String parentCommitId,
+      String commitId,
+      Long commitTime,
+      String changeType,
+      CodeElement before,
+      CodeElement after,
+      String comment
+    ) {
+      this.parentCommitId = parentCommitId;
+      this.commitId = commitId;
+      this.commitTime = commitTime;
+      this.changeType = changeType;
+
+      this.blockNameBefore = before.getName();
+      this.blockFileBefore = before.getLocation().getFilePath();
+
+      this.blockNameAfter = after.getName();
+      this.blockFileAfter = after.getLocation().getFilePath();
+      this.comment = comment;
     }
   }
 }
