@@ -369,7 +369,7 @@ public class REST {
                   "\"functionStartLine\": " +
                   method.getLocation().getStartLine() +
                   "," +
-                  "\"blockName\": \"" +
+                  "\"blockType\": \"" +
                   codeElement.getLocation().getCodeElementType() +
                   "\"," +
                   "\"blockKey\": \"" +
@@ -787,7 +787,6 @@ public class REST {
           IRepository gitRepository = new GitRepository(repository);
           for (Change change : historyInfo.getChangeList()) {
             // if comment is the same as the title, no comment in object
-            System.out.println("COMMETNS >>>>>>" + change.getType().getTitle() +" "+ change.toString().toLowerCase() + " " + Boolean.toString(change.getType().getTitle().equals(change.toString().toLowerCase())));
             if (
               change.getType().getTitle().equals(change.toString().toLowerCase())
             ) {
@@ -808,7 +807,7 @@ public class REST {
                 change.getType().getTitle(),
                 historyInfo.getElementBefore(),
                 historyInfo.getElementAfter(),
-                change.toString()
+                change.toString().replaceAll("\t", " ")
               );
               
               changeLog.add(currentElement);
@@ -1080,10 +1079,10 @@ public class REST {
     String commitId;
     Long commitTime;
     String changeType;
-    String blockFileBefore;
-    String blockNameBefore;
-    String blockFileAfter;
-    String blockNameAfter;
+    String elementFileBefore;
+    String elementNameBefore;
+    String elementFileAfter;
+    String elementNameAfter;
 
     private CTHBlockOracle(
       String parentCommitId,
@@ -1098,11 +1097,11 @@ public class REST {
       this.commitTime = commitTime;
       this.changeType = changeType;
 
-      this.blockNameBefore = before.getName();
-      this.blockFileBefore = before.getLocation().getFilePath();
+      this.elementNameBefore = before.getName();
+      this.elementFileBefore = before.getLocation().getFilePath();
 
-      this.blockNameAfter = after.getName();
-      this.blockFileAfter = after.getLocation().getFilePath();
+      this.elementNameAfter = after.getName();
+      this.elementFileAfter = after.getLocation().getFilePath();
     }
   }
 
@@ -1113,10 +1112,10 @@ public class REST {
     String commitId;
     Long commitTime;
     String changeType;
-    String blockFileBefore;
-    String blockNameBefore;
-    String blockFileAfter;
-    String blockNameAfter;
+    String elementFileBefore;
+    String elementNameBefore;
+    String elementFileAfter;
+    String elementNameAfter;
     String comment;
 
     private CTHBlockOracleComment(
@@ -1133,11 +1132,11 @@ public class REST {
       this.commitTime = commitTime;
       this.changeType = changeType;
 
-      this.blockNameBefore = before.getName();
-      this.blockFileBefore = before.getLocation().getFilePath();
+      this.elementNameBefore = before.getName();
+      this.elementFileBefore = before.getLocation().getFilePath();
 
-      this.blockNameAfter = after.getName();
-      this.blockFileAfter = after.getLocation().getFilePath();
+      this.elementNameAfter = after.getName();
+      this.elementFileAfter = after.getLocation().getFilePath();
       this.comment = comment;
     }
   }
