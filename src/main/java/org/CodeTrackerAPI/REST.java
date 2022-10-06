@@ -1073,7 +1073,7 @@ public class REST {
   }
 
   // CodeTracker History Block Element For Oracle Generation
-  private static class CTHBlockOracle {
+  protected static class CTHBlockOracle {
 
     String parentCommitId;
     String commitId;
@@ -1084,7 +1084,7 @@ public class REST {
     String elementFileAfter;
     String elementNameAfter;
 
-    private CTHBlockOracle(
+    protected CTHBlockOracle(
       String parentCommitId,
       String commitId,
       Long commitTime,
@@ -1106,7 +1106,7 @@ public class REST {
   }
 
   // CodeTracker History Block Element For Oracle Generation with Comment
-  private static class CTHBlockOracleComment {
+  protected static class CTHBlockOracleComment {
 
     String parentCommitId;
     String commitId;
@@ -1118,7 +1118,7 @@ public class REST {
     String elementNameAfter;
     String comment;
 
-    private CTHBlockOracleComment(
+    protected CTHBlockOracleComment(
       String parentCommitId,
       String commitId,
       Long commitTime,
