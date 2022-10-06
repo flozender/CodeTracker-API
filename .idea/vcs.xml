@@ -11,6 +11,7 @@
     <mapping directory="$PROJECT_DIR$/tmp/flink" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/tmp/guava" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/tmp/hibernate-orm" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tmp/jadx" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/tmp/javaparser" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/tmp/junit5" vcs="Git" />
   </component>

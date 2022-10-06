@@ -64,5 +64,10 @@
             <artifactId>org.eclipse.jgit</artifactId>
             <version>5.13.0.202109080827-r</version>
         </dependency>
+        <dependency>
+            <groupId>com.github.tsantalis</groupId>
+            <artifactId>refactoring-miner</artifactId>
+            <version>2.3.2</version>
+        </dependency>
     </dependencies>
 </project>
