@@ -17,6 +17,7 @@ import java.io.FileWriter;
 import java.time.*;
 import java.util.*;
 import java.util.concurrent.CompletableFuture;
+import org.apache.commons.lang3.text.*;
 import org.codetracker.api.*;
 import org.codetracker.change.Change;
 import org.codetracker.change.EvolutionHook;
@@ -508,8 +509,18 @@ public class REST {
         );
         System.out.println("After: " + historyInfo.getElementAfter().getName());
         for (Change change : historyInfo.getChangeList()) {
-          System.out.println(change.getType().getTitle() + ": " + change);
-          currentChanges.add(change.getType().getTitle() + ": " + change);
+          if (
+              change
+                .getType()
+                .getTitle()
+                .equals(change.toString().toLowerCase())
+            ) {
+              System.out.println(WordUtils.capitalizeFully(change.getType().getTitle()));
+              currentChanges.add(WordUtils.capitalizeFully(change.getType().getTitle()));
+            } else {
+              System.out.println(WordUtils.capitalizeFully(change.getType().getTitle()) + ": " + change);
+              currentChanges.add(WordUtils.capitalizeFully(change.getType().getTitle()) + ": " + change);
+            }
           evolutionPresent = change.getEvolutionHook().isPresent();
           if (evolutionPresent) {
             evolutionHook = change.getEvolutionHook().get().getElementAfter();
@@ -601,8 +612,18 @@ public class REST {
         );
         System.out.println("After: " + historyInfo.getElementAfter().getName());
         for (Change change : historyInfo.getChangeList()) {
-          System.out.println(change.getType().getTitle() + ": " + change);
-          currentChanges.add(change.getType().getTitle() + ": " + change);
+          if (
+              change
+                .getType()
+                .getTitle()
+                .equals(change.toString().toLowerCase())
+            ) {
+              System.out.println(WordUtils.capitalizeFully(change.getType().getTitle()));
+              currentChanges.add(WordUtils.capitalizeFully(change.getType().getTitle()));
+            } else {
+              System.out.println(WordUtils.capitalizeFully(change.getType().getTitle()) + ": " + change);
+              currentChanges.add(WordUtils.capitalizeFully(change.getType().getTitle()) + ": " + change);
+            }
           evolutionPresent = change.getEvolutionHook().isPresent();
           if (evolutionPresent) {
             evolutionHook = change.getEvolutionHook().get().getElementAfter();
@@ -690,8 +711,18 @@ public class REST {
         );
         System.out.println("After: " + historyInfo.getElementAfter().getName());
         for (Change change : historyInfo.getChangeList()) {
-          System.out.println(change.getType().getTitle() + ": " + change);
-          currentChanges.add(change.getType().getTitle() + ": " + change);
+          if (
+              change
+                .getType()
+                .getTitle()
+                .equals(change.toString().toLowerCase())
+            ) {
+              System.out.println(WordUtils.capitalizeFully(change.getType().getTitle()));
+              currentChanges.add(WordUtils.capitalizeFully(change.getType().getTitle()));
+            } else {
+              System.out.println(WordUtils.capitalizeFully(change.getType().getTitle()) + ": " + change);
+              currentChanges.add(WordUtils.capitalizeFully(change.getType().getTitle()) + ": " + change);
+            }
           evolutionPresent = change.getEvolutionHook().isPresent();
           if (evolutionPresent) {
             evolutionHook = change.getEvolutionHook().get().getElementAfter();
@@ -788,7 +819,10 @@ public class REST {
           for (Change change : historyInfo.getChangeList()) {
             // if comment is the same as the title, no comment in object
             if (
-              change.getType().getTitle().equals(change.toString().toLowerCase())
+              change
+                .getType()
+                .getTitle()
+                .equals(change.toString().toLowerCase())
             ) {
               CTHBlockOracle currentElement = new CTHBlockOracle(
                 gitRepository.getParentId(historyInfo.getCommitId()),
@@ -809,14 +843,24 @@ public class REST {
                 historyInfo.getElementAfter(),
                 change.toString().replaceAll("\t", " ")
               );
-              
+
               changeLog.add(currentElement);
             }
           }
         } else {
           for (Change change : historyInfo.getChangeList()) {
-            System.out.println(change.getType().getTitle() + ": " + change);
-            currentChanges.add(change.getType().getTitle() + ": " + change);
+            if (
+              change
+                .getType()
+                .getTitle()
+                .equals(change.toString().toLowerCase())
+            ) {
+              System.out.println(WordUtils.capitalizeFully(change.getType().getTitle()));
+              currentChanges.add(WordUtils.capitalizeFully(change.getType().getTitle()));
+            } else {
+              System.out.println(WordUtils.capitalizeFully(change.getType().getTitle()) + ": " + change);
+              currentChanges.add(WordUtils.capitalizeFully(change.getType().getTitle()) + ": " + change);
+            }
             evolutionPresent = change.getEvolutionHook().isPresent();
             if (evolutionPresent) {
               evolutionHook = change.getEvolutionHook().get().getElementAfter();
