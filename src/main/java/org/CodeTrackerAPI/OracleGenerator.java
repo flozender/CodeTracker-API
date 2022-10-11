@@ -28,7 +28,7 @@ public class OracleGenerator {
 
   public static void main(String[] args) {
     System.out.println("Generating Block Oracle...");
-    String oracleType = "test";
+    String oracleType = "training";
     try {
       FileUtils.cleanDirectory(
         new File("src/main/resources/oracle/block/" + oracleType + "/true")
@@ -145,13 +145,18 @@ public class OracleGenerator {
             History<Block> blockHistory = blockTracker.track();
             List<HistoryInfo<Block>> blockHistoryInfo = blockHistory.getHistoryInfoList();
             HistoryInfo<Block> firstChange = blockHistoryInfo.get(0);
-            
+
             boolean validHistory = true;
-            //  Check if block history is a subset of method history
-            for (HistoryInfo<Block> historyInfo : blockHistoryInfo) {
-              if (!methodCommits.contains(historyInfo.getCommitId())) {
-                validHistory = false;
+            // check if the block history reaches the method introduction commit
+            if (firstChange.getCommitId().equals(methodCommits.get(0))) {
+              //  Check if block history is a subset of method history
+              for (HistoryInfo<Block> historyInfo : blockHistoryInfo) {
+                if (!methodCommits.contains(historyInfo.getCommitId())) {
+                  validHistory = false;
+                }
               }
+            } else {
+              validHistory = false;
             }
 
             createOracleEntry(
