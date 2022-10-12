@@ -13,10 +13,13 @@ import io.undertow.server.handlers.PathHandler;
 import io.undertow.util.Headers;
 import io.undertow.util.HttpString;
 import java.io.File;
+import java.io.FileFilter;
 import java.io.FileWriter;
+import java.nio.charset.StandardCharsets;
 import java.time.*;
 import java.util.*;
 import java.util.concurrent.CompletableFuture;
+import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.text.*;
 import org.codetracker.api.*;
 import org.codetracker.change.Change;
@@ -456,6 +459,45 @@ public class REST {
               }
             }
           )
+          .get(
+            "/getOracleData",
+            exchange -> {
+              try {
+                File dir = new File(
+                  "src/main/resources/oracle/block/training/false"
+                );
+                File[] files = dir.listFiles(
+                  new FileFilter() {
+                    boolean first = true;
+
+                    public boolean accept(final File pathname) {
+                      if (first) {
+                        first = false;
+                        return true;
+                      }
+                      return false;
+                    }
+                  }
+                );
+                String response = FileUtils.readFileToString(
+                  files[0],
+                  StandardCharsets.UTF_8
+                );
+                exchange
+                  .getResponseHeaders()
+                  .put(new HttpString("Access-Control-Allow-Origin"), "*")
+                  .put(Headers.CONTENT_TYPE, "text/plain");
+                exchange.getResponseSender().send(response);
+              } catch (Exception e) {
+                System.out.println("Something went wrong: " + e);
+                exchange
+                  .getResponseHeaders()
+                  .put(new HttpString("Access-Control-Allow-Origin"), "*")
+                  .put(Headers.CONTENT_TYPE, "text/plain");
+                exchange.getResponseSender().send("No elements found");
+              }
+            }
+          )
       );
 
     Undertow server = Undertow
@@ -510,17 +552,26 @@ public class REST {
         System.out.println("After: " + historyInfo.getElementAfter().getName());
         for (Change change : historyInfo.getChangeList()) {
           if (
+            change.getType().getTitle().equals(change.toString().toLowerCase())
+          ) {
+            System.out.println(
+              WordUtils.capitalizeFully(change.getType().getTitle())
+            );
+            currentChanges.add(
+              WordUtils.capitalizeFully(change.getType().getTitle())
+            );
+          } else {
+            System.out.println(
+              WordUtils.capitalizeFully(change.getType().getTitle()) +
+              ": " +
               change
-                .getType()
-                .getTitle()
-                .equals(change.toString().toLowerCase())
-            ) {
-              System.out.println(WordUtils.capitalizeFully(change.getType().getTitle()));
-              currentChanges.add(WordUtils.capitalizeFully(change.getType().getTitle()));
-            } else {
-              System.out.println(WordUtils.capitalizeFully(change.getType().getTitle()) + ": " + change);
-              currentChanges.add(WordUtils.capitalizeFully(change.getType().getTitle()) + ": " + change);
-            }
+            );
+            currentChanges.add(
+              WordUtils.capitalizeFully(change.getType().getTitle()) +
+              ": " +
+              change
+            );
+          }
           evolutionPresent = change.getEvolutionHook().isPresent();
           if (evolutionPresent) {
             evolutionHook = change.getEvolutionHook().get().getElementAfter();
@@ -613,17 +664,26 @@ public class REST {
         System.out.println("After: " + historyInfo.getElementAfter().getName());
         for (Change change : historyInfo.getChangeList()) {
           if (
+            change.getType().getTitle().equals(change.toString().toLowerCase())
+          ) {
+            System.out.println(
+              WordUtils.capitalizeFully(change.getType().getTitle())
+            );
+            currentChanges.add(
+              WordUtils.capitalizeFully(change.getType().getTitle())
+            );
+          } else {
+            System.out.println(
+              WordUtils.capitalizeFully(change.getType().getTitle()) +
+              ": " +
               change
-                .getType()
-                .getTitle()
-                .equals(change.toString().toLowerCase())
-            ) {
-              System.out.println(WordUtils.capitalizeFully(change.getType().getTitle()));
-              currentChanges.add(WordUtils.capitalizeFully(change.getType().getTitle()));
-            } else {
-              System.out.println(WordUtils.capitalizeFully(change.getType().getTitle()) + ": " + change);
-              currentChanges.add(WordUtils.capitalizeFully(change.getType().getTitle()) + ": " + change);
-            }
+            );
+            currentChanges.add(
+              WordUtils.capitalizeFully(change.getType().getTitle()) +
+              ": " +
+              change
+            );
+          }
           evolutionPresent = change.getEvolutionHook().isPresent();
           if (evolutionPresent) {
             evolutionHook = change.getEvolutionHook().get().getElementAfter();
@@ -712,17 +772,26 @@ public class REST {
         System.out.println("After: " + historyInfo.getElementAfter().getName());
         for (Change change : historyInfo.getChangeList()) {
           if (
+            change.getType().getTitle().equals(change.toString().toLowerCase())
+          ) {
+            System.out.println(
+              WordUtils.capitalizeFully(change.getType().getTitle())
+            );
+            currentChanges.add(
+              WordUtils.capitalizeFully(change.getType().getTitle())
+            );
+          } else {
+            System.out.println(
+              WordUtils.capitalizeFully(change.getType().getTitle()) +
+              ": " +
               change
-                .getType()
-                .getTitle()
-                .equals(change.toString().toLowerCase())
-            ) {
-              System.out.println(WordUtils.capitalizeFully(change.getType().getTitle()));
-              currentChanges.add(WordUtils.capitalizeFully(change.getType().getTitle()));
-            } else {
-              System.out.println(WordUtils.capitalizeFully(change.getType().getTitle()) + ": " + change);
-              currentChanges.add(WordUtils.capitalizeFully(change.getType().getTitle()) + ": " + change);
-            }
+            );
+            currentChanges.add(
+              WordUtils.capitalizeFully(change.getType().getTitle()) +
+              ": " +
+              change
+            );
+          }
           evolutionPresent = change.getEvolutionHook().isPresent();
           if (evolutionPresent) {
             evolutionHook = change.getEvolutionHook().get().getElementAfter();
@@ -855,11 +924,23 @@ public class REST {
                 .getTitle()
                 .equals(change.toString().toLowerCase())
             ) {
-              System.out.println(WordUtils.capitalizeFully(change.getType().getTitle()));
-              currentChanges.add(WordUtils.capitalizeFully(change.getType().getTitle()));
+              System.out.println(
+                WordUtils.capitalizeFully(change.getType().getTitle())
+              );
+              currentChanges.add(
+                WordUtils.capitalizeFully(change.getType().getTitle())
+              );
             } else {
-              System.out.println(WordUtils.capitalizeFully(change.getType().getTitle()) + ": " + change);
-              currentChanges.add(WordUtils.capitalizeFully(change.getType().getTitle()) + ": " + change);
+              System.out.println(
+                WordUtils.capitalizeFully(change.getType().getTitle()) +
+                ": " +
+                change
+              );
+              currentChanges.add(
+                WordUtils.capitalizeFully(change.getType().getTitle()) +
+                ": " +
+                change
+              );
             }
             evolutionPresent = change.getEvolutionHook().isPresent();
             if (evolutionPresent) {
