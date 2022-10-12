@@ -282,161 +282,45 @@ public class REST {
             "/addToOracle",
             exchange -> {
               Map<String, Deque<String>> params = exchange.getQueryParameters();
-              String owner = params.get("owner").getFirst();
-              String repoName = params.get("repoName").getFirst();
-              String commitId = params.get("commitId").getFirst();
-              String filePath = params.get("filePath").getFirst();
-              String name = params.get("selection").getFirst();
+
               Boolean valid = Boolean.parseBoolean(
                 params.get("valid").getFirst()
               );
-              String folderName = valid ? "true" : "false";
-              String latestCommitHash;
-              String changes = "";
 
-              Integer lineNumber = Integer.parseInt(
-                params.get("lineNumber").getFirst()
-              );
-              GitService gitService = new GitServiceImpl();
 
-              try (
-                Repository repository = gitService.cloneIfNotExists(
-                  "tmp/" + repoName,
-                  "https://github.com/" + owner + "/" + repoName + ".git"
-                )
-              ) {
-                try (Git git = new Git(repository)) {
-                  PullResult call = git.pull().call();
-                  System.out.println(
-                    "Pulled from the remote repository: " + call
-                  );
-                  latestCommitHash =
-                    git.log().setMaxCount(1).call().iterator().next().getName();
-                }
-                if ("master".equals(commitId)) {
-                  commitId = latestCommitHash;
-                }
-
-                IRepository gitRepository = new GitRepository(repository);
-                Version currentVersion = gitRepository.getVersion(commitId);
-
-                CodeElementLocator locator = new CodeElementLocator(
-                  repository,
-                  commitId,
-                  filePath,
-                  name,
-                  lineNumber
-                );
-                CodeElement codeElement = locator.locate();
-
-                if (codeElement == null) {
-                  throw new Exception("Selected code element is invalid.");
-                }
-                if (codeElement.getClass() != Block.class) {
-                  throw new Exception("Selected code element is not a block.");
-                }
-
-                String response =
-                  "{\"repositoryName\": \"" +
-                  owner +
-                  "\"," +
-                  "\"repositoryWebURL\": \"https://github.com/" +
-                  owner +
-                  "/" +
-                  repoName +
-                  ".git" +
-                  "\"," +
-                  "\"filePath\": \"" +
-                  filePath +
-                  "\",";
-
-                Block block = (Block) codeElement;
-                changes =
-                  CTBlock(
-                    owner,
-                    repository,
-                    filePath,
-                    commitId,
-                    codeElement,
-                    true
-                  );
-
-                Method method = Method.of(block.getOperation(), currentVersion);
-                response =
-                  response +
-                  "\"functionName\": \"" +
-                  block.getOperation().getName() +
-                  "\"," +
-                  "\"functionKey\": \"" +
-                  method.getName() +
-                  "\"," +
-                  "\"functionStartLine\": " +
-                  method.getLocation().getStartLine() +
-                  "," +
-                  "\"blockType\": \"" +
-                  codeElement.getLocation().getCodeElementType() +
-                  "\"," +
-                  "\"blockKey\": \"" +
-                  codeElement.getName() +
-                  "\"," +
-                  "\"blockStartLine\": " +
-                  codeElement.getLocation().getStartLine() +
-                  "," +
-                  "\"blockEndLine\": " +
-                  codeElement.getLocation().getEndLine() +
-                  "," +
-                  "\"startCommitId\": \"" +
-                  commitId +
-                  "\"," +
-                  "\"expectedChanges\": " +
-                  changes +
-                  "}";
-
+              try {
+               
                 try {
-                  // Creates a Writer using FileWriter
-                  String fileName =
-                    "src/main/resources/oracle/block/training/" +
-                    folderName +
-                    "/" +
-                    repoName +
-                    "-" +
-                    block
-                      .getOperation()
-                      .getClassName()
-                      .split("\\.")[block
-                        .getOperation()
-                        .getClassName()
-                        .split("\\.")
-                        .length -
-                      1] +
-                    "-" +
-                    block.getOperation().getName() +
-                    "-" +
-                    codeElement.getLocation().getCodeElementType();
 
-                  // check if file already exists, add numerals at the end if true
-                  if (new File(fileName + ".json").isFile()) {
-                    Integer i = 1;
-                    while (
-                      new File(fileName + "-" + i.toString() + ".json").isFile()
-                    ) {
-                      i++;
+                  File dir = new File(
+                  "src/main/resources/oracle/block/training/false"
+                );
+                File[] files = dir.listFiles(
+                  new FileFilter() {
+                    boolean first = true;
+
+                    public boolean accept(final File pathname) {
+                      if (first) {
+                        first = false;
+                        return true;
+                      }
+                      return false;
                     }
-                    fileName = fileName + "-" + i.toString() + ".json";
-                  } else {
-                    fileName = fileName + ".json";
                   }
+                );
+                  String fileName = files[0].getName();
 
-                  FileWriter output = new FileWriter(fileName);
+                  String folderName = valid ? "valid" : "invalid";
 
-                  // Writes the program to file
-                  output.write(response);
+                  File currentFile = files[0];
+
+                  String newFileName = "src/main/resources/oracle/block/training/"+folderName+"/"+fileName;
+
+                  currentFile.renameTo(new File(newFileName));
+
                   System.out.println(
-                    "Data is written to the file: " + fileName
+                    "File moved to " + folderName + ": " + fileName
                   );
-
-                  // Closes the writer
-                  output.close();
                 } catch (Exception e) {
                   e.getStackTrace();
                   System.out.println(e);
@@ -446,7 +330,7 @@ public class REST {
                   .getResponseHeaders()
                   .put(new HttpString("Access-Control-Allow-Origin"), "*")
                   .put(Headers.CONTENT_TYPE, "text/plain");
-                exchange.getResponseSender().send(response);
+                exchange.getResponseSender().send("{\"success\": true}");
               } catch (Exception e) {
                 System.out.println("Something went wrong: " + e);
                 exchange
