@@ -282,7 +282,7 @@ public class REST {
             "/addToOracle",
             exchange -> {
               Map<String, Deque<String>> params = exchange.getQueryParameters();
-
+              String commitId = params.get("commitId").getFirst();
               Boolean valid = Boolean.parseBoolean(
                 params.get("valid").getFirst()
               );
@@ -315,6 +315,10 @@ public class REST {
                   File currentFile = files[0];
 
                   String newFileName = "src/main/resources/oracle/block/training/"+folderName+"/"+fileName;
+
+                  if(!valid){
+                    newFileName = newFileName.substring(0, newFileName.length() - 5) + "-" + commitId + ".json";
+                  }
 
                   currentFile.renameTo(new File(newFileName));
 
