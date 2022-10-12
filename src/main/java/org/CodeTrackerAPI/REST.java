@@ -462,7 +462,7 @@ public class REST {
           }
           evolutionPresent = change.getEvolutionHook().isPresent();
           if (evolutionPresent) {
-            evolutionHook = change.getEvolutionHook().get().getElementAfter();
+            evolutionHook = change.getEvolutionHook().get().getElementBefore();
           }
         }
 
@@ -574,7 +574,7 @@ public class REST {
           }
           evolutionPresent = change.getEvolutionHook().isPresent();
           if (evolutionPresent) {
-            evolutionHook = change.getEvolutionHook().get().getElementAfter();
+            evolutionHook = change.getEvolutionHook().get().getElementBefore();
           }
         }
 
@@ -682,7 +682,7 @@ public class REST {
           }
           evolutionPresent = change.getEvolutionHook().isPresent();
           if (evolutionPresent) {
-            evolutionHook = change.getEvolutionHook().get().getElementAfter();
+            evolutionHook = change.getEvolutionHook().get().getElementBefore();
           }
         }
 
@@ -832,7 +832,7 @@ public class REST {
             }
             evolutionPresent = change.getEvolutionHook().isPresent();
             if (evolutionPresent) {
-              evolutionHook = change.getEvolutionHook().get().getElementAfter();
+              evolutionHook = change.getEvolutionHook().get().getElementBefore();
             }
           }
           CTHBlock currentElement = new CTHBlock(
@@ -892,7 +892,9 @@ public class REST {
     String evolutionHook;
     Integer evolutionHookLine;
     String evolutionHookPath;
-    String type = "method";
+    String evolutionHookCommit;
+
+      String type = "method";
 
     private CTHMethod(
       String commitId,
@@ -923,6 +925,7 @@ public class REST {
         this.evolutionHook = evolutionHook.getName();
         this.evolutionHookLine = evolutionHook.getLocation().getStartLine();
         this.evolutionHookPath = evolutionHook.getLocation().getFilePath();
+        this.evolutionHookCommit = evolutionHook.getVersion().getId();
       }
     }
   }
@@ -944,6 +947,7 @@ public class REST {
     String evolutionHook;
     Integer evolutionHookLine;
     String evolutionHookPath;
+    String evolutionHookCommit;
     String type = "variable";
 
     private CTHVariable(
@@ -976,6 +980,7 @@ public class REST {
         this.evolutionHook = evolutionHook.getName();
         this.evolutionHookLine = evolutionHook.getLocation().getStartLine();
         this.evolutionHookPath = evolutionHook.getLocation().getFilePath();
+        this.evolutionHookCommit = evolutionHook.getVersion().getId();
       }
     }
   }
@@ -997,6 +1002,7 @@ public class REST {
     String evolutionHook;
     Integer evolutionHookLine;
     String evolutionHookPath;
+    String evolutionHookCommit;
     String type = "attribute";
 
     private CTHAttribute(
@@ -1028,6 +1034,7 @@ public class REST {
         this.evolutionHook = evolutionHook.getName();
         this.evolutionHookLine = evolutionHook.getLocation().getStartLine();
         this.evolutionHookPath = evolutionHook.getLocation().getFilePath();
+        this.evolutionHookCommit = evolutionHook.getVersion().getId();
       }
     }
   }
@@ -1049,6 +1056,7 @@ public class REST {
     String evolutionHook;
     Integer evolutionHookLine;
     String evolutionHookPath;
+    String evolutionHookCommit;
     String type = "block";
 
     private CTHBlock(
@@ -1081,6 +1089,7 @@ public class REST {
         this.evolutionHook = evolutionHook.getName();
         this.evolutionHookLine = evolutionHook.getLocation().getStartLine();
         this.evolutionHookPath = evolutionHook.getLocation().getFilePath();
+        this.evolutionHookCommit = evolutionHook.getVersion().getId();
       }
     }
   }
