@@ -25,7 +25,7 @@
       "parentCommitId": "efca1657258b7555b80bbee207a3221489b9ffed",
       "commitId": "6aa00766b9103d75c763160280429af8e1f0549e",
       "commitTime": 1354308699,
-      "changeType": "body change",
+      "changeType": "expression change",
       "elementFileBefore": "src/main/java/org/apache/commons/io/input/XmlStreamReader.java",
       "elementNameBefore": "src/main/java/org.apache.commons.io.input.XmlStreamReader#doHttpStream(BOMInputStream, BOMInputStream, String, boolean)$catch(458-464)",
       "elementFileAfter": "src/main/java/org/apache/commons/io/input/XmlStreamReader.java",

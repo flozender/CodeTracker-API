@@ -55,6 +55,16 @@
       "parentCommitId": "e64e89b2cc6285bb624747a57377414b4f93e0db",
       "commitId": "5329bba1ea724eabf5783c71e5127b8f84ad0fcc",
       "commitTime": 1386917867,
+      "changeType": "expression change",
+      "elementFileBefore": "hibernate-core/src/main/java/org/hibernate/cfg/AnnotationBinder.java",
+      "elementNameBefore": "hibernate-core/src/main/java/org.hibernate.cfg.AnnotationBinder#bindClass(XClass, Map, Mappings)$if(688-726)",
+      "elementFileAfter": "hibernate-core/src/main/java/org/hibernate/cfg/AnnotationBinder.java",
+      "elementNameAfter": "hibernate-core/src/main/java/org.hibernate.cfg.AnnotationBinder#bindClass(XClass, Map, Mappings)$if(710-765)"
+    },
+    {
+      "parentCommitId": "e64e89b2cc6285bb624747a57377414b4f93e0db",
+      "commitId": "5329bba1ea724eabf5783c71e5127b8f84ad0fcc",
+      "commitTime": 1386917867,
       "changeType": "body change",
       "elementFileBefore": "hibernate-core/src/main/java/org/hibernate/cfg/AnnotationBinder.java",
       "elementNameBefore": "hibernate-core/src/main/java/org.hibernate.cfg.AnnotationBinder#bindClass(XClass, Map, Mappings)$if(688-726)",
@@ -90,6 +100,16 @@
       "elementNameBefore": "annotations/src/main/java/org.hibernate.cfg.AnnotationBinder#bindClass(XClass, Map, ExtendedMappings)$if(652-701)",
       "elementFileAfter": "annotations/src/main/java/org/hibernate/cfg/AnnotationBinder.java",
       "elementNameAfter": "annotations/src/main/java/org.hibernate.cfg.AnnotationBinder#bindClass(XClass, Map, ExtendedMappings)$if(652-702)"
+    },
+    {
+      "parentCommitId": "b95147a81e36c9bb174ab82b12ac0492b7e880a3",
+      "commitId": "025b3cc14180d0459856bc45a6cac7acce3e1265",
+      "commitTime": 1260558841,
+      "changeType": "expression change",
+      "elementFileBefore": "annotations/src/main/java/org/hibernate/cfg/AnnotationBinder.java",
+      "elementNameBefore": "annotations/src/main/java/org.hibernate.cfg.AnnotationBinder#bindClass(XClass, Map, ExtendedMappings)$if(645-694)",
+      "elementFileAfter": "annotations/src/main/java/org/hibernate/cfg/AnnotationBinder.java",
+      "elementNameAfter": "annotations/src/main/java/org.hibernate.cfg.AnnotationBinder#bindClass(XClass, Map, ExtendedMappings)$if(562-611)"
     },
     {
       "parentCommitId": "b95147a81e36c9bb174ab82b12ac0492b7e880a3",

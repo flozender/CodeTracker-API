@@ -25,7 +25,7 @@
       "parentCommitId": "6edff69101a6c5dbd71f3c30efe33a863c6e704f",
       "commitId": "59c3baae3271247bed516fe50952b65be1a27e5b",
       "commitTime": 1513167572,
-      "changeType": "body change",
+      "changeType": "expression change",
       "elementFileBefore": "hibernate-core/src/main/java/org/hibernate/event/internal/DefaultRefreshEventListener.java",
       "elementNameBefore": "hibernate-core/src/main/java/org.hibernate.event.internal.DefaultRefreshEventListener#onRefresh(RefreshEvent, Map)$if(147-170)",
       "elementFileAfter": "hibernate-core/src/main/java/org/hibernate/event/internal/DefaultRefreshEventListener.java",

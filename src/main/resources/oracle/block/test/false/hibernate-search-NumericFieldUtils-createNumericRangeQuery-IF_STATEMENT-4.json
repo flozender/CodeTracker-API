@@ -15,7 +15,7 @@
       "parentCommitId": "34150515c6fa1709ac1a8ff5216882a285b9ade6",
       "commitId": "4c0415c1f11b7e26fdc4dc95f4b822bf9e983139",
       "commitTime": 1441987542,
-      "changeType": "body change",
+      "changeType": "expression change",
       "elementFileBefore": "engine/src/main/java/org/hibernate/search/bridge/util/impl/NumericFieldUtils.java",
       "elementNameBefore": "engine/src/main/java/org.hibernate.search.bridge.util.impl.NumericFieldUtils#createNumericRangeQuery(String, Object, Object, boolean, boolean)$if(65-69)",
       "elementFileAfter": "engine/src/main/java/org/hibernate/search/bridge/util/impl/NumericFieldUtils.java",

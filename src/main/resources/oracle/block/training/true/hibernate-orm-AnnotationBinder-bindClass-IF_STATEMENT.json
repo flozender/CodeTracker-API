@@ -32,6 +32,16 @@
       "elementNameAfter": "annotations/src/main/java/org.hibernate.cfg.AnnotationBinder#bindClass(XClass, Map, ExtendedMappings)$if(459-465)"
     },
     {
+      "parentCommitId": "b95147a81e36c9bb174ab82b12ac0492b7e880a3",
+      "commitId": "025b3cc14180d0459856bc45a6cac7acce3e1265",
+      "commitTime": 1260558841,
+      "changeType": "expression change",
+      "elementFileBefore": "annotations/src/main/java/org/hibernate/cfg/AnnotationBinder.java",
+      "elementNameBefore": "annotations/src/main/java/org.hibernate.cfg.AnnotationBinder#bindClass(XClass, Map, ExtendedMappings)$if(493-499)",
+      "elementFileAfter": "annotations/src/main/java/org/hibernate/cfg/AnnotationBinder.java",
+      "elementNameAfter": "annotations/src/main/java/org.hibernate.cfg.AnnotationBinder#bindClass(XClass, Map, ExtendedMappings)$if(459-465)"
+    },
+    {
       "parentCommitId": "ecb103cf5512cf3f940ca3567d5414bdc0804bdd",
       "commitId": "a2bf14ae7c2ed7b2b0a6eb558dad08bcfc69c489",
       "commitTime": 1260138058,

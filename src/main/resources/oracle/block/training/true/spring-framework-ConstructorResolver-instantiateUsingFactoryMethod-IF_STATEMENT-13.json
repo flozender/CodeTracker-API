@@ -15,7 +15,7 @@
       "parentCommitId": "4e43ba544b058d406aac907ab50d7a7c4746a635",
       "commitId": "061063257ab8e16786d04eaddb5b5aba61dcd7f1",
       "commitTime": 1286735463,
-      "changeType": "body change",
+      "changeType": "expression change",
       "elementFileBefore": "org.springframework.beans/src/main/java/org/springframework/beans/factory/support/ConstructorResolver.java",
       "elementNameBefore": "org.springframework.beans/src/main/java/org.springframework.beans.factory.support.ConstructorResolver#instantiateUsingFactoryMethod(String, RootBeanDefinition, Object[])$if(550-552)",
       "elementFileAfter": "org.springframework.beans/src/main/java/org/springframework/beans/factory/support/ConstructorResolver.java",

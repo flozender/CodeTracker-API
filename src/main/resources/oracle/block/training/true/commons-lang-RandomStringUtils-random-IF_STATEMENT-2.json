@@ -32,10 +32,20 @@
       "elementNameAfter": "src/main/java/org.apache.commons.lang3.RandomStringUtils#random(int, int, int, boolean, boolean, char[], Random)$if(408-419)"
     },
     {
+      "parentCommitId": "f13d18cff3f0932e727dda04bf80008fc2fbbc70",
+      "commitId": "f643b4fa939e89348618ddffae20a804f4461363",
+      "commitTime": 1481696824,
+      "changeType": "expression change",
+      "elementFileBefore": "src/main/java/org/apache/commons/lang3/RandomStringUtils.java",
+      "elementNameBefore": "src/main/java/org.apache.commons.lang3.RandomStringUtils#random(int, int, int, boolean, boolean, char[], Random)$if(392-421)",
+      "elementFileAfter": "src/main/java/org/apache/commons/lang3/RandomStringUtils.java",
+      "elementNameAfter": "src/main/java/org.apache.commons.lang3.RandomStringUtils#random(int, int, int, boolean, boolean, char[], Random)$if(408-419)"
+    },
+    {
       "parentCommitId": "725ca3376984e5ec887a866cc44380b1ff465d36",
       "commitId": "371e866442f46131cc38a9a5018e1703f52f9b60",
       "commitTime": 1320861239,
-      "changeType": "body change",
+      "changeType": "expression change",
       "elementFileBefore": "src/main/java/org/apache/commons/lang3/RandomStringUtils.java",
       "elementNameBefore": "src/main/java/org.apache.commons.lang3.RandomStringUtils#random(int, int, int, boolean, boolean, char[], Random)$if(249-278)",
       "elementFileAfter": "src/main/java/org/apache/commons/lang3/RandomStringUtils.java",
@@ -50,6 +60,16 @@
       "elementNameBefore": "src/java/org.apache.commons.lang.RandomStringUtils#random(int, int, int, boolean, boolean, char[], Random)$if(244-250)",
       "elementFileAfter": "src/java/org/apache/commons/lang/RandomStringUtils.java",
       "elementNameAfter": "src/java/org.apache.commons.lang.RandomStringUtils#random(int, int, int, boolean, boolean, char[], Random)$if(252-282)"
+    },
+    {
+      "parentCommitId": "b0082bc60670ee42eaa135e8d89be2eb696103b2",
+      "commitId": "c79adcc3f0b99cb838155909a989fbd7bd71e600",
+      "commitTime": 1126346861,
+      "changeType": "expression change",
+      "elementFileBefore": "src/java/org/apache/commons/lang/RandomStringUtils.java",
+      "elementNameBefore": "src/java/org.apache.commons.lang.RandomStringUtils#random(int, int, int, boolean, boolean, char[], Random)$if(244-251)",
+      "elementFileAfter": "src/java/org/apache/commons/lang/RandomStringUtils.java",
+      "elementNameAfter": "src/java/org.apache.commons.lang.RandomStringUtils#random(int, int, int, boolean, boolean, char[], Random)$if(244-250)"
     },
     {
       "parentCommitId": "b0082bc60670ee42eaa135e8d89be2eb696103b2",

@@ -15,6 +15,16 @@
       "parentCommitId": "e15d5a8aa84a34917e4ef47135dfc62e58ea7650",
       "commitId": "198ba6cbe49832ac09ca84c6920e9be661a3b56a",
       "commitTime": 1506666613,
+      "changeType": "expression change",
+      "elementFileBefore": "java-symbol-solver-core/src/main/java/com/github/javaparser/symbolsolver/javaparsermodel/JavaParserFacade.java",
+      "elementNameBefore": "java-symbol-solver-core/src/main/java/com.github.javaparser.symbolsolver.javaparsermodel.JavaParserFacade#convertToUsage(Type, Context)$if(448-453)",
+      "elementFileAfter": "java-symbol-solver-core/src/main/java/com/github/javaparser/symbolsolver/javaparsermodel/JavaParserFacade.java",
+      "elementNameAfter": "java-symbol-solver-core/src/main/java/com.github.javaparser.symbolsolver.javaparsermodel.JavaParserFacade#convertToUsage(Type, Context)$if(445-450)"
+    },
+    {
+      "parentCommitId": "e15d5a8aa84a34917e4ef47135dfc62e58ea7650",
+      "commitId": "198ba6cbe49832ac09ca84c6920e9be661a3b56a",
+      "commitTime": 1506666613,
       "changeType": "body change",
       "elementFileBefore": "java-symbol-solver-core/src/main/java/com/github/javaparser/symbolsolver/javaparsermodel/JavaParserFacade.java",
       "elementNameBefore": "java-symbol-solver-core/src/main/java/com.github.javaparser.symbolsolver.javaparsermodel.JavaParserFacade#convertToUsage(Type, Context)$if(448-453)",
@@ -42,10 +52,30 @@
       "elementNameAfter": "java-symbol-solver-core/src/main/java/me.tomassetti.symbolsolver.javaparsermodel.JavaParserFacade#convertToUsage(Type, Context)$if(569-574)"
     },
     {
+      "parentCommitId": "04795580f2c5fc92f5d546ce3da82605f750f155",
+      "commitId": "ecc78c8b480ceb41019f764c983aaa69c2dabfe3",
+      "commitTime": 1476463882,
+      "changeType": "expression change",
+      "elementFileBefore": "java-symbol-solver-core/src/main/java/me/tomassetti/symbolsolver/javaparsermodel/JavaParserFacade.java",
+      "elementNameBefore": "java-symbol-solver-core/src/main/java/me.tomassetti.symbolsolver.javaparsermodel.JavaParserFacade#convertToUsage(Type, Context)$if(567-572)",
+      "elementFileAfter": "java-symbol-solver-core/src/main/java/me/tomassetti/symbolsolver/javaparsermodel/JavaParserFacade.java",
+      "elementNameAfter": "java-symbol-solver-core/src/main/java/me.tomassetti.symbolsolver.javaparsermodel.JavaParserFacade#convertToUsage(Type, Context)$if(569-574)"
+    },
+    {
       "parentCommitId": "b75d0c51157475833e5364ec6df88b2b6fe0db79",
       "commitId": "82eb44707b620803d424188a1eb8708fcaf093cb",
       "commitTime": 1476389491,
       "changeType": "body change",
+      "elementFileBefore": "java-symbol-solver-core/src/main/java/me/tomassetti/symbolsolver/javaparsermodel/JavaParserFacade.java",
+      "elementNameBefore": "java-symbol-solver-core/src/main/java/me.tomassetti.symbolsolver.javaparsermodel.JavaParserFacade#convertToUsage(Type, Context)$if(566-571)",
+      "elementFileAfter": "java-symbol-solver-core/src/main/java/me/tomassetti/symbolsolver/javaparsermodel/JavaParserFacade.java",
+      "elementNameAfter": "java-symbol-solver-core/src/main/java/me.tomassetti.symbolsolver.javaparsermodel.JavaParserFacade#convertToUsage(Type, Context)$if(567-572)"
+    },
+    {
+      "parentCommitId": "b75d0c51157475833e5364ec6df88b2b6fe0db79",
+      "commitId": "82eb44707b620803d424188a1eb8708fcaf093cb",
+      "commitTime": 1476389491,
+      "changeType": "expression change",
       "elementFileBefore": "java-symbol-solver-core/src/main/java/me/tomassetti/symbolsolver/javaparsermodel/JavaParserFacade.java",
       "elementNameBefore": "java-symbol-solver-core/src/main/java/me.tomassetti.symbolsolver.javaparsermodel.JavaParserFacade#convertToUsage(Type, Context)$if(566-571)",
       "elementFileAfter": "java-symbol-solver-core/src/main/java/me/tomassetti/symbolsolver/javaparsermodel/JavaParserFacade.java",

@@ -15,7 +15,7 @@
       "parentCommitId": "fb4803623b8f089a8dfd265a68461f4283e7ffad",
       "commitId": "c82b1f062af2a1a376e514020707597f6ed1f82d",
       "commitTime": 1492426931,
-      "changeType": "body change",
+      "changeType": "expression change",
       "elementFileBefore": "src/main/java/org/apache/commons/lang3/RandomStringUtils.java",
       "elementNameBefore": "src/main/java/org.apache.commons.lang3.RandomStringUtils#random(int, int, int, boolean, boolean, char[], Random)$if(376-380)",
       "elementFileAfter": "src/main/java/org/apache/commons/lang3/RandomStringUtils.java",

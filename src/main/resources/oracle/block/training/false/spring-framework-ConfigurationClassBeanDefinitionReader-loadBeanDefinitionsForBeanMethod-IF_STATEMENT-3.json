@@ -32,6 +32,16 @@
       "elementNameAfter": "spring-context/src/main/java/org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader#loadBeanDefinitionsForBeanMethod(BeanMethod)$if(204-206)"
     },
     {
+      "parentCommitId": "4b2847d9d12bad150e3a2e0730a331e07825b06c",
+      "commitId": "fe8dec912d53db4819064b50d667c34300bb59b1",
+      "commitTime": 1377720874,
+      "changeType": "expression change",
+      "elementFileBefore": "spring-context/src/main/java/org/springframework/context/annotation/ConfigurationClassBeanDefinitionReader.java",
+      "elementNameBefore": "spring-context/src/main/java/org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader#loadBeanDefinitionsForBeanMethod(BeanMethod)$if(208-220)",
+      "elementFileAfter": "spring-context/src/main/java/org/springframework/context/annotation/ConfigurationClassBeanDefinitionReader.java",
+      "elementNameAfter": "spring-context/src/main/java/org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader#loadBeanDefinitionsForBeanMethod(BeanMethod)$if(204-206)"
+    },
+    {
       "parentCommitId": "b04987ccc37985eae59a2b5cc19a1c6ea5d6c844",
       "commitId": "b4fea47d5cff9f3c85e62c233c2fe86b1d616592",
       "commitTime": 1297176153,
@@ -45,7 +55,7 @@
       "parentCommitId": "a4bbd9abda62e82db6187fe29f676dcff25028d7",
       "commitId": "f519406c37b23eef816704baeb3a496f7430bb89",
       "commitTime": 1248276202,
-      "changeType": "body change",
+      "changeType": "expression change",
       "elementFileBefore": "org.springframework.context/src/main/java/org/springframework/context/annotation/ConfigurationClassBeanDefinitionReader.java",
       "elementNameBefore": "org.springframework.context/src/main/java/org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader#loadBeanDefinitionsForModelMethod(ConfigurationClassMethod)$if(135-147)",
       "elementFileAfter": "org.springframework.context/src/main/java/org/springframework/context/annotation/ConfigurationClassBeanDefinitionReader.java",

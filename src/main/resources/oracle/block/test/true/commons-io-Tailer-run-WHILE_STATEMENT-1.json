@@ -95,6 +95,16 @@
       "parentCommitId": "47e352e957002f0fbab77cb28b307ae767781b74",
       "commitId": "3db2debddb4840f415570f88fb4a7794724b7930",
       "commitTime": 1348834239,
+      "changeType": "expression change",
+      "elementFileBefore": "src/main/java/org/apache/commons/io/input/Tailer.java",
+      "elementNameBefore": "src/main/java/org.apache.commons.io.input.Tailer#run()$while(362-423)",
+      "elementFileAfter": "src/main/java/org/apache/commons/io/input/Tailer.java",
+      "elementNameAfter": "src/main/java/org.apache.commons.io.input.Tailer#run()$while(372-433)"
+    },
+    {
+      "parentCommitId": "47e352e957002f0fbab77cb28b307ae767781b74",
+      "commitId": "3db2debddb4840f415570f88fb4a7794724b7930",
+      "commitTime": 1348834239,
       "changeType": "body change",
       "elementFileBefore": "src/main/java/org/apache/commons/io/input/Tailer.java",
       "elementNameBefore": "src/main/java/org.apache.commons.io.input.Tailer#run()$while(362-423)",

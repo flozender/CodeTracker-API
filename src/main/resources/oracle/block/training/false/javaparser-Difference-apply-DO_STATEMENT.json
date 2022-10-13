@@ -95,9 +95,19 @@
       "parentCommitId": "77386fec9f12fb711779151186fe72b345bd4299",
       "commitId": "2ae6f779cc175b3cd82d915419f378e53ff4b056",
       "commitTime": 1526673942,
+      "changeType": "expression change",
+      "elementFileBefore": "javaparser-core/src/main/java/com/github/javaparser/printer/lexicalpreservation/Difference.java",
+      "elementNameBefore": "javaparser-core/src/main/java/com.github.javaparser.printer.lexicalpreservation.Difference#apply(NodeText, Node)$if(547-844)",
+      "elementFileAfter": "javaparser-core/src/main/java/com/github/javaparser/printer/lexicalpreservation/Difference.java",
+      "elementNameAfter": "javaparser-core/src/main/java/com.github.javaparser.printer.lexicalpreservation.Difference#apply(NodeText, Node)$do(546-845)"
+    },
+    {
+      "parentCommitId": "77386fec9f12fb711779151186fe72b345bd4299",
+      "commitId": "2ae6f779cc175b3cd82d915419f378e53ff4b056",
+      "commitTime": 1526673942,
       "changeType": "body change",
       "elementFileBefore": "javaparser-core/src/main/java/com/github/javaparser/printer/lexicalpreservation/Difference.java",
-      "elementNameBefore": "javaparser-core/src/main/java/com.github.javaparser.printer.lexicalpreservation.Difference#apply(NodeText, Node)$do(546-845)",
+      "elementNameBefore": "javaparser-core/src/main/java/com.github.javaparser.printer.lexicalpreservation.Difference#apply(NodeText, Node)$if(547-844)",
       "elementFileAfter": "javaparser-core/src/main/java/com/github/javaparser/printer/lexicalpreservation/Difference.java",
       "elementNameAfter": "javaparser-core/src/main/java/com.github.javaparser.printer.lexicalpreservation.Difference#apply(NodeText, Node)$do(546-845)"
     },
@@ -107,9 +117,9 @@
       "commitTime": 1526597270,
       "changeType": "body change",
       "elementFileBefore": "javaparser-core/src/main/java/com/github/javaparser/printer/lexicalpreservation/Difference.java",
-      "elementNameBefore": "javaparser-core/src/main/java/com.github.javaparser.printer.lexicalpreservation.Difference#apply(NodeText, Node)$do(494-797)",
+      "elementNameBefore": "javaparser-core/src/main/java/com.github.javaparser.printer.lexicalpreservation.Difference#apply(NodeText, Node)$if(495-796)",
       "elementFileAfter": "javaparser-core/src/main/java/com/github/javaparser/printer/lexicalpreservation/Difference.java",
-      "elementNameAfter": "javaparser-core/src/main/java/com.github.javaparser.printer.lexicalpreservation.Difference#apply(NodeText, Node)$do(546-845)"
+      "elementNameAfter": "javaparser-core/src/main/java/com.github.javaparser.printer.lexicalpreservation.Difference#apply(NodeText, Node)$if(547-844)"
     },
     {
       "parentCommitId": "7e86d04481f1128e3644b46991f106b34e775bb9",
@@ -119,7 +129,17 @@
       "elementFileBefore": "javaparser-core/src/main/java/com/github/javaparser/printer/lexicalpreservation/Difference.java",
       "elementNameBefore": "javaparser-core/src/main/java/com.github.javaparser.printer.lexicalpreservation.Difference#apply(NodeText, Node)$do(490-793)",
       "elementFileAfter": "javaparser-core/src/main/java/com/github/javaparser/printer/lexicalpreservation/Difference.java",
-      "elementNameAfter": "javaparser-core/src/main/java/com.github.javaparser.printer.lexicalpreservation.Difference#apply(NodeText, Node)$do(494-797)"
+      "elementNameAfter": "javaparser-core/src/main/java/com.github.javaparser.printer.lexicalpreservation.Difference#apply(NodeText, Node)$if(495-796)"
+    },
+    {
+      "parentCommitId": "7e86d04481f1128e3644b46991f106b34e775bb9",
+      "commitId": "fb8daf1673c35798aeb7cca8033dd9c9b2e5c4fc",
+      "commitTime": 1526592264,
+      "changeType": "expression change",
+      "elementFileBefore": "javaparser-core/src/main/java/com/github/javaparser/printer/lexicalpreservation/Difference.java",
+      "elementNameBefore": "javaparser-core/src/main/java/com.github.javaparser.printer.lexicalpreservation.Difference#apply(NodeText, Node)$do(490-793)",
+      "elementFileAfter": "javaparser-core/src/main/java/com/github/javaparser/printer/lexicalpreservation/Difference.java",
+      "elementNameAfter": "javaparser-core/src/main/java/com.github.javaparser.printer.lexicalpreservation.Difference#apply(NodeText, Node)$if(495-796)"
     },
     {
       "parentCommitId": "ed1fab6ec5169dfe9ee980f60cf0a0e08a091fde",

@@ -15,7 +15,7 @@
       "parentCommitId": "3dedce4fd9abfa4162a2c55b16c970057fb69abe",
       "commitId": "c1d682aee5da5738fc3be071df45330c005f4cf1",
       "commitTime": 1530994538,
-      "changeType": "body change",
+      "changeType": "expression change",
       "elementFileBefore": "junit-platform-engine/src/main/java/org/junit/platform/engine/support/hierarchical/NodeTestTask.java",
       "elementNameBefore": "junit-platform-engine/src/main/java/org.junit.platform.engine.support.hierarchical.NodeTestTask#execute()$if(105-107)",
       "elementFileAfter": "junit-platform-engine/src/main/java/org/junit/platform/engine/support/hierarchical/NodeTestTask.java",

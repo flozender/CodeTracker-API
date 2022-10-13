@@ -25,6 +25,16 @@
       "parentCommitId": "a1517de6dbfb5398ff8dd193a242d80cb6abfa9a",
       "commitId": "5b1503d07de339e726134ee3d5ec73ac23064e9e",
       "commitTime": 1380710368,
+      "changeType": "expression change",
+      "elementFileBefore": "spring-boot/src/main/java/org/springframework/boot/context/embedded/EmbeddedWebApplicationContext.java",
+      "elementNameBefore": "spring-boot/src/main/java/org.springframework.boot.context.embedded.EmbeddedWebApplicationContext#prepareEmbeddedWebApplicationContext(ServletContext)$if(301-306)",
+      "elementFileAfter": "spring-boot/src/main/java/org/springframework/boot/context/embedded/EmbeddedWebApplicationContext.java",
+      "elementNameAfter": "spring-boot/src/main/java/org.springframework.boot.context.embedded.EmbeddedWebApplicationContext#prepareEmbeddedWebApplicationContext(ServletContext)$if(303-312)"
+    },
+    {
+      "parentCommitId": "a1517de6dbfb5398ff8dd193a242d80cb6abfa9a",
+      "commitId": "5b1503d07de339e726134ee3d5ec73ac23064e9e",
+      "commitTime": 1380710368,
       "changeType": "body change",
       "elementFileBefore": "spring-boot/src/main/java/org/springframework/boot/context/embedded/EmbeddedWebApplicationContext.java",
       "elementNameBefore": "spring-boot/src/main/java/org.springframework.boot.context.embedded.EmbeddedWebApplicationContext#prepareEmbeddedWebApplicationContext(ServletContext)$if(301-306)",

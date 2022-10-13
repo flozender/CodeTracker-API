@@ -35,7 +35,7 @@
       "parentCommitId": "f521f9003ac3629373e3dee5112b50e098db4a36",
       "commitId": "5cdd702717c5ca7dd3002e95847232681c445127",
       "commitTime": 1382562970,
-      "changeType": "body change",
+      "changeType": "expression change",
       "elementFileBefore": "src/main/java/org/junit/runners/BlockJUnit4ClassRunner.java",
       "elementNameBefore": "src/main/java/org.junit.runners.BlockJUnit4ClassRunner#runChild(FrameworkMethod, RunNotifier)$if(72-76)",
       "elementFileAfter": "src/main/java/org/junit/runners/BlockJUnit4ClassRunner.java",

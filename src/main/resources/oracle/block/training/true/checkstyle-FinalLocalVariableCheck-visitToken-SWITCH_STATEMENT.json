@@ -242,6 +242,16 @@
       "elementNameAfter": "src/main/java/com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck#visitToken(DetailAST)$switch(93-146)"
     },
     {
+      "parentCommitId": "b94bac0719851b65b59b4aafc5bd3ef029321ed7",
+      "commitId": "bb1b29851f14bf7eaf5656e01c285c0f5f3b9000",
+      "commitTime": 1421677214,
+      "changeType": "expression change",
+      "elementFileBefore": "src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/FinalLocalVariableCheck.java",
+      "elementNameBefore": "src/main/java/com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck#visitToken(DetailAST)$switch(93-146)",
+      "elementFileAfter": "src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/FinalLocalVariableCheck.java",
+      "elementNameAfter": "src/main/java/com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck#visitToken(DetailAST)$switch(93-146)"
+    },
+    {
       "parentCommitId": "46d57c9ca5c93972a22cd797793d6b21c820f444",
       "commitId": "deb4d7a38805032ea8c9e2476eff5e00e38f1015",
       "commitTime": 1418710173,

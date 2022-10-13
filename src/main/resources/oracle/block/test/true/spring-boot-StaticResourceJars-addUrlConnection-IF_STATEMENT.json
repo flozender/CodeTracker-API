@@ -15,7 +15,7 @@
       "parentCommitId": "fe7d7e2fc95f1dd64c592da9461aceb4e3be1a24",
       "commitId": "64c324612e9690ee477bebb5d2532bb5843fbdd2",
       "commitTime": 1516956772,
-      "changeType": "body change",
+      "changeType": "expression change",
       "elementFileBefore": "spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/servlet/server/StaticResourceJars.java",
       "elementNameBefore": "spring-boot-project/spring-boot/src/main/java/org.springframework.boot.web.servlet.server.StaticResourceJars#addUrlConnection(List, URL, URLConnection)$if(92-94)",
       "elementFileAfter": "spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/servlet/server/StaticResourceJars.java",

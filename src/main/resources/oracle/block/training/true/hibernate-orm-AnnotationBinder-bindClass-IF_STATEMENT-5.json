@@ -35,7 +35,7 @@
       "parentCommitId": "7d167768d25e30fc0065e51db80bea84785c9c34",
       "commitId": "e14f58de29eb5f8a3de7480dbd8bc10fcc9e6185",
       "commitTime": 1285691310,
-      "changeType": "body change",
+      "changeType": "expression change",
       "elementFileBefore": "core/src/main/java/org/hibernate/cfg/AnnotationBinder.java",
       "elementNameBefore": "core/src/main/java/org.hibernate.cfg.AnnotationBinder#bindClass(XClass, Map, Mappings)$if(661-663)",
       "elementFileAfter": "core/src/main/java/org/hibernate/cfg/AnnotationBinder.java",

@@ -15,7 +15,7 @@
       "parentCommitId": "36940b6418283806ed10292776c9c4269923e1ca",
       "commitId": "56f2a758983611adea7308e90ae9934c973efa72",
       "commitTime": 1506632587,
-      "changeType": "body change",
+      "changeType": "expression change",
       "elementFileBefore": "src/main/java/org/apache/commons/io/input/Tailer.java",
       "elementNameBefore": "src/main/java/org.apache.commons.io.input.Tailer#run()$catch(442-444)",
       "elementFileAfter": "src/main/java/org/apache/commons/io/input/Tailer.java",

@@ -15,7 +15,7 @@
       "parentCommitId": "3421e6adb4a3a4fadae79feb0f180e78e2698374",
       "commitId": "9c5b6cdc7108eb071785b0c4edd205650cdf1ca4",
       "commitTime": 1474286171,
-      "changeType": "body change",
+      "changeType": "expression change",
       "elementFileBefore": "src/main/java/org/apache/commons/lang3/math/NumberUtils.java",
       "elementNameBefore": "src/main/java/org.apache.commons.lang3.math.NumberUtils#createNumber(String)$if(544-548)",
       "elementFileAfter": "src/main/java/org/apache/commons/lang3/math/NumberUtils.java",

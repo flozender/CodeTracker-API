@@ -95,7 +95,7 @@
       "parentCommitId": "655a496c88fb075c62147484be2baa4e4c7e3f4d",
       "commitId": "8c3e4a50749044ae3177fc4c84db9c4fd93abca2",
       "commitTime": 1440504773,
-      "changeType": "body change",
+      "changeType": "expression change",
       "elementFileBefore": "src/main/java/com/puppycrawl/tools/checkstyle/Main.java",
       "elementNameBefore": "src/main/java/com.puppycrawl.tools.checkstyle.Main#main(String[])$if(79-102)",
       "elementFileAfter": "src/main/java/com/puppycrawl/tools/checkstyle/Main.java",

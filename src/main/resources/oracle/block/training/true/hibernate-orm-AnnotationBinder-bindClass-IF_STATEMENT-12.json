@@ -45,22 +45,22 @@
       "parentCommitId": "b95147a81e36c9bb174ab82b12ac0492b7e880a3",
       "commitId": "025b3cc14180d0459856bc45a6cac7acce3e1265",
       "commitTime": 1260558841,
-      "changeType": "body change",
+      "changeType": "expression change",
       "elementFileBefore": "annotations/src/main/java/org/hibernate/cfg/AnnotationBinder.java",
       "elementNameBefore": "annotations/src/main/java/org.hibernate.cfg.AnnotationBinder#bindClass(XClass, Map, ExtendedMappings)$if(840-846)",
       "elementFileAfter": "annotations/src/main/java/org/hibernate/cfg/AnnotationBinder.java",
       "elementNameAfter": "annotations/src/main/java/org.hibernate.cfg.AnnotationBinder#bindClass(XClass, Map, ExtendedMappings)$if(756-762)"
     },
     {
-      "parentCommitId": "356063a33fed1fd588ab8060df275d89567b1f59",
-      "commitId": "a1e8d7cb0dcb4bd58fc5d210031bd0fb28196034",
-      "commitTime": 1256727441,
+      "parentCommitId": "53deb4b357384f32819f70c497ef04885171c399",
+      "commitId": "7337743c93574823424ed6c399cfcf6bd75614f8",
+      "commitTime": 1225219270,
       "changeType": "introduced",
-      "elementFileBefore": "annotations/src/main/java/org/hibernate/cfg/AnnotationBinder.java",
-      "elementNameBefore": "annotations/src/main/java/org.hibernate.cfg.AnnotationBinder#bindClass(XClass, Map, ExtendedMappings)$if(823-829)",
-      "elementFileAfter": "annotations/src/main/java/org/hibernate/cfg/AnnotationBinder.java",
-      "elementNameAfter": "annotations/src/main/java/org.hibernate.cfg.AnnotationBinder#bindClass(XClass, Map, ExtendedMappings)$if(823-829)",
-      "comment": "new block"
+      "elementFileBefore": "annotations/src/java/org/hibernate/cfg/AnnotationBinder.java",
+      "elementNameBefore": "annotations/src/java/org.hibernate.cfg.AnnotationBinder#bindClass(XClass, Map, ExtendedMappings)$if(781-787)",
+      "elementFileAfter": "annotations/src/java/org/hibernate/cfg/AnnotationBinder.java",
+      "elementNameAfter": "annotations/src/java/org.hibernate.cfg.AnnotationBinder#bindClass(XClass, Map, ExtendedMappings)$if(781-787)",
+      "comment": "added with method"
     }
   ]
 }

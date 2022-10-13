@@ -125,7 +125,7 @@
       "parentCommitId": "142868f8e69f42dd0cff4f97ed990ed0a14e9339",
       "commitId": "0b677ac70d37f9064d3a0c0914794f60f66d64be",
       "commitTime": 1398399915,
-      "changeType": "body change",
+      "changeType": "expression change",
       "elementFileBefore": "okhttp/src/main/java/com/squareup/okhttp/Job.java",
       "elementNameBefore": "okhttp/src/main/java/com.squareup.okhttp.Job#execute()$if(77-77)",
       "elementFileAfter": "okhttp/src/main/java/com/squareup/okhttp/Job.java",

@@ -15,6 +15,16 @@
       "parentCommitId": "12fc8c7ae0090ab4c1fee97000f17ecc8c250752",
       "commitId": "5dfba25e3496063b82d53aa759796a639b1d8e3b",
       "commitTime": 1521117993,
+      "changeType": "body change",
+      "elementFileBefore": "lucene/core/src/java/org/apache/lucene/index/IndexWriter.java",
+      "elementNameBefore": "lucene/core/src/java/org.apache.lucene.index.IndexWriter#shutdown()$try(1267-1286)",
+      "elementFileAfter": "lucene/core/src/java/org/apache/lucene/index/IndexWriter.java",
+      "elementNameAfter": "lucene/core/src/java/org.apache.lucene.index.IndexWriter#shutdown()$try(1270-1287)"
+    },
+    {
+      "parentCommitId": "12fc8c7ae0090ab4c1fee97000f17ecc8c250752",
+      "commitId": "5dfba25e3496063b82d53aa759796a639b1d8e3b",
+      "commitTime": 1521117993,
       "changeType": "finally block removed",
       "elementFileBefore": "lucene/core/src/java/org/apache/lucene/index/IndexWriter.java",
       "elementNameBefore": "lucene/core/src/java/org.apache.lucene.index.IndexWriter#shutdown()$try(1267-1286)",
@@ -26,16 +36,6 @@
       "commitId": "5dfba25e3496063b82d53aa759796a639b1d8e3b",
       "commitTime": 1521117993,
       "changeType": "catch block added",
-      "elementFileBefore": "lucene/core/src/java/org/apache/lucene/index/IndexWriter.java",
-      "elementNameBefore": "lucene/core/src/java/org.apache.lucene.index.IndexWriter#shutdown()$try(1267-1286)",
-      "elementFileAfter": "lucene/core/src/java/org/apache/lucene/index/IndexWriter.java",
-      "elementNameAfter": "lucene/core/src/java/org.apache.lucene.index.IndexWriter#shutdown()$try(1270-1287)"
-    },
-    {
-      "parentCommitId": "12fc8c7ae0090ab4c1fee97000f17ecc8c250752",
-      "commitId": "5dfba25e3496063b82d53aa759796a639b1d8e3b",
-      "commitTime": 1521117993,
-      "changeType": "body change",
       "elementFileBefore": "lucene/core/src/java/org/apache/lucene/index/IndexWriter.java",
       "elementNameBefore": "lucene/core/src/java/org.apache.lucene.index.IndexWriter#shutdown()$try(1267-1286)",
       "elementFileAfter": "lucene/core/src/java/org/apache/lucene/index/IndexWriter.java",

@@ -22,10 +22,20 @@
       "elementNameAfter": "spring-beans/src/main/java/org.springframework.beans.TypeConverterDelegate#convertIfNecessary(String, Object, Object, Class, TypeDescriptor)$if(186-195)"
     },
     {
+      "parentCommitId": "89396ff01ff159aa7df18e332f3888cf9ce3dc20",
+      "commitId": "c4c941c43fc23f58503c7b687fd1469d4a27c777",
+      "commitTime": 1467288171,
+      "changeType": "expression change",
+      "elementFileBefore": "spring-beans/src/main/java/org/springframework/beans/TypeConverterDelegate.java",
+      "elementNameBefore": "spring-beans/src/main/java/org.springframework.beans.TypeConverterDelegate#convertIfNecessary(String, Object, Object, Class, TypeDescriptor)$if(188-190)",
+      "elementFileAfter": "spring-beans/src/main/java/org/springframework/beans/TypeConverterDelegate.java",
+      "elementNameAfter": "spring-beans/src/main/java/org.springframework.beans.TypeConverterDelegate#convertIfNecessary(String, Object, Object, Class, TypeDescriptor)$if(186-195)"
+    },
+    {
       "parentCommitId": "a2a4929c147208e959a93b290e930828287833d8",
       "commitId": "c84cccf06dad4e3f11cd529ab16a5655bf723820",
       "commitTime": 1307248998,
-      "changeType": "body change",
+      "changeType": "expression change",
       "elementFileBefore": "org.springframework.beans/src/main/java/org/springframework/beans/TypeConverterDelegate.java",
       "elementNameBefore": "org.springframework.beans/src/main/java/org.springframework.beans.TypeConverterDelegate#convertIfNecessary(String, Object, Object, Class, TypeDescriptor)$if(145-147)",
       "elementFileAfter": "org.springframework.beans/src/main/java/org/springframework/beans/TypeConverterDelegate.java",
@@ -35,7 +45,7 @@
       "parentCommitId": "124837e2c3ffd185a389c9c21e9a673044d22fe1",
       "commitId": "cbed1c1b4b5fd74c9cd201890f619a7079804d3f",
       "commitTime": 1269529339,
-      "changeType": "body change",
+      "changeType": "expression change",
       "elementFileBefore": "org.springframework.beans/src/main/java/org/springframework/beans/TypeConverterDelegate.java",
       "elementNameBefore": "org.springframework.beans/src/main/java/org.springframework.beans.TypeConverterDelegate#convertIfNecessary(String, Object, Object, Class, TypeDescriptor)$if(209-211)",
       "elementFileAfter": "org.springframework.beans/src/main/java/org/springframework/beans/TypeConverterDelegate.java",

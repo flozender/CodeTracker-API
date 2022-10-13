@@ -15,7 +15,7 @@
       "parentCommitId": "ffbd8c02ffffd60a054e873f5e6c85ba14f37cf5",
       "commitId": "94ed1e8a863df684eca95ebb4a5df56c0c9824da",
       "commitTime": 1500923475,
-      "changeType": "body change",
+      "changeType": "expression change",
       "elementFileBefore": "pmd-java/src/main/java/net/sourceforge/pmd/lang/java/ast/CommentUtil.java",
       "elementNameBefore": "pmd-java/src/main/java/net.sourceforge.pmd.lang.java.ast.CommentUtil#javadocContentAfter(String, int)$if(50-52)",
       "elementFileAfter": "pmd-java/src/main/java/net/sourceforge/pmd/lang/java/ast/CommentUtil.java",

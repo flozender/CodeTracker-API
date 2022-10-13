@@ -15,7 +15,7 @@
       "parentCommitId": "50402e2c494d0b88f13f80cc76c914dadf350ab9",
       "commitId": "63eba2740e08ede085c78b131bc1a9c3f1d5ddb1",
       "commitTime": 1397138899,
-      "changeType": "body change",
+      "changeType": "expression change",
       "elementFileBefore": "src/main/java/org/apache/commons/io/FilenameUtils.java",
       "elementNameBefore": "src/main/java/org.apache.commons.io.FilenameUtils#wildcardMatch(String, String, IOCase)$if(1333-1336)",
       "elementFileAfter": "src/main/java/org/apache/commons/io/FilenameUtils.java",

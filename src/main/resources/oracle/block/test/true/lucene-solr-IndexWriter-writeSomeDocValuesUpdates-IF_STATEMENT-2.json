@@ -42,6 +42,16 @@
       "elementNameAfter": "lucene/core/src/java/org.apache.lucene.index.IndexWriter#writeSomeDocValuesUpdates()$if(546-581)"
     },
     {
+      "parentCommitId": "4136fe0e65ac4394033d24840ac364943c7d89a2",
+      "commitId": "8975692953713923bd1cc67766cf92565183c2b8",
+      "commitTime": 1524472150,
+      "changeType": "expression change",
+      "elementFileBefore": "lucene/core/src/java/org/apache/lucene/index/IndexWriter.java",
+      "elementNameBefore": "lucene/core/src/java/org.apache.lucene.index.IndexWriter.ReaderPool#writeSomeDocValuesUpdates()$if(684-725)",
+      "elementFileAfter": "lucene/core/src/java/org/apache/lucene/index/IndexWriter.java",
+      "elementNameAfter": "lucene/core/src/java/org.apache.lucene.index.IndexWriter#writeSomeDocValuesUpdates()$if(546-581)"
+    },
+    {
       "parentCommitId": "ab092942cf621b39afaae0d8b370deb3e084388a",
       "commitId": "acb3c379427193036f3d56503529400736ac5dff",
       "commitTime": 1522484702,

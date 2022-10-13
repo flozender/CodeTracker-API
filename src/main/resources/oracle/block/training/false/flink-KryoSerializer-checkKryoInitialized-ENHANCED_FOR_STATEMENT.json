@@ -22,6 +22,16 @@
       "elementNameAfter": "flink-java/src/main/java/org.apache.flink.api.java.typeutils.runtime.kryo.KryoSerializer#checkKryoInitialized()$for(268-270)"
     },
     {
+      "parentCommitId": "c923fb3c1c1d61462e1079198ae9fb735bb0acf2",
+      "commitId": "2cc5d98c690c1b1b1ff1f48628ca58b1b4f0c932",
+      "commitTime": 1442313211,
+      "changeType": "expression change",
+      "elementFileBefore": "flink-java/src/main/java/org/apache/flink/api/java/typeutils/runtime/kryo/KryoSerializer.java",
+      "elementNameBefore": "flink-java/src/main/java/org.apache.flink.api.java.typeutils.runtime.kryo.KryoSerializer#checkKryoInitialized()$for(270-272)",
+      "elementFileAfter": "flink-java/src/main/java/org/apache/flink/api/java/typeutils/runtime/kryo/KryoSerializer.java",
+      "elementNameAfter": "flink-java/src/main/java/org.apache.flink.api.java.typeutils.runtime.kryo.KryoSerializer#checkKryoInitialized()$for(268-270)"
+    },
+    {
       "parentCommitId": "5015ab490f89d384ac93752c22caf201ceb43776",
       "commitId": "354efec0f9da0fa03ea9b337b02a1a2a03a9ac16",
       "commitTime": 1424271128,

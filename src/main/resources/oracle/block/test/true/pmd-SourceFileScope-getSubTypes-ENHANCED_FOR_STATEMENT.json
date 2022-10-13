@@ -15,7 +15,7 @@
       "parentCommitId": "79d78697826ec61757658efc8398c567b9d6fe5e",
       "commitId": "2c714e1fbcbb0ad619d4a86a6230e32a8358dce2",
       "commitTime": 1483442385,
-      "changeType": "body change",
+      "changeType": "expression change",
       "elementFileBefore": "pmd-java/src/main/java/net/sourceforge/pmd/lang/java/symboltable/SourceFileScope.java",
       "elementNameBefore": "pmd-java/src/main/java/net.sourceforge.pmd.lang.java.symboltable.SourceFileScope#getSubTypes(String, Scope)$for(147-154)",
       "elementFileAfter": "pmd-java/src/main/java/net/sourceforge/pmd/lang/java/symboltable/SourceFileScope.java",

@@ -25,11 +25,31 @@
       "parentCommitId": "bf529ef600fa9ef2034d0412c198b2121f2b94f2",
       "commitId": "ce196814d857a4244a80c51d5151cc35e90b6749",
       "commitTime": 1445038509,
+      "changeType": "expression change",
+      "elementFileBefore": "src/main/java/com/puppycrawl/tools/checkstyle/Checker.java",
+      "elementNameBefore": "src/main/java/com.puppycrawl.tools.checkstyle.Checker#fireErrors(String, SortedSet)$if(360-364)",
+      "elementFileAfter": "src/main/java/com/puppycrawl/tools/checkstyle/Checker.java",
+      "elementNameAfter": "src/main/java/com.puppycrawl.tools.checkstyle.Checker#fireErrors(String, SortedSet)$if(360-364)"
+    },
+    {
+      "parentCommitId": "bf529ef600fa9ef2034d0412c198b2121f2b94f2",
+      "commitId": "ce196814d857a4244a80c51d5151cc35e90b6749",
+      "commitTime": 1445038509,
       "changeType": "body change",
       "elementFileBefore": "src/main/java/com/puppycrawl/tools/checkstyle/Checker.java",
       "elementNameBefore": "src/main/java/com.puppycrawl.tools.checkstyle.Checker#fireErrors(String, SortedSet)$if(360-364)",
       "elementFileAfter": "src/main/java/com/puppycrawl/tools/checkstyle/Checker.java",
       "elementNameAfter": "src/main/java/com.puppycrawl.tools.checkstyle.Checker#fireErrors(String, SortedSet)$if(360-364)"
+    },
+    {
+      "parentCommitId": "58219b9bd31c8f7fbc4f4bba0eeb811851f276b3",
+      "commitId": "b8ca6a585b824e91b3b8c72dd5cc53c0eb0ab0f1",
+      "commitTime": 1421678312,
+      "changeType": "expression change",
+      "elementFileBefore": "src/main/java/com/puppycrawl/tools/checkstyle/Checker.java",
+      "elementNameBefore": "src/main/java/com.puppycrawl.tools.checkstyle.Checker#fireErrors(String, SortedSet)$if(520-524)",
+      "elementFileAfter": "src/main/java/com/puppycrawl/tools/checkstyle/Checker.java",
+      "elementNameAfter": "src/main/java/com.puppycrawl.tools.checkstyle.Checker#fireErrors(String, SortedSet)$if(520-524)"
     },
     {
       "parentCommitId": "58219b9bd31c8f7fbc4f4bba0eeb811851f276b3",
@@ -65,7 +85,7 @@
       "parentCommitId": "7c22cbca328161b61049c4a3240613959341fb9a",
       "commitId": "1846dacad6c2a3a04b3350b45bb8b05835192296",
       "commitTime": 1058522231,
-      "changeType": "body change",
+      "changeType": "expression change",
       "elementFileBefore": "src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java",
       "elementNameBefore": "src/checkstyle/com.puppycrawl.tools.checkstyle.Checker#fireErrors(String, LocalizedMessage[])$if(367-373)",
       "elementFileAfter": "src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java",

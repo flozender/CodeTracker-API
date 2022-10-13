@@ -15,6 +15,16 @@
       "parentCommitId": "ceb0782ebd4d354a8ebc10fd638ee666eebf5483",
       "commitId": "9d5e7895080cd186f8cea327f4fa43445476bee6",
       "commitTime": 1432741582,
+      "changeType": "expression change",
+      "elementFileBefore": "src/main/java/org/elasticsearch/rest/action/support/RestTable.java",
+      "elementNameBefore": "src/main/java/org.elasticsearch.rest.action.support.RestTable#expandHeadersFromRequest(Table, RestRequest)$if(168-176)",
+      "elementFileAfter": "src/main/java/org/elasticsearch/rest/action/support/RestTable.java",
+      "elementNameAfter": "src/main/java/org.elasticsearch.rest.action.support.RestTable#expandHeadersFromRequest(Table, RestRequest)$if(167-175)"
+    },
+    {
+      "parentCommitId": "ceb0782ebd4d354a8ebc10fd638ee666eebf5483",
+      "commitId": "9d5e7895080cd186f8cea327f4fa43445476bee6",
+      "commitTime": 1432741582,
       "changeType": "body change",
       "elementFileBefore": "src/main/java/org/elasticsearch/rest/action/support/RestTable.java",
       "elementNameBefore": "src/main/java/org.elasticsearch.rest.action.support.RestTable#expandHeadersFromRequest(Table, RestRequest)$if(168-176)",

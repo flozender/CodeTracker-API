@@ -6,9 +6,9 @@
   "functionKey": "lucene/core/src/java/org.apache.lucene.index.ConcurrentMergeScheduler#updateMergeThreads()",
   "functionStartLine": 293,
   "blockType": "IF_STATEMENT",
-  "blockKey": "lucene/core/src/java/org.apache.lucene.index.ConcurrentMergeScheduler#updateMergeThreads()$if(405-407)",
-  "blockStartLine": 405,
-  "blockEndLine": 407,
+  "blockKey": "lucene/core/src/java/org.apache.lucene.index.ConcurrentMergeScheduler#updateMergeThreads()$if(396-400)",
+  "blockStartLine": 396,
+  "blockEndLine": 400,
   "startCommitId": "38bf976cd4b9e324c21664bd7ae3d554df803705",
   "expectedChanges": [
     {
@@ -17,9 +17,9 @@
       "commitTime": 1420468108,
       "changeType": "introduced",
       "elementFileBefore": "lucene/core/src/java/org/apache/lucene/index/ConcurrentMergeScheduler.java",
-      "elementNameBefore": "lucene/core/src/java/org.apache.lucene.index.ConcurrentMergeScheduler#updateMergeThreads()$if(330-332)",
+      "elementNameBefore": "lucene/core/src/java/org.apache.lucene.index.ConcurrentMergeScheduler#updateMergeThreads()$if(321-325)",
       "elementFileAfter": "lucene/core/src/java/org/apache/lucene/index/ConcurrentMergeScheduler.java",
-      "elementNameAfter": "lucene/core/src/java/org.apache.lucene.index.ConcurrentMergeScheduler#updateMergeThreads()$if(330-332)",
+      "elementNameAfter": "lucene/core/src/java/org.apache.lucene.index.ConcurrentMergeScheduler#updateMergeThreads()$if(321-325)",
       "comment": "new block"
     }
   ]

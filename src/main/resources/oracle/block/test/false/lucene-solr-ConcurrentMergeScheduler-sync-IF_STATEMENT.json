@@ -15,7 +15,7 @@
       "parentCommitId": "33d18a0c599a5bc294f9503a6b8fa3e326f589a7",
       "commitId": "926397824e9fd4b7f480cff547a73aad3c056974",
       "commitTime": 1436866730,
-      "changeType": "body change",
+      "changeType": "expression change",
       "elementFileBefore": "lucene/core/src/java/org/apache/lucene/index/ConcurrentMergeScheduler.java",
       "elementNameBefore": "lucene/core/src/java/org.apache.lucene.index.ConcurrentMergeScheduler#sync()$if(417-420)",
       "elementFileAfter": "lucene/core/src/java/org/apache/lucene/index/ConcurrentMergeScheduler.java",

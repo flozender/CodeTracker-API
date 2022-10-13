@@ -15,7 +15,7 @@
       "parentCommitId": "bdd455596c53a97ce5edbf616a30f33d278ae41f",
       "commitId": "0986e7970561a77ade9bdaaf701e14017d105464",
       "commitTime": 1397145440,
-      "changeType": "body change",
+      "changeType": "expression change",
       "elementFileBefore": "src/main/java/org/apache/commons/io/EndianUtils.java",
       "elementNameBefore": "src/main/java/org.apache.commons.io.EndianUtils#read(InputStream)$if(482-484)",
       "elementFileAfter": "src/main/java/org/apache/commons/io/EndianUtils.java",

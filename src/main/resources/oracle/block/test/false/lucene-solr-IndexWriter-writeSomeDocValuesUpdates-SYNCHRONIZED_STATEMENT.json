@@ -35,7 +35,7 @@
       "parentCommitId": "4136fe0e65ac4394033d24840ac364943c7d89a2",
       "commitId": "8975692953713923bd1cc67766cf92565183c2b8",
       "commitTime": 1524472150,
-      "changeType": "body change",
+      "changeType": "expression change",
       "elementFileBefore": "lucene/core/src/java/org/apache/lucene/index/IndexWriter.java",
       "elementNameBefore": "lucene/core/src/java/org.apache.lucene.index.IndexWriter.ReaderPool#writeSomeDocValuesUpdates()$synchronized(711-715)",
       "elementFileAfter": "lucene/core/src/java/org/apache/lucene/index/IndexWriter.java",

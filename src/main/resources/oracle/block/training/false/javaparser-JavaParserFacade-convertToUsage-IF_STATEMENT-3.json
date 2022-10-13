@@ -35,7 +35,7 @@
       "parentCommitId": "9dcca18c3d890a97c9bb69bb8046d65bdcf771e9",
       "commitId": "b32947e8c85bc21fe533173f50d4a0a91036fdaf",
       "commitTime": 1477032911,
-      "changeType": "body change",
+      "changeType": "expression change",
       "elementFileBefore": "java-symbol-solver-core/src/main/java/com/github/javaparser/symbolsolver/javaparsermodel/JavaParserFacade.java",
       "elementNameBefore": "java-symbol-solver-core/src/main/java/com.github.javaparser.symbolsolver.javaparsermodel.JavaParserFacade#convertToUsage(Type, Context)$if(583-592)",
       "elementFileAfter": "java-symbol-solver-core/src/main/java/com/github/javaparser/symbolsolver/javaparsermodel/JavaParserFacade.java",

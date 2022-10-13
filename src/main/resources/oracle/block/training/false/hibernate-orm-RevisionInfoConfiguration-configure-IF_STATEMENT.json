@@ -32,10 +32,20 @@
       "elementNameAfter": "hibernate-envers/src/main/java/org.hibernate.envers.configuration.internal.RevisionInfoConfiguration#configure(Configuration, ReflectionManager)$if(300-313)"
     },
     {
+      "parentCommitId": "2b2f333593c1989624d332d47b1358afd1999a91",
+      "commitId": "5cc051e1dfeb5664d8d1eb9a289097d7f9bfb0e2",
+      "commitTime": 1365425009,
+      "changeType": "expression change",
+      "elementFileBefore": "hibernate-envers/src/main/java/org/hibernate/envers/configuration/RevisionInfoConfiguration.java",
+      "elementNameBefore": "hibernate-envers/src/main/java/org.hibernate.envers.configuration.RevisionInfoConfiguration#configure(Configuration, ReflectionManager)$if(300-313)",
+      "elementFileAfter": "hibernate-envers/src/main/java/org/hibernate/envers/configuration/internal/RevisionInfoConfiguration.java",
+      "elementNameAfter": "hibernate-envers/src/main/java/org.hibernate.envers.configuration.internal.RevisionInfoConfiguration#configure(Configuration, ReflectionManager)$if(300-313)"
+    },
+    {
       "parentCommitId": "c41fee2a07b86951916ba3d41080501b82bf9ea1",
       "commitId": "95ec3457af961c4116015509180dcca04967604f",
       "commitTime": 1334872181,
-      "changeType": "body change",
+      "changeType": "expression change",
       "elementFileBefore": "hibernate-envers/src/main/java/org/hibernate/envers/configuration/RevisionInfoConfiguration.java",
       "elementNameBefore": "hibernate-envers/src/main/java/org.hibernate.envers.configuration.RevisionInfoConfiguration#configure(Configuration, ReflectionManager)$if(298-311)",
       "elementFileAfter": "hibernate-envers/src/main/java/org/hibernate/envers/configuration/RevisionInfoConfiguration.java",
@@ -45,7 +55,7 @@
       "parentCommitId": "775b6da1db4a86582f2b9daa8cffe1164ec49746",
       "commitId": "c4822556c19a6ea2d7be93b505548e834c83d955",
       "commitTime": 1334837744,
-      "changeType": "body change",
+      "changeType": "expression change",
       "elementFileBefore": "hibernate-envers/src/main/java/org/hibernate/envers/configuration/RevisionInfoConfiguration.java",
       "elementNameBefore": "hibernate-envers/src/main/java/org.hibernate.envers.configuration.RevisionInfoConfiguration#configure(Configuration, ReflectionManager)$if(294-306)",
       "elementFileAfter": "hibernate-envers/src/main/java/org/hibernate/envers/configuration/RevisionInfoConfiguration.java",
@@ -70,6 +80,26 @@
       "elementNameBefore": "hibernate-envers/src/main/java/org.hibernate.envers.configuration.RevisionInfoConfiguration#configure(Configuration, ReflectionManager)$if(286-298)",
       "elementFileAfter": "hibernate-envers/src/main/java/org/hibernate/envers/configuration/RevisionInfoConfiguration.java",
       "elementNameAfter": "hibernate-envers/src/main/java/org.hibernate.envers.configuration.RevisionInfoConfiguration#configure(Configuration, ReflectionManager)$if(292-304)"
+    },
+    {
+      "parentCommitId": "05f2d8b4512fb46387bdc6408a437cd6f06ea13f",
+      "commitId": "13c9fd4f9d177fb7d022c72d674f1a23b909c443",
+      "commitTime": 1307879700,
+      "changeType": "expression change",
+      "elementFileBefore": "hibernate-envers/src/main/java/org/hibernate/envers/configuration/RevisionInfoConfiguration.java",
+      "elementNameBefore": "hibernate-envers/src/main/java/org.hibernate.envers.configuration.RevisionInfoConfiguration#configure(Configuration, ReflectionManager)$if(286-298)",
+      "elementFileAfter": "hibernate-envers/src/main/java/org/hibernate/envers/configuration/RevisionInfoConfiguration.java",
+      "elementNameAfter": "hibernate-envers/src/main/java/org.hibernate.envers.configuration.RevisionInfoConfiguration#configure(Configuration, ReflectionManager)$if(292-304)"
+    },
+    {
+      "parentCommitId": "dd55a99b00c447e53fe97bdbc423f3e6d7d59557",
+      "commitId": "1878b238503f3b52a6e7b31f849d7253206c7465",
+      "commitTime": 1305566310,
+      "changeType": "expression change",
+      "elementFileBefore": "hibernate-envers/src/main/java/org/hibernate/envers/configuration/RevisionInfoConfiguration.java",
+      "elementNameBefore": "hibernate-envers/src/main/java/org.hibernate.envers.configuration.RevisionInfoConfiguration#configure(Configuration, ReflectionManager)$if(274-286)",
+      "elementFileAfter": "hibernate-envers/src/main/java/org/hibernate/envers/configuration/RevisionInfoConfiguration.java",
+      "elementNameAfter": "hibernate-envers/src/main/java/org.hibernate.envers.configuration.RevisionInfoConfiguration#configure(Configuration, ReflectionManager)$if(274-286)"
     },
     {
       "parentCommitId": "dd55a99b00c447e53fe97bdbc423f3e6d7d59557",

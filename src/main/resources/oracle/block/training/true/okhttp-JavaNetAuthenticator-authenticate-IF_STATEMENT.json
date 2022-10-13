@@ -15,7 +15,7 @@
       "parentCommitId": "ee3114d07c9ca89a00f4c1028b70fc2fab184301",
       "commitId": "c07f55ac92d1e931260711edae987b51bee0be3d",
       "commitTime": 1450157856,
-      "changeType": "body change",
+      "changeType": "expression change",
       "elementFileBefore": "okhttp/src/main/java/com/squareup/okhttp/internal/http/AuthenticatorAdapter.java",
       "elementNameBefore": "okhttp/src/main/java/com.squareup.okhttp.internal.http.AuthenticatorAdapter#authenticateProxy(Proxy, Response)$if(65-65)",
       "elementFileAfter": "okhttp/src/main/java/com/squareup/okhttp/internal/http/AuthenticatorAdapter.java",

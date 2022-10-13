@@ -42,6 +42,16 @@
       "elementNameAfter": "okhttp/src/main/java/okhttp3.internal.http2.Http2Connection#newStream(int, List, boolean)$synchronized(216-236)"
     },
     {
+      "parentCommitId": "33660bf58babd09521d19ef0ed1b09c15a5e27bb",
+      "commitId": "3d43a8dba89ccd7333c3ebcf74928e441790d943",
+      "commitTime": 1468102159,
+      "changeType": "expression change",
+      "elementFileBefore": "okhttp/src/main/java/okhttp3/internal/framed/FramedConnection.java",
+      "elementNameBefore": "okhttp/src/main/java/okhttp3.internal.framed.FramedConnection#newStream(int, List, boolean)$synchronized(216-236)",
+      "elementFileAfter": "okhttp/src/main/java/okhttp3/internal/http2/Http2Connection.java",
+      "elementNameAfter": "okhttp/src/main/java/okhttp3.internal.http2.Http2Connection#newStream(int, List, boolean)$synchronized(216-236)"
+    },
+    {
       "parentCommitId": "a3bcaa3b6e30409094319dfbf5010dfd2322778a",
       "commitId": "0c04821a25c83fddebb29e8cd590609142ba20a2",
       "commitTime": 1468099144,

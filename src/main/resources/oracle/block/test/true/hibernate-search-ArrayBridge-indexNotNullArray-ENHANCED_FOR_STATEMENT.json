@@ -15,7 +15,7 @@
       "parentCommitId": "0049cce1f0e0f6588e4f65bfa8f941267839a22e",
       "commitId": "7c1e5321baf4322da71ca747d75c771b9103e412",
       "commitTime": 1485046678,
-      "changeType": "body change",
+      "changeType": "expression change",
       "elementFileBefore": "engine/src/main/java/org/hibernate/search/bridge/builtin/ArrayBridge.java",
       "elementNameBefore": "engine/src/main/java/org.hibernate.search.bridge.builtin.ArrayBridge#indexNotNullArray(String, Object, Document, LuceneOptions)$for(47-49)",
       "elementFileAfter": "engine/src/main/java/org/hibernate/search/bridge/builtin/ArrayBridge.java",

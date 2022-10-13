@@ -15,7 +15,7 @@
       "parentCommitId": "bd4cfc212e3833fd0d6080b3a67f29c0d8164f7d",
       "commitId": "791449a6ab0696f4c0109908a4a0925e514b10d9",
       "commitTime": 1528293168,
-      "changeType": "body change",
+      "changeType": "expression change",
       "elementFileBefore": "javaparser-symbol-solver-core/src/main/java/com/github/javaparser/symbolsolver/javaparsermodel/contexts/MethodCallExprContext.java",
       "elementNameBefore": "javaparser-symbol-solver-core/src/main/java/com.github.javaparser.symbolsolver.javaparsermodel.contexts.MethodCallExprContext#solveMethodAsUsage(String, List, TypeSolver)$while(115-117)",
       "elementFileAfter": "javaparser-symbol-solver-core/src/main/java/com/github/javaparser/symbolsolver/javaparsermodel/contexts/MethodCallExprContext.java",

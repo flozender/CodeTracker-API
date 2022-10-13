@@ -22,10 +22,20 @@
       "elementNameAfter": "src/main/java/com.puppycrawl.tools.checkstyle.Checker#process(List)$for(250-252)"
     },
     {
+      "parentCommitId": "58219b9bd31c8f7fbc4f4bba0eeb811851f276b3",
+      "commitId": "b8ca6a585b824e91b3b8c72dd5cc53c0eb0ab0f1",
+      "commitTime": 1421678312,
+      "changeType": "expression change",
+      "elementFileBefore": "src/main/java/com/puppycrawl/tools/checkstyle/Checker.java",
+      "elementNameBefore": "src/main/java/com.puppycrawl.tools.checkstyle.Checker#process(List)$for(250-252)",
+      "elementFileAfter": "src/main/java/com/puppycrawl/tools/checkstyle/Checker.java",
+      "elementNameAfter": "src/main/java/com.puppycrawl.tools.checkstyle.Checker#process(List)$for(250-252)"
+    },
+    {
       "parentCommitId": "6e96026ec6d95fc5eadd3044cab91c24c73c8e0c",
       "commitId": "e00c478dd61d9d883e41b500b780ab217582c2e7",
       "commitTime": 1287650559,
-      "changeType": "body change",
+      "changeType": "expression change",
       "elementFileBefore": "src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java",
       "elementNameBefore": "src/checkstyle/com.puppycrawl.tools.checkstyle.Checker#process(List)$for(249-251)",
       "elementFileAfter": "src/checkstyle/com/puppycrawl/tools/checkstyle/Checker.java",

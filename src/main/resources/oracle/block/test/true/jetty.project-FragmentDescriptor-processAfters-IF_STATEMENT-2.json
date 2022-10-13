@@ -15,7 +15,7 @@
       "parentCommitId": "07327cf46d825bc6aa854560a730ee963d023593",
       "commitId": "6d26b45afed18dd5fe1211ccfbac7eb2587aa9a9",
       "commitTime": 1350263573,
-      "changeType": "body change",
+      "changeType": "expression change",
       "elementFileBefore": "jetty-webapp/src/main/java/org/eclipse/jetty/webapp/FragmentDescriptor.java",
       "elementNameBefore": "jetty-webapp/src/main/java/org.eclipse.jetty.webapp.FragmentDescriptor#processAfters(XmlParser.Node)$if(139-140)",
       "elementFileAfter": "jetty-webapp/src/main/java/org/eclipse/jetty/webapp/FragmentDescriptor.java",

@@ -72,6 +72,16 @@
       "elementNameAfter": "java-symbol-solver-core/src/main/java/me.tomassetti.symbolsolver.javaparsermodel.JavaParserFacade#convertToUsage(Type, Context)$if(589-593)"
     },
     {
+      "parentCommitId": "b75d0c51157475833e5364ec6df88b2b6fe0db79",
+      "commitId": "82eb44707b620803d424188a1eb8708fcaf093cb",
+      "commitTime": 1476389491,
+      "changeType": "expression change",
+      "elementFileBefore": "java-symbol-solver-core/src/main/java/me/tomassetti/symbolsolver/javaparsermodel/JavaParserFacade.java",
+      "elementNameBefore": "java-symbol-solver-core/src/main/java/me.tomassetti.symbolsolver.javaparsermodel.JavaParserFacade#convertToUsage(Type, Context)$if(588-592)",
+      "elementFileAfter": "java-symbol-solver-core/src/main/java/me/tomassetti/symbolsolver/javaparsermodel/JavaParserFacade.java",
+      "elementNameAfter": "java-symbol-solver-core/src/main/java/me.tomassetti.symbolsolver.javaparsermodel.JavaParserFacade#convertToUsage(Type, Context)$if(589-593)"
+    },
+    {
       "parentCommitId": "558fc9b4f808d718b9b266071078752ba68d4203",
       "commitId": "eec165d9e3ef0ab1d93f69a231964984a3379762",
       "commitTime": 1440496665,

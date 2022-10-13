@@ -15,7 +15,7 @@
       "parentCommitId": "668721f7dacf2f2d0d7c1a681b57d3157eb275d1",
       "commitId": "c6a578ec7696430ecf5a4d4fd8f49c39b105b471",
       "commitTime": 1466896415,
-      "changeType": "body change",
+      "changeType": "expression change",
       "elementFileBefore": "okhttp/src/main/java/okhttp3/RealCall.java",
       "elementNameBefore": "okhttp/src/main/java/okhttp3.RealCall.AsyncCall#execute()$if(124-130)",
       "elementFileAfter": "okhttp/src/main/java/okhttp3/RealCall.java",
@@ -78,6 +78,16 @@
       "changeType": "body change",
       "elementFileBefore": "okhttp/src/main/java/com/squareup/okhttp/Job.java",
       "elementNameBefore": "okhttp/src/main/java/com.squareup.okhttp.Job#execute()$if(66-75)",
+      "elementFileAfter": "okhttp/src/main/java/com/squareup/okhttp/Job.java",
+      "elementNameAfter": "okhttp/src/main/java/com.squareup.okhttp.Job#execute()$if(66-75)"
+    },
+    {
+      "parentCommitId": "4c929a6e37e36edfb42780d74cc031e2d38ce789",
+      "commitId": "112dcc40900d503ea7e416e0da0a8fd9b08a9c17",
+      "commitTime": 1398181180,
+      "changeType": "expression change",
+      "elementFileBefore": "okhttp/src/main/java/com/squareup/okhttp/Job.java",
+      "elementNameBefore": "okhttp/src/main/java/com.squareup.okhttp.Job#execute()$if(64-66)",
       "elementFileAfter": "okhttp/src/main/java/com/squareup/okhttp/Job.java",
       "elementNameAfter": "okhttp/src/main/java/com.squareup.okhttp.Job#execute()$if(66-75)"
     },

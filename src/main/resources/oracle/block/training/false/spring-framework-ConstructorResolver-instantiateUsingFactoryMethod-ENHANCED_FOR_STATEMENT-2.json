@@ -22,6 +22,16 @@
       "elementNameAfter": "spring-beans/src/main/java/org.springframework.beans.factory.support.ConstructorResolver#instantiateUsingFactoryMethod(String, RootBeanDefinition, Object[])$for(536-540)"
     },
     {
+      "parentCommitId": "9891bdc7b43feb970951658a808d701aec13b10b",
+      "commitId": "ad317774fb8e0b1f70e0135e5786c94c2521fb73",
+      "commitTime": 1394032589,
+      "changeType": "expression change",
+      "elementFileBefore": "spring-beans/src/main/java/org/springframework/beans/factory/support/ConstructorResolver.java",
+      "elementNameBefore": "spring-beans/src/main/java/org.springframework.beans.factory.support.ConstructorResolver#instantiateUsingFactoryMethod(String, RootBeanDefinition, Object[])$for(530-534)",
+      "elementFileAfter": "spring-beans/src/main/java/org/springframework/beans/factory/support/ConstructorResolver.java",
+      "elementNameAfter": "spring-beans/src/main/java/org.springframework.beans.factory.support.ConstructorResolver#instantiateUsingFactoryMethod(String, RootBeanDefinition, Object[])$for(536-540)"
+    },
+    {
       "parentCommitId": "001d676decd995d6b7baa041ae1069eea602aaa0",
       "commitId": "a9da12325995ab03cef56e8f51870081e36a3c9e",
       "commitTime": 1282210204,

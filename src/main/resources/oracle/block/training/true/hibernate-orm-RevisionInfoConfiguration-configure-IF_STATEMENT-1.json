@@ -25,7 +25,7 @@
       "parentCommitId": "644ea8d2f2946c1fdbed2dc3f83cf67e21f54012",
       "commitId": "90f70231c682e22693f85977497d2dc429ef29da",
       "commitTime": 1225453358,
-      "changeType": "body change",
+      "changeType": "expression change",
       "elementFileBefore": "envers/src/main/java/org/hibernate/envers/configuration/RevisionInfoConfiguration.java",
       "elementNameBefore": "envers/src/main/java/org.hibernate.envers.configuration.RevisionInfoConfiguration#configure(Configuration, YReflectionManager)$if(184-186)",
       "elementFileAfter": "envers/src/main/java/org/hibernate/envers/configuration/RevisionInfoConfiguration.java",

@@ -15,6 +15,16 @@
       "parentCommitId": "d67d10e9f2b480f7f56fe7cda2a908cd5fe770c7",
       "commitId": "f65b17cbc30795247fef3077cce16a8bb53e9ffc",
       "commitTime": 1449184604,
+      "changeType": "expression change",
+      "elementFileBefore": "src/main/java/com/puppycrawl/tools/checkstyle/Main.java",
+      "elementNameBefore": "src/main/java/com.puppycrawl.tools.checkstyle.Main#main(String[])$catch(132-136)",
+      "elementFileAfter": "src/main/java/com/puppycrawl/tools/checkstyle/Main.java",
+      "elementNameAfter": "src/main/java/com.puppycrawl.tools.checkstyle.Main#main(String[])$catch(132-136)"
+    },
+    {
+      "parentCommitId": "d67d10e9f2b480f7f56fe7cda2a908cd5fe770c7",
+      "commitId": "f65b17cbc30795247fef3077cce16a8bb53e9ffc",
+      "commitTime": 1449184604,
       "changeType": "body change",
       "elementFileBefore": "src/main/java/com/puppycrawl/tools/checkstyle/Main.java",
       "elementNameBefore": "src/main/java/com.puppycrawl.tools.checkstyle.Main#main(String[])$catch(132-136)",

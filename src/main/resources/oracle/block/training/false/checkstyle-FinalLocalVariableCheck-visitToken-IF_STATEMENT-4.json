@@ -65,7 +65,7 @@
       "parentCommitId": "da2d75a1780c1691dc4aa45489f9e9674b1c652e",
       "commitId": "36b91a59d62c9505b835717f00f470c499cf9b30",
       "commitTime": 1446385289,
-      "changeType": "body change",
+      "changeType": "expression change",
       "elementFileBefore": "src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/FinalLocalVariableCheck.java",
       "elementNameBefore": "src/main/java/com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck#visitToken(DetailAST)$if(201-204)",
       "elementFileAfter": "src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/FinalLocalVariableCheck.java",
@@ -75,11 +75,21 @@
       "parentCommitId": "6d9d894a62caf7e7419fcb07e7d972499e4306d7",
       "commitId": "3831aa913e25d2bd424ccbeb239bd06439867a58",
       "commitTime": 1434261690,
-      "changeType": "body change",
+      "changeType": "expression change",
       "elementFileBefore": "src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/FinalLocalVariableCheck.java",
       "elementNameBefore": "src/main/java/com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck#visitToken(DetailAST)$if(170-188)",
       "elementFileAfter": "src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/FinalLocalVariableCheck.java",
       "elementNameAfter": "src/main/java/com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck#visitToken(DetailAST)$if(170-173)"
+    },
+    {
+      "parentCommitId": "5cd9806d4b7900f41eb855d197eb334abade3ac8",
+      "commitId": "98a9266a8091c1c6b26d41b4e17e1a32458f1bac",
+      "commitTime": 1426370179,
+      "changeType": "expression change",
+      "elementFileBefore": "src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/FinalLocalVariableCheck.java",
+      "elementNameBefore": "src/main/java/com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck#visitToken(DetailAST)$if(174-196)",
+      "elementFileAfter": "src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/FinalLocalVariableCheck.java",
+      "elementNameAfter": "src/main/java/com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck#visitToken(DetailAST)$if(176-195)"
     },
     {
       "parentCommitId": "5cd9806d4b7900f41eb855d197eb334abade3ac8",
