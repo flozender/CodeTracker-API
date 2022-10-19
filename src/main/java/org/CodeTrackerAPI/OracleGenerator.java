@@ -31,10 +31,7 @@ public class OracleGenerator {
     String oracleType = "training";
     try {
       FileUtils.cleanDirectory(
-        new File("src/main/resources/oracle/block/" + oracleType + "/true")
-      );
-      FileUtils.cleanDirectory(
-        new File("src/main/resources/oracle/block/" + oracleType + "/false")
+        new File("src/main/resources/oracle/block/" + oracleType)
       );
     } catch (Exception e) {
       e.getStackTrace();

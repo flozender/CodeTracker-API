@@ -396,14 +396,6 @@ public class REST {
                     "/" +
                     fileName;
 
-                  if (!valid) {
-                    newFileName =
-                      newFileName.substring(0, newFileName.length() - 5) +
-                      "-" +
-                      commitId +
-                      ".json";
-                  }
-
                   currentFile.renameTo(new File(newFileName));
 
                   System.out.println(
