@@ -3,6 +3,7 @@ package org.CodeTrackerAPI;
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.PropertyAccessor;
 import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import gr.uom.java.xmi.LocationInfo;
 import io.undertow.Handlers;
@@ -19,6 +20,8 @@ import java.nio.charset.StandardCharsets;
 import java.time.*;
 import java.util.*;
 import java.util.concurrent.CompletableFuture;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.text.*;
 import org.codetracker.api.*;
@@ -35,6 +38,10 @@ import org.eclipse.jgit.api.Git;
 import org.eclipse.jgit.api.PullResult;
 import org.eclipse.jgit.lib.Repository;
 import org.eclipse.jgit.revwalk.RevCommit;
+import org.kohsuke.github.GHIssueBuilder;
+import org.kohsuke.github.GHRepository;
+import org.kohsuke.github.GitHub;
+import org.kohsuke.github.GitHubBuilder;
 import org.refactoringminer.api.GitService;
 import org.refactoringminer.util.GitServiceImpl;
 
@@ -283,41 +290,118 @@ public class REST {
             exchange -> {
               Map<String, Deque<String>> params = exchange.getQueryParameters();
               String commitId = params.get("commitId").getFirst();
+              String commitURL = params.get("commitURL").getFirst();
+              String diffKey = params.get("diffKey").getFirst();
               Boolean valid = Boolean.parseBoolean(
                 params.get("valid").getFirst()
               );
-
-
               try {
-               
                 try {
-
                   File dir = new File(
-                  "src/main/resources/oracle/block/training/false"
-                );
-                File[] files = dir.listFiles(
-                  new FileFilter() {
-                    boolean first = true;
+                    "src/main/resources/oracle/block/training/false"
+                  );
+                  File[] files = dir.listFiles(
+                    new FileFilter() {
+                      boolean first = true;
 
-                    public boolean accept(final File pathname) {
-                      if (first) {
-                        first = false;
-                        return true;
+                      public boolean accept(final File pathname) {
+                        if (first) {
+                          first = false;
+                          return true;
+                        }
+                        return false;
                       }
-                      return false;
                     }
-                  }
-                );
+                  );
                   String fileName = files[0].getName();
 
                   String folderName = valid ? "valid" : "invalid";
 
                   File currentFile = files[0];
 
-                  String newFileName = "src/main/resources/oracle/block/training/"+folderName+"/"+fileName;
+                  if (!valid) {
+                    // create GitHub issue
+                    try {
+                      String data = FileUtils.readFileToString(
+                        files[0],
+                        "UTF-8"
+                      );
 
-                  if(!valid){
-                    newFileName = newFileName.substring(0, newFileName.length() - 5) + "-" + commitId + ".json";
+                      ObjectMapper mapper = new ObjectMapper();
+
+                      Map<String, Object> blockJSON = mapper.readValue(
+                        data,
+                        new TypeReference<Map<String, Object>>() {}
+                      );
+                      ArrayList<Map<String, Object>> expectedChanges = (ArrayList<Map<String, Object>>) blockJSON.get(
+                        "expectedChanges"
+                      );
+                      List<Map<String, Object>> changes = expectedChanges
+                        .stream()
+                        .filter(
+                          change -> change.get("commitId").equals(commitId)
+                        )
+                        .collect(Collectors.toList());
+
+                      String changeType = (String) changes
+                        .stream()
+                        .map(change -> change.get("changeType"))
+                        .reduce(
+                          "",
+                          (partialString, change) ->
+                            (String) partialString + change + ", "
+                        );
+                      changeType =
+                        changeType.substring(0, changeType.length() - 2);
+                      String elementNameAfter = (String) changes
+                        .get(0)
+                        .get("elementNameAfter");
+                      String elementFileAfter = (String) changes
+                        .get(0)
+                        .get("elementFileAfter");
+
+                      String token = System.getenv("GITHUB_KEY");
+                      GitHub gitHub = new GitHubBuilder()
+                        .withOAuthToken(token)
+                        .build();
+                      GHRepository repository = gitHub.getRepository(
+                        "jodavimehran/code-tracker"
+                      );
+                      GHIssueBuilder issue = repository.createIssue(
+                        "Invalid Change History - " + elementNameAfter
+                      );
+                      issue.body(
+                        String.format(
+                          "In commit [`%s`](%s) and file `%s`, element `%s` was identified as being `%s`, which may not be accurate. " +
+                          System.lineSeparator() +
+                          System.lineSeparator() +
+                          "Oracle filename: `%s`",
+                          commitId,
+                          commitURL + "?diff=split#" + diffKey,
+                          elementFileAfter,
+                          elementNameAfter,
+                          changeType,
+                          fileName
+                        )
+                      );
+                      issue.create();
+                    } catch (Exception e) {
+                      System.out.println("Bug report failed!" + e);
+                    }
+                  }
+
+                  String newFileName =
+                    "src/main/resources/oracle/block/training/" +
+                    folderName +
+                    "/" +
+                    fileName;
+
+                  if (!valid) {
+                    newFileName =
+                      newFileName.substring(0, newFileName.length() - 5) +
+                      "-" +
+                      commitId +
+                      ".json";
                   }
 
                   currentFile.renameTo(new File(newFileName));
@@ -832,7 +916,8 @@ public class REST {
             }
             evolutionPresent = change.getEvolutionHook().isPresent();
             if (evolutionPresent) {
-              evolutionHook = change.getEvolutionHook().get().getElementBefore();
+              evolutionHook =
+                change.getEvolutionHook().get().getElementBefore();
             }
           }
           CTHBlock currentElement = new CTHBlock(
@@ -894,7 +979,7 @@ public class REST {
     String evolutionHookPath;
     String evolutionHookCommit;
 
-      String type = "method";
+    String type = "method";
 
     private CTHMethod(
       String commitId,
