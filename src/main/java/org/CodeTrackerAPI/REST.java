@@ -292,6 +292,9 @@ public class REST {
               String commitId = params.get("commitId").getFirst();
               String commitURL = params.get("commitURL").getFirst();
               String diffKey = params.get("diffKey").getFirst();
+              Boolean report = Boolean.parseBoolean(
+                params.get("report").getFirst()
+              );
               Boolean valid = Boolean.parseBoolean(
                 params.get("valid").getFirst()
               );
@@ -319,7 +322,7 @@ public class REST {
 
                   File currentFile = files[0];
 
-                  if (!valid) {
+                  if (!valid & report) {
                     // create GitHub issue
                     try {
                       String data = FileUtils.readFileToString(
