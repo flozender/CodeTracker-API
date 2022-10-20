@@ -35,9 +35,13 @@ public class OracleGenerator {
     File invalidFolder = new File(
       "src/main/resources/oracle/block/" + oracleType + "/invalid"
     );
+    File invalidReportedFolder = new File(
+      "src/main/resources/oracle/block/" + oracleType + "/invalid/reported"
+    );
 
     HashMap<String, Integer> validFiles = new HashMap<String, Integer>();
     HashMap<String, Integer> invalidFiles = new HashMap<String, Integer>();
+    HashMap<String, Integer> invalidReportedFiles = new HashMap<String, Integer>();
 
     for (File file : validFolder.listFiles()) {
       if (!file.isFile()) {
@@ -80,6 +84,29 @@ public class OracleGenerator {
         String startCommitId = (String) blockJSON.get("startCommitId");
         String blockKey = (String) blockJSON.get("blockKey");
         invalidFiles.put(startCommitId + "-" + blockKey, hashCode);
+      } catch (Exception e) {
+        System.out.println(e);
+      }
+    }
+
+    for (File file : invalidReportedFolder.listFiles()) {
+      if (!file.isFile()) {
+        continue;
+      }
+      ObjectMapper mapper = new ObjectMapper();
+      try {
+        String data = FileUtils.readFileToString(file, "UTF-8");
+        int hashCode = data
+          .replaceAll(" ", "")
+          .replaceAll("\r\n", "")
+          .hashCode();
+        Map<String, Object> blockJSON = mapper.readValue(
+          data,
+          new TypeReference<Map<String, Object>>() {}
+        );
+        String startCommitId = (String) blockJSON.get("startCommitId");
+        String blockKey = (String) blockJSON.get("blockKey");
+        invalidReportedFiles.put(startCommitId + "-" + blockKey, hashCode);
       } catch (Exception e) {
         System.out.println(e);
       }
@@ -231,7 +258,8 @@ public class OracleGenerator {
               oracleType,
               validHistory,
               validFiles,
-              invalidFiles
+              invalidFiles,
+              invalidReportedFiles
             );
           }
         } catch (Exception e) {
@@ -255,7 +283,8 @@ public class OracleGenerator {
     String oracleType,
     Boolean valid,
     HashMap<String, Integer> validFiles,
-    HashMap<String, Integer> invalidFiles
+    HashMap<String, Integer> invalidFiles,
+    HashMap<String, Integer> invalidReportedFiles
   ) {
     String changes = null;
     ArrayList<Object> changeLog = new ArrayList<Object>();
@@ -360,6 +389,8 @@ public class OracleGenerator {
         if (invalidFiles.get(fileKey) == hashCode) {
           folderName = "invalid";
         }
+      } else if (invalidReportedFiles.containsKey(fileKey)) {
+        folderName = "invalid/reported";
       }
     }
 

@@ -388,6 +388,10 @@ public class REST {
                         )
                       );
                       issue.create();
+                      System.out.println(
+                        "Issue created on repo jodavimehran/code-tracker: " +
+                        fileName
+                      );
                     } catch (Exception e) {
                       System.out.println("Bug report failed!" + e);
                     }
@@ -398,6 +402,14 @@ public class REST {
                     folderName +
                     "/" +
                     fileName;
+
+                  if (!valid & report) {
+                    newFileName =
+                      "src/main/resources/oracle/block/training/" +
+                      folderName +
+                      "/reported/" +
+                      fileName;
+                  }
 
                   currentFile.renameTo(new File(newFileName));
 
