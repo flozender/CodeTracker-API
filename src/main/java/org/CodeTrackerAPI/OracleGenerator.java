@@ -29,9 +29,68 @@ public class OracleGenerator {
   public static void main(String[] args) {
     System.out.println("Generating Block Oracle...");
     String oracleType = "training";
+    File validFolder = new File(
+      "src/main/resources/oracle/block/" + oracleType + "/valid"
+    );
+    File invalidFolder = new File(
+      "src/main/resources/oracle/block/" + oracleType + "/invalid"
+    );
+
+    HashMap<String, Integer> validFiles = new HashMap<String, Integer>();
+    HashMap<String, Integer> invalidFiles = new HashMap<String, Integer>();
+
+    for (File file : validFolder.listFiles()) {
+      if (!file.isFile()) {
+        continue;
+      }
+      ObjectMapper mapper = new ObjectMapper();
+      try {
+        String data = FileUtils.readFileToString(file, "UTF-8");
+        int hashCode = data.hashCode();
+        Map<String, Object> blockJSON = mapper.readValue(
+          data,
+          new TypeReference<Map<String, Object>>() {}
+        );
+        String startCommitId = (String) blockJSON.get("startCommitId");
+        String blockKey = (String) blockJSON.get("blockKey");
+        validFiles.put(startCommitId + "-" + blockKey, hashCode);
+      } catch (Exception e) {
+        System.out.println(e);
+      }
+    }
+
+    for (File file : invalidFolder.listFiles()) {
+      if (!file.isFile()) {
+        continue;
+      }
+      ObjectMapper mapper = new ObjectMapper();
+      try {
+        String data = FileUtils.readFileToString(file, "UTF-8");
+        int hashCode = data.hashCode();
+        Map<String, Object> blockJSON = mapper.readValue(
+          data,
+          new TypeReference<Map<String, Object>>() {}
+        );
+        String startCommitId = (String) blockJSON.get("startCommitId");
+        String blockKey = (String) blockJSON.get("blockKey");
+        invalidFiles.put(startCommitId + "-" + blockKey, hashCode);
+      } catch (Exception e) {
+        System.out.println(e);
+      }
+    }
+
     try {
       FileUtils.cleanDirectory(
-        new File("src/main/resources/oracle/block/" + oracleType)
+        new File("src/main/resources/oracle/block/" + oracleType + "/true")
+      );
+      FileUtils.cleanDirectory(
+        new File("src/main/resources/oracle/block/" + oracleType + "/false")
+      );
+      FileUtils.cleanDirectory(
+        new File("src/main/resources/oracle/block/" + oracleType + "/valid")
+      );
+      FileUtils.cleanDirectory(
+        new File("src/main/resources/oracle/block/" + oracleType + "/invalid")
       );
     } catch (Exception e) {
       e.getStackTrace();
@@ -98,8 +157,6 @@ public class OracleGenerator {
             .stream()
             .map(historyObject -> historyObject.getCommitId())
             .collect(Collectors.toList());
-          List<File> trueInstances = new ArrayList<>();
-          List<File> falseInstances = new ArrayList<>();
 
           List<CompositeStatementObject> composites = method
             .getUmlOperation()
@@ -166,7 +223,9 @@ public class OracleGenerator {
               commitId,
               blockHistoryInfo,
               oracleType,
-              validHistory
+              validHistory,
+              validFiles,
+              invalidFiles
             );
           }
         } catch (Exception e) {
@@ -188,7 +247,9 @@ public class OracleGenerator {
     String commitId,
     List<HistoryInfo<Block>> blockHistoryInfo,
     String oracleType,
-    Boolean valid
+    Boolean valid,
+    HashMap<String, Integer> validFiles,
+    HashMap<String, Integer> invalidFiles
   ) {
     String changes = null;
     ArrayList<Object> changeLog = new ArrayList<Object>();
@@ -275,7 +336,23 @@ public class OracleGenerator {
       "\"expectedChanges\": " +
       changes +
       "}";
+
     String folderName = valid ? "true" : "false";
+
+    String fileKey = commitId + "-" + codeElement.getName();
+    int hashCode = response.hashCode();
+
+    if (folderName == "false") {
+      if (validFiles.containsKey(fileKey)) {
+        if (validFiles.get(fileKey) == hashCode) {
+          folderName = "valid";
+        }
+      } else if (invalidFiles.containsKey(fileKey)) {
+        if (invalidFiles.get(fileKey) == hashCode) {
+          folderName = "invalid";
+        }
+      }
+    }
 
     try {
       // Creates a Writer using FileWriter
