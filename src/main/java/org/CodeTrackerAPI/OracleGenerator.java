@@ -46,7 +46,10 @@ public class OracleGenerator {
       ObjectMapper mapper = new ObjectMapper();
       try {
         String data = FileUtils.readFileToString(file, "UTF-8");
-        int hashCode = data.hashCode();
+        int hashCode = data
+          .replaceAll(" ", "")
+          .replaceAll("\r\n", "")
+          .hashCode();
         Map<String, Object> blockJSON = mapper.readValue(
           data,
           new TypeReference<Map<String, Object>>() {}
@@ -66,7 +69,10 @@ public class OracleGenerator {
       ObjectMapper mapper = new ObjectMapper();
       try {
         String data = FileUtils.readFileToString(file, "UTF-8");
-        int hashCode = data.hashCode();
+        int hashCode = data
+          .replaceAll(" ", "")
+          .replaceAll("\r\n", "")
+          .hashCode();
         Map<String, Object> blockJSON = mapper.readValue(
           data,
           new TypeReference<Map<String, Object>>() {}
@@ -340,7 +346,10 @@ public class OracleGenerator {
     String folderName = valid ? "true" : "false";
 
     String fileKey = commitId + "-" + codeElement.getName();
-    int hashCode = response.hashCode();
+    int hashCode = response
+      .replaceAll(" ", "")
+      .replaceAll("\r\n", "")
+      .hashCode();
 
     if (folderName == "false") {
       if (validFiles.containsKey(fileKey)) {
