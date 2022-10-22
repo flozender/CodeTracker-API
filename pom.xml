@@ -4,7 +4,7 @@
 
     <groupId>org.tayeebhasan</groupId>
     <artifactId>CodeTrackerAPI</artifactId>
-    <version>0.1.2</version>
+    <version>0.1.3</version>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
