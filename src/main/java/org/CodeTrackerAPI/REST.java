@@ -1014,7 +1014,7 @@ public class REST {
       this.changes = changes;
 
       if (evolutionPresent) {
-        this.evolutionHook = evolutionHook.getName();
+        this.evolutionHook = evolutionHook.getName().split("\\#")[1].split("\\(")[0];
         this.evolutionHookLine = evolutionHook.getLocation().getStartLine();
         this.evolutionHookPath = evolutionHook.getLocation().getFilePath();
         this.evolutionHookCommit = evolutionHook.getVersion().getId();
@@ -1069,7 +1069,7 @@ public class REST {
       this.changes = changes;
 
       if (evolutionPresent) {
-        this.evolutionHook = evolutionHook.getName();
+        this.evolutionHook = evolutionHook.getName().split("\\$")[1].split("\\:")[0];
         this.evolutionHookLine = evolutionHook.getLocation().getStartLine();
         this.evolutionHookPath = evolutionHook.getLocation().getFilePath();
         this.evolutionHookCommit = evolutionHook.getVersion().getId();
@@ -1178,7 +1178,7 @@ public class REST {
       this.changes = changes;
 
       if (evolutionPresent) {
-        this.evolutionHook = evolutionHook.getName();
+        this.evolutionHook = evolutionHook.getName().split("\\$")[1].split("\\(")[0];
         this.evolutionHookLine = evolutionHook.getLocation().getStartLine();
         this.evolutionHookPath = evolutionHook.getLocation().getFilePath();
         this.evolutionHookCommit = evolutionHook.getVersion().getId();
