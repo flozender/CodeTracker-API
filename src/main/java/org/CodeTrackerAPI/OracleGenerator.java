@@ -29,6 +29,12 @@ public class OracleGenerator {
   public static void main(String[] args) {
     System.out.println("Generating Block Oracle...");
     String oracleType = "training";
+    File trueFolder = new File(
+            "src/main/resources/oracle/block/" + oracleType + "/true"
+    );
+    File falseFolder = new File(
+            "src/main/resources/oracle/block/" + oracleType + "/false"
+    );
     File validFolder = new File(
       "src/main/resources/oracle/block/" + oracleType + "/valid"
     );
@@ -62,7 +68,7 @@ public class OracleGenerator {
         String blockKey = (String) blockJSON.get("blockKey");
         validFiles.put(startCommitId + "-" + blockKey, hashCode);
       } catch (Exception e) {
-        System.out.println(e);
+        System.out.println("Code 1 - Failed: " + e);
       }
     }
 
@@ -85,7 +91,7 @@ public class OracleGenerator {
         String blockKey = (String) blockJSON.get("blockKey");
         invalidFiles.put(startCommitId + "-" + blockKey, hashCode);
       } catch (Exception e) {
-        System.out.println(e);
+        System.out.println("Code 2 - Failed: " + e);
       }
     }
 
@@ -108,26 +114,22 @@ public class OracleGenerator {
         String blockKey = (String) blockJSON.get("blockKey");
         invalidReportedFiles.put(startCommitId + "-" + blockKey, hashCode);
       } catch (Exception e) {
-        System.out.println(e);
+        System.out.println("Code 3 - Failed: " + e);
       }
     }
 
     try {
       FileUtils.cleanDirectory(
-        new File("src/main/resources/oracle/block/" + oracleType + "/true")
+        new File("src/main/resources/oracle/block/" + oracleType)
       );
-      FileUtils.cleanDirectory(
-        new File("src/main/resources/oracle/block/" + oracleType + "/false")
-      );
-      FileUtils.cleanDirectory(
-        new File("src/main/resources/oracle/block/" + oracleType + "/valid")
-      );
-      FileUtils.cleanDirectory(
-        new File("src/main/resources/oracle/block/" + oracleType + "/invalid")
-      );
+      trueFolder.mkdirs();
+      falseFolder.mkdirs();
+      validFolder.mkdirs();
+      invalidFolder.mkdirs();
+      invalidReportedFolder.mkdirs();
     } catch (Exception e) {
       e.getStackTrace();
-      System.out.println(e);
+      System.out.println("Code 4 - Failed: " + e);
     }
     File folder = new File("src/main/resources/oracle/method/" + oracleType);
     File[] listOfFiles = folder.listFiles();
@@ -263,10 +265,10 @@ public class OracleGenerator {
             );
           }
         } catch (Exception e) {
-          System.out.println("Something went wrong: " + e);
+          System.out.println("Code 5 - Failed: " + e);
         }
       } catch (Exception e) {
-        System.out.println("Something went wrong: " + e);
+        System.out.println("Code 6 - Failed: " + e);
       }
     }
   }
@@ -328,6 +330,7 @@ public class OracleGenerator {
       changes = json;
     } catch (JsonProcessingException e) {
       e.printStackTrace();
+      System.out.println("Code 7 - Failed: " + e);
     }
     String response =
       "{\"repositoryName\": \"" +
@@ -428,7 +431,6 @@ public class OracleGenerator {
       } else {
         fileName = fileName + ".json";
       }
-
       FileWriter output = new FileWriter(fileName);
 
       // Writes the program to file
@@ -439,7 +441,7 @@ public class OracleGenerator {
       output.close();
     } catch (Exception e) {
       e.getStackTrace();
-      System.out.println(e);
+      System.out.println("Code 8 - Failed: " + e);
     }
   }
 }
