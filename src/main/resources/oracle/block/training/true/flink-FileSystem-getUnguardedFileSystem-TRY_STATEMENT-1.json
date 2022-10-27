@@ -15,16 +15,6 @@
       "parentCommitId": "a5ef09bb601cdd77fcb94e9ce633fdf979031aaf",
       "commitId": "536675b03a5050fda9c3e1fd403818cb50dcc6ff",
       "commitTime": 1507281370,
-      "changeType": "catch block added",
-      "elementFileBefore": "flink-core/src/main/java/org/apache/flink/core/fs/FileSystem.java",
-      "elementNameBefore": "flink-core/src/main/java/org.apache.flink.core.fs.FileSystem#getUnguardedFileSystem(URI)$try(316-324)",
-      "elementFileAfter": "flink-core/src/main/java/org/apache/flink/core/fs/FileSystem.java",
-      "elementNameAfter": "flink-core/src/main/java/org.apache.flink.core.fs.FileSystem#getUnguardedFileSystem(URI)$try(331-338)"
-    },
-    {
-      "parentCommitId": "a5ef09bb601cdd77fcb94e9ce633fdf979031aaf",
-      "commitId": "536675b03a5050fda9c3e1fd403818cb50dcc6ff",
-      "commitTime": 1507281370,
       "changeType": "catch block removed",
       "elementFileBefore": "flink-core/src/main/java/org/apache/flink/core/fs/FileSystem.java",
       "elementNameBefore": "flink-core/src/main/java/org.apache.flink.core.fs.FileSystem#getUnguardedFileSystem(URI)$try(316-324)",
@@ -36,6 +26,16 @@
       "commitId": "536675b03a5050fda9c3e1fd403818cb50dcc6ff",
       "commitTime": 1507281370,
       "changeType": "body change",
+      "elementFileBefore": "flink-core/src/main/java/org/apache/flink/core/fs/FileSystem.java",
+      "elementNameBefore": "flink-core/src/main/java/org.apache.flink.core.fs.FileSystem#getUnguardedFileSystem(URI)$try(316-324)",
+      "elementFileAfter": "flink-core/src/main/java/org/apache/flink/core/fs/FileSystem.java",
+      "elementNameAfter": "flink-core/src/main/java/org.apache.flink.core.fs.FileSystem#getUnguardedFileSystem(URI)$try(331-338)"
+    },
+    {
+      "parentCommitId": "a5ef09bb601cdd77fcb94e9ce633fdf979031aaf",
+      "commitId": "536675b03a5050fda9c3e1fd403818cb50dcc6ff",
+      "commitTime": 1507281370,
+      "changeType": "catch block added",
       "elementFileBefore": "flink-core/src/main/java/org/apache/flink/core/fs/FileSystem.java",
       "elementNameBefore": "flink-core/src/main/java/org.apache.flink.core.fs.FileSystem#getUnguardedFileSystem(URI)$try(316-324)",
       "elementFileAfter": "flink-core/src/main/java/org/apache/flink/core/fs/FileSystem.java",

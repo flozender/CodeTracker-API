@@ -6,20 +6,30 @@
   "functionKey": "spring-beans/src/main/java/org.springframework.beans.factory.support.ConstructorResolver#instantiateUsingFactoryMethod(String, RootBeanDefinition, Object[])",
   "functionStartLine": 345,
   "blockType": "IF_STATEMENT",
-  "blockKey": "spring-beans/src/main/java/org.springframework.beans.factory.support.ConstructorResolver#instantiateUsingFactoryMethod(String, RootBeanDefinition, Object[])$if(385-388)",
-  "blockStartLine": 385,
-  "blockEndLine": 388,
+  "blockKey": "spring-beans/src/main/java/org.springframework.beans.factory.support.ConstructorResolver#instantiateUsingFactoryMethod(String, RootBeanDefinition, Object[])$if(377-379)",
+  "blockStartLine": 377,
+  "blockEndLine": 379,
   "startCommitId": "b325c74216fd9564a36602158fa1269e2e832874",
   "expectedChanges": [
     {
-      "parentCommitId": "736169aa2a46f489cd8e75cf4d61cef997fc456f",
-      "commitId": "14bd47551900ced88eeacf2a5f63c187ff72028c",
-      "commitTime": 1240184731,
+      "parentCommitId": "1f128110f7ceb5b3da696600025c62c0fe0cb1a5",
+      "commitId": "cf479bf893df758b54f1a7117a7eae9a32728ab7",
+      "commitTime": 1478538021,
+      "changeType": "body change",
+      "elementFileBefore": "spring-beans/src/main/java/org/springframework/beans/factory/support/ConstructorResolver.java",
+      "elementNameBefore": "spring-beans/src/main/java/org.springframework.beans.factory.support.ConstructorResolver#instantiateUsingFactoryMethod(String, RootBeanDefinition, Object[])$if(377-380)",
+      "elementFileAfter": "spring-beans/src/main/java/org/springframework/beans/factory/support/ConstructorResolver.java",
+      "elementNameAfter": "spring-beans/src/main/java/org.springframework.beans.factory.support.ConstructorResolver#instantiateUsingFactoryMethod(String, RootBeanDefinition, Object[])$if(377-379)"
+    },
+    {
+      "parentCommitId": "b64f680f199108fc83ca7a80afefe0c95f7ba803",
+      "commitId": "8c9274e01743a87d7fb8519f7772c1b1677ecbe0",
+      "commitTime": 1409688815,
       "changeType": "introduced",
-      "elementFileBefore": "org.springframework.beans/src/main/java/org/springframework/beans/factory/support/ConstructorResolver.java",
-      "elementNameBefore": "org.springframework.beans/src/main/java/org.springframework.beans.factory.support.ConstructorResolver#instantiateUsingFactoryMethod(String, RootBeanDefinition, Object[])$if(289-292)",
-      "elementFileAfter": "org.springframework.beans/src/main/java/org/springframework/beans/factory/support/ConstructorResolver.java",
-      "elementNameAfter": "org.springframework.beans/src/main/java/org.springframework.beans.factory.support.ConstructorResolver#instantiateUsingFactoryMethod(String, RootBeanDefinition, Object[])$if(289-292)",
+      "elementFileBefore": "spring-beans/src/main/java/org/springframework/beans/factory/support/ConstructorResolver.java",
+      "elementNameBefore": "spring-beans/src/main/java/org.springframework.beans.factory.support.ConstructorResolver#instantiateUsingFactoryMethod(String, RootBeanDefinition, Object[])$if(375-378)",
+      "elementFileAfter": "spring-beans/src/main/java/org/springframework/beans/factory/support/ConstructorResolver.java",
+      "elementNameAfter": "spring-beans/src/main/java/org.springframework.beans.factory.support.ConstructorResolver#instantiateUsingFactoryMethod(String, RootBeanDefinition, Object[])$if(375-378)",
       "comment": "new block"
     }
   ]

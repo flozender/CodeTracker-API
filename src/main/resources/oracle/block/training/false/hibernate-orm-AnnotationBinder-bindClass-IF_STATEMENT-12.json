@@ -6,30 +6,42 @@
   "functionKey": "hibernate-core/src/main/java/org.hibernate.cfg.AnnotationBinder#bindClass(XClass, Map, MetadataBuildingContext)",
   "functionStartLine": 516,
   "blockType": "IF_STATEMENT",
-  "blockKey": "hibernate-core/src/main/java/org.hibernate.cfg.AnnotationBinder#bindClass(XClass, Map, MetadataBuildingContext)$if(739-752)",
-  "blockStartLine": 739,
-  "blockEndLine": 752,
+  "blockKey": "hibernate-core/src/main/java/org.hibernate.cfg.AnnotationBinder#bindClass(XClass, Map, MetadataBuildingContext)$if(717-723)",
+  "blockStartLine": 717,
+  "blockEndLine": 723,
   "startCommitId": "8bd79b29cfa7b2d539a746dc356d60b66e1e596b",
   "expectedChanges": [
     {
-      "parentCommitId": "aa31b26d322989276b978c4a8c511a70bc2a0fc8",
-      "commitId": "9caca0ce37d5a2763d476c6fa2471addcca710ca",
-      "commitTime": 1426024431,
-      "changeType": "body change",
+      "parentCommitId": "15b0a683f2423d355fe85eb31435a62837a2550f",
+      "commitId": "aeb3aee62603f4e3613ed4037f2727c817a11016",
+      "commitTime": 1487160489,
+      "changeType": "block split",
       "elementFileBefore": "hibernate-core/src/main/java/org/hibernate/cfg/AnnotationBinder.java",
-      "elementNameBefore": "hibernate-core/src/main/java/org.hibernate.cfg.AnnotationBinder#bindClass(XClass, Map, Mappings)$if(735-748)",
+      "elementNameBefore": "hibernate-core/src/main/java/org.hibernate.cfg.AnnotationBinder#bindClass(XClass, Map, MetadataBuildingContext)$if(660-663)",
       "elementFileAfter": "hibernate-core/src/main/java/org/hibernate/cfg/AnnotationBinder.java",
-      "elementNameAfter": "hibernate-core/src/main/java/org.hibernate.cfg.AnnotationBinder#bindClass(XClass, Map, MetadataBuildingContext)$if(775-788)"
+      "elementNameAfter": "hibernate-core/src/main/java/org.hibernate.cfg.AnnotationBinder#bindClass(XClass, Map, MetadataBuildingContext)$if(669-675)",
+      "comment": "Split Conditional if(pkJoinColumn != null && pkJoinColumn.foreignKey() != null && !StringHelper.isEmpty(pkJoinColumn.foreignKey().name())) to [if(pkJoinColumn != null && pkJoinColumn.foreignKey().value() == ConstraintMode.NO_CONSTRAINT), if(pkJoinColumn != null && !StringHelper.isEmpty(pkJoinColumn.foreignKey().name()))] in method public bindClass(clazzToProcess XClass, inheritanceStatePerClass Map<XClass,InheritanceState>, context MetadataBuildingContext) : void from class org.hibernate.cfg.AnnotationBinder"
     },
     {
-      "parentCommitId": "e64e89b2cc6285bb624747a57377414b4f93e0db",
-      "commitId": "5329bba1ea724eabf5783c71e5127b8f84ad0fcc",
-      "commitTime": 1386917867,
+      "parentCommitId": "15b0a683f2423d355fe85eb31435a62837a2550f",
+      "commitId": "aeb3aee62603f4e3613ed4037f2727c817a11016",
+      "commitTime": 1487160489,
+      "changeType": "block split",
+      "elementFileBefore": "hibernate-core/src/main/java/org/hibernate/cfg/AnnotationBinder.java",
+      "elementNameBefore": "hibernate-core/src/main/java/org.hibernate.cfg.AnnotationBinder#bindClass(XClass, Map, MetadataBuildingContext)$if(660-663)",
+      "elementFileAfter": "hibernate-core/src/main/java/org/hibernate/cfg/AnnotationBinder.java",
+      "elementNameAfter": "hibernate-core/src/main/java/org.hibernate.cfg.AnnotationBinder#bindClass(XClass, Map, MetadataBuildingContext)$if(669-675)",
+      "comment": "Split Conditional if(pkJoinColumn != null && pkJoinColumn.foreignKey() != null && !StringHelper.isEmpty(pkJoinColumn.foreignKey().name())) to [if(pkJoinColumns != null && !StringHelper.isEmpty(pkJoinColumns.foreignKey().name())), if(pkJoinColumn != null && !StringHelper.isEmpty(pkJoinColumn.foreignKey().name())), if(pkJoinColumn != null && pkJoinColumn.foreignKey().value() == ConstraintMode.NO_CONSTRAINT)] in method public bindClass(clazzToProcess XClass, inheritanceStatePerClass Map<XClass,InheritanceState>, context MetadataBuildingContext) : void from class org.hibernate.cfg.AnnotationBinder"
+    },
+    {
+      "parentCommitId": "4afa8fb57d097596a1934c4be5c577e14b249e10",
+      "commitId": "2ea122aedd0c32e5ab1c68e90dd8dd4ed33d2021",
+      "commitTime": 1465862312,
       "changeType": "introduced",
       "elementFileBefore": "hibernate-core/src/main/java/org/hibernate/cfg/AnnotationBinder.java",
-      "elementNameBefore": "hibernate-core/src/main/java/org.hibernate.cfg.AnnotationBinder#bindClass(XClass, Map, Mappings)$if(735-748)",
+      "elementNameBefore": "hibernate-core/src/main/java/org.hibernate.cfg.AnnotationBinder#bindClass(XClass, Map, MetadataBuildingContext)$if(660-663)",
       "elementFileAfter": "hibernate-core/src/main/java/org/hibernate/cfg/AnnotationBinder.java",
-      "elementNameAfter": "hibernate-core/src/main/java/org.hibernate.cfg.AnnotationBinder#bindClass(XClass, Map, Mappings)$if(735-748)",
+      "elementNameAfter": "hibernate-core/src/main/java/org.hibernate.cfg.AnnotationBinder#bindClass(XClass, Map, MetadataBuildingContext)$if(660-663)",
       "comment": "new block"
     }
   ]

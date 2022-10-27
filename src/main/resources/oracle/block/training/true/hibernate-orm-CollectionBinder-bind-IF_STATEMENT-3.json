@@ -6,30 +6,30 @@
   "functionKey": "hibernate-core/src/main/java/org.hibernate.cfg.annotations.CollectionBinder#bind()",
   "functionStartLine": 386,
   "blockType": "IF_STATEMENT",
-  "blockKey": "hibernate-core/src/main/java/org.hibernate.cfg.annotations.CollectionBinder#bind()$if(450-455)",
-  "blockStartLine": 450,
-  "blockEndLine": 455,
+  "blockKey": "hibernate-core/src/main/java/org.hibernate.cfg.annotations.CollectionBinder#bind()$if(432-434)",
+  "blockStartLine": 432,
+  "blockEndLine": 434,
   "startCommitId": "8bd79b29cfa7b2d539a746dc356d60b66e1e596b",
   "expectedChanges": [
     {
-      "parentCommitId": "f0029d49bc579d2b11f106af7463e9772fb218a6",
-      "commitId": "1361925bc73a539bd6bd5d4a93de162e4a5b332b",
-      "commitTime": 1429300404,
+      "parentCommitId": "98058c2aea6620839e5faca020836dd988e205f4",
+      "commitId": "346418c4ef7b9a21dc659af43ff614d5db2343f9",
+      "commitTime": 1299622797,
       "changeType": "body change",
       "elementFileBefore": "hibernate-core/src/main/java/org/hibernate/cfg/annotations/CollectionBinder.java",
-      "elementNameBefore": "hibernate-core/src/main/java/org.hibernate.cfg.annotations.CollectionBinder#bind()$if(464-469)",
+      "elementNameBefore": "hibernate-core/src/main/java/org.hibernate.cfg.annotations.CollectionBinder#bind()$if(406-418)",
       "elementFileAfter": "hibernate-core/src/main/java/org/hibernate/cfg/annotations/CollectionBinder.java",
-      "elementNameAfter": "hibernate-core/src/main/java/org.hibernate.cfg.annotations.CollectionBinder#bind()$if(465-470)"
+      "elementNameAfter": "hibernate-core/src/main/java/org.hibernate.cfg.annotations.CollectionBinder#bind()$if(403-405)"
     },
     {
-      "parentCommitId": "7a5f0b4836dd5ca9490ba993487701733f0d32e5",
-      "commitId": "fb44ad936d8d54d311ecbaea1633683a8d809d04",
-      "commitTime": 1304547347,
+      "parentCommitId": "55eb37ed52a4056b31a78bee8887a01c61c568af",
+      "commitId": "4ffba763cf6645e722a2deeea552f998ec7dc22a",
+      "commitTime": 1298496833,
       "changeType": "body change",
       "elementFileBefore": "hibernate-core/src/main/java/org/hibernate/cfg/annotations/CollectionBinder.java",
-      "elementNameBefore": "hibernate-core/src/main/java/org.hibernate.cfg.annotations.CollectionBinder#bind()$if(451-456)",
+      "elementNameBefore": "hibernate-core/src/main/java/org.hibernate.cfg.annotations.CollectionBinder#bind()$if(401-401)",
       "elementFileAfter": "hibernate-core/src/main/java/org/hibernate/cfg/annotations/CollectionBinder.java",
-      "elementNameAfter": "hibernate-core/src/main/java/org.hibernate.cfg.annotations.CollectionBinder#bind()$if(451-456)"
+      "elementNameAfter": "hibernate-core/src/main/java/org.hibernate.cfg.annotations.CollectionBinder#bind()$if(406-418)"
     },
     {
       "parentCommitId": "53deb4b357384f32819f70c497ef04885171c399",
@@ -37,9 +37,9 @@
       "commitTime": 1225219270,
       "changeType": "introduced",
       "elementFileBefore": "annotations/src/java/org/hibernate/cfg/annotations/CollectionBinder.java",
-      "elementNameBefore": "annotations/src/java/org.hibernate.cfg.annotations.CollectionBinder#bind()$if(383-388)",
+      "elementNameBefore": "annotations/src/java/org.hibernate.cfg.annotations.CollectionBinder#bind()$if(338-338)",
       "elementFileAfter": "annotations/src/java/org/hibernate/cfg/annotations/CollectionBinder.java",
-      "elementNameAfter": "annotations/src/java/org.hibernate.cfg.annotations.CollectionBinder#bind()$if(383-388)",
+      "elementNameAfter": "annotations/src/java/org.hibernate.cfg.annotations.CollectionBinder#bind()$if(338-338)",
       "comment": "added with method"
     }
   ]

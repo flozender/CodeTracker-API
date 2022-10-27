@@ -6,50 +6,30 @@
   "functionKey": "spring-context/src/main/java/org.springframework.context.annotation.ConfigurationClassPostProcessor#processConfigBeanDefinitions(BeanDefinitionRegistry)",
   "functionStartLine": 257,
   "blockType": "IF_STATEMENT",
-  "blockKey": "spring-context/src/main/java/org.springframework.context.annotation.ConfigurationClassPostProcessor#processConfigBeanDefinitions(BeanDefinitionRegistry)$if(322-326)",
-  "blockStartLine": 322,
-  "blockEndLine": 326,
+  "blockKey": "spring-context/src/main/java/org.springframework.context.annotation.ConfigurationClassPostProcessor#processConfigBeanDefinitions(BeanDefinitionRegistry)$if(292-301)",
+  "blockStartLine": 292,
+  "blockEndLine": 301,
   "startCommitId": "b325c74216fd9564a36602158fa1269e2e832874",
   "expectedChanges": [
     {
-      "parentCommitId": "4b4efa9f6e45460438186927397bbaba343f3185",
-      "commitId": "f0ac2784a4e9602a06bc91c3368f7cf423fc52dc",
-      "commitTime": 1438078134,
+      "parentCommitId": "ffc3f6d87d640631c997fc9566679d094cdda267",
+      "commitId": "f813712f5b413b354560cd7cc006352e9defa9a3",
+      "commitTime": 1496837955,
       "changeType": "body change",
       "elementFileBefore": "spring-context/src/main/java/org/springframework/context/annotation/ConfigurationClassPostProcessor.java",
-      "elementNameBefore": "spring-context/src/main/java/org.springframework.context.annotation.ConfigurationClassPostProcessor#processConfigBeanDefinitions(BeanDefinitionRegistry)$if(328-332)",
+      "elementNameBefore": "spring-context/src/main/java/org.springframework.context.annotation.ConfigurationClassPostProcessor#processConfigBeanDefinitions(BeanDefinitionRegistry)$if(294-301)",
       "elementFileAfter": "spring-context/src/main/java/org/springframework/context/annotation/ConfigurationClassPostProcessor.java",
-      "elementNameAfter": "spring-context/src/main/java/org.springframework.context.annotation.ConfigurationClassPostProcessor#processConfigBeanDefinitions(BeanDefinitionRegistry)$if(328-332)"
+      "elementNameAfter": "spring-context/src/main/java/org.springframework.context.annotation.ConfigurationClassPostProcessor#processConfigBeanDefinitions(BeanDefinitionRegistry)$if(294-303)"
     },
     {
-      "parentCommitId": "8bf141eca9f197630f3e41e26ee4826d574fee2d",
-      "commitId": "abc343f4076d45172587197480c41f79c23f3aac",
-      "commitTime": 1409716050,
+      "parentCommitId": "0d0b879a2313b73bf85abfe45ff0a59897aa6a3e",
+      "commitId": "91df0653fe5e22477ec2ed6dbe7e44b835c99038",
+      "commitTime": 1492434334,
       "changeType": "body change",
       "elementFileBefore": "spring-context/src/main/java/org/springframework/context/annotation/ConfigurationClassPostProcessor.java",
-      "elementNameBefore": "spring-context/src/main/java/org.springframework.context.annotation.ConfigurationClassPostProcessor#processConfigBeanDefinitions(BeanDefinitionRegistry)$if(314-318)",
+      "elementNameBefore": "spring-context/src/main/java/org.springframework.context.annotation.ConfigurationClassPostProcessor#processConfigBeanDefinitions(BeanDefinitionRegistry)$if(291-298)",
       "elementFileAfter": "spring-context/src/main/java/org/springframework/context/annotation/ConfigurationClassPostProcessor.java",
-      "elementNameAfter": "spring-context/src/main/java/org.springframework.context.annotation.ConfigurationClassPostProcessor#processConfigBeanDefinitions(BeanDefinitionRegistry)$if(314-318)"
-    },
-    {
-      "parentCommitId": "1e64eed6b29b0e997e14d398ac18b73195e9a2eb",
-      "commitId": "5efe894ee4969a7c3780a2fd4d2ceab695777c50",
-      "commitTime": 1377640854,
-      "changeType": "body change",
-      "elementFileBefore": "spring-context/src/main/java/org/springframework/context/annotation/ConfigurationClassPostProcessor.java",
-      "elementNameBefore": "spring-context/src/main/java/org.springframework.context.annotation.ConfigurationClassPostProcessor#processConfigBeanDefinitions(BeanDefinitionRegistry)$if(327-332)",
-      "elementFileAfter": "spring-context/src/main/java/org/springframework/context/annotation/ConfigurationClassPostProcessor.java",
-      "elementNameAfter": "spring-context/src/main/java/org.springframework.context.annotation.ConfigurationClassPostProcessor#processConfigBeanDefinitions(BeanDefinitionRegistry)$if(316-320)"
-    },
-    {
-      "parentCommitId": "e10e16cd6b2a2342a6b7d169878117046b6c5e16",
-      "commitId": "2e2e9b8dd0ecb113c86ec3a5d0cf87d4f6f72fd6",
-      "commitTime": 1371062720,
-      "changeType": "body change",
-      "elementFileBefore": "spring-context/src/main/java/org/springframework/context/annotation/ConfigurationClassPostProcessor.java",
-      "elementNameBefore": "spring-context/src/main/java/org.springframework.context.annotation.ConfigurationClassPostProcessor#processConfigBeanDefinitions(BeanDefinitionRegistry)$if(302-306)",
-      "elementFileAfter": "spring-context/src/main/java/org/springframework/context/annotation/ConfigurationClassPostProcessor.java",
-      "elementNameAfter": "spring-context/src/main/java/org.springframework.context.annotation.ConfigurationClassPostProcessor#processConfigBeanDefinitions(BeanDefinitionRegistry)$if(314-319)"
+      "elementNameAfter": "spring-context/src/main/java/org.springframework.context.annotation.ConfigurationClassPostProcessor#processConfigBeanDefinitions(BeanDefinitionRegistry)$if(291-298)"
     },
     {
       "parentCommitId": "34c3e821ddb25e90f1e8ad90aac55f68a6f2f195",
@@ -57,19 +37,29 @@
       "commitTime": 1347311780,
       "changeType": "body change",
       "elementFileBefore": "spring-context/src/main/java/org/springframework/context/annotation/ConfigurationClassPostProcessor.java",
-      "elementNameBefore": "spring-context/src/main/java/org.springframework.context.annotation.ConfigurationClassPostProcessor#processConfigBeanDefinitions(BeanDefinitionRegistry)$if(283-288)",
+      "elementNameBefore": "spring-context/src/main/java/org.springframework.context.annotation.ConfigurationClassPostProcessor#processConfigBeanDefinitions(BeanDefinitionRegistry)$if(240-245)",
       "elementFileAfter": "spring-context/src/main/java/org/springframework/context/annotation/ConfigurationClassPostProcessor.java",
-      "elementNameAfter": "spring-context/src/main/java/org.springframework.context.annotation.ConfigurationClassPostProcessor#processConfigBeanDefinitions(BeanDefinitionRegistry)$if(307-311)"
+      "elementNameAfter": "spring-context/src/main/java/org.springframework.context.annotation.ConfigurationClassPostProcessor#processConfigBeanDefinitions(BeanDefinitionRegistry)$if(262-269)"
     },
     {
       "parentCommitId": "81dfef90efabf4cd761e2d31d45c2ba2e498818c",
       "commitId": "3e81482760f742d078e71b166cc0f7c3c2eb6abb",
       "commitTime": 1329393628,
-      "changeType": "introduced",
+      "changeType": "body change",
       "elementFileBefore": "spring-context/src/main/java/org/springframework/context/annotation/ConfigurationClassPostProcessor.java",
-      "elementNameBefore": "spring-context/src/main/java/org.springframework.context.annotation.ConfigurationClassPostProcessor#processConfigBeanDefinitions(BeanDefinitionRegistry)$if(288-293)",
+      "elementNameBefore": "spring-context/src/main/java/org.springframework.context.annotation.ConfigurationClassPostProcessor#processConfigBeanDefinitions(BeanDefinitionRegistry)$if(264-268)",
       "elementFileAfter": "spring-context/src/main/java/org/springframework/context/annotation/ConfigurationClassPostProcessor.java",
-      "elementNameAfter": "spring-context/src/main/java/org.springframework.context.annotation.ConfigurationClassPostProcessor#processConfigBeanDefinitions(BeanDefinitionRegistry)$if(288-293)",
+      "elementNameAfter": "spring-context/src/main/java/org.springframework.context.annotation.ConfigurationClassPostProcessor#processConfigBeanDefinitions(BeanDefinitionRegistry)$if(245-250)"
+    },
+    {
+      "parentCommitId": "89005a5b7034cc1c2f702eac4bd36836b99f3765",
+      "commitId": "cdb01cbd3795f273b751d0f0a45caa22d07c62da",
+      "commitTime": 1304708742,
+      "changeType": "introduced",
+      "elementFileBefore": "org.springframework.context/src/main/java/org/springframework/context/annotation/ConfigurationClassPostProcessor.java",
+      "elementNameBefore": "org.springframework.context/src/main/java/org.springframework.context.annotation.ConfigurationClassPostProcessor#processConfigBeanDefinitions(ConfigurationClassParser, ConfigurationClassBeanDefinitionReader, BeanDefinitionRegistry)$if(248-252)",
+      "elementFileAfter": "org.springframework.context/src/main/java/org/springframework/context/annotation/ConfigurationClassPostProcessor.java",
+      "elementNameAfter": "org.springframework.context/src/main/java/org.springframework.context.annotation.ConfigurationClassPostProcessor#processConfigBeanDefinitions(ConfigurationClassParser, ConfigurationClassBeanDefinitionReader, BeanDefinitionRegistry)$if(248-252)",
       "comment": "new block"
     }
   ]

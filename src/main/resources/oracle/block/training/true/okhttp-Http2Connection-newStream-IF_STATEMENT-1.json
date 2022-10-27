@@ -6,20 +6,20 @@
   "functionKey": "okhttp/src/main/java/okhttp3.internal.http2.Http2Connection#newStream(int, List, boolean)",
   "functionStartLine": 233,
   "blockType": "IF_STATEMENT",
-  "blockKey": "okhttp/src/main/java/okhttp3.internal.http2.Http2Connection#newStream(int, List, boolean)$if(253-255)",
-  "blockStartLine": 253,
-  "blockEndLine": 255,
+  "blockKey": "okhttp/src/main/java/okhttp3.internal.http2.Http2Connection#newStream(int, List, boolean)$if(246-248)",
+  "blockStartLine": 246,
+  "blockEndLine": 248,
   "startCommitId": "5224f3045ba9b171fce521777edf389f9206173c",
   "expectedChanges": [
     {
-      "parentCommitId": "16aed96a358f7cf8639a305fcce1d890002e2bbc",
-      "commitId": "a18d4e184b224d1567ffc1faa5502a5eeaf5445c",
-      "commitTime": 1464686106,
+      "parentCommitId": "14521ebe5f85654f3955e1d14bc62a9c45f5a591",
+      "commitId": "86be1c3acdf3c7b26c57cae17612b74ada5ce1a1",
+      "commitTime": 1479646498,
       "changeType": "body change",
-      "elementFileBefore": "okhttp/src/main/java/okhttp3/internal/framed/FramedConnection.java",
-      "elementNameBefore": "okhttp/src/main/java/okhttp3.internal.framed.FramedConnection#newStream(int, List, boolean, boolean)$if(265-268)",
-      "elementFileAfter": "okhttp/src/main/java/okhttp3/internal/framed/FramedConnection.java",
-      "elementNameAfter": "okhttp/src/main/java/okhttp3.internal.framed.FramedConnection#newStream(int, List, boolean, boolean)$if(244-246)"
+      "elementFileBefore": "okhttp/src/main/java/okhttp3/internal/http2/Http2Connection.java",
+      "elementNameBefore": "okhttp/src/main/java/okhttp3.internal.http2.Http2Connection#newStream(int, List, boolean)$if(218-220)",
+      "elementFileAfter": "okhttp/src/main/java/okhttp3/internal/http2/Http2Connection.java",
+      "elementNameAfter": "okhttp/src/main/java/okhttp3.internal.http2.Http2Connection#newStream(int, List, boolean)$if(218-220)"
     },
     {
       "parentCommitId": "0537eedd5d0223bfa08998f85a865a22b192c61d",
@@ -27,9 +27,9 @@
       "commitTime": 1393204561,
       "changeType": "introduced",
       "elementFileBefore": "okhttp-protocols/src/main/java/com/squareup/okhttp/internal/spdy/SpdyConnection.java",
-      "elementNameBefore": "okhttp-protocols/src/main/java/com.squareup.okhttp.internal.spdy.SpdyConnection#newStream(int, List, boolean, boolean)$if(245-248)",
+      "elementNameBefore": "okhttp-protocols/src/main/java/com.squareup.okhttp.internal.spdy.SpdyConnection#newStream(int, List, boolean, boolean)$if(239-241)",
       "elementFileAfter": "okhttp-protocols/src/main/java/com/squareup/okhttp/internal/spdy/SpdyConnection.java",
-      "elementNameAfter": "okhttp-protocols/src/main/java/com.squareup.okhttp.internal.spdy.SpdyConnection#newStream(int, List, boolean, boolean)$if(245-248)",
+      "elementNameAfter": "okhttp-protocols/src/main/java/com.squareup.okhttp.internal.spdy.SpdyConnection#newStream(int, List, boolean, boolean)$if(239-241)",
       "comment": "Extract Method private newStream(associatedStreamId int, requestHeaders List<Header>, out boolean, in boolean) : SpdyStream extracted from public newStream(requestHeaders List<Header>, out boolean, in boolean) : SpdyStream in class com.squareup.okhttp.internal.spdy.SpdyConnection"
     }
   ]

@@ -15,12 +15,22 @@
       "parentCommitId": "dd82416bc5b6c45d4aeecd6acdc0f178eb4ac841",
       "commitId": "a91124b6d4e2eb1bb3c71a7a8ddff7d40b7db55a",
       "commitTime": 1378058240,
-      "changeType": "introduced",
+      "changeType": "body change",
       "elementFileBefore": "okhttp-protocols/src/main/java/com/squareup/okhttp/internal/spdy/SpdyConnection.java",
-      "elementNameBefore": "okhttp-protocols/src/main/java/com.squareup.okhttp.internal.spdy.SpdyConnection.Reader#headers(boolean, boolean, int, int, int, List, HeadersMode)$if(465-465)",
+      "elementNameBefore": "okhttp-protocols/src/main/java/com.squareup.okhttp.internal.spdy.SpdyConnection.Reader#synStream(boolean, boolean, int, int, int, int, List)$if(466-468)",
       "elementFileAfter": "okhttp-protocols/src/main/java/com/squareup/okhttp/internal/spdy/SpdyConnection.java",
-      "elementNameAfter": "okhttp-protocols/src/main/java/com.squareup.okhttp.internal.spdy.SpdyConnection.Reader#headers(boolean, boolean, int, int, int, List, HeadersMode)$if(465-465)",
-      "comment": "added with method"
+      "elementNameAfter": "okhttp-protocols/src/main/java/com.squareup.okhttp.internal.spdy.SpdyConnection.Reader#headers(boolean, boolean, int, int, int, List, HeadersMode)$if(465-465)"
+    },
+    {
+      "parentCommitId": "bc342a42c84b660ef8296498af88780cc1c152bd",
+      "commitId": "60d5852c6676ece85b0e3d0c6e45fb0186303f83",
+      "commitTime": 1356939327,
+      "changeType": "introduced",
+      "elementFileBefore": "src/main/java/com/squareup/okhttp/internal/net/spdy/SpdyConnection.java",
+      "elementNameBefore": "src/main/java/com.squareup.okhttp.internal.net.spdy.SpdyConnection.Reader#synStream(int, int, int, int, List)$if(346-348)",
+      "elementFileAfter": "src/main/java/com/squareup/okhttp/internal/net/spdy/SpdyConnection.java",
+      "elementNameAfter": "src/main/java/com.squareup.okhttp.internal.net.spdy.SpdyConnection.Reader#synStream(int, int, int, int, List)$if(346-348)",
+      "comment": "new block"
     }
   ]
 }

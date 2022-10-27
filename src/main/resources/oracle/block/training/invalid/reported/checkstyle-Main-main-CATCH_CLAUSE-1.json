@@ -15,7 +15,7 @@
       "parentCommitId": "d67d10e9f2b480f7f56fe7cda2a908cd5fe770c7",
       "commitId": "f65b17cbc30795247fef3077cce16a8bb53e9ffc",
       "commitTime": 1449184604,
-      "changeType": "body change",
+      "changeType": "expression change",
       "elementFileBefore": "src/main/java/com/puppycrawl/tools/checkstyle/Main.java",
       "elementNameBefore": "src/main/java/com.puppycrawl.tools.checkstyle.Main#main(String[])$catch(132-136)",
       "elementFileAfter": "src/main/java/com/puppycrawl/tools/checkstyle/Main.java",
@@ -25,7 +25,7 @@
       "parentCommitId": "d67d10e9f2b480f7f56fe7cda2a908cd5fe770c7",
       "commitId": "f65b17cbc30795247fef3077cce16a8bb53e9ffc",
       "commitTime": 1449184604,
-      "changeType": "expression change",
+      "changeType": "body change",
       "elementFileBefore": "src/main/java/com/puppycrawl/tools/checkstyle/Main.java",
       "elementNameBefore": "src/main/java/com.puppycrawl.tools.checkstyle.Main#main(String[])$catch(132-136)",
       "elementFileAfter": "src/main/java/com/puppycrawl/tools/checkstyle/Main.java",
@@ -85,11 +85,31 @@
       "parentCommitId": "1eb344dc82079aaf47390f512440835f4087e45f",
       "commitId": "fe6db3ab8a864e11eebfb0496f6a41852bdee019",
       "commitTime": 1433788956,
+      "changeType": "body change",
+      "elementFileBefore": "src/main/java/com/puppycrawl/tools/checkstyle/Main.java",
+      "elementNameBefore": "src/main/java/com.puppycrawl.tools.checkstyle.Main#main(String[])$catch(104-108)",
+      "elementFileAfter": "src/main/java/com/puppycrawl/tools/checkstyle/Main.java",
+      "elementNameAfter": "src/main/java/com.puppycrawl.tools.checkstyle.Main#main(String[])$catch(104-107)"
+    },
+    {
+      "parentCommitId": "1eb344dc82079aaf47390f512440835f4087e45f",
+      "commitId": "fe6db3ab8a864e11eebfb0496f6a41852bdee019",
+      "commitTime": 1433788956,
+      "changeType": "expression change",
+      "elementFileBefore": "src/main/java/com/puppycrawl/tools/checkstyle/Main.java",
+      "elementNameBefore": "src/main/java/com.puppycrawl.tools.checkstyle.Main#main(String[])$catch(104-108)",
+      "elementFileAfter": "src/main/java/com/puppycrawl/tools/checkstyle/Main.java",
+      "elementNameAfter": "src/main/java/com.puppycrawl.tools.checkstyle.Main#main(String[])$catch(104-107)"
+    },
+    {
+      "parentCommitId": "d6272b70eb5ad61fd8ab34091e970c50b1f67386",
+      "commitId": "1a2c318e22a0b2b22ccc76019217c0892fe2d59b",
+      "commitTime": 1430849532,
       "changeType": "introduced",
       "elementFileBefore": "src/main/java/com/puppycrawl/tools/checkstyle/Main.java",
-      "elementNameBefore": "src/main/java/com.puppycrawl.tools.checkstyle.Main#main(String[])$catch(104-107)",
+      "elementNameBefore": "src/main/java/com.puppycrawl.tools.checkstyle.Main#main(String[])$catch(106-110)",
       "elementFileAfter": "src/main/java/com/puppycrawl/tools/checkstyle/Main.java",
-      "elementNameAfter": "src/main/java/com.puppycrawl.tools.checkstyle.Main#main(String[])$catch(104-107)",
+      "elementNameAfter": "src/main/java/com.puppycrawl.tools.checkstyle.Main#main(String[])$catch(106-110)",
       "comment": "new block"
     }
   ]

@@ -1,0 +1,1580 @@
+2022-10-26 19:55:07 Started oracle generation
+2022-10-26 19:55:07 Block training Data
+2022-10-26 19:55:23 No key yet: checkstyle-Checker-fireErrors-ENHANCED_FOR_STATEMENT
+2022-10-26 19:55:23 Data is written to file: src/main/resources/oracle/block/training/true/checkstyle-Checker-fireErrors-ENHANCED_FOR_STATEMENT.json
+2022-10-26 19:55:25 No key yet: checkstyle-Checker-fireErrors-IF_STATEMENT
+2022-10-26 19:55:25 Data is written to file: src/main/resources/oracle/block/training/false/checkstyle-Checker-fireErrors-IF_STATEMENT.json
+2022-10-26 19:55:29 Key contained: checkstyle-Checker-fireErrors-ENHANCED_FOR_STATEMENT -> 1
+2022-10-26 19:55:29 Data is written to file: src/main/resources/oracle/block/training/true/checkstyle-Checker-fireErrors-ENHANCED_FOR_STATEMENT-1.json
+2022-10-26 19:55:30 Key contained: checkstyle-Checker-fireErrors-IF_STATEMENT -> 1
+2022-10-26 19:55:30 Data is written to file: src/main/resources/oracle/block/training/valid/checkstyle-Checker-fireErrors-IF_STATEMENT-1.json
+2022-10-26 19:55:35 No key yet: checkstyle-Checker-process-IF_STATEMENT
+2022-10-26 19:55:35 Data is written to file: src/main/resources/oracle/block/training/valid/checkstyle-Checker-process-IF_STATEMENT.json
+2022-10-26 19:55:37 No key yet: checkstyle-Checker-process-ENHANCED_FOR_STATEMENT
+2022-10-26 19:55:37 Data is written to file: src/main/resources/oracle/block/training/invalid/reported/checkstyle-Checker-process-ENHANCED_FOR_STATEMENT.json
+2022-10-26 19:55:38 No key yet: checkstyle-CommonUtils-createPattern-TRY_STATEMENT
+2022-10-26 19:55:38 Data is written to file: src/main/resources/oracle/block/training/true/checkstyle-CommonUtils-createPattern-TRY_STATEMENT.json
+2022-10-26 19:55:39 No key yet: checkstyle-CommonUtils-createPattern-CATCH_CLAUSE
+2022-10-26 19:55:39 Data is written to file: src/main/resources/oracle/block/training/true/checkstyle-CommonUtils-createPattern-CATCH_CLAUSE.json
+2022-10-26 19:55:43 No key yet: checkstyle-FinalLocalVariableCheck-visitToken-IF_STATEMENT
+2022-10-26 19:55:43 Data is written to file: src/main/resources/oracle/block/training/valid/checkstyle-FinalLocalVariableCheck-visitToken-IF_STATEMENT.json
+2022-10-26 19:55:46 Key contained: checkstyle-FinalLocalVariableCheck-visitToken-IF_STATEMENT -> 1
+2022-10-26 19:55:46 Data is written to file: src/main/resources/oracle/block/training/valid/checkstyle-FinalLocalVariableCheck-visitToken-IF_STATEMENT-1.json
+2022-10-26 19:55:49 Key contained: checkstyle-FinalLocalVariableCheck-visitToken-IF_STATEMENT -> 2
+2022-10-26 19:55:49 Data is written to file: src/main/resources/oracle/block/training/true/checkstyle-FinalLocalVariableCheck-visitToken-IF_STATEMENT-2.json
+2022-10-26 19:55:50 Key contained: checkstyle-FinalLocalVariableCheck-visitToken-IF_STATEMENT -> 3
+2022-10-26 19:55:50 Data is written to file: src/main/resources/oracle/block/training/invalid/reported/checkstyle-FinalLocalVariableCheck-visitToken-IF_STATEMENT-3.json
+2022-10-26 19:55:53 Key contained: checkstyle-FinalLocalVariableCheck-visitToken-IF_STATEMENT -> 4
+2022-10-26 19:55:53 Data is written to file: src/main/resources/oracle/block/training/true/checkstyle-FinalLocalVariableCheck-visitToken-IF_STATEMENT-4.json
+2022-10-26 19:55:56 No key yet: checkstyle-FinalLocalVariableCheck-visitToken-SWITCH_STATEMENT
+2022-10-26 19:55:56 Data is written to file: src/main/resources/oracle/block/training/true/checkstyle-FinalLocalVariableCheck-visitToken-SWITCH_STATEMENT.json
+2022-10-26 19:56:07 No key yet: checkstyle-JavadocMethodCheck-checkThrowsTags-IF_STATEMENT
+2022-10-26 19:56:07 Data is written to file: src/main/resources/oracle/block/training/true/checkstyle-JavadocMethodCheck-checkThrowsTags-IF_STATEMENT.json
+2022-10-26 19:56:11 Key contained: checkstyle-JavadocMethodCheck-checkThrowsTags-IF_STATEMENT -> 1
+2022-10-26 19:56:11 Data is written to file: src/main/resources/oracle/block/training/invalid/reported/checkstyle-JavadocMethodCheck-checkThrowsTags-IF_STATEMENT-1.json
+2022-10-26 19:56:17 Key contained: checkstyle-JavadocMethodCheck-checkThrowsTags-IF_STATEMENT -> 2
+2022-10-26 19:56:17 Data is written to file: src/main/resources/oracle/block/training/true/checkstyle-JavadocMethodCheck-checkThrowsTags-IF_STATEMENT-2.json
+2022-10-26 19:56:22 Key contained: checkstyle-JavadocMethodCheck-checkThrowsTags-IF_STATEMENT -> 3
+2022-10-26 19:56:22 Data is written to file: src/main/resources/oracle/block/training/true/checkstyle-JavadocMethodCheck-checkThrowsTags-IF_STATEMENT-3.json
+2022-10-26 19:56:27 No key yet: checkstyle-JavadocMethodCheck-checkThrowsTags-WHILE_STATEMENT
+2022-10-26 19:56:27 Data is written to file: src/main/resources/oracle/block/training/true/checkstyle-JavadocMethodCheck-checkThrowsTags-WHILE_STATEMENT.json
+2022-10-26 19:56:33 Key contained: checkstyle-JavadocMethodCheck-checkThrowsTags-IF_STATEMENT -> 4
+2022-10-26 19:56:33 Data is written to file: src/main/resources/oracle/block/training/valid/checkstyle-JavadocMethodCheck-checkThrowsTags-IF_STATEMENT-4.json
+2022-10-26 19:56:38 No key yet: checkstyle-Main-main-IF_STATEMENT
+2022-10-26 19:56:38 Data is written to file: src/main/resources/oracle/block/training/invalid/reported/checkstyle-Main-main-IF_STATEMENT.json
+2022-10-26 19:56:41 Key contained: checkstyle-Main-main-IF_STATEMENT -> 1
+2022-10-26 19:56:41 Data is written to file: src/main/resources/oracle/block/training/valid/checkstyle-Main-main-IF_STATEMENT-1.json
+2022-10-26 19:56:44 No key yet: checkstyle-Main-main-TRY_STATEMENT
+2022-10-26 19:56:44 Data is written to file: src/main/resources/oracle/block/training/false/checkstyle-Main-main-TRY_STATEMENT.json
+2022-10-26 19:56:46 No key yet: checkstyle-Main-main-CATCH_CLAUSE
+2022-10-26 19:56:46 Data is written to file: src/main/resources/oracle/block/training/invalid/reported/checkstyle-Main-main-CATCH_CLAUSE.json
+2022-10-26 19:56:48 Key contained: checkstyle-Main-main-CATCH_CLAUSE -> 1
+2022-10-26 19:56:48 Data is written to file: src/main/resources/oracle/block/training/invalid/reported/checkstyle-Main-main-CATCH_CLAUSE-1.json
+2022-10-26 19:56:50 Key contained: checkstyle-Main-main-IF_STATEMENT -> 2
+2022-10-26 19:56:50 Data is written to file: src/main/resources/oracle/block/training/invalid/reported/checkstyle-Main-main-IF_STATEMENT-2.json
+2022-10-26 19:56:52 Key contained: checkstyle-Main-main-IF_STATEMENT -> 3
+2022-10-26 19:56:52 Data is written to file: src/main/resources/oracle/block/training/false/checkstyle-Main-main-IF_STATEMENT-3.json
+2022-10-26 19:56:53 Key contained: checkstyle-Main-main-IF_STATEMENT -> 4
+2022-10-26 19:56:53 Data is written to file: src/main/resources/oracle/block/training/valid/checkstyle-Main-main-IF_STATEMENT-4.json
+2022-10-26 19:56:55 No key yet: checkstyle-Main-main-FINALLY_BLOCK
+2022-10-26 19:56:55 Data is written to file: src/main/resources/oracle/block/training/valid/checkstyle-Main-main-FINALLY_BLOCK.json
+2022-10-26 19:56:59 No key yet: checkstyle-TreeWalker-processFiltered-IF_STATEMENT
+2022-10-26 19:56:59 Data is written to file: src/main/resources/oracle/block/training/valid/checkstyle-TreeWalker-processFiltered-IF_STATEMENT.json
+2022-10-26 19:57:00 Key contained: checkstyle-TreeWalker-processFiltered-IF_STATEMENT -> 1
+2022-10-26 19:57:00 Data is written to file: src/main/resources/oracle/block/training/valid/checkstyle-TreeWalker-processFiltered-IF_STATEMENT-1.json
+2022-10-26 19:57:00 Key contained: checkstyle-TreeWalker-processFiltered-IF_STATEMENT -> 2
+2022-10-26 19:57:00 Data is written to file: src/main/resources/oracle/block/training/valid/checkstyle-TreeWalker-processFiltered-IF_STATEMENT-2.json
+2022-10-26 19:57:04 Key contained: checkstyle-TreeWalker-processFiltered-IF_STATEMENT -> 3
+2022-10-26 19:57:04 Data is written to file: src/main/resources/oracle/block/training/valid/checkstyle-TreeWalker-processFiltered-IF_STATEMENT-3.json
+2022-10-26 19:57:39 No key yet: commons-lang-DateUtils-modify-IF_STATEMENT
+2022-10-26 19:57:39 Data is written to file: src/main/resources/oracle/block/training/valid/commons-lang-DateUtils-modify-IF_STATEMENT.json
+2022-10-26 19:57:41 Key contained: commons-lang-DateUtils-modify-IF_STATEMENT -> 1
+2022-10-26 19:57:41 Data is written to file: src/main/resources/oracle/block/training/valid/commons-lang-DateUtils-modify-IF_STATEMENT-1.json
+2022-10-26 19:57:43 Key contained: commons-lang-DateUtils-modify-IF_STATEMENT -> 2
+2022-10-26 19:57:43 Data is written to file: src/main/resources/oracle/block/training/valid/commons-lang-DateUtils-modify-IF_STATEMENT-2.json
+2022-10-26 19:57:44 Key contained: commons-lang-DateUtils-modify-IF_STATEMENT -> 3
+2022-10-26 19:57:44 Data is written to file: src/main/resources/oracle/block/training/valid/commons-lang-DateUtils-modify-IF_STATEMENT-3.json
+2022-10-26 19:57:46 Key contained: commons-lang-DateUtils-modify-IF_STATEMENT -> 4
+2022-10-26 19:57:46 Data is written to file: src/main/resources/oracle/block/training/valid/commons-lang-DateUtils-modify-IF_STATEMENT-4.json
+2022-10-26 19:57:48 Key contained: commons-lang-DateUtils-modify-IF_STATEMENT -> 5
+2022-10-26 19:57:48 Data is written to file: src/main/resources/oracle/block/training/valid/commons-lang-DateUtils-modify-IF_STATEMENT-5.json
+2022-10-26 19:57:49 Key contained: commons-lang-DateUtils-modify-IF_STATEMENT -> 6
+2022-10-26 19:57:49 Data is written to file: src/main/resources/oracle/block/training/valid/commons-lang-DateUtils-modify-IF_STATEMENT-6.json
+2022-10-26 19:57:51 Key contained: commons-lang-DateUtils-modify-IF_STATEMENT -> 7
+2022-10-26 19:57:51 Data is written to file: src/main/resources/oracle/block/training/valid/commons-lang-DateUtils-modify-IF_STATEMENT-7.json
+2022-10-26 19:58:05 Key contained: commons-lang-DateUtils-modify-IF_STATEMENT -> 8
+2022-10-26 19:58:05 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-DateUtils-modify-IF_STATEMENT-8.json
+2022-10-26 19:58:07 Key contained: commons-lang-DateUtils-modify-IF_STATEMENT -> 9
+2022-10-26 19:58:07 Data is written to file: src/main/resources/oracle/block/training/valid/commons-lang-DateUtils-modify-IF_STATEMENT-9.json
+2022-10-26 19:58:08 Key contained: commons-lang-DateUtils-modify-IF_STATEMENT -> 10
+2022-10-26 19:58:08 Data is written to file: src/main/resources/oracle/block/training/invalid/commons-lang-DateUtils-modify-IF_STATEMENT-10.json
+2022-10-26 19:58:22 Key contained: commons-lang-DateUtils-modify-IF_STATEMENT -> 11
+2022-10-26 19:58:22 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-DateUtils-modify-IF_STATEMENT-11.json
+2022-10-26 19:58:37 Key contained: commons-lang-DateUtils-modify-IF_STATEMENT -> 12
+2022-10-26 19:58:37 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-DateUtils-modify-IF_STATEMENT-12.json
+2022-10-26 19:58:52 Key contained: commons-lang-DateUtils-modify-IF_STATEMENT -> 13
+2022-10-26 19:58:52 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-DateUtils-modify-IF_STATEMENT-13.json
+2022-10-26 19:59:07 No key yet: commons-lang-DateUtils-modify-ENHANCED_FOR_STATEMENT
+2022-10-26 19:59:07 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-DateUtils-modify-ENHANCED_FOR_STATEMENT.json
+2022-10-26 19:59:21 Key contained: commons-lang-DateUtils-modify-IF_STATEMENT -> 14
+2022-10-26 19:59:21 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-DateUtils-modify-IF_STATEMENT-14.json
+2022-10-26 19:59:35 Key contained: commons-lang-DateUtils-modify-IF_STATEMENT -> 15
+2022-10-26 19:59:35 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-DateUtils-modify-IF_STATEMENT-15.json
+2022-10-26 19:59:49 Key contained: commons-lang-DateUtils-modify-IF_STATEMENT -> 16
+2022-10-26 19:59:49 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-DateUtils-modify-IF_STATEMENT-16.json
+2022-10-26 20:00:03 Key contained: commons-lang-DateUtils-modify-IF_STATEMENT -> 17
+2022-10-26 20:00:03 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-DateUtils-modify-IF_STATEMENT-17.json
+2022-10-26 20:00:17 No key yet: commons-lang-DateUtils-modify-SWITCH_STATEMENT
+2022-10-26 20:00:17 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-DateUtils-modify-SWITCH_STATEMENT.json
+2022-10-26 20:00:31 Key contained: commons-lang-DateUtils-modify-IF_STATEMENT -> 18
+2022-10-26 20:00:31 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-DateUtils-modify-IF_STATEMENT-18.json
+2022-10-26 20:00:33 Key contained: commons-lang-DateUtils-modify-IF_STATEMENT -> 19
+2022-10-26 20:00:33 Data is written to file: src/main/resources/oracle/block/training/valid/commons-lang-DateUtils-modify-IF_STATEMENT-19.json
+2022-10-26 20:00:47 Key contained: commons-lang-DateUtils-modify-ENHANCED_FOR_STATEMENT -> 1
+2022-10-26 20:00:47 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-DateUtils-modify-ENHANCED_FOR_STATEMENT-1.json
+2022-10-26 20:01:00 No key yet: commons-lang-DurationFormatUtils-formatPeriod-WHILE_STATEMENT
+2022-10-26 20:01:00 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-DurationFormatUtils-formatPeriod-WHILE_STATEMENT.json
+2022-10-26 20:01:05 Key contained: commons-lang-DurationFormatUtils-formatPeriod-WHILE_STATEMENT -> 1
+2022-10-26 20:01:05 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-DurationFormatUtils-formatPeriod-WHILE_STATEMENT-1.json
+2022-10-26 20:01:11 Key contained: commons-lang-DurationFormatUtils-formatPeriod-WHILE_STATEMENT -> 2
+2022-10-26 20:01:11 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-DurationFormatUtils-formatPeriod-WHILE_STATEMENT-2.json
+2022-10-26 20:01:17 Key contained: commons-lang-DurationFormatUtils-formatPeriod-WHILE_STATEMENT -> 3
+2022-10-26 20:01:17 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-DurationFormatUtils-formatPeriod-WHILE_STATEMENT-3.json
+2022-10-26 20:01:17 Key contained: commons-lang-DurationFormatUtils-formatPeriod-WHILE_STATEMENT -> 4
+2022-10-26 20:01:17 Data is written to file: src/main/resources/oracle/block/training/invalid/reported/commons-lang-DurationFormatUtils-formatPeriod-WHILE_STATEMENT-4.json
+2022-10-26 20:01:23 Key contained: commons-lang-DurationFormatUtils-formatPeriod-WHILE_STATEMENT -> 5
+2022-10-26 20:01:23 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-DurationFormatUtils-formatPeriod-WHILE_STATEMENT-5.json
+2022-10-26 20:01:24 Key contained: commons-lang-DurationFormatUtils-formatPeriod-WHILE_STATEMENT -> 6
+2022-10-26 20:01:24 Data is written to file: src/main/resources/oracle/block/training/valid/commons-lang-DurationFormatUtils-formatPeriod-WHILE_STATEMENT-6.json
+2022-10-26 20:01:26 No key yet: commons-lang-DurationFormatUtils-formatPeriod-IF_STATEMENT
+2022-10-26 20:01:26 Data is written to file: src/main/resources/oracle/block/training/valid/commons-lang-DurationFormatUtils-formatPeriod-IF_STATEMENT.json
+2022-10-26 20:01:27 Key contained: commons-lang-DurationFormatUtils-formatPeriod-IF_STATEMENT -> 1
+2022-10-26 20:01:27 Data is written to file: src/main/resources/oracle/block/training/valid/commons-lang-DurationFormatUtils-formatPeriod-IF_STATEMENT-1.json
+2022-10-26 20:01:28 Key contained: commons-lang-DurationFormatUtils-formatPeriod-IF_STATEMENT -> 2
+2022-10-26 20:01:28 Data is written to file: src/main/resources/oracle/block/training/valid/commons-lang-DurationFormatUtils-formatPeriod-IF_STATEMENT-2.json
+2022-10-26 20:01:28 Key contained: commons-lang-DurationFormatUtils-formatPeriod-WHILE_STATEMENT -> 7
+2022-10-26 20:01:28 Data is written to file: src/main/resources/oracle/block/training/false/commons-lang-DurationFormatUtils-formatPeriod-WHILE_STATEMENT-7.json
+2022-10-26 20:01:29 Key contained: commons-lang-DurationFormatUtils-formatPeriod-IF_STATEMENT -> 3
+2022-10-26 20:01:29 Data is written to file: src/main/resources/oracle/block/training/valid/commons-lang-DurationFormatUtils-formatPeriod-IF_STATEMENT-3.json
+2022-10-26 20:01:30 Key contained: commons-lang-DurationFormatUtils-formatPeriod-WHILE_STATEMENT -> 8
+2022-10-26 20:01:30 Data is written to file: src/main/resources/oracle/block/training/valid/commons-lang-DurationFormatUtils-formatPeriod-WHILE_STATEMENT-8.json
+2022-10-26 20:01:31 Key contained: commons-lang-DurationFormatUtils-formatPeriod-WHILE_STATEMENT -> 9
+2022-10-26 20:01:31 Data is written to file: src/main/resources/oracle/block/training/valid/commons-lang-DurationFormatUtils-formatPeriod-WHILE_STATEMENT-9.json
+2022-10-26 20:01:33 Key contained: commons-lang-DurationFormatUtils-formatPeriod-IF_STATEMENT -> 4
+2022-10-26 20:01:33 Data is written to file: src/main/resources/oracle/block/training/valid/commons-lang-DurationFormatUtils-formatPeriod-IF_STATEMENT-4.json
+2022-10-26 20:01:35 Key contained: commons-lang-DurationFormatUtils-formatPeriod-IF_STATEMENT -> 5
+2022-10-26 20:01:35 Data is written to file: src/main/resources/oracle/block/training/valid/commons-lang-DurationFormatUtils-formatPeriod-IF_STATEMENT-5.json
+2022-10-26 20:01:37 Key contained: commons-lang-DurationFormatUtils-formatPeriod-IF_STATEMENT -> 6
+2022-10-26 20:01:37 Data is written to file: src/main/resources/oracle/block/training/valid/commons-lang-DurationFormatUtils-formatPeriod-IF_STATEMENT-6.json
+2022-10-26 20:01:39 Key contained: commons-lang-DurationFormatUtils-formatPeriod-IF_STATEMENT -> 7
+2022-10-26 20:01:39 Data is written to file: src/main/resources/oracle/block/training/valid/commons-lang-DurationFormatUtils-formatPeriod-IF_STATEMENT-7.json
+2022-10-26 20:01:41 Key contained: commons-lang-DurationFormatUtils-formatPeriod-IF_STATEMENT -> 8
+2022-10-26 20:01:41 Data is written to file: src/main/resources/oracle/block/training/valid/commons-lang-DurationFormatUtils-formatPeriod-IF_STATEMENT-8.json
+2022-10-26 20:01:42 No key yet: commons-lang-EqualsBuilder-reflectionAppend-IF_STATEMENT
+2022-10-26 20:01:42 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-EqualsBuilder-reflectionAppend-IF_STATEMENT.json
+2022-10-26 20:01:42 Key contained: commons-lang-EqualsBuilder-reflectionAppend-IF_STATEMENT -> 1
+2022-10-26 20:01:42 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-EqualsBuilder-reflectionAppend-IF_STATEMENT-1.json
+2022-10-26 20:01:42 Key contained: commons-lang-EqualsBuilder-reflectionAppend-IF_STATEMENT -> 2
+2022-10-26 20:01:42 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-EqualsBuilder-reflectionAppend-IF_STATEMENT-2.json
+2022-10-26 20:01:43 Key contained: commons-lang-EqualsBuilder-reflectionAppend-IF_STATEMENT -> 3
+2022-10-26 20:01:43 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-EqualsBuilder-reflectionAppend-IF_STATEMENT-3.json
+2022-10-26 20:01:43 Key contained: commons-lang-EqualsBuilder-reflectionAppend-IF_STATEMENT -> 4
+2022-10-26 20:01:43 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-EqualsBuilder-reflectionAppend-IF_STATEMENT-4.json
+2022-10-26 20:01:43 Key contained: commons-lang-EqualsBuilder-reflectionAppend-IF_STATEMENT -> 5
+2022-10-26 20:01:43 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-EqualsBuilder-reflectionAppend-IF_STATEMENT-5.json
+2022-10-26 20:01:43 Key contained: commons-lang-EqualsBuilder-reflectionAppend-IF_STATEMENT -> 6
+2022-10-26 20:01:43 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-EqualsBuilder-reflectionAppend-IF_STATEMENT-6.json
+2022-10-26 20:01:44 No key yet: commons-lang-EqualsBuilder-reflectionAppend-WHILE_STATEMENT
+2022-10-26 20:01:44 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-EqualsBuilder-reflectionAppend-WHILE_STATEMENT.json
+2022-10-26 20:01:44 Key contained: commons-lang-EqualsBuilder-reflectionAppend-IF_STATEMENT -> 7
+2022-10-26 20:01:44 Data is written to file: src/main/resources/oracle/block/training/valid/commons-lang-EqualsBuilder-reflectionAppend-IF_STATEMENT-7.json
+2022-10-26 20:01:44 Key contained: commons-lang-EqualsBuilder-reflectionAppend-IF_STATEMENT -> 8
+2022-10-26 20:01:44 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-EqualsBuilder-reflectionAppend-IF_STATEMENT-8.json
+2022-10-26 20:01:45 No key yet: commons-lang-EqualsBuilder-reflectionAppend-TRY_STATEMENT
+2022-10-26 20:01:45 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-EqualsBuilder-reflectionAppend-TRY_STATEMENT.json
+2022-10-26 20:01:45 No key yet: commons-lang-EqualsBuilder-reflectionAppend-CATCH_CLAUSE
+2022-10-26 20:01:45 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-EqualsBuilder-reflectionAppend-CATCH_CLAUSE.json
+2022-10-26 20:01:57 No key yet: commons-lang-FastDatePrinter-parsePattern-IF_STATEMENT
+2022-10-26 20:01:57 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-FastDatePrinter-parsePattern-IF_STATEMENT.json
+2022-10-26 20:02:02 Key contained: commons-lang-FastDatePrinter-parsePattern-IF_STATEMENT -> 1
+2022-10-26 20:02:02 Data is written to file: src/main/resources/oracle/block/training/invalid/reported/commons-lang-FastDatePrinter-parsePattern-IF_STATEMENT-1.json
+2022-10-26 20:02:02 Key contained: commons-lang-FastDatePrinter-parsePattern-IF_STATEMENT -> 2
+2022-10-26 20:02:02 Data is written to file: src/main/resources/oracle/block/training/valid/commons-lang-FastDatePrinter-parsePattern-IF_STATEMENT-2.json
+2022-10-26 20:02:08 Key contained: commons-lang-FastDatePrinter-parsePattern-IF_STATEMENT -> 3
+2022-10-26 20:02:08 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-FastDatePrinter-parsePattern-IF_STATEMENT-3.json
+2022-10-26 20:02:13 Key contained: commons-lang-FastDatePrinter-parsePattern-IF_STATEMENT -> 4
+2022-10-26 20:02:13 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-FastDatePrinter-parsePattern-IF_STATEMENT-4.json
+2022-10-26 20:02:19 Key contained: commons-lang-FastDatePrinter-parsePattern-IF_STATEMENT -> 5
+2022-10-26 20:02:19 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-FastDatePrinter-parsePattern-IF_STATEMENT-5.json
+2022-10-26 20:02:25 Key contained: commons-lang-FastDatePrinter-parsePattern-IF_STATEMENT -> 6
+2022-10-26 20:02:25 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-FastDatePrinter-parsePattern-IF_STATEMENT-6.json
+2022-10-26 20:02:25 Key contained: commons-lang-FastDatePrinter-parsePattern-IF_STATEMENT -> 7
+2022-10-26 20:02:25 Data is written to file: src/main/resources/oracle/block/training/valid/commons-lang-FastDatePrinter-parsePattern-IF_STATEMENT-7.json
+2022-10-26 20:02:31 Key contained: commons-lang-FastDatePrinter-parsePattern-IF_STATEMENT -> 8
+2022-10-26 20:02:31 Data is written to file: src/main/resources/oracle/block/training/valid/commons-lang-FastDatePrinter-parsePattern-IF_STATEMENT-8.json
+2022-10-26 20:02:37 Key contained: commons-lang-FastDatePrinter-parsePattern-IF_STATEMENT -> 9
+2022-10-26 20:02:37 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-FastDatePrinter-parsePattern-IF_STATEMENT-9.json
+2022-10-26 20:02:42 No key yet: commons-lang-FastDatePrinter-parsePattern-SWITCH_STATEMENT
+2022-10-26 20:02:42 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-FastDatePrinter-parsePattern-SWITCH_STATEMENT.json
+2022-10-26 20:02:48 No key yet: commons-lang-FastDatePrinter-parsePattern-FOR_STATEMENT
+2022-10-26 20:02:48 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-FastDatePrinter-parsePattern-FOR_STATEMENT.json
+2022-10-26 20:02:50 No key yet: commons-lang-LocaleUtils-toLocale-IF_STATEMENT
+2022-10-26 20:02:50 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-LocaleUtils-toLocale-IF_STATEMENT.json
+2022-10-26 20:02:50 Key contained: commons-lang-LocaleUtils-toLocale-IF_STATEMENT -> 1
+2022-10-26 20:02:50 Data is written to file: src/main/resources/oracle/block/training/valid/commons-lang-LocaleUtils-toLocale-IF_STATEMENT-1.json
+2022-10-26 20:02:51 Key contained: commons-lang-LocaleUtils-toLocale-IF_STATEMENT -> 2
+2022-10-26 20:02:51 Data is written to file: src/main/resources/oracle/block/training/valid/commons-lang-LocaleUtils-toLocale-IF_STATEMENT-2.json
+2022-10-26 20:02:51 Key contained: commons-lang-LocaleUtils-toLocale-IF_STATEMENT -> 3
+2022-10-26 20:02:51 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-LocaleUtils-toLocale-IF_STATEMENT-3.json
+2022-10-26 20:02:52 Key contained: commons-lang-LocaleUtils-toLocale-IF_STATEMENT -> 4
+2022-10-26 20:02:52 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-LocaleUtils-toLocale-IF_STATEMENT-4.json
+2022-10-26 20:02:52 Key contained: commons-lang-LocaleUtils-toLocale-IF_STATEMENT -> 5
+2022-10-26 20:02:52 Data is written to file: src/main/resources/oracle/block/training/valid/commons-lang-LocaleUtils-toLocale-IF_STATEMENT-5.json
+2022-10-26 20:02:53 Key contained: commons-lang-LocaleUtils-toLocale-IF_STATEMENT -> 6
+2022-10-26 20:02:53 Data is written to file: src/main/resources/oracle/block/training/valid/commons-lang-LocaleUtils-toLocale-IF_STATEMENT-6.json
+2022-10-26 20:02:53 Key contained: commons-lang-LocaleUtils-toLocale-IF_STATEMENT -> 7
+2022-10-26 20:02:53 Data is written to file: src/main/resources/oracle/block/training/valid/commons-lang-LocaleUtils-toLocale-IF_STATEMENT-7.json
+2022-10-26 20:02:54 Key contained: commons-lang-LocaleUtils-toLocale-IF_STATEMENT -> 8
+2022-10-26 20:02:54 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-LocaleUtils-toLocale-IF_STATEMENT-8.json
+2022-10-26 20:02:54 Key contained: commons-lang-LocaleUtils-toLocale-IF_STATEMENT -> 9
+2022-10-26 20:02:54 Data is written to file: src/main/resources/oracle/block/training/valid/commons-lang-LocaleUtils-toLocale-IF_STATEMENT-9.json
+2022-10-26 20:03:13 No key yet: commons-lang-NumberUtils-createNumber-IF_STATEMENT
+2022-10-26 20:03:13 Data is written to file: src/main/resources/oracle/block/training/false/commons-lang-NumberUtils-createNumber-IF_STATEMENT.json
+2022-10-26 20:03:15 Key contained: commons-lang-NumberUtils-createNumber-IF_STATEMENT -> 1
+2022-10-26 20:03:15 Data is written to file: src/main/resources/oracle/block/training/false/commons-lang-NumberUtils-createNumber-IF_STATEMENT-1.json
+2022-10-26 20:03:16 Key contained: commons-lang-NumberUtils-createNumber-IF_STATEMENT -> 2
+2022-10-26 20:03:16 Data is written to file: src/main/resources/oracle/block/training/false/commons-lang-NumberUtils-createNumber-IF_STATEMENT-2.json
+2022-10-26 20:03:17 No key yet: commons-lang-NumberUtils-createNumber-ENHANCED_FOR_STATEMENT
+2022-10-26 20:03:17 Data is written to file: src/main/resources/oracle/block/training/false/commons-lang-NumberUtils-createNumber-ENHANCED_FOR_STATEMENT.json
+2022-10-26 20:03:18 Key contained: commons-lang-NumberUtils-createNumber-IF_STATEMENT -> 3
+2022-10-26 20:03:18 Data is written to file: src/main/resources/oracle/block/training/false/commons-lang-NumberUtils-createNumber-IF_STATEMENT-3.json
+2022-10-26 20:03:19 No key yet: commons-lang-NumberUtils-createNumber-FOR_STATEMENT
+2022-10-26 20:03:19 Data is written to file: src/main/resources/oracle/block/training/false/commons-lang-NumberUtils-createNumber-FOR_STATEMENT.json
+2022-10-26 20:03:20 Key contained: commons-lang-NumberUtils-createNumber-IF_STATEMENT -> 4
+2022-10-26 20:03:20 Data is written to file: src/main/resources/oracle/block/training/false/commons-lang-NumberUtils-createNumber-IF_STATEMENT-4.json
+2022-10-26 20:03:21 Key contained: commons-lang-NumberUtils-createNumber-IF_STATEMENT -> 5
+2022-10-26 20:03:21 Data is written to file: src/main/resources/oracle/block/training/false/commons-lang-NumberUtils-createNumber-IF_STATEMENT-5.json
+2022-10-26 20:03:37 Key contained: commons-lang-NumberUtils-createNumber-IF_STATEMENT -> 6
+2022-10-26 20:03:37 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-NumberUtils-createNumber-IF_STATEMENT-6.json
+2022-10-26 20:03:38 Key contained: commons-lang-NumberUtils-createNumber-IF_STATEMENT -> 7
+2022-10-26 20:03:38 Data is written to file: src/main/resources/oracle/block/training/false/commons-lang-NumberUtils-createNumber-IF_STATEMENT-7.json
+2022-10-26 20:03:54 Key contained: commons-lang-NumberUtils-createNumber-IF_STATEMENT -> 8
+2022-10-26 20:03:54 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-NumberUtils-createNumber-IF_STATEMENT-8.json
+2022-10-26 20:04:10 Key contained: commons-lang-NumberUtils-createNumber-IF_STATEMENT -> 9
+2022-10-26 20:04:10 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-NumberUtils-createNumber-IF_STATEMENT-9.json
+2022-10-26 20:04:25 Key contained: commons-lang-NumberUtils-createNumber-IF_STATEMENT -> 10
+2022-10-26 20:04:25 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-NumberUtils-createNumber-IF_STATEMENT-10.json
+2022-10-26 20:04:41 Key contained: commons-lang-NumberUtils-createNumber-IF_STATEMENT -> 11
+2022-10-26 20:04:41 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-NumberUtils-createNumber-IF_STATEMENT-11.json
+2022-10-26 20:04:57 Key contained: commons-lang-NumberUtils-createNumber-IF_STATEMENT -> 12
+2022-10-26 20:04:57 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-NumberUtils-createNumber-IF_STATEMENT-12.json
+2022-10-26 20:05:12 No key yet: commons-lang-NumberUtils-createNumber-TRY_STATEMENT
+2022-10-26 20:05:12 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-NumberUtils-createNumber-TRY_STATEMENT.json
+2022-10-26 20:05:14 No key yet: commons-lang-NumberUtils-createNumber-CATCH_CLAUSE
+2022-10-26 20:05:14 Data is written to file: src/main/resources/oracle/block/training/false/commons-lang-NumberUtils-createNumber-CATCH_CLAUSE.json
+2022-10-26 20:05:31 Key contained: commons-lang-NumberUtils-createNumber-IF_STATEMENT -> 13
+2022-10-26 20:05:31 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-NumberUtils-createNumber-IF_STATEMENT-13.json
+2022-10-26 20:05:46 Key contained: commons-lang-NumberUtils-createNumber-IF_STATEMENT -> 14
+2022-10-26 20:05:46 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-NumberUtils-createNumber-IF_STATEMENT-14.json
+2022-10-26 20:06:02 Key contained: commons-lang-NumberUtils-createNumber-TRY_STATEMENT -> 1
+2022-10-26 20:06:02 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-NumberUtils-createNumber-TRY_STATEMENT-1.json
+2022-10-26 20:06:04 Key contained: commons-lang-NumberUtils-createNumber-CATCH_CLAUSE -> 1
+2022-10-26 20:06:04 Data is written to file: src/main/resources/oracle/block/training/false/commons-lang-NumberUtils-createNumber-CATCH_CLAUSE-1.json
+2022-10-26 20:06:20 Key contained: commons-lang-NumberUtils-createNumber-IF_STATEMENT -> 15
+2022-10-26 20:06:20 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-NumberUtils-createNumber-IF_STATEMENT-15.json
+2022-10-26 20:06:35 Key contained: commons-lang-NumberUtils-createNumber-TRY_STATEMENT -> 2
+2022-10-26 20:06:35 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-NumberUtils-createNumber-TRY_STATEMENT-2.json
+2022-10-26 20:06:37 Key contained: commons-lang-NumberUtils-createNumber-CATCH_CLAUSE -> 2
+2022-10-26 20:06:37 Data is written to file: src/main/resources/oracle/block/training/false/commons-lang-NumberUtils-createNumber-CATCH_CLAUSE-2.json
+2022-10-26 20:06:53 Key contained: commons-lang-NumberUtils-createNumber-TRY_STATEMENT -> 3
+2022-10-26 20:06:53 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-NumberUtils-createNumber-TRY_STATEMENT-3.json
+2022-10-26 20:06:54 Key contained: commons-lang-NumberUtils-createNumber-CATCH_CLAUSE -> 3
+2022-10-26 20:06:54 Data is written to file: src/main/resources/oracle/block/training/false/commons-lang-NumberUtils-createNumber-CATCH_CLAUSE-3.json
+2022-10-26 20:07:10 No key yet: commons-lang-NumberUtils-createNumber-SWITCH_STATEMENT
+2022-10-26 20:07:10 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-NumberUtils-createNumber-SWITCH_STATEMENT.json
+2022-10-26 20:07:26 Key contained: commons-lang-NumberUtils-createNumber-IF_STATEMENT -> 16
+2022-10-26 20:07:26 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-NumberUtils-createNumber-IF_STATEMENT-16.json
+2022-10-26 20:07:43 Key contained: commons-lang-NumberUtils-createNumber-IF_STATEMENT -> 17
+2022-10-26 20:07:43 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-NumberUtils-createNumber-IF_STATEMENT-17.json
+2022-10-26 20:07:59 Key contained: commons-lang-NumberUtils-createNumber-TRY_STATEMENT -> 4
+2022-10-26 20:07:59 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-NumberUtils-createNumber-TRY_STATEMENT-4.json
+2022-10-26 20:08:01 Key contained: commons-lang-NumberUtils-createNumber-CATCH_CLAUSE -> 4
+2022-10-26 20:08:01 Data is written to file: src/main/resources/oracle/block/training/false/commons-lang-NumberUtils-createNumber-CATCH_CLAUSE-4.json
+2022-10-26 20:08:17 Key contained: commons-lang-NumberUtils-createNumber-TRY_STATEMENT -> 5
+2022-10-26 20:08:17 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-NumberUtils-createNumber-TRY_STATEMENT-5.json
+2022-10-26 20:08:19 Key contained: commons-lang-NumberUtils-createNumber-CATCH_CLAUSE -> 5
+2022-10-26 20:08:19 Data is written to file: src/main/resources/oracle/block/training/false/commons-lang-NumberUtils-createNumber-CATCH_CLAUSE-5.json
+2022-10-26 20:08:36 Key contained: commons-lang-NumberUtils-createNumber-IF_STATEMENT -> 18
+2022-10-26 20:08:36 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-NumberUtils-createNumber-IF_STATEMENT-18.json
+2022-10-26 20:08:53 Key contained: commons-lang-NumberUtils-createNumber-IF_STATEMENT -> 19
+2022-10-26 20:08:53 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-NumberUtils-createNumber-IF_STATEMENT-19.json
+2022-10-26 20:09:11 Key contained: commons-lang-NumberUtils-createNumber-IF_STATEMENT -> 20
+2022-10-26 20:09:11 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-NumberUtils-createNumber-IF_STATEMENT-20.json
+2022-10-26 20:09:12 Key contained: commons-lang-NumberUtils-createNumber-IF_STATEMENT -> 21
+2022-10-26 20:09:12 Data is written to file: src/main/resources/oracle/block/training/false/commons-lang-NumberUtils-createNumber-IF_STATEMENT-21.json
+2022-10-26 20:09:29 Key contained: commons-lang-NumberUtils-createNumber-TRY_STATEMENT -> 6
+2022-10-26 20:09:29 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-NumberUtils-createNumber-TRY_STATEMENT-6.json
+2022-10-26 20:09:31 Key contained: commons-lang-NumberUtils-createNumber-CATCH_CLAUSE -> 6
+2022-10-26 20:09:31 Data is written to file: src/main/resources/oracle/block/training/false/commons-lang-NumberUtils-createNumber-CATCH_CLAUSE-6.json
+2022-10-26 20:09:32 No key yet: commons-lang-NumberUtils-isCreatable-IF_STATEMENT
+2022-10-26 20:09:32 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-NumberUtils-isCreatable-IF_STATEMENT.json
+2022-10-26 20:09:32 Key contained: commons-lang-NumberUtils-isCreatable-IF_STATEMENT -> 1
+2022-10-26 20:09:32 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-NumberUtils-isCreatable-IF_STATEMENT-1.json
+2022-10-26 20:09:32 Key contained: commons-lang-NumberUtils-isCreatable-IF_STATEMENT -> 2
+2022-10-26 20:09:32 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-NumberUtils-isCreatable-IF_STATEMENT-2.json
+2022-10-26 20:09:33 No key yet: commons-lang-NumberUtils-isCreatable-FOR_STATEMENT
+2022-10-26 20:09:33 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-NumberUtils-isCreatable-FOR_STATEMENT.json
+2022-10-26 20:09:33 Key contained: commons-lang-NumberUtils-isCreatable-IF_STATEMENT -> 3
+2022-10-26 20:09:33 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-NumberUtils-isCreatable-IF_STATEMENT-3.json
+2022-10-26 20:09:34 Key contained: commons-lang-NumberUtils-isCreatable-FOR_STATEMENT -> 1
+2022-10-26 20:09:34 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-NumberUtils-isCreatable-FOR_STATEMENT-1.json
+2022-10-26 20:09:34 Key contained: commons-lang-NumberUtils-isCreatable-IF_STATEMENT -> 4
+2022-10-26 20:09:34 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-NumberUtils-isCreatable-IF_STATEMENT-4.json
+2022-10-26 20:09:35 Key contained: commons-lang-NumberUtils-isCreatable-IF_STATEMENT -> 5
+2022-10-26 20:09:35 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-NumberUtils-isCreatable-IF_STATEMENT-5.json
+2022-10-26 20:09:35 Key contained: commons-lang-NumberUtils-isCreatable-IF_STATEMENT -> 6
+2022-10-26 20:09:35 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-NumberUtils-isCreatable-IF_STATEMENT-6.json
+2022-10-26 20:09:36 Key contained: commons-lang-NumberUtils-isCreatable-IF_STATEMENT -> 7
+2022-10-26 20:09:36 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-NumberUtils-isCreatable-IF_STATEMENT-7.json
+2022-10-26 20:09:36 Key contained: commons-lang-NumberUtils-isCreatable-IF_STATEMENT -> 8
+2022-10-26 20:09:36 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-NumberUtils-isCreatable-IF_STATEMENT-8.json
+2022-10-26 20:09:36 Key contained: commons-lang-NumberUtils-isCreatable-IF_STATEMENT -> 9
+2022-10-26 20:09:36 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-NumberUtils-isCreatable-IF_STATEMENT-9.json
+2022-10-26 20:09:37 Key contained: commons-lang-NumberUtils-isCreatable-IF_STATEMENT -> 10
+2022-10-26 20:09:37 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-NumberUtils-isCreatable-IF_STATEMENT-10.json
+2022-10-26 20:09:37 Key contained: commons-lang-NumberUtils-isCreatable-IF_STATEMENT -> 11
+2022-10-26 20:09:37 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-NumberUtils-isCreatable-IF_STATEMENT-11.json
+2022-10-26 20:09:38 Key contained: commons-lang-NumberUtils-isCreatable-IF_STATEMENT -> 12
+2022-10-26 20:09:38 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-NumberUtils-isCreatable-IF_STATEMENT-12.json
+2022-10-26 20:09:38 Key contained: commons-lang-NumberUtils-isCreatable-IF_STATEMENT -> 13
+2022-10-26 20:09:38 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-NumberUtils-isCreatable-IF_STATEMENT-13.json
+2022-10-26 20:09:39 Key contained: commons-lang-NumberUtils-isCreatable-IF_STATEMENT -> 14
+2022-10-26 20:09:39 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-NumberUtils-isCreatable-IF_STATEMENT-14.json
+2022-10-26 20:09:39 No key yet: commons-lang-NumberUtils-isCreatable-WHILE_STATEMENT
+2022-10-26 20:09:39 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-NumberUtils-isCreatable-WHILE_STATEMENT.json
+2022-10-26 20:09:40 Key contained: commons-lang-NumberUtils-isCreatable-IF_STATEMENT -> 15
+2022-10-26 20:09:40 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-NumberUtils-isCreatable-IF_STATEMENT-15.json
+2022-10-26 20:09:40 Key contained: commons-lang-NumberUtils-isCreatable-IF_STATEMENT -> 16
+2022-10-26 20:09:40 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-NumberUtils-isCreatable-IF_STATEMENT-16.json
+2022-10-26 20:09:40 Key contained: commons-lang-NumberUtils-isCreatable-IF_STATEMENT -> 17
+2022-10-26 20:09:40 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-NumberUtils-isCreatable-IF_STATEMENT-17.json
+2022-10-26 20:09:41 Key contained: commons-lang-NumberUtils-isCreatable-IF_STATEMENT -> 18
+2022-10-26 20:09:41 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-NumberUtils-isCreatable-IF_STATEMENT-18.json
+2022-10-26 20:09:41 Key contained: commons-lang-NumberUtils-isCreatable-IF_STATEMENT -> 19
+2022-10-26 20:09:41 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-NumberUtils-isCreatable-IF_STATEMENT-19.json
+2022-10-26 20:09:42 Key contained: commons-lang-NumberUtils-isCreatable-IF_STATEMENT -> 20
+2022-10-26 20:09:42 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-NumberUtils-isCreatable-IF_STATEMENT-20.json
+2022-10-26 20:09:42 Key contained: commons-lang-NumberUtils-isCreatable-IF_STATEMENT -> 21
+2022-10-26 20:09:42 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-NumberUtils-isCreatable-IF_STATEMENT-21.json
+2022-10-26 20:10:01 No key yet: commons-lang-RandomStringUtils-random-IF_STATEMENT
+2022-10-26 20:10:01 Data is written to file: src/main/resources/oracle/block/training/false/commons-lang-RandomStringUtils-random-IF_STATEMENT.json
+2022-10-26 20:10:02 Key contained: commons-lang-RandomStringUtils-random-IF_STATEMENT -> 1
+2022-10-26 20:10:02 Data is written to file: src/main/resources/oracle/block/training/false/commons-lang-RandomStringUtils-random-IF_STATEMENT-1.json
+2022-10-26 20:10:02 Key contained: commons-lang-RandomStringUtils-random-IF_STATEMENT -> 2
+2022-10-26 20:10:02 Data is written to file: src/main/resources/oracle/block/training/false/commons-lang-RandomStringUtils-random-IF_STATEMENT-2.json
+2022-10-26 20:10:02 Key contained: commons-lang-RandomStringUtils-random-IF_STATEMENT -> 3
+2022-10-26 20:10:02 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-RandomStringUtils-random-IF_STATEMENT-3.json
+2022-10-26 20:10:03 Key contained: commons-lang-RandomStringUtils-random-IF_STATEMENT -> 4
+2022-10-26 20:10:03 Data is written to file: src/main/resources/oracle/block/training/false/commons-lang-RandomStringUtils-random-IF_STATEMENT-4.json
+2022-10-26 20:10:03 Key contained: commons-lang-RandomStringUtils-random-IF_STATEMENT -> 5
+2022-10-26 20:10:03 Data is written to file: src/main/resources/oracle/block/training/false/commons-lang-RandomStringUtils-random-IF_STATEMENT-5.json
+2022-10-26 20:10:04 Key contained: commons-lang-RandomStringUtils-random-IF_STATEMENT -> 6
+2022-10-26 20:10:04 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-RandomStringUtils-random-IF_STATEMENT-6.json
+2022-10-26 20:10:04 Key contained: commons-lang-RandomStringUtils-random-IF_STATEMENT -> 7
+2022-10-26 20:10:04 Data is written to file: src/main/resources/oracle/block/training/false/commons-lang-RandomStringUtils-random-IF_STATEMENT-7.json
+2022-10-26 20:10:04 No key yet: commons-lang-RandomStringUtils-random-SWITCH_STATEMENT
+2022-10-26 20:10:04 Data is written to file: src/main/resources/oracle/block/training/false/commons-lang-RandomStringUtils-random-SWITCH_STATEMENT.json
+2022-10-26 20:10:05 Key contained: commons-lang-RandomStringUtils-random-IF_STATEMENT -> 8
+2022-10-26 20:10:05 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-RandomStringUtils-random-IF_STATEMENT-8.json
+2022-10-26 20:10:05 Key contained: commons-lang-RandomStringUtils-random-IF_STATEMENT -> 9
+2022-10-26 20:10:05 Data is written to file: src/main/resources/oracle/block/training/false/commons-lang-RandomStringUtils-random-IF_STATEMENT-9.json
+2022-10-26 20:10:06 Key contained: commons-lang-RandomStringUtils-random-IF_STATEMENT -> 10
+2022-10-26 20:10:06 Data is written to file: src/main/resources/oracle/block/training/false/commons-lang-RandomStringUtils-random-IF_STATEMENT-10.json
+2022-10-26 20:10:06 Key contained: commons-lang-RandomStringUtils-random-IF_STATEMENT -> 11
+2022-10-26 20:10:06 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-RandomStringUtils-random-IF_STATEMENT-11.json
+2022-10-26 20:10:07 No key yet: commons-lang-RandomStringUtils-random-WHILE_STATEMENT
+2022-10-26 20:10:07 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-RandomStringUtils-random-WHILE_STATEMENT.json
+2022-10-26 20:10:09 No key yet: commons-lang-StrSubstitutor-substitute-IF_STATEMENT
+2022-10-26 20:10:09 Data is written to file: src/main/resources/oracle/block/training/false/commons-lang-StrSubstitutor-substitute-IF_STATEMENT.json
+2022-10-26 20:10:09 Key contained: commons-lang-StrSubstitutor-substitute-IF_STATEMENT -> 1
+2022-10-26 20:10:09 Data is written to file: src/main/resources/oracle/block/training/false/commons-lang-StrSubstitutor-substitute-IF_STATEMENT-1.json
+2022-10-26 20:10:10 Key contained: commons-lang-StrSubstitutor-substitute-IF_STATEMENT -> 2
+2022-10-26 20:10:10 Data is written to file: src/main/resources/oracle/block/training/false/commons-lang-StrSubstitutor-substitute-IF_STATEMENT-2.json
+2022-10-26 20:10:11 Key contained: commons-lang-StrSubstitutor-substitute-IF_STATEMENT -> 3
+2022-10-26 20:10:11 Data is written to file: src/main/resources/oracle/block/training/false/commons-lang-StrSubstitutor-substitute-IF_STATEMENT-3.json
+2022-10-26 20:10:11 Key contained: commons-lang-StrSubstitutor-substitute-IF_STATEMENT -> 4
+2022-10-26 20:10:11 Data is written to file: src/main/resources/oracle/block/training/false/commons-lang-StrSubstitutor-substitute-IF_STATEMENT-4.json
+2022-10-26 20:10:11 No key yet: commons-lang-StrSubstitutor-substitute-FOR_STATEMENT
+2022-10-26 20:10:11 Data is written to file: src/main/resources/oracle/block/training/false/commons-lang-StrSubstitutor-substitute-FOR_STATEMENT.json
+2022-10-26 20:10:12 Key contained: commons-lang-StrSubstitutor-substitute-IF_STATEMENT -> 5
+2022-10-26 20:10:12 Data is written to file: src/main/resources/oracle/block/training/false/commons-lang-StrSubstitutor-substitute-IF_STATEMENT-5.json
+2022-10-26 20:10:13 Key contained: commons-lang-StrSubstitutor-substitute-IF_STATEMENT -> 6
+2022-10-26 20:10:13 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-StrSubstitutor-substitute-IF_STATEMENT-6.json
+2022-10-26 20:10:13 Key contained: commons-lang-StrSubstitutor-substitute-IF_STATEMENT -> 7
+2022-10-26 20:10:13 Data is written to file: src/main/resources/oracle/block/training/false/commons-lang-StrSubstitutor-substitute-IF_STATEMENT-7.json
+2022-10-26 20:10:14 Key contained: commons-lang-StrSubstitutor-substitute-IF_STATEMENT -> 8
+2022-10-26 20:10:14 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-StrSubstitutor-substitute-IF_STATEMENT-8.json
+2022-10-26 20:10:15 Key contained: commons-lang-StrSubstitutor-substitute-IF_STATEMENT -> 9
+2022-10-26 20:10:15 Data is written to file: src/main/resources/oracle/block/training/false/commons-lang-StrSubstitutor-substitute-IF_STATEMENT-9.json
+2022-10-26 20:10:16 Key contained: commons-lang-StrSubstitutor-substitute-IF_STATEMENT -> 10
+2022-10-26 20:10:16 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-StrSubstitutor-substitute-IF_STATEMENT-10.json
+2022-10-26 20:10:17 No key yet: commons-lang-StrSubstitutor-substitute-WHILE_STATEMENT
+2022-10-26 20:10:17 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-StrSubstitutor-substitute-WHILE_STATEMENT.json
+2022-10-26 20:10:18 Key contained: commons-lang-StrSubstitutor-substitute-IF_STATEMENT -> 11
+2022-10-26 20:10:18 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-StrSubstitutor-substitute-IF_STATEMENT-11.json
+2022-10-26 20:10:19 Key contained: commons-lang-StrSubstitutor-substitute-IF_STATEMENT -> 12
+2022-10-26 20:10:19 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-StrSubstitutor-substitute-IF_STATEMENT-12.json
+2022-10-26 20:10:20 Key contained: commons-lang-StrSubstitutor-substitute-WHILE_STATEMENT -> 1
+2022-10-26 20:10:20 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-StrSubstitutor-substitute-WHILE_STATEMENT-1.json
+2022-10-26 20:10:21 Key contained: commons-lang-StrSubstitutor-substitute-IF_STATEMENT -> 13
+2022-10-26 20:10:21 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-StrSubstitutor-substitute-IF_STATEMENT-13.json
+2022-10-26 20:10:34 No key yet: flink-CheckpointCoordinator-receiveAcknowledgeMessage-IF_STATEMENT
+2022-10-26 20:10:34 Data is written to file: src/main/resources/oracle/block/training/true/flink-CheckpointCoordinator-receiveAcknowledgeMessage-IF_STATEMENT.json
+2022-10-26 20:10:40 Key contained: flink-CheckpointCoordinator-receiveAcknowledgeMessage-IF_STATEMENT -> 1
+2022-10-26 20:10:40 Data is written to file: src/main/resources/oracle/block/training/true/flink-CheckpointCoordinator-receiveAcknowledgeMessage-IF_STATEMENT-1.json
+2022-10-26 20:10:46 Key contained: flink-CheckpointCoordinator-receiveAcknowledgeMessage-IF_STATEMENT -> 2
+2022-10-26 20:10:46 Data is written to file: src/main/resources/oracle/block/training/true/flink-CheckpointCoordinator-receiveAcknowledgeMessage-IF_STATEMENT-2.json
+2022-10-26 20:10:52 Key contained: flink-CheckpointCoordinator-receiveAcknowledgeMessage-IF_STATEMENT -> 3
+2022-10-26 20:10:52 Data is written to file: src/main/resources/oracle/block/training/true/flink-CheckpointCoordinator-receiveAcknowledgeMessage-IF_STATEMENT-3.json
+2022-10-26 20:10:54 No key yet: flink-CheckpointCoordinator-receiveAcknowledgeMessage-SWITCH_STATEMENT
+2022-10-26 20:10:54 Data is written to file: src/main/resources/oracle/block/training/false/flink-CheckpointCoordinator-receiveAcknowledgeMessage-SWITCH_STATEMENT.json
+2022-10-26 20:11:00 Key contained: flink-CheckpointCoordinator-receiveAcknowledgeMessage-IF_STATEMENT -> 4
+2022-10-26 20:11:00 Data is written to file: src/main/resources/oracle/block/training/true/flink-CheckpointCoordinator-receiveAcknowledgeMessage-IF_STATEMENT-4.json
+2022-10-26 20:11:06 Key contained: flink-CheckpointCoordinator-receiveAcknowledgeMessage-IF_STATEMENT -> 5
+2022-10-26 20:11:06 Data is written to file: src/main/resources/oracle/block/training/true/flink-CheckpointCoordinator-receiveAcknowledgeMessage-IF_STATEMENT-5.json
+2022-10-26 20:11:12 Key contained: flink-CheckpointCoordinator-receiveAcknowledgeMessage-IF_STATEMENT -> 6
+2022-10-26 20:11:12 Data is written to file: src/main/resources/oracle/block/training/true/flink-CheckpointCoordinator-receiveAcknowledgeMessage-IF_STATEMENT-6.json
+2022-10-26 20:11:19 No key yet: flink-CheckpointCoordinator-receiveAcknowledgeMessage-SYNCHRONIZED_STATEMENT
+2022-10-26 20:11:19 Data is written to file: src/main/resources/oracle/block/training/true/flink-CheckpointCoordinator-receiveAcknowledgeMessage-SYNCHRONIZED_STATEMENT.json
+2022-10-26 20:12:29 No key yet: flink-ContinuousFileMonitoringFunction-close-SYNCHRONIZED_STATEMENT
+2022-10-26 20:12:29 Data is written to file: src/main/resources/oracle/block/training/false/flink-ContinuousFileMonitoringFunction-close-SYNCHRONIZED_STATEMENT.json
+2022-10-26 20:12:29 No key yet: flink-ContinuousFileMonitoringFunction-close-IF_STATEMENT
+2022-10-26 20:12:29 Data is written to file: src/main/resources/oracle/block/training/false/flink-ContinuousFileMonitoringFunction-close-IF_STATEMENT.json
+2022-10-26 20:12:30 Key contained: flink-ContinuousFileMonitoringFunction-close-IF_STATEMENT -> 1
+2022-10-26 20:12:30 Data is written to file: src/main/resources/oracle/block/training/false/flink-ContinuousFileMonitoringFunction-close-IF_STATEMENT-1.json
+2022-10-26 20:12:48 No key yet: flink-DispatcherRestEndpoint-initializeHandlers-TRY_STATEMENT
+2022-10-26 20:12:48 Data is written to file: src/main/resources/oracle/block/training/false/flink-DispatcherRestEndpoint-initializeHandlers-TRY_STATEMENT.json
+2022-10-26 20:12:48 No key yet: flink-DispatcherRestEndpoint-initializeHandlers-IF_STATEMENT
+2022-10-26 20:12:48 Data is written to file: src/main/resources/oracle/block/training/false/flink-DispatcherRestEndpoint-initializeHandlers-IF_STATEMENT.json
+2022-10-26 20:12:49 No key yet: flink-DispatcherRestEndpoint-initializeHandlers-CATCH_CLAUSE
+2022-10-26 20:12:49 Data is written to file: src/main/resources/oracle/block/training/false/flink-DispatcherRestEndpoint-initializeHandlers-CATCH_CLAUSE.json
+2022-10-26 20:12:50 Key contained: flink-DispatcherRestEndpoint-initializeHandlers-IF_STATEMENT -> 1
+2022-10-26 20:12:50 Data is written to file: src/main/resources/oracle/block/training/false/flink-DispatcherRestEndpoint-initializeHandlers-IF_STATEMENT-1.json
+2022-10-26 20:12:52 No key yet: flink-FileSystem-getUnguardedFileSystem-TRY_STATEMENT
+2022-10-26 20:12:52 Data is written to file: src/main/resources/oracle/block/training/true/flink-FileSystem-getUnguardedFileSystem-TRY_STATEMENT.json
+2022-10-26 20:12:53 Key contained: flink-FileSystem-getUnguardedFileSystem-TRY_STATEMENT -> 1
+2022-10-26 20:12:53 Data is written to file: src/main/resources/oracle/block/training/true/flink-FileSystem-getUnguardedFileSystem-TRY_STATEMENT-1.json
+2022-10-26 20:12:54 No key yet: flink-FileSystem-getUnguardedFileSystem-CATCH_CLAUSE
+2022-10-26 20:12:54 Data is written to file: src/main/resources/oracle/block/training/false/flink-FileSystem-getUnguardedFileSystem-CATCH_CLAUSE.json
+2022-10-26 20:12:55 No key yet: flink-FileSystem-getUnguardedFileSystem-IF_STATEMENT
+2022-10-26 20:12:55 Data is written to file: src/main/resources/oracle/block/training/true/flink-FileSystem-getUnguardedFileSystem-IF_STATEMENT.json
+2022-10-26 20:12:56 Key contained: flink-FileSystem-getUnguardedFileSystem-CATCH_CLAUSE -> 1
+2022-10-26 20:12:56 Data is written to file: src/main/resources/oracle/block/training/false/flink-FileSystem-getUnguardedFileSystem-CATCH_CLAUSE-1.json
+2022-10-26 20:12:57 Key contained: flink-FileSystem-getUnguardedFileSystem-IF_STATEMENT -> 1
+2022-10-26 20:12:57 Data is written to file: src/main/resources/oracle/block/training/false/flink-FileSystem-getUnguardedFileSystem-IF_STATEMENT-1.json
+2022-10-26 20:12:58 Key contained: flink-FileSystem-getUnguardedFileSystem-IF_STATEMENT -> 2
+2022-10-26 20:12:58 Data is written to file: src/main/resources/oracle/block/training/true/flink-FileSystem-getUnguardedFileSystem-IF_STATEMENT-2.json
+2022-10-26 20:13:00 Key contained: flink-FileSystem-getUnguardedFileSystem-IF_STATEMENT -> 3
+2022-10-26 20:13:00 Data is written to file: src/main/resources/oracle/block/training/true/flink-FileSystem-getUnguardedFileSystem-IF_STATEMENT-3.json
+2022-10-26 20:13:00 Key contained: flink-FileSystem-getUnguardedFileSystem-IF_STATEMENT -> 4
+2022-10-26 20:13:00 Data is written to file: src/main/resources/oracle/block/training/false/flink-FileSystem-getUnguardedFileSystem-IF_STATEMENT-4.json
+2022-10-26 20:13:01 Key contained: flink-FileSystem-getUnguardedFileSystem-IF_STATEMENT -> 5
+2022-10-26 20:13:01 Data is written to file: src/main/resources/oracle/block/training/false/flink-FileSystem-getUnguardedFileSystem-IF_STATEMENT-5.json
+2022-10-26 20:13:02 Key contained: flink-FileSystem-getUnguardedFileSystem-TRY_STATEMENT -> 2
+2022-10-26 20:13:02 Data is written to file: src/main/resources/oracle/block/training/false/flink-FileSystem-getUnguardedFileSystem-TRY_STATEMENT-2.json
+2022-10-26 20:13:03 Key contained: flink-FileSystem-getUnguardedFileSystem-CATCH_CLAUSE -> 2
+2022-10-26 20:13:03 Data is written to file: src/main/resources/oracle/block/training/false/flink-FileSystem-getUnguardedFileSystem-CATCH_CLAUSE-2.json
+2022-10-26 20:13:03 Key contained: flink-FileSystem-getUnguardedFileSystem-IF_STATEMENT -> 6
+2022-10-26 20:13:03 Data is written to file: src/main/resources/oracle/block/training/false/flink-FileSystem-getUnguardedFileSystem-IF_STATEMENT-6.json
+2022-10-26 20:13:05 Key contained: flink-FileSystem-getUnguardedFileSystem-TRY_STATEMENT -> 3
+2022-10-26 20:13:05 Data is written to file: src/main/resources/oracle/block/training/true/flink-FileSystem-getUnguardedFileSystem-TRY_STATEMENT-3.json
+2022-10-26 20:13:06 No key yet: flink-FileSystem-getUnguardedFileSystem-FINALLY_BLOCK
+2022-10-26 20:13:06 Data is written to file: src/main/resources/oracle/block/training/false/flink-FileSystem-getUnguardedFileSystem-FINALLY_BLOCK.json
+2022-10-26 20:13:09 No key yet: flink-KryoSerializer-checkKryoInitialized-ENHANCED_FOR_STATEMENT
+2022-10-26 20:13:09 Data is written to file: src/main/resources/oracle/block/training/false/flink-KryoSerializer-checkKryoInitialized-ENHANCED_FOR_STATEMENT.json
+2022-10-26 20:13:10 Key contained: flink-KryoSerializer-checkKryoInitialized-ENHANCED_FOR_STATEMENT -> 1
+2022-10-26 20:13:10 Data is written to file: src/main/resources/oracle/block/training/false/flink-KryoSerializer-checkKryoInitialized-ENHANCED_FOR_STATEMENT-1.json
+2022-10-26 20:13:12 No key yet: flink-KryoSerializer-checkKryoInitialized-IF_STATEMENT
+2022-10-26 20:13:12 Data is written to file: src/main/resources/oracle/block/training/true/flink-KryoSerializer-checkKryoInitialized-IF_STATEMENT.json
+2022-10-26 20:13:15 No key yet: flink-LocatableInputSplitAssigner-getNextInputSplit-IF_STATEMENT
+2022-10-26 20:13:15 Data is written to file: src/main/resources/oracle/block/training/false/flink-LocatableInputSplitAssigner-getNextInputSplit-IF_STATEMENT.json
+2022-10-26 20:13:15 Key contained: flink-LocatableInputSplitAssigner-getNextInputSplit-IF_STATEMENT -> 1
+2022-10-26 20:13:15 Data is written to file: src/main/resources/oracle/block/training/false/flink-LocatableInputSplitAssigner-getNextInputSplit-IF_STATEMENT-1.json
+2022-10-26 20:13:18 Key contained: flink-LocatableInputSplitAssigner-getNextInputSplit-IF_STATEMENT -> 2
+2022-10-26 20:13:18 Data is written to file: src/main/resources/oracle/block/training/false/flink-LocatableInputSplitAssigner-getNextInputSplit-IF_STATEMENT-2.json
+2022-10-26 20:13:21 Key contained: flink-LocatableInputSplitAssigner-getNextInputSplit-IF_STATEMENT -> 3
+2022-10-26 20:13:21 Data is written to file: src/main/resources/oracle/block/training/false/flink-LocatableInputSplitAssigner-getNextInputSplit-IF_STATEMENT-3.json
+2022-10-26 20:13:24 No key yet: flink-LocatableInputSplitAssigner-getNextInputSplit-SYNCHRONIZED_STATEMENT
+2022-10-26 20:13:24 Data is written to file: src/main/resources/oracle/block/training/false/flink-LocatableInputSplitAssigner-getNextInputSplit-SYNCHRONIZED_STATEMENT.json
+2022-10-26 20:13:24 Key contained: flink-LocatableInputSplitAssigner-getNextInputSplit-SYNCHRONIZED_STATEMENT -> 1
+2022-10-26 20:13:24 Data is written to file: src/main/resources/oracle/block/training/false/flink-LocatableInputSplitAssigner-getNextInputSplit-SYNCHRONIZED_STATEMENT-1.json
+2022-10-26 20:13:27 Key contained: flink-LocatableInputSplitAssigner-getNextInputSplit-IF_STATEMENT -> 4
+2022-10-26 20:13:27 Data is written to file: src/main/resources/oracle/block/training/false/flink-LocatableInputSplitAssigner-getNextInputSplit-IF_STATEMENT-4.json
+2022-10-26 20:13:30 Key contained: flink-LocatableInputSplitAssigner-getNextInputSplit-SYNCHRONIZED_STATEMENT -> 2
+2022-10-26 20:13:30 Data is written to file: src/main/resources/oracle/block/training/false/flink-LocatableInputSplitAssigner-getNextInputSplit-SYNCHRONIZED_STATEMENT-2.json
+2022-10-26 20:13:30 Key contained: flink-LocatableInputSplitAssigner-getNextInputSplit-IF_STATEMENT -> 5
+2022-10-26 20:13:30 Data is written to file: src/main/resources/oracle/block/training/false/flink-LocatableInputSplitAssigner-getNextInputSplit-IF_STATEMENT-5.json
+2022-10-26 20:13:30 No key yet: flink-LocatableInputSplitAssigner-getNextInputSplit-ENHANCED_FOR_STATEMENT
+2022-10-26 20:13:30 Data is written to file: src/main/resources/oracle/block/training/false/flink-LocatableInputSplitAssigner-getNextInputSplit-ENHANCED_FOR_STATEMENT.json
+2022-10-26 20:13:33 Key contained: flink-LocatableInputSplitAssigner-getNextInputSplit-IF_STATEMENT -> 6
+2022-10-26 20:13:33 Data is written to file: src/main/resources/oracle/block/training/false/flink-LocatableInputSplitAssigner-getNextInputSplit-IF_STATEMENT-6.json
+2022-10-26 20:13:36 Key contained: flink-LocatableInputSplitAssigner-getNextInputSplit-SYNCHRONIZED_STATEMENT -> 3
+2022-10-26 20:13:36 Data is written to file: src/main/resources/oracle/block/training/false/flink-LocatableInputSplitAssigner-getNextInputSplit-SYNCHRONIZED_STATEMENT-3.json
+2022-10-26 20:13:38 Key contained: flink-LocatableInputSplitAssigner-getNextInputSplit-IF_STATEMENT -> 7
+2022-10-26 20:13:39 Data is written to file: src/main/resources/oracle/block/training/false/flink-LocatableInputSplitAssigner-getNextInputSplit-IF_STATEMENT-7.json
+2022-10-26 20:13:41 Key contained: flink-LocatableInputSplitAssigner-getNextInputSplit-IF_STATEMENT -> 8
+2022-10-26 20:13:41 Data is written to file: src/main/resources/oracle/block/training/false/flink-LocatableInputSplitAssigner-getNextInputSplit-IF_STATEMENT-8.json
+2022-10-26 20:13:44 Key contained: flink-LocatableInputSplitAssigner-getNextInputSplit-IF_STATEMENT -> 9
+2022-10-26 20:13:44 Data is written to file: src/main/resources/oracle/block/training/false/flink-LocatableInputSplitAssigner-getNextInputSplit-IF_STATEMENT-9.json
+2022-10-26 20:13:44 Key contained: flink-LocatableInputSplitAssigner-getNextInputSplit-IF_STATEMENT -> 10
+2022-10-26 20:13:44 Data is written to file: src/main/resources/oracle/block/training/false/flink-LocatableInputSplitAssigner-getNextInputSplit-IF_STATEMENT-10.json
+2022-10-26 20:13:47 Key contained: flink-LocatableInputSplitAssigner-getNextInputSplit-SYNCHRONIZED_STATEMENT -> 4
+2022-10-26 20:13:47 Data is written to file: src/main/resources/oracle/block/training/false/flink-LocatableInputSplitAssigner-getNextInputSplit-SYNCHRONIZED_STATEMENT-4.json
+2022-10-26 20:13:50 Key contained: flink-LocatableInputSplitAssigner-getNextInputSplit-SYNCHRONIZED_STATEMENT -> 5
+2022-10-26 20:13:50 Data is written to file: src/main/resources/oracle/block/training/false/flink-LocatableInputSplitAssigner-getNextInputSplit-SYNCHRONIZED_STATEMENT-5.json
+2022-10-26 20:13:52 Key contained: flink-LocatableInputSplitAssigner-getNextInputSplit-IF_STATEMENT -> 11
+2022-10-26 20:13:52 Data is written to file: src/main/resources/oracle/block/training/false/flink-LocatableInputSplitAssigner-getNextInputSplit-IF_STATEMENT-11.json
+2022-10-26 20:13:53 Key contained: flink-LocatableInputSplitAssigner-getNextInputSplit-IF_STATEMENT -> 12
+2022-10-26 20:13:53 Data is written to file: src/main/resources/oracle/block/training/false/flink-LocatableInputSplitAssigner-getNextInputSplit-IF_STATEMENT-12.json
+2022-10-26 20:13:55 Key contained: flink-LocatableInputSplitAssigner-getNextInputSplit-IF_STATEMENT -> 13
+2022-10-26 20:13:55 Data is written to file: src/main/resources/oracle/block/training/false/flink-LocatableInputSplitAssigner-getNextInputSplit-IF_STATEMENT-13.json
+2022-10-26 20:13:58 Key contained: flink-LocatableInputSplitAssigner-getNextInputSplit-IF_STATEMENT -> 14
+2022-10-26 20:13:58 Data is written to file: src/main/resources/oracle/block/training/false/flink-LocatableInputSplitAssigner-getNextInputSplit-IF_STATEMENT-14.json
+2022-10-26 20:14:01 Key contained: flink-LocatableInputSplitAssigner-getNextInputSplit-SYNCHRONIZED_STATEMENT -> 6
+2022-10-26 20:14:01 Data is written to file: src/main/resources/oracle/block/training/false/flink-LocatableInputSplitAssigner-getNextInputSplit-SYNCHRONIZED_STATEMENT-6.json
+2022-10-26 20:14:01 Key contained: flink-LocatableInputSplitAssigner-getNextInputSplit-SYNCHRONIZED_STATEMENT -> 7
+2022-10-26 20:14:01 Data is written to file: src/main/resources/oracle/block/training/false/flink-LocatableInputSplitAssigner-getNextInputSplit-SYNCHRONIZED_STATEMENT-7.json
+2022-10-26 20:14:05 No key yet: flink-PojoSerializer-deserialize-IF_STATEMENT
+2022-10-26 20:14:05 Data is written to file: src/main/resources/oracle/block/training/false/flink-PojoSerializer-deserialize-IF_STATEMENT.json
+2022-10-26 20:14:07 No key yet: flink-PojoSerializer-deserialize-TRY_STATEMENT
+2022-10-26 20:14:07 Data is written to file: src/main/resources/oracle/block/training/true/flink-PojoSerializer-deserialize-TRY_STATEMENT.json
+2022-10-26 20:14:08 No key yet: flink-PojoSerializer-deserialize-CATCH_CLAUSE
+2022-10-26 20:14:08 Data is written to file: src/main/resources/oracle/block/training/false/flink-PojoSerializer-deserialize-CATCH_CLAUSE.json
+2022-10-26 20:14:09 Key contained: flink-PojoSerializer-deserialize-IF_STATEMENT -> 1
+2022-10-26 20:14:09 Data is written to file: src/main/resources/oracle/block/training/false/flink-PojoSerializer-deserialize-IF_STATEMENT-1.json
+2022-10-26 20:14:10 Key contained: flink-PojoSerializer-deserialize-IF_STATEMENT -> 2
+2022-10-26 20:14:10 Data is written to file: src/main/resources/oracle/block/training/false/flink-PojoSerializer-deserialize-IF_STATEMENT-2.json
+2022-10-26 20:14:11 Key contained: flink-PojoSerializer-deserialize-IF_STATEMENT -> 3
+2022-10-26 20:14:11 Data is written to file: src/main/resources/oracle/block/training/false/flink-PojoSerializer-deserialize-IF_STATEMENT-3.json
+2022-10-26 20:14:11 Key contained: flink-PojoSerializer-deserialize-IF_STATEMENT -> 4
+2022-10-26 20:14:11 Data is written to file: src/main/resources/oracle/block/training/false/flink-PojoSerializer-deserialize-IF_STATEMENT-4.json
+2022-10-26 20:14:12 Key contained: flink-PojoSerializer-deserialize-IF_STATEMENT -> 5
+2022-10-26 20:14:12 Data is written to file: src/main/resources/oracle/block/training/false/flink-PojoSerializer-deserialize-IF_STATEMENT-5.json
+2022-10-26 20:14:14 No key yet: flink-PojoSerializer-deserialize-FOR_STATEMENT
+2022-10-26 20:14:14 Data is written to file: src/main/resources/oracle/block/training/true/flink-PojoSerializer-deserialize-FOR_STATEMENT.json
+2022-10-26 20:14:17 Key contained: flink-PojoSerializer-deserialize-TRY_STATEMENT -> 1
+2022-10-26 20:14:17 Data is written to file: src/main/resources/oracle/block/training/true/flink-PojoSerializer-deserialize-TRY_STATEMENT-1.json
+2022-10-26 20:14:18 Key contained: flink-PojoSerializer-deserialize-CATCH_CLAUSE -> 1
+2022-10-26 20:14:18 Data is written to file: src/main/resources/oracle/block/training/false/flink-PojoSerializer-deserialize-CATCH_CLAUSE-1.json
+2022-10-26 20:14:18 Key contained: flink-PojoSerializer-deserialize-IF_STATEMENT -> 6
+2022-10-26 20:14:18 Data is written to file: src/main/resources/oracle/block/training/false/flink-PojoSerializer-deserialize-IF_STATEMENT-6.json
+2022-10-26 20:14:19 Key contained: flink-PojoSerializer-deserialize-IF_STATEMENT -> 7
+2022-10-26 20:14:19 Data is written to file: src/main/resources/oracle/block/training/false/flink-PojoSerializer-deserialize-IF_STATEMENT-7.json
+2022-10-26 20:14:22 No key yet: flink-RemoteStreamEnvironment-executeRemotely-IF_STATEMENT
+2022-10-26 20:14:22 Data is written to file: src/main/resources/oracle/block/training/true/flink-RemoteStreamEnvironment-executeRemotely-IF_STATEMENT.json
+2022-10-26 20:14:22 Key contained: flink-RemoteStreamEnvironment-executeRemotely-IF_STATEMENT -> 1
+2022-10-26 20:14:22 Data is written to file: src/main/resources/oracle/block/training/false/flink-RemoteStreamEnvironment-executeRemotely-IF_STATEMENT-1.json
+2022-10-26 20:14:23 No key yet: flink-RemoteStreamEnvironment-executeRemotely-TRY_STATEMENT
+2022-10-26 20:14:23 Data is written to file: src/main/resources/oracle/block/training/false/flink-RemoteStreamEnvironment-executeRemotely-TRY_STATEMENT.json
+2022-10-26 20:14:24 No key yet: flink-RemoteStreamEnvironment-executeRemotely-CATCH_CLAUSE
+2022-10-26 20:14:24 Data is written to file: src/main/resources/oracle/block/training/false/flink-RemoteStreamEnvironment-executeRemotely-CATCH_CLAUSE.json
+2022-10-26 20:14:25 Key contained: flink-RemoteStreamEnvironment-executeRemotely-TRY_STATEMENT -> 1
+2022-10-26 20:14:25 Data is written to file: src/main/resources/oracle/block/training/true/flink-RemoteStreamEnvironment-executeRemotely-TRY_STATEMENT-1.json
+2022-10-26 20:14:26 Key contained: flink-RemoteStreamEnvironment-executeRemotely-CATCH_CLAUSE -> 1
+2022-10-26 20:14:26 Data is written to file: src/main/resources/oracle/block/training/false/flink-RemoteStreamEnvironment-executeRemotely-CATCH_CLAUSE-1.json
+2022-10-26 20:14:27 Key contained: flink-RemoteStreamEnvironment-executeRemotely-CATCH_CLAUSE -> 2
+2022-10-26 20:14:27 Data is written to file: src/main/resources/oracle/block/training/false/flink-RemoteStreamEnvironment-executeRemotely-CATCH_CLAUSE-2.json
+2022-10-26 20:14:28 Key contained: flink-RemoteStreamEnvironment-executeRemotely-TRY_STATEMENT -> 2
+2022-10-26 20:14:28 Data is written to file: src/main/resources/oracle/block/training/false/flink-RemoteStreamEnvironment-executeRemotely-TRY_STATEMENT-2.json
+2022-10-26 20:14:28 Key contained: flink-RemoteStreamEnvironment-executeRemotely-CATCH_CLAUSE -> 3
+2022-10-26 20:14:28 Data is written to file: src/main/resources/oracle/block/training/false/flink-RemoteStreamEnvironment-executeRemotely-CATCH_CLAUSE-3.json
+2022-10-26 20:14:29 No key yet: flink-RemoteStreamEnvironment-executeRemotely-FINALLY_BLOCK
+2022-10-26 20:14:29 Data is written to file: src/main/resources/oracle/block/training/false/flink-RemoteStreamEnvironment-executeRemotely-FINALLY_BLOCK.json
+2022-10-26 20:14:58 No key yet: hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT
+2022-10-26 20:14:58 Data is written to file: src/main/resources/oracle/block/training/false/hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT.json
+2022-10-26 20:15:22 Key contained: hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT -> 1
+2022-10-26 20:15:22 Data is written to file: src/main/resources/oracle/block/training/false/hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT-1.json
+2022-10-26 20:15:46 Key contained: hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT -> 2
+2022-10-26 20:15:46 Data is written to file: src/main/resources/oracle/block/training/false/hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT-2.json
+2022-10-26 20:15:57 Key contained: hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT -> 3
+2022-10-26 20:15:57 Data is written to file: src/main/resources/oracle/block/training/false/hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT-3.json
+2022-10-26 20:15:57 Key contained: hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT -> 4
+2022-10-26 20:15:57 Data is written to file: src/main/resources/oracle/block/training/false/hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT-4.json
+2022-10-26 20:16:21 Key contained: hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT -> 5
+2022-10-26 20:16:21 Data is written to file: src/main/resources/oracle/block/training/true/hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT-5.json
+2022-10-26 20:16:45 Key contained: hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT -> 6
+2022-10-26 20:16:45 Data is written to file: src/main/resources/oracle/block/training/true/hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT-6.json
+2022-10-26 20:17:09 Key contained: hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT -> 7
+2022-10-26 20:17:09 Data is written to file: src/main/resources/oracle/block/training/true/hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT-7.json
+2022-10-26 20:17:33 Key contained: hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT -> 8
+2022-10-26 20:17:33 Data is written to file: src/main/resources/oracle/block/training/true/hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT-8.json
+2022-10-26 20:17:41 Key contained: hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT -> 9
+2022-10-26 20:17:41 Data is written to file: src/main/resources/oracle/block/training/false/hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT-9.json
+2022-10-26 20:18:05 Key contained: hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT -> 10
+2022-10-26 20:18:05 Data is written to file: src/main/resources/oracle/block/training/true/hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT-10.json
+2022-10-26 20:18:07 Key contained: hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT -> 11
+2022-10-26 20:18:07 Data is written to file: src/main/resources/oracle/block/training/false/hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT-11.json
+2022-10-26 20:18:09 Key contained: hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT -> 12
+2022-10-26 20:18:09 Data is written to file: src/main/resources/oracle/block/training/false/hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT-12.json
+2022-10-26 20:18:10 Key contained: hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT -> 13
+2022-10-26 20:18:10 Data is written to file: src/main/resources/oracle/block/training/false/hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT-13.json
+2022-10-26 20:18:12 Key contained: hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT -> 14
+2022-10-26 20:18:12 Data is written to file: src/main/resources/oracle/block/training/false/hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT-14.json
+2022-10-26 20:18:37 Key contained: hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT -> 15
+2022-10-26 20:18:37 Data is written to file: src/main/resources/oracle/block/training/true/hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT-15.json
+2022-10-26 20:19:01 Key contained: hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT -> 16
+2022-10-26 20:19:01 Data is written to file: src/main/resources/oracle/block/training/true/hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT-16.json
+2022-10-26 20:19:26 Key contained: hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT -> 17
+2022-10-26 20:19:26 Data is written to file: src/main/resources/oracle/block/training/true/hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT-17.json
+2022-10-26 20:19:35 Key contained: hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT -> 18
+2022-10-26 20:19:35 Data is written to file: src/main/resources/oracle/block/training/false/hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT-18.json
+2022-10-26 20:19:43 Key contained: hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT -> 19
+2022-10-26 20:19:43 Data is written to file: src/main/resources/oracle/block/training/false/hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT-19.json
+2022-10-26 20:20:07 Key contained: hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT -> 20
+2022-10-26 20:20:07 Data is written to file: src/main/resources/oracle/block/training/true/hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT-20.json
+2022-10-26 20:20:32 Key contained: hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT -> 21
+2022-10-26 20:20:32 Data is written to file: src/main/resources/oracle/block/training/true/hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT-21.json
+2022-10-26 20:20:40 Key contained: hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT -> 22
+2022-10-26 20:20:40 Data is written to file: src/main/resources/oracle/block/training/false/hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT-22.json
+2022-10-26 20:21:04 Key contained: hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT -> 23
+2022-10-26 20:21:04 Data is written to file: src/main/resources/oracle/block/training/true/hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT-23.json
+2022-10-26 20:21:28 Key contained: hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT -> 24
+2022-10-26 20:21:28 Data is written to file: src/main/resources/oracle/block/training/true/hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT-24.json
+2022-10-26 20:21:52 Key contained: hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT -> 25
+2022-10-26 20:21:52 Data is written to file: src/main/resources/oracle/block/training/true/hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT-25.json
+2022-10-26 20:22:12 Key contained: hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT -> 26
+2022-10-26 20:22:12 Data is written to file: src/main/resources/oracle/block/training/false/hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT-26.json
+2022-10-26 20:22:36 Key contained: hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT -> 27
+2022-10-26 20:22:36 Data is written to file: src/main/resources/oracle/block/training/true/hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT-27.json
+2022-10-26 20:22:48 No key yet: hibernate-orm-CollectionBinder-bind-IF_STATEMENT
+2022-10-26 20:22:48 Data is written to file: src/main/resources/oracle/block/training/true/hibernate-orm-CollectionBinder-bind-IF_STATEMENT.json
+2022-10-26 20:22:52 Key contained: hibernate-orm-CollectionBinder-bind-IF_STATEMENT -> 1
+2022-10-26 20:22:52 Data is written to file: src/main/resources/oracle/block/training/false/hibernate-orm-CollectionBinder-bind-IF_STATEMENT-1.json
+2022-10-26 20:22:57 Key contained: hibernate-orm-CollectionBinder-bind-IF_STATEMENT -> 2
+2022-10-26 20:22:57 Data is written to file: src/main/resources/oracle/block/training/false/hibernate-orm-CollectionBinder-bind-IF_STATEMENT-2.json
+2022-10-26 20:23:03 Key contained: hibernate-orm-CollectionBinder-bind-IF_STATEMENT -> 3
+2022-10-26 20:23:03 Data is written to file: src/main/resources/oracle/block/training/true/hibernate-orm-CollectionBinder-bind-IF_STATEMENT-3.json
+2022-10-26 20:23:09 Key contained: hibernate-orm-CollectionBinder-bind-IF_STATEMENT -> 4
+2022-10-26 20:23:09 Data is written to file: src/main/resources/oracle/block/training/true/hibernate-orm-CollectionBinder-bind-IF_STATEMENT-4.json
+2022-10-26 20:23:15 Key contained: hibernate-orm-CollectionBinder-bind-IF_STATEMENT -> 5
+2022-10-26 20:23:15 Data is written to file: src/main/resources/oracle/block/training/true/hibernate-orm-CollectionBinder-bind-IF_STATEMENT-5.json
+2022-10-26 20:23:21 Key contained: hibernate-orm-CollectionBinder-bind-IF_STATEMENT -> 6
+2022-10-26 20:23:21 Data is written to file: src/main/resources/oracle/block/training/true/hibernate-orm-CollectionBinder-bind-IF_STATEMENT-6.json
+2022-10-26 20:23:27 Key contained: hibernate-orm-CollectionBinder-bind-IF_STATEMENT -> 7
+2022-10-26 20:23:27 Data is written to file: src/main/resources/oracle/block/training/true/hibernate-orm-CollectionBinder-bind-IF_STATEMENT-7.json
+2022-10-26 20:23:33 Key contained: hibernate-orm-CollectionBinder-bind-IF_STATEMENT -> 8
+2022-10-26 20:23:33 Data is written to file: src/main/resources/oracle/block/training/true/hibernate-orm-CollectionBinder-bind-IF_STATEMENT-8.json
+2022-10-26 20:23:40 Key contained: hibernate-orm-CollectionBinder-bind-IF_STATEMENT -> 9
+2022-10-26 20:23:40 Data is written to file: src/main/resources/oracle/block/training/true/hibernate-orm-CollectionBinder-bind-IF_STATEMENT-9.json
+2022-10-26 20:23:45 Key contained: hibernate-orm-CollectionBinder-bind-IF_STATEMENT -> 10
+2022-10-26 20:23:45 Data is written to file: src/main/resources/oracle/block/training/false/hibernate-orm-CollectionBinder-bind-IF_STATEMENT-10.json
+2022-10-26 20:23:46 Key contained: hibernate-orm-CollectionBinder-bind-IF_STATEMENT -> 11
+2022-10-26 20:23:46 Data is written to file: src/main/resources/oracle/block/training/false/hibernate-orm-CollectionBinder-bind-IF_STATEMENT-11.json
+2022-10-26 20:23:52 Key contained: hibernate-orm-CollectionBinder-bind-IF_STATEMENT -> 12
+2022-10-26 20:23:52 Data is written to file: src/main/resources/oracle/block/training/true/hibernate-orm-CollectionBinder-bind-IF_STATEMENT-12.json
+2022-10-26 20:23:57 Key contained: hibernate-orm-CollectionBinder-bind-IF_STATEMENT -> 13
+2022-10-26 20:23:57 Data is written to file: src/main/resources/oracle/block/training/false/hibernate-orm-CollectionBinder-bind-IF_STATEMENT-13.json
+2022-10-26 20:24:03 Key contained: hibernate-orm-CollectionBinder-bind-IF_STATEMENT -> 14
+2022-10-26 20:24:03 Data is written to file: src/main/resources/oracle/block/training/true/hibernate-orm-CollectionBinder-bind-IF_STATEMENT-14.json
+2022-10-26 20:24:09 Key contained: hibernate-orm-CollectionBinder-bind-IF_STATEMENT -> 15
+2022-10-26 20:24:09 Data is written to file: src/main/resources/oracle/block/training/true/hibernate-orm-CollectionBinder-bind-IF_STATEMENT-15.json
+2022-10-26 20:24:10 Key contained: hibernate-orm-CollectionBinder-bind-IF_STATEMENT -> 16
+2022-10-26 20:24:10 Data is written to file: src/main/resources/oracle/block/training/false/hibernate-orm-CollectionBinder-bind-IF_STATEMENT-16.json
+2022-10-26 20:24:16 Key contained: hibernate-orm-CollectionBinder-bind-IF_STATEMENT -> 17
+2022-10-26 20:24:16 Data is written to file: src/main/resources/oracle/block/training/false/hibernate-orm-CollectionBinder-bind-IF_STATEMENT-17.json
+2022-10-26 20:24:19 No key yet: hibernate-orm-DefaultRefreshEventListener-onRefresh-IF_STATEMENT
+2022-10-26 20:24:19 Data is written to file: src/main/resources/oracle/block/training/false/hibernate-orm-DefaultRefreshEventListener-onRefresh-IF_STATEMENT.json
+2022-10-26 20:24:21 Key contained: hibernate-orm-DefaultRefreshEventListener-onRefresh-IF_STATEMENT -> 1
+2022-10-26 20:24:21 Data is written to file: src/main/resources/oracle/block/training/false/hibernate-orm-DefaultRefreshEventListener-onRefresh-IF_STATEMENT-1.json
+2022-10-26 20:24:23 Key contained: hibernate-orm-DefaultRefreshEventListener-onRefresh-IF_STATEMENT -> 2
+2022-10-26 20:24:23 Data is written to file: src/main/resources/oracle/block/training/true/hibernate-orm-DefaultRefreshEventListener-onRefresh-IF_STATEMENT-2.json
+2022-10-26 20:24:26 Key contained: hibernate-orm-DefaultRefreshEventListener-onRefresh-IF_STATEMENT -> 3
+2022-10-26 20:24:26 Data is written to file: src/main/resources/oracle/block/training/true/hibernate-orm-DefaultRefreshEventListener-onRefresh-IF_STATEMENT-3.json
+2022-10-26 20:24:27 Key contained: hibernate-orm-DefaultRefreshEventListener-onRefresh-IF_STATEMENT -> 4
+2022-10-26 20:24:27 Data is written to file: src/main/resources/oracle/block/training/false/hibernate-orm-DefaultRefreshEventListener-onRefresh-IF_STATEMENT-4.json
+2022-10-26 20:24:29 Key contained: hibernate-orm-DefaultRefreshEventListener-onRefresh-IF_STATEMENT -> 5
+2022-10-26 20:24:29 Data is written to file: src/main/resources/oracle/block/training/true/hibernate-orm-DefaultRefreshEventListener-onRefresh-IF_STATEMENT-5.json
+2022-10-26 20:24:31 Key contained: hibernate-orm-DefaultRefreshEventListener-onRefresh-IF_STATEMENT -> 6
+2022-10-26 20:24:31 Data is written to file: src/main/resources/oracle/block/training/false/hibernate-orm-DefaultRefreshEventListener-onRefresh-IF_STATEMENT-6.json
+2022-10-26 20:24:33 Key contained: hibernate-orm-DefaultRefreshEventListener-onRefresh-IF_STATEMENT -> 7
+2022-10-26 20:24:33 Data is written to file: src/main/resources/oracle/block/training/true/hibernate-orm-DefaultRefreshEventListener-onRefresh-IF_STATEMENT-7.json
+2022-10-26 20:24:36 Key contained: hibernate-orm-DefaultRefreshEventListener-onRefresh-IF_STATEMENT -> 8
+2022-10-26 20:24:36 Data is written to file: src/main/resources/oracle/block/training/true/hibernate-orm-DefaultRefreshEventListener-onRefresh-IF_STATEMENT-8.json
+2022-10-26 20:24:38 Key contained: hibernate-orm-DefaultRefreshEventListener-onRefresh-IF_STATEMENT -> 9
+2022-10-26 20:24:38 Data is written to file: src/main/resources/oracle/block/training/true/hibernate-orm-DefaultRefreshEventListener-onRefresh-IF_STATEMENT-9.json
+2022-10-26 20:24:40 Key contained: hibernate-orm-DefaultRefreshEventListener-onRefresh-IF_STATEMENT -> 10
+2022-10-26 20:24:40 Data is written to file: src/main/resources/oracle/block/training/true/hibernate-orm-DefaultRefreshEventListener-onRefresh-IF_STATEMENT-10.json
+2022-10-26 20:24:41 Key contained: hibernate-orm-DefaultRefreshEventListener-onRefresh-IF_STATEMENT -> 11
+2022-10-26 20:24:41 Data is written to file: src/main/resources/oracle/block/training/false/hibernate-orm-DefaultRefreshEventListener-onRefresh-IF_STATEMENT-11.json
+2022-10-26 20:24:43 Key contained: hibernate-orm-DefaultRefreshEventListener-onRefresh-IF_STATEMENT -> 12
+2022-10-26 20:24:43 Data is written to file: src/main/resources/oracle/block/training/true/hibernate-orm-DefaultRefreshEventListener-onRefresh-IF_STATEMENT-12.json
+2022-10-26 20:24:44 Key contained: hibernate-orm-DefaultRefreshEventListener-onRefresh-IF_STATEMENT -> 13
+2022-10-26 20:24:44 Data is written to file: src/main/resources/oracle/block/training/false/hibernate-orm-DefaultRefreshEventListener-onRefresh-IF_STATEMENT-13.json
+2022-10-26 20:24:44 Key contained: hibernate-orm-DefaultRefreshEventListener-onRefresh-IF_STATEMENT -> 14
+2022-10-26 20:24:44 Data is written to file: src/main/resources/oracle/block/training/false/hibernate-orm-DefaultRefreshEventListener-onRefresh-IF_STATEMENT-14.json
+2022-10-26 20:24:44 Key contained: hibernate-orm-DefaultRefreshEventListener-onRefresh-IF_STATEMENT -> 15
+2022-10-26 20:24:44 Data is written to file: src/main/resources/oracle/block/training/false/hibernate-orm-DefaultRefreshEventListener-onRefresh-IF_STATEMENT-15.json
+2022-10-26 20:24:45 Key contained: hibernate-orm-DefaultRefreshEventListener-onRefresh-IF_STATEMENT -> 16
+2022-10-26 20:24:45 Data is written to file: src/main/resources/oracle/block/training/false/hibernate-orm-DefaultRefreshEventListener-onRefresh-IF_STATEMENT-16.json
+2022-10-26 20:24:46 Key contained: hibernate-orm-DefaultRefreshEventListener-onRefresh-IF_STATEMENT -> 17
+2022-10-26 20:24:46 Data is written to file: src/main/resources/oracle/block/training/false/hibernate-orm-DefaultRefreshEventListener-onRefresh-IF_STATEMENT-17.json
+2022-10-26 20:24:48 Key contained: hibernate-orm-DefaultRefreshEventListener-onRefresh-IF_STATEMENT -> 18
+2022-10-26 20:24:48 Data is written to file: src/main/resources/oracle/block/training/false/hibernate-orm-DefaultRefreshEventListener-onRefresh-IF_STATEMENT-18.json
+2022-10-26 20:25:05 No key yet: hibernate-orm-QueryBinder-bindNativeQuery-IF_STATEMENT
+2022-10-26 20:25:05 Data is written to file: src/main/resources/oracle/block/training/true/hibernate-orm-QueryBinder-bindNativeQuery-IF_STATEMENT.json
+2022-10-26 20:25:14 Key contained: hibernate-orm-QueryBinder-bindNativeQuery-IF_STATEMENT -> 1
+2022-10-26 20:25:14 Data is written to file: src/main/resources/oracle/block/training/true/hibernate-orm-QueryBinder-bindNativeQuery-IF_STATEMENT-1.json
+2022-10-26 20:25:22 Key contained: hibernate-orm-QueryBinder-bindNativeQuery-IF_STATEMENT -> 2
+2022-10-26 20:25:22 Data is written to file: src/main/resources/oracle/block/training/true/hibernate-orm-QueryBinder-bindNativeQuery-IF_STATEMENT-2.json
+2022-10-26 20:25:31 Key contained: hibernate-orm-QueryBinder-bindNativeQuery-IF_STATEMENT -> 3
+2022-10-26 20:25:31 Data is written to file: src/main/resources/oracle/block/training/true/hibernate-orm-QueryBinder-bindNativeQuery-IF_STATEMENT-3.json
+2022-10-26 20:25:40 Key contained: hibernate-orm-QueryBinder-bindNativeQuery-IF_STATEMENT -> 4
+2022-10-26 20:25:40 Data is written to file: src/main/resources/oracle/block/training/true/hibernate-orm-QueryBinder-bindNativeQuery-IF_STATEMENT-4.json
+2022-10-26 20:25:46 Key contained: hibernate-orm-QueryBinder-bindNativeQuery-IF_STATEMENT -> 5
+2022-10-26 20:25:46 Data is written to file: src/main/resources/oracle/block/training/false/hibernate-orm-QueryBinder-bindNativeQuery-IF_STATEMENT-5.json
+2022-10-26 20:26:03 Key contained: hibernate-orm-QueryBinder-bindNativeQuery-IF_STATEMENT -> 6
+2022-10-26 20:26:03 Data is written to file: src/main/resources/oracle/block/training/true/hibernate-orm-QueryBinder-bindNativeQuery-IF_STATEMENT-6.json
+2022-10-26 20:26:11 Key contained: hibernate-orm-QueryBinder-bindNativeQuery-IF_STATEMENT -> 7
+2022-10-26 20:26:11 Data is written to file: src/main/resources/oracle/block/training/true/hibernate-orm-QueryBinder-bindNativeQuery-IF_STATEMENT-7.json
+2022-10-26 20:26:19 Key contained: hibernate-orm-QueryBinder-bindNativeQuery-IF_STATEMENT -> 8
+2022-10-26 20:26:19 Data is written to file: src/main/resources/oracle/block/training/true/hibernate-orm-QueryBinder-bindNativeQuery-IF_STATEMENT-8.json
+2022-10-26 20:26:27 Key contained: hibernate-orm-QueryBinder-bindNativeQuery-IF_STATEMENT -> 9
+2022-10-26 20:26:27 Data is written to file: src/main/resources/oracle/block/training/true/hibernate-orm-QueryBinder-bindNativeQuery-IF_STATEMENT-9.json
+2022-10-26 20:26:34 Key contained: hibernate-orm-QueryBinder-bindNativeQuery-IF_STATEMENT -> 10
+2022-10-26 20:26:34 Data is written to file: src/main/resources/oracle/block/training/false/hibernate-orm-QueryBinder-bindNativeQuery-IF_STATEMENT-10.json
+2022-10-26 20:26:50 No key yet: hibernate-orm-QueryBinder-bindQuery-IF_STATEMENT
+2022-10-26 20:26:50 Data is written to file: src/main/resources/oracle/block/training/true/hibernate-orm-QueryBinder-bindQuery-IF_STATEMENT.json
+2022-10-26 20:26:59 Key contained: hibernate-orm-QueryBinder-bindQuery-IF_STATEMENT -> 1
+2022-10-26 20:26:59 Data is written to file: src/main/resources/oracle/block/training/true/hibernate-orm-QueryBinder-bindQuery-IF_STATEMENT-1.json
+2022-10-26 20:27:07 Key contained: hibernate-orm-QueryBinder-bindQuery-IF_STATEMENT -> 2
+2022-10-26 20:27:07 Data is written to file: src/main/resources/oracle/block/training/true/hibernate-orm-QueryBinder-bindQuery-IF_STATEMENT-2.json
+2022-10-26 20:27:14 Key contained: hibernate-orm-QueryBinder-bindQuery-IF_STATEMENT -> 3
+2022-10-26 20:27:14 Data is written to file: src/main/resources/oracle/block/training/false/hibernate-orm-QueryBinder-bindQuery-IF_STATEMENT-3.json
+2022-10-26 20:27:30 Key contained: hibernate-orm-QueryBinder-bindQuery-IF_STATEMENT -> 4
+2022-10-26 20:27:30 Data is written to file: src/main/resources/oracle/block/training/true/hibernate-orm-QueryBinder-bindQuery-IF_STATEMENT-4.json
+2022-10-26 20:27:38 Key contained: hibernate-orm-QueryBinder-bindQuery-IF_STATEMENT -> 5
+2022-10-26 20:27:38 Data is written to file: src/main/resources/oracle/block/training/true/hibernate-orm-QueryBinder-bindQuery-IF_STATEMENT-5.json
+2022-10-26 20:27:45 Key contained: hibernate-orm-QueryBinder-bindQuery-IF_STATEMENT -> 6
+2022-10-26 20:27:45 Data is written to file: src/main/resources/oracle/block/training/false/hibernate-orm-QueryBinder-bindQuery-IF_STATEMENT-6.json
+2022-10-26 20:27:49 No key yet: hibernate-orm-RevisionInfoConfiguration-configure-TRY_STATEMENT
+2022-10-26 20:27:49 Data is written to file: src/main/resources/oracle/block/training/true/hibernate-orm-RevisionInfoConfiguration-configure-TRY_STATEMENT.json
+2022-10-26 20:27:52 No key yet: hibernate-orm-RevisionInfoConfiguration-configure-CATCH_CLAUSE
+2022-10-26 20:27:52 Data is written to file: src/main/resources/oracle/block/training/true/hibernate-orm-RevisionInfoConfiguration-configure-CATCH_CLAUSE.json
+2022-10-26 20:27:54 No key yet: hibernate-orm-RevisionInfoConfiguration-configure-IF_STATEMENT
+2022-10-26 20:27:54 Data is written to file: src/main/resources/oracle/block/training/true/hibernate-orm-RevisionInfoConfiguration-configure-IF_STATEMENT.json
+2022-10-26 20:27:57 Key contained: hibernate-orm-RevisionInfoConfiguration-configure-IF_STATEMENT -> 1
+2022-10-26 20:27:57 Data is written to file: src/main/resources/oracle/block/training/true/hibernate-orm-RevisionInfoConfiguration-configure-IF_STATEMENT-1.json
+2022-10-26 20:27:59 Key contained: hibernate-orm-RevisionInfoConfiguration-configure-IF_STATEMENT -> 2
+2022-10-26 20:27:59 Data is written to file: src/main/resources/oracle/block/training/true/hibernate-orm-RevisionInfoConfiguration-configure-IF_STATEMENT-2.json
+2022-10-26 20:28:01 Key contained: hibernate-orm-RevisionInfoConfiguration-configure-IF_STATEMENT -> 3
+2022-10-26 20:28:01 Data is written to file: src/main/resources/oracle/block/training/true/hibernate-orm-RevisionInfoConfiguration-configure-IF_STATEMENT-3.json
+2022-10-26 20:28:03 Key contained: hibernate-orm-RevisionInfoConfiguration-configure-IF_STATEMENT -> 4
+2022-10-26 20:28:03 Data is written to file: src/main/resources/oracle/block/training/false/hibernate-orm-RevisionInfoConfiguration-configure-IF_STATEMENT-4.json
+2022-10-26 20:28:05 Key contained: hibernate-orm-RevisionInfoConfiguration-configure-IF_STATEMENT -> 5
+2022-10-26 20:28:05 Data is written to file: src/main/resources/oracle/block/training/true/hibernate-orm-RevisionInfoConfiguration-configure-IF_STATEMENT-5.json
+2022-10-26 20:28:06 Key contained: hibernate-orm-RevisionInfoConfiguration-configure-IF_STATEMENT -> 6
+2022-10-26 20:28:06 Data is written to file: src/main/resources/oracle/block/training/false/hibernate-orm-RevisionInfoConfiguration-configure-IF_STATEMENT-6.json
+2022-10-26 20:28:06 No key yet: hibernate-orm-RevisionInfoConfiguration-configure-ENHANCED_FOR_STATEMENT
+2022-10-26 20:28:06 Data is written to file: src/main/resources/oracle/block/training/false/hibernate-orm-RevisionInfoConfiguration-configure-ENHANCED_FOR_STATEMENT.json
+2022-10-26 20:28:08 Key contained: hibernate-orm-RevisionInfoConfiguration-configure-IF_STATEMENT -> 7
+2022-10-26 20:28:08 Data is written to file: src/main/resources/oracle/block/training/false/hibernate-orm-RevisionInfoConfiguration-configure-IF_STATEMENT-7.json
+2022-10-26 20:28:10 Key contained: hibernate-orm-RevisionInfoConfiguration-configure-IF_STATEMENT -> 8
+2022-10-26 20:28:10 Data is written to file: src/main/resources/oracle/block/training/true/hibernate-orm-RevisionInfoConfiguration-configure-IF_STATEMENT-8.json
+2022-10-26 20:28:16 No key yet: hibernate-orm-SimpleValue-buildAttributeConverterTypeAdapter-IF_STATEMENT
+2022-10-26 20:28:16 Data is written to file: src/main/resources/oracle/block/training/false/hibernate-orm-SimpleValue-buildAttributeConverterTypeAdapter-IF_STATEMENT.json
+2022-10-26 20:28:17 Key contained: hibernate-orm-SimpleValue-buildAttributeConverterTypeAdapter-IF_STATEMENT -> 1
+2022-10-26 20:28:17 Data is written to file: src/main/resources/oracle/block/training/false/hibernate-orm-SimpleValue-buildAttributeConverterTypeAdapter-IF_STATEMENT-1.json
+2022-10-26 20:28:18 Key contained: hibernate-orm-SimpleValue-buildAttributeConverterTypeAdapter-IF_STATEMENT -> 2
+2022-10-26 20:28:18 Data is written to file: src/main/resources/oracle/block/training/false/hibernate-orm-SimpleValue-buildAttributeConverterTypeAdapter-IF_STATEMENT-2.json
+2022-10-26 20:28:19 Key contained: hibernate-orm-SimpleValue-buildAttributeConverterTypeAdapter-IF_STATEMENT -> 3
+2022-10-26 20:28:19 Data is written to file: src/main/resources/oracle/block/training/false/hibernate-orm-SimpleValue-buildAttributeConverterTypeAdapter-IF_STATEMENT-3.json
+2022-10-26 20:28:29 No key yet: javaparser-Difference-apply-IF_STATEMENT
+2022-10-26 20:28:29 Data is written to file: src/main/resources/oracle/block/training/false/javaparser-Difference-apply-IF_STATEMENT.json
+2022-10-26 20:28:35 Key contained: javaparser-Difference-apply-IF_STATEMENT -> 1
+2022-10-26 20:28:35 Data is written to file: src/main/resources/oracle/block/training/false/javaparser-Difference-apply-IF_STATEMENT-1.json
+2022-10-26 20:28:42 Key contained: javaparser-Difference-apply-IF_STATEMENT -> 2
+2022-10-26 20:28:42 Data is written to file: src/main/resources/oracle/block/training/true/javaparser-Difference-apply-IF_STATEMENT-2.json
+2022-10-26 20:28:42 Key contained: javaparser-Difference-apply-IF_STATEMENT -> 3
+2022-10-26 20:28:42 Data is written to file: src/main/resources/oracle/block/training/false/javaparser-Difference-apply-IF_STATEMENT-3.json
+2022-10-26 20:28:48 No key yet: javaparser-Difference-apply-DO_STATEMENT
+2022-10-26 20:28:48 Data is written to file: src/main/resources/oracle/block/training/false/javaparser-Difference-apply-DO_STATEMENT.json
+2022-10-26 20:28:49 No key yet: javaparser-Difference-applyRemovedDiffElement-IF_STATEMENT
+2022-10-26 20:28:49 Data is written to file: src/main/resources/oracle/block/training/true/javaparser-Difference-applyRemovedDiffElement-IF_STATEMENT.json
+2022-10-26 20:28:50 Key contained: javaparser-Difference-applyRemovedDiffElement-IF_STATEMENT -> 1
+2022-10-26 20:28:50 Data is written to file: src/main/resources/oracle/block/training/true/javaparser-Difference-applyRemovedDiffElement-IF_STATEMENT-1.json
+2022-10-26 20:28:50 Key contained: javaparser-Difference-applyRemovedDiffElement-IF_STATEMENT -> 2
+2022-10-26 20:28:50 Data is written to file: src/main/resources/oracle/block/training/true/javaparser-Difference-applyRemovedDiffElement-IF_STATEMENT-2.json
+2022-10-26 20:28:51 Key contained: javaparser-Difference-applyRemovedDiffElement-IF_STATEMENT -> 3
+2022-10-26 20:28:51 Data is written to file: src/main/resources/oracle/block/training/true/javaparser-Difference-applyRemovedDiffElement-IF_STATEMENT-3.json
+2022-10-26 20:28:51 Key contained: javaparser-Difference-applyRemovedDiffElement-IF_STATEMENT -> 4
+2022-10-26 20:28:51 Data is written to file: src/main/resources/oracle/block/training/true/javaparser-Difference-applyRemovedDiffElement-IF_STATEMENT-4.json
+2022-10-26 20:28:52 Key contained: javaparser-Difference-applyRemovedDiffElement-IF_STATEMENT -> 5
+2022-10-26 20:28:52 Data is written to file: src/main/resources/oracle/block/training/true/javaparser-Difference-applyRemovedDiffElement-IF_STATEMENT-5.json
+2022-10-26 20:28:53 Key contained: javaparser-Difference-applyRemovedDiffElement-IF_STATEMENT -> 6
+2022-10-26 20:28:53 Data is written to file: src/main/resources/oracle/block/training/true/javaparser-Difference-applyRemovedDiffElement-IF_STATEMENT-6.json
+2022-10-26 20:28:53 Key contained: javaparser-Difference-applyRemovedDiffElement-IF_STATEMENT -> 7
+2022-10-26 20:28:53 Data is written to file: src/main/resources/oracle/block/training/true/javaparser-Difference-applyRemovedDiffElement-IF_STATEMENT-7.json
+2022-10-26 20:28:54 Key contained: javaparser-Difference-applyRemovedDiffElement-IF_STATEMENT -> 8
+2022-10-26 20:28:54 Data is written to file: src/main/resources/oracle/block/training/true/javaparser-Difference-applyRemovedDiffElement-IF_STATEMENT-8.json
+2022-10-26 20:28:54 Key contained: javaparser-Difference-applyRemovedDiffElement-IF_STATEMENT -> 9
+2022-10-26 20:28:54 Data is written to file: src/main/resources/oracle/block/training/true/javaparser-Difference-applyRemovedDiffElement-IF_STATEMENT-9.json
+2022-10-26 20:28:55 Key contained: javaparser-Difference-applyRemovedDiffElement-IF_STATEMENT -> 10
+2022-10-26 20:28:55 Data is written to file: src/main/resources/oracle/block/training/true/javaparser-Difference-applyRemovedDiffElement-IF_STATEMENT-10.json
+2022-10-26 20:28:55 Key contained: javaparser-Difference-applyRemovedDiffElement-IF_STATEMENT -> 11
+2022-10-26 20:28:55 Data is written to file: src/main/resources/oracle/block/training/true/javaparser-Difference-applyRemovedDiffElement-IF_STATEMENT-11.json
+2022-10-26 20:28:56 Key contained: javaparser-Difference-applyRemovedDiffElement-IF_STATEMENT -> 12
+2022-10-26 20:28:56 Data is written to file: src/main/resources/oracle/block/training/true/javaparser-Difference-applyRemovedDiffElement-IF_STATEMENT-12.json
+2022-10-26 20:29:00 No key yet: javaparser-JavaParserFacade-convertToUsage-IF_STATEMENT
+2022-10-26 20:29:00 Data is written to file: src/main/resources/oracle/block/training/false/javaparser-JavaParserFacade-convertToUsage-IF_STATEMENT.json
+2022-10-26 20:29:04 Key contained: javaparser-JavaParserFacade-convertToUsage-IF_STATEMENT -> 1
+2022-10-26 20:29:04 Data is written to file: src/main/resources/oracle/block/training/true/javaparser-JavaParserFacade-convertToUsage-IF_STATEMENT-1.json
+2022-10-26 20:29:06 Key contained: javaparser-JavaParserFacade-convertToUsage-IF_STATEMENT -> 2
+2022-10-26 20:29:06 Data is written to file: src/main/resources/oracle/block/training/false/javaparser-JavaParserFacade-convertToUsage-IF_STATEMENT-2.json
+2022-10-26 20:29:09 Key contained: javaparser-JavaParserFacade-convertToUsage-IF_STATEMENT -> 3
+2022-10-26 20:29:09 Data is written to file: src/main/resources/oracle/block/training/false/javaparser-JavaParserFacade-convertToUsage-IF_STATEMENT-3.json
+2022-10-26 20:29:12 Key contained: javaparser-JavaParserFacade-convertToUsage-IF_STATEMENT -> 4
+2022-10-26 20:29:12 Data is written to file: src/main/resources/oracle/block/training/false/javaparser-JavaParserFacade-convertToUsage-IF_STATEMENT-4.json
+2022-10-26 20:29:15 Key contained: javaparser-JavaParserFacade-convertToUsage-IF_STATEMENT -> 5
+2022-10-26 20:29:15 Data is written to file: src/main/resources/oracle/block/training/false/javaparser-JavaParserFacade-convertToUsage-IF_STATEMENT-5.json
+2022-10-26 20:29:18 Key contained: javaparser-JavaParserFacade-convertToUsage-IF_STATEMENT -> 6
+2022-10-26 20:29:18 Data is written to file: src/main/resources/oracle/block/training/false/javaparser-JavaParserFacade-convertToUsage-IF_STATEMENT-6.json
+2022-10-26 20:29:19 Key contained: javaparser-JavaParserFacade-convertToUsage-IF_STATEMENT -> 7
+2022-10-26 20:29:19 Data is written to file: src/main/resources/oracle/block/training/false/javaparser-JavaParserFacade-convertToUsage-IF_STATEMENT-7.json
+2022-10-26 20:29:20 Key contained: javaparser-JavaParserFacade-convertToUsage-IF_STATEMENT -> 8
+2022-10-26 20:29:20 Data is written to file: src/main/resources/oracle/block/training/false/javaparser-JavaParserFacade-convertToUsage-IF_STATEMENT-8.json
+2022-10-26 20:29:20 Key contained: javaparser-JavaParserFacade-convertToUsage-IF_STATEMENT -> 9
+2022-10-26 20:29:20 Data is written to file: src/main/resources/oracle/block/training/false/javaparser-JavaParserFacade-convertToUsage-IF_STATEMENT-9.json
+2022-10-26 20:29:20 Key contained: javaparser-JavaParserFacade-convertToUsage-IF_STATEMENT -> 10
+2022-10-26 20:29:20 Data is written to file: src/main/resources/oracle/block/training/false/javaparser-JavaParserFacade-convertToUsage-IF_STATEMENT-10.json
+2022-10-26 20:29:22 Key contained: javaparser-JavaParserFacade-convertToUsage-IF_STATEMENT -> 11
+2022-10-26 20:29:22 Data is written to file: src/main/resources/oracle/block/training/false/javaparser-JavaParserFacade-convertToUsage-IF_STATEMENT-11.json
+2022-10-26 20:29:26 Key contained: javaparser-JavaParserFacade-convertToUsage-IF_STATEMENT -> 12
+2022-10-26 20:29:26 Data is written to file: src/main/resources/oracle/block/training/false/javaparser-JavaParserFacade-convertToUsage-IF_STATEMENT-12.json
+2022-10-26 20:29:29 Key contained: javaparser-JavaParserFacade-convertToUsage-IF_STATEMENT -> 13
+2022-10-26 20:29:29 Data is written to file: src/main/resources/oracle/block/training/false/javaparser-JavaParserFacade-convertToUsage-IF_STATEMENT-13.json
+2022-10-26 20:29:33 Key contained: javaparser-JavaParserFacade-convertToUsage-IF_STATEMENT -> 14
+2022-10-26 20:29:33 Data is written to file: src/main/resources/oracle/block/training/false/javaparser-JavaParserFacade-convertToUsage-IF_STATEMENT-14.json
+2022-10-26 20:29:37 Key contained: javaparser-JavaParserFacade-convertToUsage-IF_STATEMENT -> 15
+2022-10-26 20:29:37 Data is written to file: src/main/resources/oracle/block/training/true/javaparser-JavaParserFacade-convertToUsage-IF_STATEMENT-15.json
+2022-10-26 20:29:44 No key yet: javaparser-JavaParserFacade-getTypeConcrete-IF_STATEMENT
+2022-10-26 20:29:44 Data is written to file: src/main/resources/oracle/block/training/true/javaparser-JavaParserFacade-getTypeConcrete-IF_STATEMENT.json
+2022-10-26 20:29:45 No key yet: javaparser-LambdaExprContext-solveSymbolAsValue-IF_STATEMENT
+2022-10-26 20:29:45 Data is written to file: src/main/resources/oracle/block/training/false/javaparser-LambdaExprContext-solveSymbolAsValue-IF_STATEMENT.json
+2022-10-26 20:29:45 No key yet: javaparser-LambdaExprContext-solveSymbolAsValue-FOR_STATEMENT
+2022-10-26 20:29:46 Data is written to file: src/main/resources/oracle/block/training/false/javaparser-LambdaExprContext-solveSymbolAsValue-FOR_STATEMENT.json
+2022-10-26 20:29:46 Key contained: javaparser-LambdaExprContext-solveSymbolAsValue-IF_STATEMENT -> 1
+2022-10-26 20:29:46 Data is written to file: src/main/resources/oracle/block/training/false/javaparser-LambdaExprContext-solveSymbolAsValue-IF_STATEMENT-1.json
+2022-10-26 20:29:46 Key contained: javaparser-LambdaExprContext-solveSymbolAsValue-IF_STATEMENT -> 2
+2022-10-26 20:29:46 Data is written to file: src/main/resources/oracle/block/training/false/javaparser-LambdaExprContext-solveSymbolAsValue-IF_STATEMENT-2.json
+2022-10-26 20:29:46 Key contained: javaparser-LambdaExprContext-solveSymbolAsValue-IF_STATEMENT -> 3
+2022-10-26 20:29:46 Data is written to file: src/main/resources/oracle/block/training/false/javaparser-LambdaExprContext-solveSymbolAsValue-IF_STATEMENT-3.json
+2022-10-26 20:29:47 Key contained: javaparser-LambdaExprContext-solveSymbolAsValue-IF_STATEMENT -> 4
+2022-10-26 20:29:47 Data is written to file: src/main/resources/oracle/block/training/false/javaparser-LambdaExprContext-solveSymbolAsValue-IF_STATEMENT-4.json
+2022-10-26 20:29:48 No key yet: javaparser-LambdaExprContext-solveSymbolAsValue-ENHANCED_FOR_STATEMENT
+2022-10-26 20:29:48 Data is written to file: src/main/resources/oracle/block/training/false/javaparser-LambdaExprContext-solveSymbolAsValue-ENHANCED_FOR_STATEMENT.json
+2022-10-26 20:29:49 Key contained: javaparser-LambdaExprContext-solveSymbolAsValue-IF_STATEMENT -> 5
+2022-10-26 20:29:49 Data is written to file: src/main/resources/oracle/block/training/false/javaparser-LambdaExprContext-solveSymbolAsValue-IF_STATEMENT-5.json
+2022-10-26 20:29:50 Key contained: javaparser-LambdaExprContext-solveSymbolAsValue-IF_STATEMENT -> 6
+2022-10-26 20:29:50 Data is written to file: src/main/resources/oracle/block/training/false/javaparser-LambdaExprContext-solveSymbolAsValue-IF_STATEMENT-6.json
+2022-10-26 20:29:51 Key contained: javaparser-LambdaExprContext-solveSymbolAsValue-IF_STATEMENT -> 7
+2022-10-26 20:29:51 Data is written to file: src/main/resources/oracle/block/training/false/javaparser-LambdaExprContext-solveSymbolAsValue-IF_STATEMENT-7.json
+2022-10-26 20:29:51 Key contained: javaparser-LambdaExprContext-solveSymbolAsValue-IF_STATEMENT -> 8
+2022-10-26 20:29:51 Data is written to file: src/main/resources/oracle/block/training/false/javaparser-LambdaExprContext-solveSymbolAsValue-IF_STATEMENT-8.json
+2022-10-26 20:29:52 Key contained: javaparser-LambdaExprContext-solveSymbolAsValue-IF_STATEMENT -> 9
+2022-10-26 20:29:52 Data is written to file: src/main/resources/oracle/block/training/false/javaparser-LambdaExprContext-solveSymbolAsValue-IF_STATEMENT-9.json
+2022-10-26 20:29:53 Key contained: javaparser-LambdaExprContext-solveSymbolAsValue-IF_STATEMENT -> 10
+2022-10-26 20:29:53 Data is written to file: src/main/resources/oracle/block/training/false/javaparser-LambdaExprContext-solveSymbolAsValue-IF_STATEMENT-10.json
+2022-10-26 20:29:54 Key contained: javaparser-LambdaExprContext-solveSymbolAsValue-ENHANCED_FOR_STATEMENT -> 1
+2022-10-26 20:29:54 Data is written to file: src/main/resources/oracle/block/training/false/javaparser-LambdaExprContext-solveSymbolAsValue-ENHANCED_FOR_STATEMENT-1.json
+2022-10-26 20:29:56 Key contained: javaparser-LambdaExprContext-solveSymbolAsValue-ENHANCED_FOR_STATEMENT -> 2
+2022-10-26 20:29:56 Data is written to file: src/main/resources/oracle/block/training/true/javaparser-LambdaExprContext-solveSymbolAsValue-ENHANCED_FOR_STATEMENT-2.json
+2022-10-26 20:30:06 No key yet: javaparser-MethodCallExprContext-solveMethod-IF_STATEMENT
+2022-10-26 20:30:06 Data is written to file: src/main/resources/oracle/block/training/false/javaparser-MethodCallExprContext-solveMethod-IF_STATEMENT.json
+2022-10-26 20:30:10 No key yet: javaparser-MethodCallExprContext-solveMethod-ENHANCED_FOR_STATEMENT
+2022-10-26 20:30:10 Data is written to file: src/main/resources/oracle/block/training/false/javaparser-MethodCallExprContext-solveMethod-ENHANCED_FOR_STATEMENT.json
+2022-10-26 20:30:21 No key yet: javaparser-MethodCallExprContext-solveMethodAsUsage-IF_STATEMENT
+2022-10-26 20:30:21 Data is written to file: src/main/resources/oracle/block/training/false/javaparser-MethodCallExprContext-solveMethodAsUsage-IF_STATEMENT.json
+2022-10-26 20:30:26 Key contained: javaparser-MethodCallExprContext-solveMethodAsUsage-IF_STATEMENT -> 1
+2022-10-26 20:30:26 Data is written to file: src/main/resources/oracle/block/training/false/javaparser-MethodCallExprContext-solveMethodAsUsage-IF_STATEMENT-1.json
+2022-10-26 20:30:31 Key contained: javaparser-MethodCallExprContext-solveMethodAsUsage-IF_STATEMENT -> 2
+2022-10-26 20:30:31 Data is written to file: src/main/resources/oracle/block/training/false/javaparser-MethodCallExprContext-solveMethodAsUsage-IF_STATEMENT-2.json
+2022-10-26 20:30:34 No key yet: javaparser-MethodCallExprContext-solveMethodAsUsage-FOR_STATEMENT
+2022-10-26 20:30:34 Data is written to file: src/main/resources/oracle/block/training/false/javaparser-MethodCallExprContext-solveMethodAsUsage-FOR_STATEMENT.json
+2022-10-26 20:30:38 Key contained: javaparser-MethodCallExprContext-solveMethodAsUsage-FOR_STATEMENT -> 1
+2022-10-26 20:30:38 Data is written to file: src/main/resources/oracle/block/training/false/javaparser-MethodCallExprContext-solveMethodAsUsage-FOR_STATEMENT-1.json
+2022-10-26 20:30:43 No key yet: javaparser-MethodCallExprContext-solveMethodAsUsage-WHILE_STATEMENT
+2022-10-26 20:30:43 Data is written to file: src/main/resources/oracle/block/training/false/javaparser-MethodCallExprContext-solveMethodAsUsage-WHILE_STATEMENT.json
+2022-10-26 20:30:46 Key contained: javaparser-MethodCallExprContext-solveMethodAsUsage-IF_STATEMENT -> 3
+2022-10-26 20:30:46 Data is written to file: src/main/resources/oracle/block/training/false/javaparser-MethodCallExprContext-solveMethodAsUsage-IF_STATEMENT-3.json
+2022-10-26 20:30:54 No key yet: javaparser-MethodResolutionLogic-isApplicable-IF_STATEMENT
+2022-10-26 20:30:54 Data is written to file: src/main/resources/oracle/block/training/true/javaparser-MethodResolutionLogic-isApplicable-IF_STATEMENT.json
+2022-10-26 20:30:58 No key yet: javaparser-MethodResolutionLogic-isApplicable-ENHANCED_FOR_STATEMENT
+2022-10-26 20:30:58 Data is written to file: src/main/resources/oracle/block/training/true/javaparser-MethodResolutionLogic-isApplicable-ENHANCED_FOR_STATEMENT.json
+2022-10-26 20:31:02 Key contained: javaparser-MethodResolutionLogic-isApplicable-IF_STATEMENT -> 1
+2022-10-26 20:31:02 Data is written to file: src/main/resources/oracle/block/training/false/javaparser-MethodResolutionLogic-isApplicable-IF_STATEMENT-1.json
+2022-10-26 20:31:05 Key contained: javaparser-MethodResolutionLogic-isApplicable-IF_STATEMENT -> 2
+2022-10-26 20:31:05 Data is written to file: src/main/resources/oracle/block/training/true/javaparser-MethodResolutionLogic-isApplicable-IF_STATEMENT-2.json
+2022-10-26 20:31:09 Key contained: javaparser-MethodResolutionLogic-isApplicable-IF_STATEMENT -> 3
+2022-10-26 20:31:09 Data is written to file: src/main/resources/oracle/block/training/true/javaparser-MethodResolutionLogic-isApplicable-IF_STATEMENT-3.json
+2022-10-26 20:31:11 Key contained: javaparser-MethodResolutionLogic-isApplicable-IF_STATEMENT -> 4
+2022-10-26 20:31:11 Data is written to file: src/main/resources/oracle/block/training/false/javaparser-MethodResolutionLogic-isApplicable-IF_STATEMENT-4.json
+2022-10-26 20:31:15 Key contained: javaparser-MethodResolutionLogic-isApplicable-IF_STATEMENT -> 5
+2022-10-26 20:31:15 Data is written to file: src/main/resources/oracle/block/training/true/javaparser-MethodResolutionLogic-isApplicable-IF_STATEMENT-5.json
+2022-10-26 20:31:19 Key contained: javaparser-MethodResolutionLogic-isApplicable-IF_STATEMENT -> 6
+2022-10-26 20:31:19 Data is written to file: src/main/resources/oracle/block/training/true/javaparser-MethodResolutionLogic-isApplicable-IF_STATEMENT-6.json
+2022-10-26 20:31:22 Key contained: javaparser-MethodResolutionLogic-isApplicable-IF_STATEMENT -> 7
+2022-10-26 20:31:22 Data is written to file: src/main/resources/oracle/block/training/true/javaparser-MethodResolutionLogic-isApplicable-IF_STATEMENT-7.json
+2022-10-26 20:31:26 Key contained: javaparser-MethodResolutionLogic-isApplicable-IF_STATEMENT -> 8
+2022-10-26 20:31:26 Data is written to file: src/main/resources/oracle/block/training/false/javaparser-MethodResolutionLogic-isApplicable-IF_STATEMENT-8.json
+2022-10-26 20:31:30 Key contained: javaparser-MethodResolutionLogic-isApplicable-IF_STATEMENT -> 9
+2022-10-26 20:31:30 Data is written to file: src/main/resources/oracle/block/training/true/javaparser-MethodResolutionLogic-isApplicable-IF_STATEMENT-9.json
+2022-10-26 20:31:34 Key contained: javaparser-MethodResolutionLogic-isApplicable-ENHANCED_FOR_STATEMENT -> 1
+2022-10-26 20:31:34 Data is written to file: src/main/resources/oracle/block/training/true/javaparser-MethodResolutionLogic-isApplicable-ENHANCED_FOR_STATEMENT-1.json
+2022-10-26 20:31:38 Key contained: javaparser-MethodResolutionLogic-isApplicable-IF_STATEMENT -> 10
+2022-10-26 20:31:38 Data is written to file: src/main/resources/oracle/block/training/true/javaparser-MethodResolutionLogic-isApplicable-IF_STATEMENT-10.json
+2022-10-26 20:31:42 Key contained: javaparser-MethodResolutionLogic-isApplicable-IF_STATEMENT -> 11
+2022-10-26 20:31:42 Data is written to file: src/main/resources/oracle/block/training/false/javaparser-MethodResolutionLogic-isApplicable-IF_STATEMENT-11.json
+2022-10-26 20:31:46 Key contained: javaparser-MethodResolutionLogic-isApplicable-IF_STATEMENT -> 12
+2022-10-26 20:31:46 Data is written to file: src/main/resources/oracle/block/training/false/javaparser-MethodResolutionLogic-isApplicable-IF_STATEMENT-12.json
+2022-10-26 20:31:50 Key contained: javaparser-MethodResolutionLogic-isApplicable-IF_STATEMENT -> 13
+2022-10-26 20:31:50 Data is written to file: src/main/resources/oracle/block/training/true/javaparser-MethodResolutionLogic-isApplicable-IF_STATEMENT-13.json
+2022-10-26 20:31:54 Key contained: javaparser-MethodResolutionLogic-isApplicable-IF_STATEMENT -> 14
+2022-10-26 20:31:54 Data is written to file: src/main/resources/oracle/block/training/true/javaparser-MethodResolutionLogic-isApplicable-IF_STATEMENT-14.json
+2022-10-26 20:31:58 No key yet: javaparser-MethodResolutionLogic-isApplicable-FOR_STATEMENT
+2022-10-26 20:31:58 Data is written to file: src/main/resources/oracle/block/training/true/javaparser-MethodResolutionLogic-isApplicable-FOR_STATEMENT.json
+2022-10-26 20:32:02 No key yet: javaparser-SourceFileInfoExtractor-solve-TRY_STATEMENT
+2022-10-26 20:32:02 Data is written to file: src/main/resources/oracle/block/training/false/javaparser-SourceFileInfoExtractor-solve-TRY_STATEMENT.json
+2022-10-26 20:32:03 No key yet: javaparser-SourceFileInfoExtractor-solve-CATCH_CLAUSE
+2022-10-26 20:32:03 Data is written to file: src/main/resources/oracle/block/training/false/javaparser-SourceFileInfoExtractor-solve-CATCH_CLAUSE.json
+2022-10-26 20:32:04 Key contained: javaparser-SourceFileInfoExtractor-solve-CATCH_CLAUSE -> 1
+2022-10-26 20:32:04 Data is written to file: src/main/resources/oracle/block/training/false/javaparser-SourceFileInfoExtractor-solve-CATCH_CLAUSE-1.json
+2022-10-26 20:32:05 No key yet: javaparser-SourceFileInfoExtractor-solve-IF_STATEMENT
+2022-10-26 20:32:05 Data is written to file: src/main/resources/oracle/block/training/false/javaparser-SourceFileInfoExtractor-solve-IF_STATEMENT.json
+2022-10-26 20:32:06 Key contained: javaparser-SourceFileInfoExtractor-solve-IF_STATEMENT -> 1
+2022-10-26 20:32:06 Data is written to file: src/main/resources/oracle/block/training/false/javaparser-SourceFileInfoExtractor-solve-IF_STATEMENT-1.json
+2022-10-26 20:32:07 Key contained: javaparser-SourceFileInfoExtractor-solve-IF_STATEMENT -> 2
+2022-10-26 20:32:07 Data is written to file: src/main/resources/oracle/block/training/false/javaparser-SourceFileInfoExtractor-solve-IF_STATEMENT-2.json
+2022-10-26 20:32:08 Key contained: javaparser-SourceFileInfoExtractor-solve-IF_STATEMENT -> 3
+2022-10-26 20:32:08 Data is written to file: src/main/resources/oracle/block/training/false/javaparser-SourceFileInfoExtractor-solve-IF_STATEMENT-3.json
+2022-10-26 20:32:11 Case 5 - Failed: org.eclipse.jgit.api.errors.TransportException: https://github.com/eclipse/jgit.git: Authentication is required but no CredentialsProvider has been registered
+2022-10-26 20:32:11 org.eclipse.jgit.api.errors.TransportException: https://github.com/eclipse/jgit.git: Authentication is required but no CredentialsProvider has been registered
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:224)
+	at org.eclipse.jgit.api.CloneCommand.fetch(CloneCommand.java:311)
+	at org.eclipse.jgit.api.CloneCommand.call(CloneCommand.java:182)
+	at org.refactoringminer.util.GitServiceImpl.cloneIfNotExists(GitServiceImpl.java:76)
+	at org.CodeTrackerAPI.OracleGenerator.main(OracleGenerator.java:180)
+Caused by: org.eclipse.jgit.errors.TransportException: https://github.com/eclipse/jgit.git: Authentication is required but no CredentialsProvider has been registered
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:678)
+	at org.eclipse.jgit.transport.TransportHttp.openFetch(TransportHttp.java:465)
+	at org.eclipse.jgit.transport.FetchProcess.executeImp(FetchProcess.java:142)
+	at org.eclipse.jgit.transport.FetchProcess.execute(FetchProcess.java:94)
+	at org.eclipse.jgit.transport.Transport.fetch(Transport.java:1309)
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:213)
+	... 4 more
+
+2022-10-26 20:32:11 Case 5 - Failed: org.eclipse.jgit.api.errors.TransportException: https://github.com/eclipse/jgit.git: Authentication is required but no CredentialsProvider has been registered
+2022-10-26 20:32:11 org.eclipse.jgit.api.errors.TransportException: https://github.com/eclipse/jgit.git: Authentication is required but no CredentialsProvider has been registered
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:224)
+	at org.eclipse.jgit.api.CloneCommand.fetch(CloneCommand.java:311)
+	at org.eclipse.jgit.api.CloneCommand.call(CloneCommand.java:182)
+	at org.refactoringminer.util.GitServiceImpl.cloneIfNotExists(GitServiceImpl.java:76)
+	at org.CodeTrackerAPI.OracleGenerator.main(OracleGenerator.java:180)
+Caused by: org.eclipse.jgit.errors.TransportException: https://github.com/eclipse/jgit.git: Authentication is required but no CredentialsProvider has been registered
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:678)
+	at org.eclipse.jgit.transport.TransportHttp.openFetch(TransportHttp.java:465)
+	at org.eclipse.jgit.transport.FetchProcess.executeImp(FetchProcess.java:142)
+	at org.eclipse.jgit.transport.FetchProcess.execute(FetchProcess.java:94)
+	at org.eclipse.jgit.transport.Transport.fetch(Transport.java:1309)
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:213)
+	... 4 more
+
+2022-10-26 20:32:11 Case 5 - Failed: org.eclipse.jgit.api.errors.TransportException: https://github.com/eclipse/jgit.git: Authentication is required but no CredentialsProvider has been registered
+2022-10-26 20:32:11 org.eclipse.jgit.api.errors.TransportException: https://github.com/eclipse/jgit.git: Authentication is required but no CredentialsProvider has been registered
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:224)
+	at org.eclipse.jgit.api.CloneCommand.fetch(CloneCommand.java:311)
+	at org.eclipse.jgit.api.CloneCommand.call(CloneCommand.java:182)
+	at org.refactoringminer.util.GitServiceImpl.cloneIfNotExists(GitServiceImpl.java:76)
+	at org.CodeTrackerAPI.OracleGenerator.main(OracleGenerator.java:180)
+Caused by: org.eclipse.jgit.errors.TransportException: https://github.com/eclipse/jgit.git: Authentication is required but no CredentialsProvider has been registered
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:678)
+	at org.eclipse.jgit.transport.TransportHttp.openFetch(TransportHttp.java:465)
+	at org.eclipse.jgit.transport.FetchProcess.executeImp(FetchProcess.java:142)
+	at org.eclipse.jgit.transport.FetchProcess.execute(FetchProcess.java:94)
+	at org.eclipse.jgit.transport.Transport.fetch(Transport.java:1309)
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:213)
+	... 4 more
+
+2022-10-26 20:32:11 Case 5 - Failed: org.eclipse.jgit.api.errors.TransportException: https://github.com/eclipse/jgit.git: Authentication is required but no CredentialsProvider has been registered
+2022-10-26 20:32:11 org.eclipse.jgit.api.errors.TransportException: https://github.com/eclipse/jgit.git: Authentication is required but no CredentialsProvider has been registered
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:224)
+	at org.eclipse.jgit.api.CloneCommand.fetch(CloneCommand.java:311)
+	at org.eclipse.jgit.api.CloneCommand.call(CloneCommand.java:182)
+	at org.refactoringminer.util.GitServiceImpl.cloneIfNotExists(GitServiceImpl.java:76)
+	at org.CodeTrackerAPI.OracleGenerator.main(OracleGenerator.java:180)
+Caused by: org.eclipse.jgit.errors.TransportException: https://github.com/eclipse/jgit.git: Authentication is required but no CredentialsProvider has been registered
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:678)
+	at org.eclipse.jgit.transport.TransportHttp.openFetch(TransportHttp.java:465)
+	at org.eclipse.jgit.transport.FetchProcess.executeImp(FetchProcess.java:142)
+	at org.eclipse.jgit.transport.FetchProcess.execute(FetchProcess.java:94)
+	at org.eclipse.jgit.transport.Transport.fetch(Transport.java:1309)
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:213)
+	... 4 more
+
+2022-10-26 20:32:12 Case 5 - Failed: org.eclipse.jgit.api.errors.TransportException: https://github.com/eclipse/jgit.git: Authentication is required but no CredentialsProvider has been registered
+2022-10-26 20:32:12 org.eclipse.jgit.api.errors.TransportException: https://github.com/eclipse/jgit.git: Authentication is required but no CredentialsProvider has been registered
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:224)
+	at org.eclipse.jgit.api.CloneCommand.fetch(CloneCommand.java:311)
+	at org.eclipse.jgit.api.CloneCommand.call(CloneCommand.java:182)
+	at org.refactoringminer.util.GitServiceImpl.cloneIfNotExists(GitServiceImpl.java:76)
+	at org.CodeTrackerAPI.OracleGenerator.main(OracleGenerator.java:180)
+Caused by: org.eclipse.jgit.errors.TransportException: https://github.com/eclipse/jgit.git: Authentication is required but no CredentialsProvider has been registered
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:678)
+	at org.eclipse.jgit.transport.TransportHttp.openFetch(TransportHttp.java:465)
+	at org.eclipse.jgit.transport.FetchProcess.executeImp(FetchProcess.java:142)
+	at org.eclipse.jgit.transport.FetchProcess.execute(FetchProcess.java:94)
+	at org.eclipse.jgit.transport.Transport.fetch(Transport.java:1309)
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:213)
+	... 4 more
+
+2022-10-26 20:32:12 Case 5 - Failed: org.eclipse.jgit.api.errors.TransportException: https://github.com/eclipse/jgit.git: Authentication is required but no CredentialsProvider has been registered
+2022-10-26 20:32:12 org.eclipse.jgit.api.errors.TransportException: https://github.com/eclipse/jgit.git: Authentication is required but no CredentialsProvider has been registered
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:224)
+	at org.eclipse.jgit.api.CloneCommand.fetch(CloneCommand.java:311)
+	at org.eclipse.jgit.api.CloneCommand.call(CloneCommand.java:182)
+	at org.refactoringminer.util.GitServiceImpl.cloneIfNotExists(GitServiceImpl.java:76)
+	at org.CodeTrackerAPI.OracleGenerator.main(OracleGenerator.java:180)
+Caused by: org.eclipse.jgit.errors.TransportException: https://github.com/eclipse/jgit.git: Authentication is required but no CredentialsProvider has been registered
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:678)
+	at org.eclipse.jgit.transport.TransportHttp.openFetch(TransportHttp.java:465)
+	at org.eclipse.jgit.transport.FetchProcess.executeImp(FetchProcess.java:142)
+	at org.eclipse.jgit.transport.FetchProcess.execute(FetchProcess.java:94)
+	at org.eclipse.jgit.transport.Transport.fetch(Transport.java:1309)
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:213)
+	... 4 more
+
+2022-10-26 20:32:12 Case 5 - Failed: org.eclipse.jgit.api.errors.TransportException: https://github.com/eclipse/jgit.git: Authentication is required but no CredentialsProvider has been registered
+2022-10-26 20:32:12 org.eclipse.jgit.api.errors.TransportException: https://github.com/eclipse/jgit.git: Authentication is required but no CredentialsProvider has been registered
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:224)
+	at org.eclipse.jgit.api.CloneCommand.fetch(CloneCommand.java:311)
+	at org.eclipse.jgit.api.CloneCommand.call(CloneCommand.java:182)
+	at org.refactoringminer.util.GitServiceImpl.cloneIfNotExists(GitServiceImpl.java:76)
+	at org.CodeTrackerAPI.OracleGenerator.main(OracleGenerator.java:180)
+Caused by: org.eclipse.jgit.errors.TransportException: https://github.com/eclipse/jgit.git: Authentication is required but no CredentialsProvider has been registered
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:678)
+	at org.eclipse.jgit.transport.TransportHttp.openFetch(TransportHttp.java:465)
+	at org.eclipse.jgit.transport.FetchProcess.executeImp(FetchProcess.java:142)
+	at org.eclipse.jgit.transport.FetchProcess.execute(FetchProcess.java:94)
+	at org.eclipse.jgit.transport.Transport.fetch(Transport.java:1309)
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:213)
+	... 4 more
+
+2022-10-26 20:32:12 Case 5 - Failed: org.eclipse.jgit.api.errors.TransportException: https://github.com/eclipse/jgit.git: Authentication is required but no CredentialsProvider has been registered
+2022-10-26 20:32:12 org.eclipse.jgit.api.errors.TransportException: https://github.com/eclipse/jgit.git: Authentication is required but no CredentialsProvider has been registered
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:224)
+	at org.eclipse.jgit.api.CloneCommand.fetch(CloneCommand.java:311)
+	at org.eclipse.jgit.api.CloneCommand.call(CloneCommand.java:182)
+	at org.refactoringminer.util.GitServiceImpl.cloneIfNotExists(GitServiceImpl.java:76)
+	at org.CodeTrackerAPI.OracleGenerator.main(OracleGenerator.java:180)
+Caused by: org.eclipse.jgit.errors.TransportException: https://github.com/eclipse/jgit.git: Authentication is required but no CredentialsProvider has been registered
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:678)
+	at org.eclipse.jgit.transport.TransportHttp.openFetch(TransportHttp.java:465)
+	at org.eclipse.jgit.transport.FetchProcess.executeImp(FetchProcess.java:142)
+	at org.eclipse.jgit.transport.FetchProcess.execute(FetchProcess.java:94)
+	at org.eclipse.jgit.transport.Transport.fetch(Transport.java:1309)
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:213)
+	... 4 more
+
+2022-10-26 20:32:12 Case 5 - Failed: org.eclipse.jgit.api.errors.TransportException: https://github.com/eclipse/jgit.git: Authentication is required but no CredentialsProvider has been registered
+2022-10-26 20:32:12 org.eclipse.jgit.api.errors.TransportException: https://github.com/eclipse/jgit.git: Authentication is required but no CredentialsProvider has been registered
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:224)
+	at org.eclipse.jgit.api.CloneCommand.fetch(CloneCommand.java:311)
+	at org.eclipse.jgit.api.CloneCommand.call(CloneCommand.java:182)
+	at org.refactoringminer.util.GitServiceImpl.cloneIfNotExists(GitServiceImpl.java:76)
+	at org.CodeTrackerAPI.OracleGenerator.main(OracleGenerator.java:180)
+Caused by: org.eclipse.jgit.errors.TransportException: https://github.com/eclipse/jgit.git: Authentication is required but no CredentialsProvider has been registered
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:678)
+	at org.eclipse.jgit.transport.TransportHttp.openFetch(TransportHttp.java:465)
+	at org.eclipse.jgit.transport.FetchProcess.executeImp(FetchProcess.java:142)
+	at org.eclipse.jgit.transport.FetchProcess.execute(FetchProcess.java:94)
+	at org.eclipse.jgit.transport.Transport.fetch(Transport.java:1309)
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:213)
+	... 4 more
+
+2022-10-26 20:32:12 Case 5 - Failed: org.eclipse.jgit.api.errors.TransportException: https://github.com/eclipse/jgit.git: Authentication is required but no CredentialsProvider has been registered
+2022-10-26 20:32:12 org.eclipse.jgit.api.errors.TransportException: https://github.com/eclipse/jgit.git: Authentication is required but no CredentialsProvider has been registered
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:224)
+	at org.eclipse.jgit.api.CloneCommand.fetch(CloneCommand.java:311)
+	at org.eclipse.jgit.api.CloneCommand.call(CloneCommand.java:182)
+	at org.refactoringminer.util.GitServiceImpl.cloneIfNotExists(GitServiceImpl.java:76)
+	at org.CodeTrackerAPI.OracleGenerator.main(OracleGenerator.java:180)
+Caused by: org.eclipse.jgit.errors.TransportException: https://github.com/eclipse/jgit.git: Authentication is required but no CredentialsProvider has been registered
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:678)
+	at org.eclipse.jgit.transport.TransportHttp.openFetch(TransportHttp.java:465)
+	at org.eclipse.jgit.transport.FetchProcess.executeImp(FetchProcess.java:142)
+	at org.eclipse.jgit.transport.FetchProcess.execute(FetchProcess.java:94)
+	at org.eclipse.jgit.transport.Transport.fetch(Transport.java:1309)
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:213)
+	... 4 more
+
+2022-10-26 20:32:15 No key yet: junit4-BlockJUnit4ClassRunner-describeChild-IF_STATEMENT
+2022-10-26 20:32:15 Data is written to file: src/main/resources/oracle/block/training/false/junit4-BlockJUnit4ClassRunner-describeChild-IF_STATEMENT.json
+2022-10-26 20:32:21 No key yet: junit4-BlockJUnit4ClassRunner-methodBlock-TRY_STATEMENT
+2022-10-26 20:32:21 Data is written to file: src/main/resources/oracle/block/training/false/junit4-BlockJUnit4ClassRunner-methodBlock-TRY_STATEMENT.json
+2022-10-26 20:32:23 No key yet: junit4-BlockJUnit4ClassRunner-methodBlock-CATCH_CLAUSE
+2022-10-26 20:32:23 Data is written to file: src/main/resources/oracle/block/training/false/junit4-BlockJUnit4ClassRunner-methodBlock-CATCH_CLAUSE.json
+2022-10-26 20:32:29 No key yet: junit4-BlockJUnit4ClassRunner-runChild-IF_STATEMENT
+2022-10-26 20:32:29 Data is written to file: src/main/resources/oracle/block/training/false/junit4-BlockJUnit4ClassRunner-runChild-IF_STATEMENT.json
+2022-10-26 20:32:33 No key yet: junit4-BlockJUnit4ClassRunner-withPotentialTimeout-IF_STATEMENT
+2022-10-26 20:32:33 Data is written to file: src/main/resources/oracle/block/training/false/junit4-BlockJUnit4ClassRunner-withPotentialTimeout-IF_STATEMENT.json
+2022-10-26 20:32:33 No key yet: junit4-RunnersFactory-createRunners-IF_STATEMENT
+2022-10-26 20:32:33 Data is written to file: src/main/resources/oracle/block/training/false/junit4-RunnersFactory-createRunners-IF_STATEMENT.json
+2022-10-26 20:32:34 No key yet: junit4-RunnersFactory-createRunnersForParameters-ENHANCED_FOR_STATEMENT
+2022-10-26 20:32:34 Data is written to file: src/main/resources/oracle/block/training/true/junit4-RunnersFactory-createRunnersForParameters-ENHANCED_FOR_STATEMENT.json
+2022-10-26 20:32:34 No key yet: junit4-RunnersFactory-createRunnersForParameters-TRY_STATEMENT
+2022-10-26 20:32:34 Data is written to file: src/main/resources/oracle/block/training/true/junit4-RunnersFactory-createRunnersForParameters-TRY_STATEMENT.json
+2022-10-26 20:32:35 No key yet: junit4-RunnersFactory-createRunnersForParameters-CATCH_CLAUSE
+2022-10-26 20:32:35 Data is written to file: src/main/resources/oracle/block/training/true/junit4-RunnersFactory-createRunnersForParameters-CATCH_CLAUSE.json
+2022-10-26 20:32:35 No key yet: junit4-ParentRunner-applyValidators-ENHANCED_FOR_STATEMENT
+2022-10-26 20:32:35 Data is written to file: src/main/resources/oracle/block/training/true/junit4-ParentRunner-applyValidators-ENHANCED_FOR_STATEMENT.json
+2022-10-26 20:32:35 No key yet: junit4-ParentRunner-applyValidators-IF_STATEMENT
+2022-10-26 20:32:35 Data is written to file: src/main/resources/oracle/block/training/true/junit4-ParentRunner-applyValidators-IF_STATEMENT.json
+2022-10-26 20:32:38 BlockHistoryInfo zero size: junit-jupiter-engine/src/main/java/org/junit/jupiter/engine/descriptor/ClassTestDescriptor.java invokeBeforeAllMethods IF_STATEMENT 374 376
+2022-10-26 20:32:38 Case 5 - Failed: java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+2022-10-26 20:32:38 java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)
+	at java.base/java.util.Objects.checkIndex(Objects.java:372)
+	at java.base/java.util.ArrayList.get(ArrayList.java:459)
+	at org.CodeTrackerAPI.OracleGenerator.main(OracleGenerator.java:283)
+
+2022-10-26 20:32:45 No key yet: junit5-DefaultLauncher-discoverRoot-IF_STATEMENT
+2022-10-26 20:32:45 Data is written to file: src/main/resources/oracle/block/training/false/junit5-DefaultLauncher-discoverRoot-IF_STATEMENT.json
+2022-10-26 20:32:46 No key yet: junit5-DefaultLauncher-discoverRoot-ENHANCED_FOR_STATEMENT
+2022-10-26 20:32:46 Data is written to file: src/main/resources/oracle/block/training/true/junit5-DefaultLauncher-discoverRoot-ENHANCED_FOR_STATEMENT.json
+2022-10-26 20:32:52 Case 5 - Failed: java.lang.NullPointerException
+2022-10-26 20:32:52 java.lang.NullPointerException
+	at gr.uom.java.xmi.decomposition.UMLOperationBodyMapper.processLambdas(UMLOperationBodyMapper.java:5811)
+	at gr.uom.java.xmi.decomposition.UMLOperationBodyMapper.processAnonymousAndLambdas(UMLOperationBodyMapper.java:5737)
+	at gr.uom.java.xmi.decomposition.UMLOperationBodyMapper.findReplacementsWithExactMatching(UMLOperationBodyMapper.java:4389)
+	at gr.uom.java.xmi.decomposition.UMLOperationBodyMapper.processLeaves(UMLOperationBodyMapper.java:3025)
+	at gr.uom.java.xmi.decomposition.UMLOperationBodyMapper.processCompositeStatements(UMLOperationBodyMapper.java:517)
+	at gr.uom.java.xmi.decomposition.UMLOperationBodyMapper.<init>(UMLOperationBodyMapper.java:493)
+	at gr.uom.java.xmi.decomposition.UMLOperationBodyMapper.processLambdas(UMLOperationBodyMapper.java:5796)
+	at gr.uom.java.xmi.decomposition.UMLOperationBodyMapper.processAnonymousAndLambdas(UMLOperationBodyMapper.java:5737)
+	at gr.uom.java.xmi.decomposition.UMLOperationBodyMapper.findReplacementsWithExactMatching(UMLOperationBodyMapper.java:4394)
+	at gr.uom.java.xmi.decomposition.UMLOperationBodyMapper.processLeaves(UMLOperationBodyMapper.java:3025)
+	at gr.uom.java.xmi.decomposition.UMLOperationBodyMapper.<init>(UMLOperationBodyMapper.java:1333)
+	at gr.uom.java.xmi.diff.ExtractOperationDetection.createMapperForExtractedMethod(ExtractOperationDetection.java:391)
+	at gr.uom.java.xmi.diff.ExtractOperationDetection.processAddedOperation(ExtractOperationDetection.java:161)
+	at gr.uom.java.xmi.diff.ExtractOperationDetection.check(ExtractOperationDetection.java:108)
+	at gr.uom.java.xmi.diff.UMLModelDiff.checkForExtractedOperationsWithinMovedMethod(UMLModelDiff.java:1630)
+	at gr.uom.java.xmi.diff.UMLModelDiff.checkForOperationMoves(UMLModelDiff.java:3165)
+	at gr.uom.java.xmi.diff.UMLModelDiff.checkForOperationMovesIncludingRemovedAndAddedClasses(UMLModelDiff.java:2854)
+	at gr.uom.java.xmi.diff.UMLModelDiff.getRefactorings(UMLModelDiff.java:2121)
+	at org.codetracker.MethodTrackerImpl.track(MethodTrackerImpl.java:140)
+	at org.CodeTrackerAPI.OracleGenerator.main(OracleGenerator.java:208)
+
+2022-10-26 20:32:55 No key yet: junit5-TestMethodTestDescriptor-execute-IF_STATEMENT
+2022-10-26 20:32:55 Data is written to file: src/main/resources/oracle/block/training/false/junit5-TestMethodTestDescriptor-execute-IF_STATEMENT.json
+2022-10-26 20:32:56 Key contained: junit5-TestMethodTestDescriptor-execute-IF_STATEMENT -> 1
+2022-10-26 20:32:56 Data is written to file: src/main/resources/oracle/block/training/false/junit5-TestMethodTestDescriptor-execute-IF_STATEMENT-1.json
+2022-10-26 20:32:56 Key contained: junit5-TestMethodTestDescriptor-execute-IF_STATEMENT -> 2
+2022-10-26 20:32:56 Data is written to file: src/main/resources/oracle/block/training/false/junit5-TestMethodTestDescriptor-execute-IF_STATEMENT-2.json
+2022-10-26 20:33:01 No key yet: okhttp-ConnectionPool-get-IF_STATEMENT
+2022-10-26 20:33:01 Data is written to file: src/main/resources/oracle/block/training/false/okhttp-ConnectionPool-get-IF_STATEMENT.json
+2022-10-26 20:33:02 No key yet: okhttp-ConnectionPool-get-ENHANCED_FOR_STATEMENT
+2022-10-26 20:33:02 Data is written to file: src/main/resources/oracle/block/training/false/okhttp-ConnectionPool-get-ENHANCED_FOR_STATEMENT.json
+2022-10-26 20:33:07 No key yet: okhttp-Http2Codec-writeRequestHeaders-IF_STATEMENT
+2022-10-26 20:33:07 Data is written to file: src/main/resources/oracle/block/training/true/okhttp-Http2Codec-writeRequestHeaders-IF_STATEMENT.json
+2022-10-26 20:33:14 No key yet: okhttp-ReaderRunnable-headers-IF_STATEMENT
+2022-10-26 20:33:14 Data is written to file: src/main/resources/oracle/block/training/false/okhttp-ReaderRunnable-headers-IF_STATEMENT.json
+2022-10-26 20:33:17 Key contained: okhttp-ReaderRunnable-headers-IF_STATEMENT -> 1
+2022-10-26 20:33:17 Data is written to file: src/main/resources/oracle/block/training/false/okhttp-ReaderRunnable-headers-IF_STATEMENT-1.json
+2022-10-26 20:33:20 Key contained: okhttp-ReaderRunnable-headers-IF_STATEMENT -> 2
+2022-10-26 20:33:20 Data is written to file: src/main/resources/oracle/block/training/false/okhttp-ReaderRunnable-headers-IF_STATEMENT-2.json
+2022-10-26 20:33:22 Key contained: okhttp-ReaderRunnable-headers-IF_STATEMENT -> 3
+2022-10-26 20:33:22 Data is written to file: src/main/resources/oracle/block/training/false/okhttp-ReaderRunnable-headers-IF_STATEMENT-3.json
+2022-10-26 20:33:25 Key contained: okhttp-ReaderRunnable-headers-IF_STATEMENT -> 4
+2022-10-26 20:33:25 Data is written to file: src/main/resources/oracle/block/training/false/okhttp-ReaderRunnable-headers-IF_STATEMENT-4.json
+2022-10-26 20:33:30 No key yet: okhttp-ReaderRunnable-headers-SYNCHRONIZED_STATEMENT
+2022-10-26 20:33:30 Data is written to file: src/main/resources/oracle/block/training/true/okhttp-ReaderRunnable-headers-SYNCHRONIZED_STATEMENT.json
+2022-10-26 20:33:33 Key contained: okhttp-ReaderRunnable-headers-IF_STATEMENT -> 5
+2022-10-26 20:33:33 Data is written to file: src/main/resources/oracle/block/training/false/okhttp-ReaderRunnable-headers-IF_STATEMENT-5.json
+2022-10-26 20:33:35 No key yet: okhttp-Http2Connection-newStream-IF_STATEMENT
+2022-10-26 20:33:35 Data is written to file: src/main/resources/oracle/block/training/false/okhttp-Http2Connection-newStream-IF_STATEMENT.json
+2022-10-26 20:33:37 Key contained: okhttp-Http2Connection-newStream-IF_STATEMENT -> 1
+2022-10-26 20:33:37 Data is written to file: src/main/resources/oracle/block/training/true/okhttp-Http2Connection-newStream-IF_STATEMENT-1.json
+2022-10-26 20:33:40 Key contained: okhttp-Http2Connection-newStream-IF_STATEMENT -> 2
+2022-10-26 20:33:40 Data is written to file: src/main/resources/oracle/block/training/true/okhttp-Http2Connection-newStream-IF_STATEMENT-2.json
+2022-10-26 20:33:42 No key yet: okhttp-Http2Connection-newStream-SYNCHRONIZED_STATEMENT
+2022-10-26 20:33:42 Data is written to file: src/main/resources/oracle/block/training/true/okhttp-Http2Connection-newStream-SYNCHRONIZED_STATEMENT.json
+2022-10-26 20:33:44 Key contained: okhttp-Http2Connection-newStream-IF_STATEMENT -> 3
+2022-10-26 20:33:44 Data is written to file: src/main/resources/oracle/block/training/false/okhttp-Http2Connection-newStream-IF_STATEMENT-3.json
+2022-10-26 20:33:46 Key contained: okhttp-Http2Connection-newStream-IF_STATEMENT -> 4
+2022-10-26 20:33:46 Data is written to file: src/main/resources/oracle/block/training/true/okhttp-Http2Connection-newStream-IF_STATEMENT-4.json
+2022-10-26 20:33:48 Key contained: okhttp-Http2Connection-newStream-SYNCHRONIZED_STATEMENT -> 1
+2022-10-26 20:33:48 Data is written to file: src/main/resources/oracle/block/training/true/okhttp-Http2Connection-newStream-SYNCHRONIZED_STATEMENT-1.json
+2022-10-26 20:33:50 Key contained: okhttp-Http2Connection-newStream-IF_STATEMENT -> 5
+2022-10-26 20:33:50 Data is written to file: src/main/resources/oracle/block/training/true/okhttp-Http2Connection-newStream-IF_STATEMENT-5.json
+2022-10-26 20:33:59 No key yet: okhttp-Http2Connection-pushStream-IF_STATEMENT
+2022-10-26 20:33:59 Data is written to file: src/main/resources/oracle/block/training/true/okhttp-Http2Connection-pushStream-IF_STATEMENT.json
+2022-10-26 20:34:14 No key yet: okhttp-JavaNetAuthenticator-authenticate-IF_STATEMENT
+2022-10-26 20:34:14 Data is written to file: src/main/resources/oracle/block/training/true/okhttp-JavaNetAuthenticator-authenticate-IF_STATEMENT.json
+2022-10-26 20:34:14 Key contained: okhttp-JavaNetAuthenticator-authenticate-IF_STATEMENT -> 1
+2022-10-26 20:34:14 Data is written to file: src/main/resources/oracle/block/training/false/okhttp-JavaNetAuthenticator-authenticate-IF_STATEMENT-1.json
+2022-10-26 20:34:22 Key contained: okhttp-JavaNetAuthenticator-authenticate-IF_STATEMENT -> 2
+2022-10-26 20:34:22 Data is written to file: src/main/resources/oracle/block/training/true/okhttp-JavaNetAuthenticator-authenticate-IF_STATEMENT-2.json
+2022-10-26 20:34:29 No key yet: okhttp-JavaNetAuthenticator-authenticate-FOR_STATEMENT
+2022-10-26 20:34:29 Data is written to file: src/main/resources/oracle/block/training/true/okhttp-JavaNetAuthenticator-authenticate-FOR_STATEMENT.json
+2022-10-26 20:34:37 No key yet: okhttp-OkHttpURLConnection-getResponse-IF_STATEMENT
+2022-10-26 20:34:37 Data is written to file: src/main/resources/oracle/block/training/true/okhttp-OkHttpURLConnection-getResponse-IF_STATEMENT.json
+2022-10-26 20:34:38 Key contained: okhttp-OkHttpURLConnection-getResponse-IF_STATEMENT -> 1
+2022-10-26 20:34:38 Data is written to file: src/main/resources/oracle/block/training/false/okhttp-OkHttpURLConnection-getResponse-IF_STATEMENT-1.json
+2022-10-26 20:34:39 Key contained: okhttp-OkHttpURLConnection-getResponse-IF_STATEMENT -> 2
+2022-10-26 20:34:39 Data is written to file: src/main/resources/oracle/block/training/false/okhttp-OkHttpURLConnection-getResponse-IF_STATEMENT-2.json
+2022-10-26 20:34:40 No key yet: okhttp-OkHttpURLConnection-getResponse-SYNCHRONIZED_STATEMENT
+2022-10-26 20:34:40 Data is written to file: src/main/resources/oracle/block/training/false/okhttp-OkHttpURLConnection-getResponse-SYNCHRONIZED_STATEMENT.json
+2022-10-26 20:34:41 Key contained: okhttp-OkHttpURLConnection-getResponse-IF_STATEMENT -> 3
+2022-10-26 20:34:41 Data is written to file: src/main/resources/oracle/block/training/false/okhttp-OkHttpURLConnection-getResponse-IF_STATEMENT-3.json
+2022-10-26 20:34:42 No key yet: okhttp-OkHttpURLConnection-getResponse-WHILE_STATEMENT
+2022-10-26 20:34:42 Data is written to file: src/main/resources/oracle/block/training/false/okhttp-OkHttpURLConnection-getResponse-WHILE_STATEMENT.json
+2022-10-26 20:34:43 No key yet: okhttp-OkHttpURLConnection-getResponse-TRY_STATEMENT
+2022-10-26 20:34:43 Data is written to file: src/main/resources/oracle/block/training/false/okhttp-OkHttpURLConnection-getResponse-TRY_STATEMENT.json
+2022-10-26 20:34:44 No key yet: okhttp-OkHttpURLConnection-getResponse-CATCH_CLAUSE
+2022-10-26 20:34:44 Data is written to file: src/main/resources/oracle/block/training/false/okhttp-OkHttpURLConnection-getResponse-CATCH_CLAUSE.json
+2022-10-26 20:34:44 Key contained: okhttp-OkHttpURLConnection-getResponse-SYNCHRONIZED_STATEMENT -> 1
+2022-10-26 20:34:44 Data is written to file: src/main/resources/oracle/block/training/false/okhttp-OkHttpURLConnection-getResponse-SYNCHRONIZED_STATEMENT-1.json
+2022-10-26 20:34:46 BlockHistoryInfo zero size: okhttp-urlconnection/src/main/java/okhttp3/internal/huc/OkHttpURLConnection.java getResponse TRY_STATEMENT 471 475
+2022-10-26 20:34:46 Case 5 - Failed: java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+2022-10-26 20:34:46 java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)
+	at java.base/java.util.Objects.checkIndex(Objects.java:372)
+	at java.base/java.util.ArrayList.get(ArrayList.java:459)
+	at org.CodeTrackerAPI.OracleGenerator.main(OracleGenerator.java:283)
+
+2022-10-26 20:34:51 No key yet: okhttp-AsyncCall-execute-IF_STATEMENT
+2022-10-26 20:34:51 Data is written to file: src/main/resources/oracle/block/training/false/okhttp-AsyncCall-execute-IF_STATEMENT.json
+2022-10-26 20:34:55 No key yet: okhttp-AsyncCall-execute-TRY_STATEMENT
+2022-10-26 20:34:55 Data is written to file: src/main/resources/oracle/block/training/true/okhttp-AsyncCall-execute-TRY_STATEMENT.json
+2022-10-26 20:34:57 Key contained: okhttp-AsyncCall-execute-IF_STATEMENT -> 1
+2022-10-26 20:34:57 Data is written to file: src/main/resources/oracle/block/training/false/okhttp-AsyncCall-execute-IF_STATEMENT-1.json
+2022-10-26 20:35:01 No key yet: okhttp-AsyncCall-execute-CATCH_CLAUSE
+2022-10-26 20:35:01 Data is written to file: src/main/resources/oracle/block/training/true/okhttp-AsyncCall-execute-CATCH_CLAUSE.json
+2022-10-26 20:35:04 No key yet: okhttp-AsyncCall-execute-FINALLY_BLOCK
+2022-10-26 20:35:04 Data is written to file: src/main/resources/oracle/block/training/true/okhttp-AsyncCall-execute-FINALLY_BLOCK.json
+2022-10-26 20:35:13 No key yet: okhttp-RealConnection-connect-IF_STATEMENT
+2022-10-26 20:35:13 Data is written to file: src/main/resources/oracle/block/training/false/okhttp-RealConnection-connect-IF_STATEMENT.json
+2022-10-26 20:35:17 Key contained: okhttp-RealConnection-connect-IF_STATEMENT -> 1
+2022-10-26 20:35:17 Data is written to file: src/main/resources/oracle/block/training/false/okhttp-RealConnection-connect-IF_STATEMENT-1.json
+2022-10-26 20:35:21 Key contained: okhttp-RealConnection-connect-IF_STATEMENT -> 2
+2022-10-26 20:35:21 Data is written to file: src/main/resources/oracle/block/training/false/okhttp-RealConnection-connect-IF_STATEMENT-2.json
+2022-10-26 20:35:21 Key contained: okhttp-RealConnection-connect-IF_STATEMENT -> 3
+2022-10-26 20:35:21 Data is written to file: src/main/resources/oracle/block/training/false/okhttp-RealConnection-connect-IF_STATEMENT-3.json
+2022-10-26 20:35:24 Key contained: okhttp-RealConnection-connect-IF_STATEMENT -> 4
+2022-10-26 20:35:24 Data is written to file: src/main/resources/oracle/block/training/false/okhttp-RealConnection-connect-IF_STATEMENT-4.json
+2022-10-26 20:35:25 Key contained: okhttp-RealConnection-connect-IF_STATEMENT -> 5
+2022-10-26 20:35:25 Data is written to file: src/main/resources/oracle/block/training/false/okhttp-RealConnection-connect-IF_STATEMENT-5.json
+2022-10-26 20:35:25 Key contained: okhttp-RealConnection-connect-IF_STATEMENT -> 6
+2022-10-26 20:35:25 Data is written to file: src/main/resources/oracle/block/training/false/okhttp-RealConnection-connect-IF_STATEMENT-6.json
+2022-10-26 20:35:28 No key yet: okhttp-RealConnection-connect-TRY_STATEMENT
+2022-10-26 20:35:28 Data is written to file: src/main/resources/oracle/block/training/false/okhttp-RealConnection-connect-TRY_STATEMENT.json
+2022-10-26 20:35:31 Key contained: okhttp-RealConnection-connect-IF_STATEMENT -> 7
+2022-10-26 20:35:31 Data is written to file: src/main/resources/oracle/block/training/false/okhttp-RealConnection-connect-IF_STATEMENT-7.json
+2022-10-26 20:35:34 Key contained: okhttp-RealConnection-connect-IF_STATEMENT -> 8
+2022-10-26 20:35:34 Data is written to file: src/main/resources/oracle/block/training/false/okhttp-RealConnection-connect-IF_STATEMENT-8.json
+2022-10-26 20:35:36 No key yet: okhttp-RealConnection-connect-CATCH_CLAUSE
+2022-10-26 20:35:36 Data is written to file: src/main/resources/oracle/block/training/false/okhttp-RealConnection-connect-CATCH_CLAUSE.json
+2022-10-26 20:35:37 No key yet: okhttp-RealConnection-connect-WHILE_STATEMENT
+2022-10-26 20:35:37 Data is written to file: src/main/resources/oracle/block/training/false/okhttp-RealConnection-connect-WHILE_STATEMENT.json
+2022-10-26 20:35:37 Key contained: okhttp-RealConnection-connect-IF_STATEMENT -> 9
+2022-10-26 20:35:37 Data is written to file: src/main/resources/oracle/block/training/false/okhttp-RealConnection-connect-IF_STATEMENT-9.json
+2022-10-26 20:35:37 No key yet: okhttp-RealConnection-connect-SYNCHRONIZED_STATEMENT
+2022-10-26 20:35:37 Data is written to file: src/main/resources/oracle/block/training/false/okhttp-RealConnection-connect-SYNCHRONIZED_STATEMENT.json
+2022-10-26 20:35:38 Key contained: okhttp-RealConnection-connect-IF_STATEMENT -> 10
+2022-10-26 20:35:38 Data is written to file: src/main/resources/oracle/block/training/false/okhttp-RealConnection-connect-IF_STATEMENT-10.json
+2022-10-26 20:35:44 No key yet: spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT
+2022-10-26 20:35:44 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT.json
+2022-10-26 20:35:45 No key yet: spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-TRY_STATEMENT
+2022-10-26 20:35:45 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-TRY_STATEMENT.json
+2022-10-26 20:35:46 No key yet: spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-CATCH_CLAUSE
+2022-10-26 20:35:46 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-CATCH_CLAUSE.json
+2022-10-26 20:35:47 Key contained: spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT -> 1
+2022-10-26 20:35:47 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT-1.json
+2022-10-26 20:35:48 Key contained: spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT -> 2
+2022-10-26 20:35:48 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT-2.json
+2022-10-26 20:35:49 Key contained: spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT -> 3
+2022-10-26 20:35:49 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT-3.json
+2022-10-26 20:35:51 Key contained: spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT -> 4
+2022-10-26 20:35:51 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT-4.json
+2022-10-26 20:35:54 Key contained: spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT -> 5
+2022-10-26 20:35:54 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT-5.json
+2022-10-26 20:35:58 No key yet: spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-ENHANCED_FOR_STATEMENT
+2022-10-26 20:35:58 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-ENHANCED_FOR_STATEMENT.json
+2022-10-26 20:36:01 Key contained: spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-ENHANCED_FOR_STATEMENT -> 1
+2022-10-26 20:36:01 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-ENHANCED_FOR_STATEMENT-1.json
+2022-10-26 20:36:03 Key contained: spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT -> 6
+2022-10-26 20:36:03 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT-6.json
+2022-10-26 20:36:04 Key contained: spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT -> 7
+2022-10-26 20:36:04 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT-7.json
+2022-10-26 20:36:07 Key contained: spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT -> 8
+2022-10-26 20:36:07 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT-8.json
+2022-10-26 20:36:11 Key contained: spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT -> 9
+2022-10-26 20:36:11 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT-9.json
+2022-10-26 20:36:14 Key contained: spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT -> 10
+2022-10-26 20:36:14 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT-10.json
+2022-10-26 20:36:18 Key contained: spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-ENHANCED_FOR_STATEMENT -> 2
+2022-10-26 20:36:18 Data is written to file: src/main/resources/oracle/block/training/true/spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-ENHANCED_FOR_STATEMENT-2.json
+2022-10-26 20:36:19 Key contained: spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT -> 11
+2022-10-26 20:36:19 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT-11.json
+2022-10-26 20:36:20 Key contained: spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT -> 12
+2022-10-26 20:36:20 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT-12.json
+2022-10-26 20:36:20 Key contained: spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT -> 13
+2022-10-26 20:36:20 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT-13.json
+2022-10-26 20:36:21 Key contained: spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT -> 14
+2022-10-26 20:36:21 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT-14.json
+2022-10-26 20:36:23 Key contained: spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT -> 15
+2022-10-26 20:36:23 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT-15.json
+2022-10-26 20:36:25 Key contained: spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT -> 16
+2022-10-26 20:36:25 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT-16.json
+2022-10-26 20:36:26 Key contained: spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT -> 17
+2022-10-26 20:36:26 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT-17.json
+2022-10-26 20:36:30 Key contained: spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-ENHANCED_FOR_STATEMENT -> 3
+2022-10-26 20:36:30 Data is written to file: src/main/resources/oracle/block/training/true/spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-ENHANCED_FOR_STATEMENT-3.json
+2022-10-26 20:36:34 Key contained: spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT -> 18
+2022-10-26 20:36:34 Data is written to file: src/main/resources/oracle/block/training/true/spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT-18.json
+2022-10-26 20:36:36 Key contained: spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT -> 19
+2022-10-26 20:36:36 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT-19.json
+2022-10-26 20:37:53 No key yet: spring-framework-AbstractNestablePropertyAccessor-setPropertyValue-IF_STATEMENT
+2022-10-26 20:37:53 Data is written to file: src/main/resources/oracle/block/training/true/spring-framework-AbstractNestablePropertyAccessor-setPropertyValue-IF_STATEMENT.json
+2022-10-26 20:37:59 No key yet: spring-framework-ConfigurationClassBeanDefinitionReader-loadBeanDefinitionsForBeanMethod-IF_STATEMENT
+2022-10-26 20:37:59 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-ConfigurationClassBeanDefinitionReader-loadBeanDefinitionsForBeanMethod-IF_STATEMENT.json
+2022-10-26 20:38:01 Key contained: spring-framework-ConfigurationClassBeanDefinitionReader-loadBeanDefinitionsForBeanMethod-IF_STATEMENT -> 1
+2022-10-26 20:38:01 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-ConfigurationClassBeanDefinitionReader-loadBeanDefinitionsForBeanMethod-IF_STATEMENT-1.json
+2022-10-26 20:38:06 No key yet: spring-framework-ConfigurationClassBeanDefinitionReader-loadBeanDefinitionsForBeanMethod-ENHANCED_FOR_STATEMENT
+2022-10-26 20:38:06 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-ConfigurationClassBeanDefinitionReader-loadBeanDefinitionsForBeanMethod-ENHANCED_FOR_STATEMENT.json
+2022-10-26 20:38:07 Key contained: spring-framework-ConfigurationClassBeanDefinitionReader-loadBeanDefinitionsForBeanMethod-IF_STATEMENT -> 2
+2022-10-26 20:38:07 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-ConfigurationClassBeanDefinitionReader-loadBeanDefinitionsForBeanMethod-IF_STATEMENT-2.json
+2022-10-26 20:38:12 Key contained: spring-framework-ConfigurationClassBeanDefinitionReader-loadBeanDefinitionsForBeanMethod-IF_STATEMENT -> 3
+2022-10-26 20:38:12 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-ConfigurationClassBeanDefinitionReader-loadBeanDefinitionsForBeanMethod-IF_STATEMENT-3.json
+2022-10-26 20:38:15 Key contained: spring-framework-ConfigurationClassBeanDefinitionReader-loadBeanDefinitionsForBeanMethod-IF_STATEMENT -> 4
+2022-10-26 20:38:15 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-ConfigurationClassBeanDefinitionReader-loadBeanDefinitionsForBeanMethod-IF_STATEMENT-4.json
+2022-10-26 20:38:19 BlockHistoryInfo zero size: spring-context/src/main/java/org/springframework/context/annotation/ConfigurationClassBeanDefinitionReader.java loadBeanDefinitionsForBeanMethod IF_STATEMENT 231 233
+2022-10-26 20:38:19 Case 5 - Failed: java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+2022-10-26 20:38:19 java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)
+	at java.base/java.util.Objects.checkIndex(Objects.java:372)
+	at java.base/java.util.ArrayList.get(ArrayList.java:459)
+	at org.CodeTrackerAPI.OracleGenerator.main(OracleGenerator.java:283)
+
+2022-10-26 20:38:31 No key yet: spring-framework-ConfigurationClassParser-doProcessConfigurationClass-IF_STATEMENT
+2022-10-26 20:38:31 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-ConfigurationClassParser-doProcessConfigurationClass-IF_STATEMENT.json
+2022-10-26 20:38:38 No key yet: spring-framework-ConfigurationClassParser-doProcessConfigurationClass-ENHANCED_FOR_STATEMENT
+2022-10-26 20:38:38 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-ConfigurationClassParser-doProcessConfigurationClass-ENHANCED_FOR_STATEMENT.json
+2022-10-26 20:38:39 Key contained: spring-framework-ConfigurationClassParser-doProcessConfigurationClass-IF_STATEMENT -> 1
+2022-10-26 20:38:39 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-ConfigurationClassParser-doProcessConfigurationClass-IF_STATEMENT-1.json
+2022-10-26 20:38:45 Key contained: spring-framework-ConfigurationClassParser-doProcessConfigurationClass-IF_STATEMENT -> 2
+2022-10-26 20:38:45 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-ConfigurationClassParser-doProcessConfigurationClass-IF_STATEMENT-2.json
+2022-10-26 20:38:52 Key contained: spring-framework-ConfigurationClassParser-doProcessConfigurationClass-ENHANCED_FOR_STATEMENT -> 1
+2022-10-26 20:38:52 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-ConfigurationClassParser-doProcessConfigurationClass-ENHANCED_FOR_STATEMENT-1.json
+2022-10-26 20:38:54 Key contained: spring-framework-ConfigurationClassParser-doProcessConfigurationClass-ENHANCED_FOR_STATEMENT -> 2
+2022-10-26 20:38:54 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-ConfigurationClassParser-doProcessConfigurationClass-ENHANCED_FOR_STATEMENT-2.json
+2022-10-26 20:38:58 Key contained: spring-framework-ConfigurationClassParser-doProcessConfigurationClass-IF_STATEMENT -> 3
+2022-10-26 20:38:58 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-ConfigurationClassParser-doProcessConfigurationClass-IF_STATEMENT-3.json
+2022-10-26 20:39:05 Key contained: spring-framework-ConfigurationClassParser-doProcessConfigurationClass-ENHANCED_FOR_STATEMENT -> 3
+2022-10-26 20:39:05 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-ConfigurationClassParser-doProcessConfigurationClass-ENHANCED_FOR_STATEMENT-3.json
+2022-10-26 20:39:13 Key contained: spring-framework-ConfigurationClassParser-doProcessConfigurationClass-IF_STATEMENT -> 4
+2022-10-26 20:39:13 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-ConfigurationClassParser-doProcessConfigurationClass-IF_STATEMENT-4.json
+2022-10-26 20:39:22 Key contained: spring-framework-ConfigurationClassParser-doProcessConfigurationClass-ENHANCED_FOR_STATEMENT -> 4
+2022-10-26 20:39:22 Data is written to file: src/main/resources/oracle/block/training/true/spring-framework-ConfigurationClassParser-doProcessConfigurationClass-ENHANCED_FOR_STATEMENT-4.json
+2022-10-26 20:39:28 Key contained: spring-framework-ConfigurationClassParser-doProcessConfigurationClass-IF_STATEMENT -> 5
+2022-10-26 20:39:28 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-ConfigurationClassParser-doProcessConfigurationClass-IF_STATEMENT-5.json
+2022-10-26 20:39:34 Key contained: spring-framework-ConfigurationClassParser-doProcessConfigurationClass-IF_STATEMENT -> 6
+2022-10-26 20:39:34 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-ConfigurationClassParser-doProcessConfigurationClass-IF_STATEMENT-6.json
+2022-10-26 20:39:40 No key yet: spring-framework-ConfigurationClassPostProcessor-processConfigBeanDefinitions-IF_STATEMENT
+2022-10-26 20:39:40 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-ConfigurationClassPostProcessor-processConfigBeanDefinitions-IF_STATEMENT.json
+2022-10-26 20:39:45 Key contained: spring-framework-ConfigurationClassPostProcessor-processConfigBeanDefinitions-IF_STATEMENT -> 1
+2022-10-26 20:39:45 Data is written to file: src/main/resources/oracle/block/training/true/spring-framework-ConfigurationClassPostProcessor-processConfigBeanDefinitions-IF_STATEMENT-1.json
+2022-10-26 20:39:46 Key contained: spring-framework-ConfigurationClassPostProcessor-processConfigBeanDefinitions-IF_STATEMENT -> 2
+2022-10-26 20:39:46 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-ConfigurationClassPostProcessor-processConfigBeanDefinitions-IF_STATEMENT-2.json
+2022-10-26 20:39:52 No key yet: spring-framework-ConfigurationClassPostProcessor-processConfigBeanDefinitions-ENHANCED_FOR_STATEMENT
+2022-10-26 20:39:52 Data is written to file: src/main/resources/oracle/block/training/true/spring-framework-ConfigurationClassPostProcessor-processConfigBeanDefinitions-ENHANCED_FOR_STATEMENT.json
+2022-10-26 20:39:57 Key contained: spring-framework-ConfigurationClassPostProcessor-processConfigBeanDefinitions-IF_STATEMENT -> 3
+2022-10-26 20:39:57 Data is written to file: src/main/resources/oracle/block/training/true/spring-framework-ConfigurationClassPostProcessor-processConfigBeanDefinitions-IF_STATEMENT-3.json
+2022-10-26 20:39:58 Key contained: spring-framework-ConfigurationClassPostProcessor-processConfigBeanDefinitions-IF_STATEMENT -> 4
+2022-10-26 20:39:58 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-ConfigurationClassPostProcessor-processConfigBeanDefinitions-IF_STATEMENT-4.json
+2022-10-26 20:40:00 Key contained: spring-framework-ConfigurationClassPostProcessor-processConfigBeanDefinitions-IF_STATEMENT -> 5
+2022-10-26 20:40:00 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-ConfigurationClassPostProcessor-processConfigBeanDefinitions-IF_STATEMENT-5.json
+2022-10-26 20:40:02 Key contained: spring-framework-ConfigurationClassPostProcessor-processConfigBeanDefinitions-IF_STATEMENT -> 6
+2022-10-26 20:40:02 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-ConfigurationClassPostProcessor-processConfigBeanDefinitions-IF_STATEMENT-6.json
+2022-10-26 20:40:03 Key contained: spring-framework-ConfigurationClassPostProcessor-processConfigBeanDefinitions-IF_STATEMENT -> 7
+2022-10-26 20:40:03 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-ConfigurationClassPostProcessor-processConfigBeanDefinitions-IF_STATEMENT-7.json
+2022-10-26 20:40:05 Key contained: spring-framework-ConfigurationClassPostProcessor-processConfigBeanDefinitions-IF_STATEMENT -> 8
+2022-10-26 20:40:05 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-ConfigurationClassPostProcessor-processConfigBeanDefinitions-IF_STATEMENT-8.json
+2022-10-26 20:40:06 Key contained: spring-framework-ConfigurationClassPostProcessor-processConfigBeanDefinitions-ENHANCED_FOR_STATEMENT -> 1
+2022-10-26 20:40:06 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-ConfigurationClassPostProcessor-processConfigBeanDefinitions-ENHANCED_FOR_STATEMENT-1.json
+2022-10-26 20:40:08 Key contained: spring-framework-ConfigurationClassPostProcessor-processConfigBeanDefinitions-IF_STATEMENT -> 9
+2022-10-26 20:40:08 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-ConfigurationClassPostProcessor-processConfigBeanDefinitions-IF_STATEMENT-9.json
+2022-10-26 20:40:09 Key contained: spring-framework-ConfigurationClassPostProcessor-processConfigBeanDefinitions-IF_STATEMENT -> 10
+2022-10-26 20:40:09 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-ConfigurationClassPostProcessor-processConfigBeanDefinitions-IF_STATEMENT-10.json
+2022-10-26 20:40:10 Key contained: spring-framework-ConfigurationClassPostProcessor-processConfigBeanDefinitions-ENHANCED_FOR_STATEMENT -> 2
+2022-10-26 20:40:10 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-ConfigurationClassPostProcessor-processConfigBeanDefinitions-ENHANCED_FOR_STATEMENT-2.json
+2022-10-26 20:40:12 Key contained: spring-framework-ConfigurationClassPostProcessor-processConfigBeanDefinitions-IF_STATEMENT -> 11
+2022-10-26 20:40:12 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-ConfigurationClassPostProcessor-processConfigBeanDefinitions-IF_STATEMENT-11.json
+2022-10-26 20:40:13 No key yet: spring-framework-ConfigurationClassPostProcessor-processConfigBeanDefinitions-DO_STATEMENT
+2022-10-26 20:40:13 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-ConfigurationClassPostProcessor-processConfigBeanDefinitions-DO_STATEMENT.json
+2022-10-26 20:40:15 Key contained: spring-framework-ConfigurationClassPostProcessor-processConfigBeanDefinitions-IF_STATEMENT -> 12
+2022-10-26 20:40:15 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-ConfigurationClassPostProcessor-processConfigBeanDefinitions-IF_STATEMENT-12.json
+2022-10-26 20:40:17 Key contained: spring-framework-ConfigurationClassPostProcessor-processConfigBeanDefinitions-IF_STATEMENT -> 13
+2022-10-26 20:40:17 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-ConfigurationClassPostProcessor-processConfigBeanDefinitions-IF_STATEMENT-13.json
+2022-10-26 20:40:24 No key yet: spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT
+2022-10-26 20:40:24 Data is written to file: src/main/resources/oracle/block/training/true/spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT.json
+2022-10-26 20:40:26 Key contained: spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT -> 1
+2022-10-26 20:40:26 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT-1.json
+2022-10-26 20:40:29 Key contained: spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT -> 2
+2022-10-26 20:40:29 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT-2.json
+2022-10-26 20:40:33 Key contained: spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT -> 3
+2022-10-26 20:40:33 Data is written to file: src/main/resources/oracle/block/training/true/spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT-3.json
+2022-10-26 20:40:36 Key contained: spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT -> 4
+2022-10-26 20:40:36 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT-4.json
+2022-10-26 20:40:40 Key contained: spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT -> 5
+2022-10-26 20:40:40 Data is written to file: src/main/resources/oracle/block/training/true/spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT-5.json
+2022-10-26 20:40:43 No key yet: spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-SYNCHRONIZED_STATEMENT
+2022-10-26 20:40:43 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-SYNCHRONIZED_STATEMENT.json
+2022-10-26 20:40:45 Key contained: spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT -> 6
+2022-10-26 20:40:45 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT-6.json
+2022-10-26 20:40:49 Key contained: spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT -> 7
+2022-10-26 20:40:49 Data is written to file: src/main/resources/oracle/block/training/true/spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT-7.json
+2022-10-26 20:40:53 Key contained: spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT -> 8
+2022-10-26 20:40:53 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT-8.json
+2022-10-26 20:40:56 No key yet: spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-ENHANCED_FOR_STATEMENT
+2022-10-26 20:40:56 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-ENHANCED_FOR_STATEMENT.json
+2022-10-26 20:40:57 Key contained: spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT -> 9
+2022-10-26 20:40:57 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT-9.json
+2022-10-26 20:41:01 Key contained: spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT -> 10
+2022-10-26 20:41:01 Data is written to file: src/main/resources/oracle/block/training/true/spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT-10.json
+2022-10-26 20:41:05 Key contained: spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT -> 11
+2022-10-26 20:41:05 Data is written to file: src/main/resources/oracle/block/training/true/spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT-11.json
+2022-10-26 20:41:08 Key contained: spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT -> 12
+2022-10-26 20:41:08 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT-12.json
+2022-10-26 20:41:12 No key yet: spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-TRY_STATEMENT
+2022-10-26 20:41:12 Data is written to file: src/main/resources/oracle/block/training/true/spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-TRY_STATEMENT.json
+2022-10-26 20:41:16 Key contained: spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT -> 13
+2022-10-26 20:41:16 Data is written to file: src/main/resources/oracle/block/training/true/spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT-13.json
+2022-10-26 20:41:20 Key contained: spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT -> 14
+2022-10-26 20:41:20 Data is written to file: src/main/resources/oracle/block/training/true/spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT-14.json
+2022-10-26 20:41:24 No key yet: spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-CATCH_CLAUSE
+2022-10-26 20:41:24 Data is written to file: src/main/resources/oracle/block/training/true/spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-CATCH_CLAUSE.json
+2022-10-26 20:41:24 Key contained: spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT -> 15
+2022-10-26 20:41:24 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT-15.json
+2022-10-26 20:41:28 Key contained: spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT -> 16
+2022-10-26 20:41:28 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT-16.json
+2022-10-26 20:41:32 Key contained: spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT -> 17
+2022-10-26 20:41:32 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT-17.json
+2022-10-26 20:41:36 Key contained: spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT -> 18
+2022-10-26 20:41:36 Data is written to file: src/main/resources/oracle/block/training/true/spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT-18.json
+2022-10-26 20:41:40 Key contained: spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT -> 19
+2022-10-26 20:41:40 Data is written to file: src/main/resources/oracle/block/training/true/spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT-19.json
+2022-10-26 20:41:44 Key contained: spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-ENHANCED_FOR_STATEMENT -> 1
+2022-10-26 20:41:44 Data is written to file: src/main/resources/oracle/block/training/true/spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-ENHANCED_FOR_STATEMENT-1.json
+2022-10-26 20:41:47 Key contained: spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-ENHANCED_FOR_STATEMENT -> 2
+2022-10-26 20:41:47 Data is written to file: src/main/resources/oracle/block/training/true/spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-ENHANCED_FOR_STATEMENT-2.json
+2022-10-26 20:41:51 Key contained: spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT -> 20
+2022-10-26 20:41:51 Data is written to file: src/main/resources/oracle/block/training/true/spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT-20.json
+2022-10-26 20:41:53 Key contained: spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-ENHANCED_FOR_STATEMENT -> 3
+2022-10-26 20:41:53 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-ENHANCED_FOR_STATEMENT-3.json
+2022-10-26 20:41:56 Key contained: spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-ENHANCED_FOR_STATEMENT -> 4
+2022-10-26 20:41:56 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-ENHANCED_FOR_STATEMENT-4.json
+2022-10-26 20:42:00 Key contained: spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT -> 21
+2022-10-26 20:42:00 Data is written to file: src/main/resources/oracle/block/training/true/spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT-21.json
+2022-10-26 20:42:01 Key contained: spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT -> 22
+2022-10-26 20:42:01 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT-22.json
+2022-10-26 20:42:05 Key contained: spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT -> 23
+2022-10-26 20:42:05 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT-23.json
+2022-10-26 20:42:09 Key contained: spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT -> 24
+2022-10-26 20:42:09 Data is written to file: src/main/resources/oracle/block/training/true/spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT-24.json
+2022-10-26 20:42:13 Key contained: spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT -> 25
+2022-10-26 20:42:13 Data is written to file: src/main/resources/oracle/block/training/true/spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT-25.json
+2022-10-26 20:42:16 Key contained: spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT -> 26
+2022-10-26 20:42:16 Data is written to file: src/main/resources/oracle/block/training/true/spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT-26.json
+2022-10-26 20:42:20 Key contained: spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT -> 27
+2022-10-26 20:42:20 Data is written to file: src/main/resources/oracle/block/training/true/spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT-27.json
+2022-10-26 20:42:23 Key contained: spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT -> 28
+2022-10-26 20:42:23 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT-28.json
+2022-10-26 20:42:27 Key contained: spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-TRY_STATEMENT -> 1
+2022-10-26 20:42:27 Data is written to file: src/main/resources/oracle/block/training/true/spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-TRY_STATEMENT-1.json
+2022-10-26 20:42:31 Key contained: spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-CATCH_CLAUSE -> 1
+2022-10-26 20:42:31 Data is written to file: src/main/resources/oracle/block/training/true/spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-CATCH_CLAUSE-1.json
+2022-10-26 20:42:41 No key yet: spring-framework-GenericConversionService-getConverter-IF_STATEMENT
+2022-10-26 20:42:41 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-GenericConversionService-getConverter-IF_STATEMENT.json
+2022-10-26 20:42:44 Key contained: spring-framework-GenericConversionService-getConverter-IF_STATEMENT -> 1
+2022-10-26 20:42:44 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-GenericConversionService-getConverter-IF_STATEMENT-1.json
+2022-10-26 20:42:49 Key contained: spring-framework-GenericConversionService-getConverter-IF_STATEMENT -> 2
+2022-10-26 20:42:49 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-GenericConversionService-getConverter-IF_STATEMENT-2.json
+2022-10-26 20:42:53 No key yet: spring-framework-ServletHttpHandlerAdapter-service-IF_STATEMENT
+2022-10-26 20:42:53 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-ServletHttpHandlerAdapter-service-IF_STATEMENT.json
+2022-10-26 20:42:54 No key yet: spring-framework-ServletHttpHandlerAdapter-service-TRY_STATEMENT
+2022-10-26 20:42:54 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-ServletHttpHandlerAdapter-service-TRY_STATEMENT.json
+2022-10-26 20:42:54 Key contained: spring-framework-ServletHttpHandlerAdapter-service-IF_STATEMENT -> 1
+2022-10-26 20:42:54 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-ServletHttpHandlerAdapter-service-IF_STATEMENT-1.json
+2022-10-26 20:42:55 No key yet: spring-framework-ServletHttpHandlerAdapter-service-CATCH_CLAUSE
+2022-10-26 20:42:55 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-ServletHttpHandlerAdapter-service-CATCH_CLAUSE.json
+2022-10-26 20:42:55 Key contained: spring-framework-ServletHttpHandlerAdapter-service-IF_STATEMENT -> 2
+2022-10-26 20:42:55 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-ServletHttpHandlerAdapter-service-IF_STATEMENT-2.json
+2022-10-26 20:43:01 No key yet: spring-framework-TypeConverterDelegate-convertIfNecessary-TRY_STATEMENT
+2022-10-26 20:43:01 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-TypeConverterDelegate-convertIfNecessary-TRY_STATEMENT.json
+2022-10-26 20:43:03 No key yet: spring-framework-TypeConverterDelegate-convertIfNecessary-CATCH_CLAUSE
+2022-10-26 20:43:03 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-TypeConverterDelegate-convertIfNecessary-CATCH_CLAUSE.json
+2022-10-26 20:43:07 No key yet: spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT
+2022-10-26 20:43:07 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT.json
+2022-10-26 20:43:10 Key contained: spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT -> 1
+2022-10-26 20:43:10 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT-1.json
+2022-10-26 20:43:12 Key contained: spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT -> 2
+2022-10-26 20:43:12 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT-2.json
+2022-10-26 20:43:13 Key contained: spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT -> 3
+2022-10-26 20:43:13 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT-3.json
+2022-10-26 20:43:15 Key contained: spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT -> 4
+2022-10-26 20:43:15 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT-4.json
+2022-10-26 20:43:19 Key contained: spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT -> 5
+2022-10-26 20:43:19 Data is written to file: src/main/resources/oracle/block/training/true/spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT-5.json
+2022-10-26 20:43:23 Key contained: spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT -> 6
+2022-10-26 20:43:23 Data is written to file: src/main/resources/oracle/block/training/true/spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT-6.json
+2022-10-26 20:43:25 Key contained: spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT -> 7
+2022-10-26 20:43:25 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT-7.json
+2022-10-26 20:43:29 Key contained: spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT -> 8
+2022-10-26 20:43:29 Data is written to file: src/main/resources/oracle/block/training/true/spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT-8.json
+2022-10-26 20:43:32 Key contained: spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT -> 9
+2022-10-26 20:43:32 Data is written to file: src/main/resources/oracle/block/training/true/spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT-9.json
+2022-10-26 20:43:36 Key contained: spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT -> 10
+2022-10-26 20:43:36 Data is written to file: src/main/resources/oracle/block/training/true/spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT-10.json
+2022-10-26 20:43:37 Key contained: spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT -> 11
+2022-10-26 20:43:37 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT-11.json
+2022-10-26 20:43:40 Key contained: spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT -> 12
+2022-10-26 20:43:40 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT-12.json
+2022-10-26 20:43:43 Key contained: spring-framework-TypeConverterDelegate-convertIfNecessary-TRY_STATEMENT -> 1
+2022-10-26 20:43:43 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-TypeConverterDelegate-convertIfNecessary-TRY_STATEMENT-1.json
+2022-10-26 20:43:46 Key contained: spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT -> 13
+2022-10-26 20:43:46 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT-13.json
+2022-10-26 20:43:50 Key contained: spring-framework-TypeConverterDelegate-convertIfNecessary-CATCH_CLAUSE -> 1
+2022-10-26 20:43:50 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-TypeConverterDelegate-convertIfNecessary-CATCH_CLAUSE-1.json
+2022-10-26 20:43:53 Key contained: spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT -> 14
+2022-10-26 20:43:53 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT-14.json
+2022-10-26 20:43:56 Key contained: spring-framework-TypeConverterDelegate-convertIfNecessary-CATCH_CLAUSE -> 2
+2022-10-26 20:43:56 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-TypeConverterDelegate-convertIfNecessary-CATCH_CLAUSE-2.json
+2022-10-26 20:44:00 Key contained: spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT -> 15
+2022-10-26 20:44:00 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT-15.json
+2022-10-26 20:44:03 Key contained: spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT -> 16
+2022-10-26 20:44:03 Data is written to file: src/main/resources/oracle/block/training/true/spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT-16.json
+2022-10-26 20:44:04 Key contained: spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT -> 17
+2022-10-26 20:44:04 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT-17.json
+2022-10-26 20:44:08 Key contained: spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT -> 18
+2022-10-26 20:44:08 Data is written to file: src/main/resources/oracle/block/training/true/spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT-18.json
+2022-10-26 20:44:11 Key contained: spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT -> 19
+2022-10-26 20:44:11 Data is written to file: src/main/resources/oracle/block/training/true/spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT-19.json
+2022-10-26 20:44:12 Key contained: spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT -> 20
+2022-10-26 20:44:12 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT-20.json
+2022-10-26 20:44:16 Key contained: spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT -> 21
+2022-10-26 20:44:16 Data is written to file: src/main/resources/oracle/block/training/true/spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT-21.json
+2022-10-26 20:44:16 Key contained: spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT -> 22
+2022-10-26 20:44:16 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT-22.json
+2022-10-26 20:44:17 Key contained: spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT -> 23
+2022-10-26 20:44:17 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT-23.json
+2022-10-26 20:44:19 Key contained: spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT -> 24
+2022-10-26 20:44:19 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT-24.json
+2022-10-26 20:44:23 Key contained: spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT -> 25
+2022-10-26 20:44:23 Data is written to file: src/main/resources/oracle/block/training/true/spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT-25.json
+2022-10-26 20:44:26 Key contained: spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT -> 26
+2022-10-26 20:44:26 Data is written to file: src/main/resources/oracle/block/training/true/spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT-26.json
+2022-10-26 20:44:30 Key contained: spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT -> 27
+2022-10-26 20:44:30 Data is written to file: src/main/resources/oracle/block/training/true/spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT-27.json
+2022-10-26 20:44:34 Key contained: spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT -> 28
+2022-10-26 20:44:34 Data is written to file: src/main/resources/oracle/block/training/true/spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT-28.json
+2022-10-26 20:44:35 Key contained: spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT -> 29
+2022-10-26 20:44:35 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT-29.json
+2022-10-26 20:44:37 Key contained: spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT -> 30
+2022-10-26 20:44:37 Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT-30.json
+2022-10-26 20:44:37 Generation finished successfully.

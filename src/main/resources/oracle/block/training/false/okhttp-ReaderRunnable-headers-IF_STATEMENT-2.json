@@ -20,7 +20,7 @@
       "elementNameBefore": "okhttp-protocols/src/main/java/com.squareup.okhttp.internal.spdy.SpdyConnection.Reader#headers(boolean, boolean, int, int, int, List, HeadersMode)$if(477-477)",
       "elementFileAfter": "okhttp-protocols/src/main/java/com/squareup/okhttp/internal/spdy/SpdyConnection.java",
       "elementNameAfter": "okhttp-protocols/src/main/java/com.squareup.okhttp.internal.spdy.SpdyConnection.Reader#headers(boolean, boolean, int, int, int, List, HeadersMode)$if(477-477)",
-      "comment": "added with method"
+      "comment": "new block"
     }
   ]
 }

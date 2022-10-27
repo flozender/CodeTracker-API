@@ -6,9 +6,9 @@
   "functionKey": "src/main/java/org.apache.commons.lang3.LocaleUtils#toLocale(String)",
   "functionStartLine": 60,
   "blockType": "IF_STATEMENT",
-  "blockKey": "src/main/java/org.apache.commons.lang3.LocaleUtils#toLocale(String)$if(120-122)",
-  "blockStartLine": 120,
-  "blockEndLine": 122,
+  "blockKey": "src/main/java/org.apache.commons.lang3.LocaleUtils#toLocale(String)$if(101-103)",
+  "blockStartLine": 101,
+  "blockEndLine": 103,
   "startCommitId": "a36c903d4f1065bc59f5e6d2bb0f9d92a5e71d83",
   "expectedChanges": [
     {
@@ -17,9 +17,9 @@
       "commitTime": 1357193992,
       "changeType": "expression change",
       "elementFileBefore": "src/main/java/org/apache/commons/lang3/LocaleUtils.java",
-      "elementNameBefore": "src/main/java/org.apache.commons.lang3.LocaleUtils#toLocale(String)$if(112-114)",
+      "elementNameBefore": "src/main/java/org.apache.commons.lang3.LocaleUtils#toLocale(String)$if(93-95)",
       "elementFileAfter": "src/main/java/org/apache/commons/lang3/LocaleUtils.java",
-      "elementNameAfter": "src/main/java/org.apache.commons.lang3.LocaleUtils#toLocale(String)$if(112-114)"
+      "elementNameAfter": "src/main/java/org.apache.commons.lang3.LocaleUtils#toLocale(String)$if(93-95)"
     },
     {
       "parentCommitId": "b2da02296f79e4119b749522a1912f5be5ea4f8c",
@@ -27,9 +27,9 @@
       "commitTime": 1127517451,
       "changeType": "expression change",
       "elementFileBefore": "src/java/org/apache/commons/lang/LocaleUtils.java",
-      "elementNameBefore": "src/java/org.apache.commons.lang.LocaleUtils#toLocale(String)$if(81-84)",
+      "elementNameBefore": "src/java/org.apache.commons.lang.LocaleUtils#toLocale(String)$if(69-73)",
       "elementFileAfter": "src/java/org/apache/commons/lang/LocaleUtils.java",
-      "elementNameAfter": "src/java/org.apache.commons.lang.LocaleUtils#toLocale(String)$if(110-112)"
+      "elementNameAfter": "src/java/org.apache.commons.lang.LocaleUtils#toLocale(String)$if(94-96)"
     },
     {
       "parentCommitId": "6811e7b373458f67a6dc12b05bd04cfc6843409c",
@@ -37,9 +37,9 @@
       "commitTime": 1124228486,
       "changeType": "introduced",
       "elementFileBefore": "src/java/org/apache/commons/lang/LocaleUtils.java",
-      "elementNameBefore": "src/java/org.apache.commons.lang.LocaleUtils#toLocale(String)$if(81-84)",
+      "elementNameBefore": "src/java/org.apache.commons.lang.LocaleUtils#toLocale(String)$if(69-73)",
       "elementFileAfter": "src/java/org/apache/commons/lang/LocaleUtils.java",
-      "elementNameAfter": "src/java/org.apache.commons.lang.LocaleUtils#toLocale(String)$if(81-84)",
+      "elementNameAfter": "src/java/org.apache.commons.lang.LocaleUtils#toLocale(String)$if(69-73)",
       "comment": "added with method"
     }
   ]

@@ -6,40 +6,20 @@
   "functionKey": "hibernate-core/src/main/java/org.hibernate.cfg.annotations.QueryBinder#bindQuery(NamedQuery, MetadataBuildingContext)",
   "functionStartLine": 247,
   "blockType": "IF_STATEMENT",
-  "blockKey": "hibernate-core/src/main/java/org.hibernate.cfg.annotations.QueryBinder#bindQuery(NamedQuery, MetadataBuildingContext)$if(254-256)",
-  "blockStartLine": 254,
-  "blockEndLine": 256,
+  "blockKey": "hibernate-core/src/main/java/org.hibernate.cfg.annotations.QueryBinder#bindQuery(NamedQuery, MetadataBuildingContext)$if(250-252)",
+  "blockStartLine": 250,
+  "blockEndLine": 252,
   "startCommitId": "8bd79b29cfa7b2d539a746dc356d60b66e1e596b",
   "expectedChanges": [
     {
-      "parentCommitId": "94f66c39441c92b301659432e59560bfa18e7d1a",
-      "commitId": "129c0f13482b99e2705f0e234b6bc0572a95c271",
-      "commitTime": 1319667855,
+      "parentCommitId": "aa31b26d322989276b978c4a8c511a70bc2a0fc8",
+      "commitId": "9caca0ce37d5a2763d476c6fa2471addcca710ca",
+      "commitTime": 1426024431,
       "changeType": "body change",
       "elementFileBefore": "hibernate-core/src/main/java/org/hibernate/cfg/annotations/QueryBinder.java",
-      "elementNameBefore": "hibernate-core/src/main/java/org.hibernate.cfg.annotations.QueryBinder#bindQuery(NamedQuery, Mappings)$if(232-233)",
+      "elementNameBefore": "hibernate-core/src/main/java/org.hibernate.cfg.annotations.QueryBinder#bindQuery(NamedQuery, Mappings)$if(240-240)",
       "elementFileAfter": "hibernate-core/src/main/java/org/hibernate/cfg/annotations/QueryBinder.java",
-      "elementNameAfter": "hibernate-core/src/main/java/org.hibernate.cfg.annotations.QueryBinder#bindQuery(NamedQuery, Mappings)$if(241-243)"
-    },
-    {
-      "parentCommitId": "c26763c2e9bdedaa9773c7df1446dbc9efa92298",
-      "commitId": "8c806d361d63764e8523006944dde52aff70532c",
-      "commitTime": 1297194927,
-      "changeType": "body change",
-      "elementFileBefore": "hibernate-core/src/main/java/org/hibernate/cfg/annotations/QueryBinder.java",
-      "elementNameBefore": "hibernate-core/src/main/java/org.hibernate.cfg.annotations.QueryBinder#bindQuery(NamedQuery, Mappings)$if(229-231)",
-      "elementFileAfter": "hibernate-core/src/main/java/org/hibernate/cfg/annotations/QueryBinder.java",
-      "elementNameAfter": "hibernate-core/src/main/java/org.hibernate.cfg.annotations.QueryBinder#bindQuery(NamedQuery, Mappings)$if(225-226)"
-    },
-    {
-      "parentCommitId": "e14f58de29eb5f8a3de7480dbd8bc10fcc9e6185",
-      "commitId": "7419fc298dab9afe82fbdbb8b64854fa37f60817",
-      "commitTime": 1285691546,
-      "changeType": "expression change",
-      "elementFileBefore": "core/src/main/java/org/hibernate/cfg/annotations/QueryBinder.java",
-      "elementNameBefore": "core/src/main/java/org.hibernate.cfg.annotations.QueryBinder#bindQuery(NamedQuery, Mappings)$if(230-232)",
-      "elementFileAfter": "core/src/main/java/org/hibernate/cfg/annotations/QueryBinder.java",
-      "elementNameAfter": "core/src/main/java/org.hibernate.cfg.annotations.QueryBinder#bindQuery(NamedQuery, Mappings)$if(230-232)"
+      "elementNameAfter": "hibernate-core/src/main/java/org.hibernate.cfg.annotations.QueryBinder#bindQuery(NamedQuery, MetadataBuildingContext)$if(267-269)"
     },
     {
       "parentCommitId": "53deb4b357384f32819f70c497ef04885171c399",
@@ -47,9 +27,9 @@
       "commitTime": 1225219270,
       "changeType": "introduced",
       "elementFileBefore": "annotations/src/java/org/hibernate/cfg/annotations/QueryBinder.java",
-      "elementNameBefore": "annotations/src/java/org.hibernate.cfg.annotations.QueryBinder#bindQuery(NamedQuery, ExtendedMappings)$if(208-210)",
+      "elementNameBefore": "annotations/src/java/org.hibernate.cfg.annotations.QueryBinder#bindQuery(NamedQuery, ExtendedMappings)$if(207-207)",
       "elementFileAfter": "annotations/src/java/org/hibernate/cfg/annotations/QueryBinder.java",
-      "elementNameAfter": "annotations/src/java/org.hibernate.cfg.annotations.QueryBinder#bindQuery(NamedQuery, ExtendedMappings)$if(208-210)",
+      "elementNameAfter": "annotations/src/java/org.hibernate.cfg.annotations.QueryBinder#bindQuery(NamedQuery, ExtendedMappings)$if(207-207)",
       "comment": "added with method"
     }
   ]

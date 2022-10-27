@@ -6,20 +6,30 @@
   "functionKey": "src/main/java/org.apache.commons.lang3.RandomStringUtils#random(int, int, int, boolean, boolean, char[], Random)",
   "functionStartLine": 315,
   "blockType": "IF_STATEMENT",
-  "blockKey": "src/main/java/org.apache.commons.lang3.RandomStringUtils#random(int, int, int, boolean, boolean, char[], Random)$if(416-418)",
-  "blockStartLine": 416,
-  "blockEndLine": 418,
+  "blockKey": "src/main/java/org.apache.commons.lang3.RandomStringUtils#random(int, int, int, boolean, boolean, char[], Random)$if(379-383)",
+  "blockStartLine": 379,
+  "blockEndLine": 383,
   "startCommitId": "a36c903d4f1065bc59f5e6d2bb0f9d92a5e71d83",
   "expectedChanges": [
     {
-      "parentCommitId": "f13d18cff3f0932e727dda04bf80008fc2fbbc70",
-      "commitId": "f643b4fa939e89348618ddffae20a804f4461363",
-      "commitTime": 1481696824,
+      "parentCommitId": "fb4803623b8f089a8dfd265a68461f4283e7ffad",
+      "commitId": "c82b1f062af2a1a376e514020707597f6ed1f82d",
+      "commitTime": 1492426931,
+      "changeType": "expression change",
+      "elementFileBefore": "src/main/java/org/apache/commons/lang3/RandomStringUtils.java",
+      "elementNameBefore": "src/main/java/org.apache.commons.lang3.RandomStringUtils#random(int, int, int, boolean, boolean, char[], Random)$if(376-380)",
+      "elementFileAfter": "src/main/java/org/apache/commons/lang3/RandomStringUtils.java",
+      "elementNameAfter": "src/main/java/org.apache.commons.lang3.RandomStringUtils#random(int, int, int, boolean, boolean, char[], Random)$if(375-379)"
+    },
+    {
+      "parentCommitId": "b0bcf4f60a1e92480d78e44e3fda6e42cfc1b207",
+      "commitId": "695342cb1cef42f30fd1a8496f181c92b21ae82d",
+      "commitTime": 1479484283,
       "changeType": "introduced",
       "elementFileBefore": "src/main/java/org/apache/commons/lang3/RandomStringUtils.java",
-      "elementNameBefore": "src/main/java/org.apache.commons.lang3.RandomStringUtils#random(int, int, int, boolean, boolean, char[], Random)$if(413-415)",
+      "elementNameBefore": "src/main/java/org.apache.commons.lang3.RandomStringUtils#random(int, int, int, boolean, boolean, char[], Random)$if(375-379)",
       "elementFileAfter": "src/main/java/org/apache/commons/lang3/RandomStringUtils.java",
-      "elementNameAfter": "src/main/java/org.apache.commons.lang3.RandomStringUtils#random(int, int, int, boolean, boolean, char[], Random)$if(413-415)",
+      "elementNameAfter": "src/main/java/org.apache.commons.lang3.RandomStringUtils#random(int, int, int, boolean, boolean, char[], Random)$if(375-379)",
       "comment": "new block"
     }
   ]

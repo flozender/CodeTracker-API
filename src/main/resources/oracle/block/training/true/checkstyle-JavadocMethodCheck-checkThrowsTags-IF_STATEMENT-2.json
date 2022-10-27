@@ -6,30 +6,20 @@
   "functionKey": "src/main/java/com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck#checkThrowsTags(List, List, boolean)",
   "functionStartLine": 867,
   "blockType": "IF_STATEMENT",
-  "blockKey": "src/main/java/com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck#checkThrowsTags(List, List, boolean)$if(899-910)",
-  "blockStartLine": 899,
-  "blockEndLine": 910,
+  "blockKey": "src/main/java/com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck#checkThrowsTags(List, List, boolean)$if(905-909)",
+  "blockStartLine": 905,
+  "blockEndLine": 909,
   "startCommitId": "119fd4fb33bef9f5c66fc950396669af842c21a3",
   "expectedChanges": [
-    {
-      "parentCommitId": "fdd5ed77fd1ea61768683ee8cfacf78190a2d3aa",
-      "commitId": "bf9325be913ce46a1427232c455f4830b574ba44",
-      "commitTime": 1448157067,
-      "changeType": "body change",
-      "elementFileBefore": "src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocMethodCheck.java",
-      "elementNameBefore": "src/main/java/com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck#checkThrowsTags(List, List, boolean)$if(898-910)",
-      "elementFileAfter": "src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocMethodCheck.java",
-      "elementNameAfter": "src/main/java/com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck#checkThrowsTags(List, List, boolean)$if(898-910)"
-    },
     {
       "parentCommitId": "443e534a3c98c0b30f24647da724fe918f17a006",
       "commitId": "66d73fe6189267fee3423e2e8d7fc2d68599a43f",
       "commitTime": 1439560811,
       "changeType": "body change",
       "elementFileBefore": "src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocMethodCheck.java",
-      "elementNameBefore": "src/main/java/com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck#checkThrowsTags(List, List, boolean)$if(896-908)",
+      "elementNameBefore": "src/main/java/com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck#checkThrowsTags(List, List, boolean)$if(902-907)",
       "elementFileAfter": "src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocMethodCheck.java",
-      "elementNameAfter": "src/main/java/com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck#checkThrowsTags(List, List, boolean)$if(896-908)"
+      "elementNameAfter": "src/main/java/com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck#checkThrowsTags(List, List, boolean)$if(902-907)"
     },
     {
       "parentCommitId": "d8f8de2b53a6abc0f8ca011acbe6f18bf9ed4ca9",
@@ -37,29 +27,29 @@
       "commitTime": 1424437366,
       "changeType": "body change",
       "elementFileBefore": "src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocMethodCheck.java",
-      "elementNameBefore": "src/main/java/com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck#checkThrowsTags(List, List, boolean)$if(888-900)",
+      "elementNameBefore": "src/main/java/com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck#checkThrowsTags(List, List, boolean)$if(894-899)",
       "elementFileAfter": "src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocMethodCheck.java",
-      "elementNameAfter": "src/main/java/com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck#checkThrowsTags(List, List, boolean)$if(937-949)"
+      "elementNameAfter": "src/main/java/com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck#checkThrowsTags(List, List, boolean)$if(943-948)"
     },
     {
       "parentCommitId": "d97a2df674716efb7deda50180ae933bdc46d68a",
       "commitId": "89a51ba032fd9126651fa9efad31baf10c006ddf",
       "commitTime": 1421677262,
-      "changeType": "body change",
+      "changeType": "expression change",
       "elementFileBefore": "src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocMethodCheck.java",
-      "elementNameBefore": "src/main/java/com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck#checkThrowsTags(List, List, boolean)$if(889-901)",
+      "elementNameBefore": "src/main/java/com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck#checkThrowsTags(List, List, boolean)$if(895-900)",
       "elementFileAfter": "src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocMethodCheck.java",
-      "elementNameAfter": "src/main/java/com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck#checkThrowsTags(List, List, boolean)$if(889-901)"
+      "elementNameAfter": "src/main/java/com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck#checkThrowsTags(List, List, boolean)$if(895-900)"
     },
     {
       "parentCommitId": "e1613910f30cc63de1393ed897aa766932e1d973",
       "commitId": "e56f3d21ee1a0e8c0eced70ec7990fb03dcb3215",
       "commitTime": 1414021350,
-      "changeType": "body change",
+      "changeType": "expression change",
       "elementFileBefore": "src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocMethodCheck.java",
-      "elementNameBefore": "src/main/java/com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck#checkThrowsTags(List, List, boolean)$if(751-763)",
+      "elementNameBefore": "src/main/java/com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck#checkThrowsTags(List, List, boolean)$if(757-762)",
       "elementFileAfter": "src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocMethodCheck.java",
-      "elementNameAfter": "src/main/java/com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck#checkThrowsTags(List, List, boolean)$if(855-867)"
+      "elementNameAfter": "src/main/java/com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck#checkThrowsTags(List, List, boolean)$if(861-866)"
     },
     {
       "parentCommitId": "216fcb79f9f5bbd05244364e926f261a90e697d1",
@@ -67,9 +57,9 @@
       "commitTime": 1237805379,
       "changeType": "body change",
       "elementFileBefore": "src/checkstyle/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocMethodCheck.java",
-      "elementNameBefore": "src/checkstyle/com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck#checkThrowsTags(List, List, boolean)$if(735-746)",
+      "elementNameBefore": "src/checkstyle/com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck#checkThrowsTags(List, List, boolean)$if(741-745)",
       "elementFileAfter": "src/checkstyle/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocMethodCheck.java",
-      "elementNameAfter": "src/checkstyle/com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck#checkThrowsTags(List, List, boolean)$if(738-750)"
+      "elementNameAfter": "src/checkstyle/com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck#checkThrowsTags(List, List, boolean)$if(744-749)"
     },
     {
       "parentCommitId": "b95ced53e3c47c9a9db5022767a18e714fc3bebd",
@@ -77,59 +67,9 @@
       "commitTime": 1123248811,
       "changeType": "body change",
       "elementFileBefore": "src/checkstyle/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocMethodCheck.java",
-      "elementNameBefore": "src/checkstyle/com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck#checkThrowsTags(List, List, boolean)$if(700-714)",
+      "elementNameBefore": "src/checkstyle/com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck#checkThrowsTags(List, List, boolean)$if(710-713)",
       "elementFileAfter": "src/checkstyle/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocMethodCheck.java",
-      "elementNameAfter": "src/checkstyle/com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck#checkThrowsTags(List, List, boolean)$if(711-722)"
-    },
-    {
-      "parentCommitId": "bb1db4938ccae0f7149461ea372398fb8a53f2a8",
-      "commitId": "15b8debf99b3b0c600084fccde54d9562bd48b71",
-      "commitTime": 1060246011,
-      "changeType": "body change",
-      "elementFileBefore": "src/checkstyle/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocMethodCheck.java",
-      "elementNameBefore": "src/checkstyle/com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck#checkThrowsTags(List, List)$if(616-626)",
-      "elementFileAfter": "src/checkstyle/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocMethodCheck.java",
-      "elementNameAfter": "src/checkstyle/com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck#checkThrowsTags(List, List)$if(600-614)"
-    },
-    {
-      "parentCommitId": "1c7341013d0e8a34498eb49ccdb4e91419f13280",
-      "commitId": "cd89321522d9bf7fc10547e743fb8bbb4c993791",
-      "commitTime": 1059825751,
-      "changeType": "body change",
-      "elementFileBefore": "src/checkstyle/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocMethodCheck.java",
-      "elementNameBefore": "src/checkstyle/com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck#checkThrowsTags(List, List)$if(608-628)",
-      "elementFileAfter": "src/checkstyle/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocMethodCheck.java",
-      "elementNameAfter": "src/checkstyle/com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck#checkThrowsTags(List, List)$if(616-626)"
-    },
-    {
-      "parentCommitId": "205cbab8af785b1cddb9c4123ff3fa8b63dcbe1c",
-      "commitId": "4e1f8ef98e9e43d6101a00bdecd040377472f852",
-      "commitTime": 1052504065,
-      "changeType": "body change",
-      "elementFileBefore": "src/checkstyle/com/puppycrawl/tools/checkstyle/checks/JavadocMethodCheck.java",
-      "elementNameBefore": "src/checkstyle/com.puppycrawl.tools.checkstyle.checks.JavadocMethodCheck#checkThrowsTags(List, List)$if(670-694)",
-      "elementFileAfter": "src/checkstyle/com/puppycrawl/tools/checkstyle/checks/JavadocMethodCheck.java",
-      "elementNameAfter": "src/checkstyle/com.puppycrawl.tools.checkstyle.checks.JavadocMethodCheck#checkThrowsTags(List, List)$if(713-733)"
-    },
-    {
-      "parentCommitId": "b8c558e473c0a9a75c41312e31df34b8572a271b",
-      "commitId": "58ce4c40970fc29d00e5740bc6098eb475668e86",
-      "commitTime": 1040981493,
-      "changeType": "body change",
-      "elementFileBefore": "src/checkstyle/com/puppycrawl/tools/checkstyle/checks/JavadocMethodCheck.java",
-      "elementNameBefore": "src/checkstyle/com.puppycrawl.tools.checkstyle.checks.JavadocMethodCheck#checkThrowsTags(List, List)$if(511-535)",
-      "elementFileAfter": "src/checkstyle/com/puppycrawl/tools/checkstyle/checks/JavadocMethodCheck.java",
-      "elementNameAfter": "src/checkstyle/com.puppycrawl.tools.checkstyle.checks.JavadocMethodCheck#checkThrowsTags(List, List)$if(519-543)"
-    },
-    {
-      "parentCommitId": "e7556f4af60fa1602c1b74289c6c64e1a83e4235",
-      "commitId": "5fc3ff2bfbed94f88e1af95f38e970a832e4dbe6",
-      "commitTime": 1036555078,
-      "changeType": "body change",
-      "elementFileBefore": "src/checkstyle/com/puppycrawl/tools/checkstyle/checks/JavadocMethodCheck.java",
-      "elementNameBefore": "src/checkstyle/com.puppycrawl.tools.checkstyle.checks.JavadocMethodCheck#checkThrowsTags(List, List)$if(473-494)",
-      "elementFileAfter": "src/checkstyle/com/puppycrawl/tools/checkstyle/checks/JavadocMethodCheck.java",
-      "elementNameAfter": "src/checkstyle/com.puppycrawl.tools.checkstyle.checks.JavadocMethodCheck#checkThrowsTags(List, List)$if(473-497)"
+      "elementNameAfter": "src/checkstyle/com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck#checkThrowsTags(List, List, boolean)$if(717-721)"
     },
     {
       "parentCommitId": "f42953e35be5c7dc3831bdf6dbbfca7f7ccd7b97",
@@ -137,9 +77,9 @@
       "commitTime": 1036501994,
       "changeType": "introduced",
       "elementFileBefore": "src/checkstyle/com/puppycrawl/tools/checkstyle/checks/JavadocMethodCheck.java",
-      "elementNameBefore": "src/checkstyle/com.puppycrawl.tools.checkstyle.checks.JavadocMethodCheck#checkThrowsTags(List, List)$if(467-488)",
+      "elementNameBefore": "src/checkstyle/com.puppycrawl.tools.checkstyle.checks.JavadocMethodCheck#checkThrowsTags(List, List)$if(484-487)",
       "elementFileAfter": "src/checkstyle/com/puppycrawl/tools/checkstyle/checks/JavadocMethodCheck.java",
-      "elementNameAfter": "src/checkstyle/com.puppycrawl.tools.checkstyle.checks.JavadocMethodCheck#checkThrowsTags(List, List)$if(467-488)",
+      "elementNameAfter": "src/checkstyle/com.puppycrawl.tools.checkstyle.checks.JavadocMethodCheck#checkThrowsTags(List, List)$if(484-487)",
       "comment": "added with method"
     }
   ]
