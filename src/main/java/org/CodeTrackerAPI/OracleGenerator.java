@@ -9,9 +9,11 @@ import gr.uom.java.xmi.LocationInfo.CodeElementType;
 import gr.uom.java.xmi.decomposition.CompositeStatementObject;
 import java.io.File;
 import java.io.FileWriter;
+import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.stream.Collectors;
 import org.apache.commons.io.FileUtils;
+import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.codetracker.api.*;
 import org.codetracker.api.History.HistoryInfo;
 import org.codetracker.change.Change;
@@ -26,14 +28,32 @@ import org.refactoringminer.util.GitServiceImpl;
 
 public class OracleGenerator {
 
+  public static String oracleType = "training";
+  public static HashMap<String, Integer> methodBlocks = new HashMap<>();
+
   public static void main(String[] args) {
     System.out.println("Generating Block Oracle...");
-    String oracleType = "training";
+    try {
+      // Reset log file
+      File logFile = new File("src/main/resources/oracle/block/log.txt");
+      FileWriter logger = new FileWriter(logFile);
+      logger.write(
+        new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date()) +
+        " " +
+        "Started oracle generation" +
+        "\r\n"
+      );
+      logger.close();
+      log("Block " + oracleType + " Data");
+    } catch (Exception e) {
+      handleError(e, 0);
+      System.exit(1);
+    }
     File trueFolder = new File(
-            "src/main/resources/oracle/block/" + oracleType + "/true"
+      "src/main/resources/oracle/block/" + oracleType + "/true"
     );
     File falseFolder = new File(
-            "src/main/resources/oracle/block/" + oracleType + "/false"
+      "src/main/resources/oracle/block/" + oracleType + "/false"
     );
     File validFolder = new File(
       "src/main/resources/oracle/block/" + oracleType + "/valid"
@@ -68,7 +88,7 @@ public class OracleGenerator {
         String blockKey = (String) blockJSON.get("blockKey");
         validFiles.put(startCommitId + "-" + blockKey, hashCode);
       } catch (Exception e) {
-        System.out.println("Code 1 - Failed: " + e);
+        handleError(e, 1);
       }
     }
 
@@ -91,7 +111,7 @@ public class OracleGenerator {
         String blockKey = (String) blockJSON.get("blockKey");
         invalidFiles.put(startCommitId + "-" + blockKey, hashCode);
       } catch (Exception e) {
-        System.out.println("Code 2 - Failed: " + e);
+        handleError(e, 2);
       }
     }
 
@@ -114,7 +134,7 @@ public class OracleGenerator {
         String blockKey = (String) blockJSON.get("blockKey");
         invalidReportedFiles.put(startCommitId + "-" + blockKey, hashCode);
       } catch (Exception e) {
-        System.out.println("Code 3 - Failed: " + e);
+        handleError(e, 3);
       }
     }
 
@@ -128,8 +148,7 @@ public class OracleGenerator {
       invalidFolder.mkdirs();
       invalidReportedFolder.mkdirs();
     } catch (Exception e) {
-      e.getStackTrace();
-      System.out.println("Code 4 - Failed: " + e);
+      handleError(e, 4);
     }
     File folder = new File("src/main/resources/oracle/method/" + oracleType);
     File[] listOfFiles = folder.listFiles();
@@ -233,8 +252,41 @@ public class OracleGenerator {
 
             History<Block> blockHistory = blockTracker.track();
             List<HistoryInfo<Block>> blockHistoryInfo = blockHistory.getHistoryInfoList();
+            if (blockHistoryInfo.size() == 0) {
+              log(
+                "BlockHistoryInfo zero size: " +
+                repositoryWebURL +
+                " " +
+                block.getFilePath() +
+                " " +
+                block.getOperation().getName() +
+                " " +
+                block.getComposite().getLocationInfo().getCodeElementType() +
+                " " +
+                block.getComposite().getLocationInfo().getStartLine() +
+                " " +
+                block.getComposite().getLocationInfo().getEndLine() +
+                commitId
+              );
+            }
+            if (methodCommits.size() == 0) {
+              log(
+                "methodCommits zero size: " +
+                repositoryWebURL +
+                " " +
+                block.getFilePath() +
+                " " +
+                block.getOperation().getName() +
+                " " +
+                block.getComposite().getLocationInfo().getCodeElementType() +
+                " " +
+                block.getComposite().getLocationInfo().getStartLine() +
+                " " +
+                block.getComposite().getLocationInfo().getEndLine() +
+                commitId
+              );
+            }
             HistoryInfo<Block> firstChange = blockHistoryInfo.get(0);
-
             boolean validHistory = true;
             // check if the block history reaches the method introduction commit
             if (firstChange.getCommitId().equals(methodCommits.get(0))) {
@@ -265,12 +317,13 @@ public class OracleGenerator {
             );
           }
         } catch (Exception e) {
-          System.out.println("Code 5 - Failed: " + e);
+          handleError(e, 5);
         }
       } catch (Exception e) {
-        System.out.println("Code 6 - Failed: " + e);
+        handleError(e, 6);
       }
     }
+    log("Generation finished successfully.");
   }
 
   public static void createOracleEntry(
@@ -329,8 +382,7 @@ public class OracleGenerator {
       String json = mapper.writeValueAsString(changeLog);
       changes = json;
     } catch (JsonProcessingException e) {
-      e.printStackTrace();
-      System.out.println("Code 7 - Failed: " + e);
+      handleError(e, 7);
     }
     String response =
       "{\"repositoryName\": \"" +
@@ -421,27 +473,80 @@ public class OracleGenerator {
         "-" +
         codeElement.getLocation().getCodeElementType();
 
+      String absoluteFileName =
+        repositoryName +
+        "-" +
+        block
+          .getOperation()
+          .getClassName()
+          .split("\\.")[block
+            .getOperation()
+            .getClassName()
+            .split("\\.")
+            .length -
+          1] +
+        "-" +
+        block.getOperation().getName() +
+        "-" +
+        codeElement.getLocation().getCodeElementType();
       // check if file already exists, add numerals at the end if true
-      if (new File(fileName + ".json").isFile()) {
-        Integer i = 1;
-        while (new File(fileName + "-" + i.toString() + ".json").isFile()) {
-          i++;
-        }
-        fileName = fileName + "-" + i.toString() + ".json";
+      if (methodBlocks.containsKey(absoluteFileName)) {
+        log(
+          "Key contained: " +
+          absoluteFileName +
+          " -> " +
+          methodBlocks.get(absoluteFileName)
+        );
+        fileName =
+          fileName +
+          "-" +
+          methodBlocks.get(absoluteFileName).toString() +
+          ".json";
+        methodBlocks.put(
+          absoluteFileName,
+          methodBlocks.get(absoluteFileName) + 1
+        );
       } else {
+        log("No key yet: " + absoluteFileName);
         fileName = fileName + ".json";
+        methodBlocks.put(absoluteFileName, 1);
       }
+
       FileWriter output = new FileWriter(fileName);
 
       // Writes the program to file
       output.write(response);
       System.out.println("Data is written to file: " + fileName);
+      log("Data is written to file: " + fileName);
 
       // Closes the writer
       output.close();
     } catch (Exception e) {
-      e.getStackTrace();
-      System.out.println("Code 8 - Failed: " + e);
+      handleError(e, 8);
     }
+  }
+
+  public static void log(String message) {
+    try {
+      File logFile = new File("src/main/resources/oracle/block/log.txt");
+      FileWriter logger = new FileWriter(logFile, true);
+      logger.write(
+        new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date()) +
+        " " +
+        message +
+        "\r\n"
+      );
+      logger.close();
+    } catch (Exception e) {
+      System.out.println("Case 0 - Failed: logger failed");
+    }
+  }
+
+  public static void handleError(Exception e, Integer number) {
+    System.out.println("Case " + number.toString() + " - Failed: " + e);
+    e.printStackTrace();
+    String stacktrace = ExceptionUtils.getStackTrace(e);
+    log("Case " + number.toString() + " - Failed: " + e);
+    log(stacktrace);
   }
 }
