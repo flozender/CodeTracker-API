@@ -46,6 +46,7 @@ import org.refactoringminer.api.GitService;
 import org.refactoringminer.util.GitServiceImpl;
 
 public class REST {
+    public static boolean checkReported = false;
 
   public static void main(String[] args) {
     PathHandler path = Handlers
@@ -300,9 +301,16 @@ public class REST {
               );
               try {
                 try {
-                  File dir = new File(
-                    "src/main/resources/oracle/block/training/false"
-                  );
+                    File dir;
+                    if (checkReported){
+                        dir = new File(
+                                "src/main/resources/oracle/block/training/invalid/test-reported"
+                        );
+                    } else {
+                        dir = new File(
+                                "src/main/resources/oracle/block/training/false"
+                        );
+                    }
                   File[] files = dir.listFiles(
                     new FileFilter() {
                       boolean first = true;
@@ -442,10 +450,18 @@ public class REST {
             "/getOracleData",
             exchange -> {
               try {
-                File dir = new File(
-                  "src/main/resources/oracle/block/training/false"
-                );
-                File[] files = dir.listFiles(
+                  File dir;
+                  if (checkReported){
+                      dir = new File(
+                              "src/main/resources/oracle/block/training/invalid/test-reported"
+                      );
+                  } else {
+                      dir = new File(
+                              "src/main/resources/oracle/block/training/false"
+                      );
+                  }
+
+                  File[] files = dir.listFiles(
                   new FileFilter() {
                     boolean first = true;
 
@@ -458,7 +474,7 @@ public class REST {
                     }
                   }
                 );
-                String response = FileUtils.readFileToString(
+                  String response = FileUtils.readFileToString(
                   files[0],
                   StandardCharsets.UTF_8
                 );
