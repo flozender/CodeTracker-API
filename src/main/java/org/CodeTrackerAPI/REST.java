@@ -46,7 +46,8 @@ import org.refactoringminer.api.GitService;
 import org.refactoringminer.util.GitServiceImpl;
 
 public class REST {
-    public static boolean checkReported = false;
+
+  public static boolean checkReported = false;
 
   public static void main(String[] args) {
     PathHandler path = Handlers
@@ -301,16 +302,18 @@ public class REST {
               );
               try {
                 try {
-                    File dir;
-                    if (checkReported){
-                        dir = new File(
-                                "src/main/resources/oracle/block/training/invalid/test-reported"
-                        );
-                    } else {
-                        dir = new File(
-                                "src/main/resources/oracle/block/training/false"
-                        );
-                    }
+                  File dir;
+                  if (checkReported) {
+                    dir =
+                      new File(
+                        "src/main/resources/oracle/block/training/invalid/test-reported"
+                      );
+                  } else {
+                    dir =
+                      new File(
+                        "src/main/resources/oracle/block/training/false"
+                      );
+                  }
                   File[] files = dir.listFiles(
                     new FileFilter() {
                       boolean first = true;
@@ -349,8 +352,8 @@ public class REST {
                       );
                       List<Map<String, Object>> changes = expectedChanges
                         .stream()
-                        .filter(
-                          change -> change.get("commitId").equals(commitId)
+                        .filter(change ->
+                          change.get("commitId").equals(commitId)
                         )
                         .collect(Collectors.toList());
 
@@ -426,7 +429,7 @@ public class REST {
                   );
                 } catch (Exception e) {
                   e.getStackTrace();
-                  System.out.println(e);
+                  System.out.println("Something went wrong: " + e);
                 }
 
                 exchange
@@ -450,18 +453,18 @@ public class REST {
             "/getOracleData",
             exchange -> {
               try {
-                  File dir;
-                  if (checkReported){
-                      dir = new File(
-                              "src/main/resources/oracle/block/training/invalid/test-reported"
-                      );
-                  } else {
-                      dir = new File(
-                              "src/main/resources/oracle/block/training/false"
-                      );
-                  }
+                File dir;
+                if (checkReported) {
+                  dir =
+                    new File(
+                      "src/main/resources/oracle/block/training/invalid/test-reported"
+                    );
+                } else {
+                  dir =
+                    new File("src/main/resources/oracle/block/training/false");
+                }
 
-                  File[] files = dir.listFiles(
+                File[] files = dir.listFiles(
                   new FileFilter() {
                     boolean first = true;
 
@@ -474,7 +477,7 @@ public class REST {
                     }
                   }
                 );
-                  String response = FileUtils.readFileToString(
+                String response = FileUtils.readFileToString(
                   files[0],
                   StandardCharsets.UTF_8
                 );
@@ -601,9 +604,11 @@ public class REST {
         String json = mapper.writeValueAsString(changeLog);
         return json;
       } catch (JsonProcessingException e) {
+        System.out.println("Something went wrong: " + e);
         e.printStackTrace();
       }
     } catch (Exception e) {
+      System.out.println("Something went wrong: " + e);
       return e.toString();
     }
 
@@ -714,10 +719,11 @@ public class REST {
         String json = mapper.writeValueAsString(changeLog);
         return json;
       } catch (JsonProcessingException e) {
+        System.out.println("Something went wrong: " + e);
         e.printStackTrace();
       }
     } catch (Exception e) {
-      System.out.println(e);
+      System.out.println("Something went wrong: " + e);
       return e.toString();
     }
 
@@ -821,9 +827,11 @@ public class REST {
         String json = mapper.writeValueAsString(changeLog);
         return json;
       } catch (JsonProcessingException e) {
+        System.out.println("Something went wrong: " + e);
         e.printStackTrace();
       }
     } catch (Exception e) {
+      System.out.println("Something went wrong: " + e);
       return e.toString();
     }
 
@@ -973,10 +981,11 @@ public class REST {
         String json = mapper.writeValueAsString(changeLog);
         return json;
       } catch (JsonProcessingException e) {
+        System.out.println("Something went wrong: " + e);
         e.printStackTrace();
       }
     } catch (Exception e) {
-      System.out.println(e);
+      System.out.println("Something went wrong: " + e);
       return e.toString();
     }
 
@@ -1030,7 +1039,8 @@ public class REST {
       this.changes = changes;
 
       if (evolutionPresent) {
-        this.evolutionHook = evolutionHook.getName().split("\\#")[1].split("\\(")[0];
+        this.evolutionHook =
+          evolutionHook.getName().split("\\#")[1].split("\\(")[0];
         this.evolutionHookLine = evolutionHook.getLocation().getStartLine();
         this.evolutionHookPath = evolutionHook.getLocation().getFilePath();
         this.evolutionHookCommit = evolutionHook.getVersion().getId();
@@ -1085,7 +1095,8 @@ public class REST {
       this.changes = changes;
 
       if (evolutionPresent) {
-        this.evolutionHook = evolutionHook.getName().split("\\$")[1].split("\\:")[0];
+        this.evolutionHook =
+          evolutionHook.getName().split("\\$")[1].split("\\:")[0];
         this.evolutionHookLine = evolutionHook.getLocation().getStartLine();
         this.evolutionHookPath = evolutionHook.getLocation().getFilePath();
         this.evolutionHookCommit = evolutionHook.getVersion().getId();
@@ -1194,7 +1205,8 @@ public class REST {
       this.changes = changes;
 
       if (evolutionPresent) {
-        this.evolutionHook = evolutionHook.getName().split("\\$")[1].split("\\(")[0];
+        this.evolutionHook =
+          evolutionHook.getName().split("\\$")[1].split("\\(")[0];
         this.evolutionHookLine = evolutionHook.getLocation().getStartLine();
         this.evolutionHookPath = evolutionHook.getLocation().getFilePath();
         this.evolutionHookCommit = evolutionHook.getVersion().getId();
