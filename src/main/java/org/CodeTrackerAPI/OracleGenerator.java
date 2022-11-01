@@ -173,6 +173,9 @@ public class OracleGenerator {
         String filePath = (String) methodJSON.get("filePath");
         String methodName = (String) methodJSON.get("functionName");
         Integer lineNumber = (Integer) methodJSON.get("functionStartLine");
+        ArrayList<Map<String, String>> expectedChanges = (ArrayList<Map<String, String>>) methodJSON.get(
+          "expectedChanges"
+        );
 
         GitService gitService = new GitServiceImpl();
 
@@ -196,21 +199,12 @@ public class OracleGenerator {
           }
           Method method = (Method) codeElement;
 
-          MethodTracker methodTracker = CodeTracker
-            .methodTracker()
-            .repository(repository)
-            .filePath(filePath)
-            .startCommitId(commitId)
-            .methodName(methodName)
-            .methodDeclarationLineNumber(lineNumber)
-            .build();
-
-          History<Method> methodHistory = methodTracker.track();
-          List<String> methodCommits = methodHistory
-            .getHistoryInfoList()
+          List<String> methodCommits = expectedChanges
             .stream()
-            .map(historyObject -> historyObject.getCommitId())
+            .map(historyObject -> historyObject.get("commitId"))
             .collect(Collectors.toList());
+
+          Collections.reverse(methodCommits);
 
           List<CompositeStatementObject> composites = method
             .getUmlOperation()

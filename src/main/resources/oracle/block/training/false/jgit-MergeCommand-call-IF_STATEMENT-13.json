@@ -50,7 +50,7 @@
       "elementNameBefore": "org.eclipse.jgit/src/org.eclipse.jgit.api.MergeCommand#call()$if(355-363)",
       "elementFileAfter": "org.eclipse.jgit/src/org/eclipse/jgit/api/MergeCommand.java",
       "elementNameAfter": "org.eclipse.jgit/src/org.eclipse.jgit.api.MergeCommand#call()$if(363-368)",
-      "comment": "Split Conditional if(!squash) to [if(commit && squash), if(!commit && !squash), if(commit && !squash)] in method public call() : MergeResult from class org.eclipse.jgit.api.MergeCommand"
+      "comment": "Split Conditional if(!squash) to [if(!commit && squash), if(!commit && !squash), if(commit && !squash)] in method public call() : MergeResult from class org.eclipse.jgit.api.MergeCommand"
     },
     {
       "parentCommitId": "81b601de53125bbcd30620b58168154d7541d8ad",
@@ -61,7 +61,7 @@
       "elementNameBefore": "org.eclipse.jgit/src/org.eclipse.jgit.api.MergeCommand#call()$if(355-363)",
       "elementFileAfter": "org.eclipse.jgit/src/org/eclipse/jgit/api/MergeCommand.java",
       "elementNameAfter": "org.eclipse.jgit/src/org.eclipse.jgit.api.MergeCommand#call()$if(363-368)",
-      "comment": "Split Conditional if(!squash) to [if(!commit && squash), if(!commit && !squash), if(commit && !squash)] in method public call() : MergeResult from class org.eclipse.jgit.api.MergeCommand"
+      "comment": "Split Conditional if(!squash) to [if(commit && squash), if(!commit && !squash), if(commit && !squash)] in method public call() : MergeResult from class org.eclipse.jgit.api.MergeCommand"
     },
     {
       "parentCommitId": "c4087af65ddfd976f2a2513a773f50b1fd790336",
