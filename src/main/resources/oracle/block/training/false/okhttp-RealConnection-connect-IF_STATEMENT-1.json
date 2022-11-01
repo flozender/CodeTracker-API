@@ -20,7 +20,7 @@
       "elementNameBefore": "okhttp/src/main/java/okhttp3.internal.connection.RealConnection#connect(int, int, int, List, boolean)$if(96-100)",
       "elementFileAfter": "okhttp/src/main/java/okhttp3/internal/connection/RealConnection.java",
       "elementNameAfter": "okhttp/src/main/java/okhttp3.internal.connection.RealConnection#connect(int, int, int, List, boolean)$if(97-100)",
-      "comment": "Split Conditional if(route.address().sslSocketFactory() == null && !connectionSpecs.contains(ConnectionSpec.CLEARTEXT)) to [if(route.address().sslSocketFactory() == null), if(!connectionSpecs.contains(ConnectionSpec.CLEARTEXT))] in method public connect(connectTimeout int, readTimeout int, writeTimeout int, connectionSpecs List<ConnectionSpec>, connectionRetryEnabled boolean) : void from class okhttp3.internal.connection.RealConnection"
+      "comment": "Split Conditional if(route.address().sslSocketFactory() == null && !connectionSpecs.contains(ConnectionSpec.CLEARTEXT)) to [if(!Platform.get().isCleartextTrafficPermitted(host)), if(!connectionSpecs.contains(ConnectionSpec.CLEARTEXT))] in method public connect(connectTimeout int, readTimeout int, writeTimeout int, connectionSpecs List<ConnectionSpec>, connectionRetryEnabled boolean) : void from class okhttp3.internal.connection.RealConnection"
     },
     {
       "parentCommitId": "f98ff257ceb949b404ec5d6cb1fece0e22e53264",
@@ -31,7 +31,7 @@
       "elementNameBefore": "okhttp/src/main/java/okhttp3.internal.connection.RealConnection#connect(int, int, int, List, boolean)$if(96-100)",
       "elementFileAfter": "okhttp/src/main/java/okhttp3/internal/connection/RealConnection.java",
       "elementNameAfter": "okhttp/src/main/java/okhttp3.internal.connection.RealConnection#connect(int, int, int, List, boolean)$if(97-100)",
-      "comment": "Split Conditional if(route.address().sslSocketFactory() == null && !connectionSpecs.contains(ConnectionSpec.CLEARTEXT)) to [if(!Platform.get().isCleartextTrafficPermitted(host)), if(!connectionSpecs.contains(ConnectionSpec.CLEARTEXT))] in method public connect(connectTimeout int, readTimeout int, writeTimeout int, connectionSpecs List<ConnectionSpec>, connectionRetryEnabled boolean) : void from class okhttp3.internal.connection.RealConnection"
+      "comment": "Split Conditional if(route.address().sslSocketFactory() == null && !connectionSpecs.contains(ConnectionSpec.CLEARTEXT)) to [if(route.address().sslSocketFactory() == null), if(!connectionSpecs.contains(ConnectionSpec.CLEARTEXT))] in method public connect(connectTimeout int, readTimeout int, writeTimeout int, connectionSpecs List<ConnectionSpec>, connectionRetryEnabled boolean) : void from class okhttp3.internal.connection.RealConnection"
     },
     {
       "parentCommitId": "992dd934f061a21f8a802ed8fd8d99b75047dba8",
@@ -72,6 +72,17 @@
       "elementNameBefore": "okhttp/src/main/java/com.squareup.okhttp.Connection#connect(int, int, int, Request, List, boolean)$if(147-151)",
       "elementFileAfter": "okhttp/src/main/java/com/squareup/okhttp/Connection.java",
       "elementNameAfter": "okhttp/src/main/java/com.squareup.okhttp.Connection#connect(int, int, int, Request, List, boolean)$if(162-166)"
+    },
+    {
+      "parentCommitId": "0237d3c3f29b004f4313b2b9fd58830b29cc6311",
+      "commitId": "60f5406dcc094d0431420139bd002e8bdd4ea5d5",
+      "commitTime": 1426694377,
+      "changeType": "introduced",
+      "elementFileBefore": "okhttp/src/main/java/com/squareup/okhttp/Connection.java",
+      "elementNameBefore": "okhttp/src/main/java/com.squareup.okhttp.Connection#connect(int, int, int, Request, List, boolean)$if(145-149)",
+      "elementFileAfter": "okhttp/src/main/java/com/squareup/okhttp/Connection.java",
+      "elementNameAfter": "okhttp/src/main/java/com.squareup.okhttp.Connection#connect(int, int, int, Request, List, boolean)$if(145-149)",
+      "comment": "new block"
     }
   ]
 }

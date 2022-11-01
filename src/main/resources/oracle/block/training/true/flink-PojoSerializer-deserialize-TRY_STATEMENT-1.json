@@ -25,17 +25,7 @@
       "parentCommitId": "409319a065407f8ed6ae3f43c06b327adfd2501c",
       "commitId": "8aa5e05733655e7b3d1f11ed15f61672d61e5cb5",
       "commitTime": 1494180263,
-      "changeType": "catch block added",
-      "elementFileBefore": "flink-core/src/main/java/org/apache/flink/api/java/typeutils/runtime/PojoSerializer.java",
-      "elementNameBefore": "flink-core/src/main/java/org.apache.flink.api.java.typeutils.runtime.PojoSerializer#deserialize(DataInputView)$try(410-423)",
-      "elementFileAfter": "flink-core/src/main/java/org/apache/flink/api/java/typeutils/runtime/PojoSerializer.java",
-      "elementNameAfter": "flink-core/src/main/java/org.apache.flink.api.java.typeutils.runtime.PojoSerializer#deserialize(DataInputView)$try(374-386)"
-    },
-    {
-      "parentCommitId": "409319a065407f8ed6ae3f43c06b327adfd2501c",
-      "commitId": "8aa5e05733655e7b3d1f11ed15f61672d61e5cb5",
-      "commitTime": 1494180263,
-      "changeType": "catch block removed",
+      "changeType": "catch block change",
       "elementFileBefore": "flink-core/src/main/java/org/apache/flink/api/java/typeutils/runtime/PojoSerializer.java",
       "elementNameBefore": "flink-core/src/main/java/org.apache.flink.api.java.typeutils.runtime.PojoSerializer#deserialize(DataInputView)$try(410-423)",
       "elementFileAfter": "flink-core/src/main/java/org/apache/flink/api/java/typeutils/runtime/PojoSerializer.java",

@@ -60,6 +60,17 @@
       "elementNameBefore": "org.springframework.context/src/main/java/org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader#loadBeanDefinitionsForModelMethod(ConfigurationClassMethod)$if(135-147)",
       "elementFileAfter": "org.springframework.context/src/main/java/org/springframework/context/annotation/ConfigurationClassBeanDefinitionReader.java",
       "elementNameAfter": "org.springframework.context/src/main/java/org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader#loadBeanDefinitionsForModelMethod(ConfigurationClassMethod)$if(136-148)"
+    },
+    {
+      "parentCommitId": "736169aa2a46f489cd8e75cf4d61cef997fc456f",
+      "commitId": "14bd47551900ced88eeacf2a5f63c187ff72028c",
+      "commitTime": 1240184731,
+      "changeType": "introduced",
+      "elementFileBefore": "org.springframework.context/src/main/java/org/springframework/context/annotation/ConfigurationModelBeanDefinitionReader.java",
+      "elementNameBefore": "org.springframework.context/src/main/java/org.springframework.context.annotation.ConfigurationModelBeanDefinitionReader#getBeanDefinitionIncludingAncestry(String, BeanDefinitionRegistry)$if(226-227)",
+      "elementFileAfter": "org.springframework.context/src/main/java/org/springframework/context/annotation/ConfigurationClassBeanDefinitionReader.java",
+      "elementNameAfter": "org.springframework.context/src/main/java/org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader#loadBeanDefinitionsForModelMethod(ConfigurationClassMethod)$if(120-132)",
+      "comment": "Inline Method private getBeanDefinitionIncludingAncestry(beanName String, registry BeanDefinitionRegistry) : BeanDefinition inlined to private loadBeanDefinitionsForModelMethod(method ConfigurationClassMethod) : void in class org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader"
     }
   ]
 }
