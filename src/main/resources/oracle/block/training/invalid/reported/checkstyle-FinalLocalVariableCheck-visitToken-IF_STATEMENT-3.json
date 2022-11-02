@@ -35,12 +35,52 @@
       "parentCommitId": "0a1a4c6e94c9b3b73b21b323f14ae7b7337b1b44",
       "commitId": "bf69cf167c9432daabc7b6e4a426fff33650a057",
       "commitTime": 1459291652,
+      "changeType": "body change",
+      "elementFileBefore": "src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/FinalLocalVariableCheck.java",
+      "elementNameBefore": "src/main/java/com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck#visitToken(DetailAST)$if(219-226)",
+      "elementFileAfter": "src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/FinalLocalVariableCheck.java",
+      "elementNameAfter": "src/main/java/com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck#visitToken(DetailAST)$if(213-223)"
+    },
+    {
+      "parentCommitId": "0a1a4c6e94c9b3b73b21b323f14ae7b7337b1b44",
+      "commitId": "bf69cf167c9432daabc7b6e4a426fff33650a057",
+      "commitTime": 1459291652,
+      "changeType": "expression change",
+      "elementFileBefore": "src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/FinalLocalVariableCheck.java",
+      "elementNameBefore": "src/main/java/com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck#visitToken(DetailAST)$if(219-226)",
+      "elementFileAfter": "src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/FinalLocalVariableCheck.java",
+      "elementNameAfter": "src/main/java/com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck#visitToken(DetailAST)$if(213-223)"
+    },
+    {
+      "parentCommitId": "11210350f58660d96012cea051f0fbc3bc462cb1",
+      "commitId": "55aa50d8f09d28521f0d0004ce475fa09082faea",
+      "commitTime": 1459291651,
       "changeType": "introduced",
       "elementFileBefore": "src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/FinalLocalVariableCheck.java",
-      "elementNameBefore": "src/main/java/com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck#visitToken(DetailAST)$if(213-223)",
+      "elementNameBefore": "src/main/java/com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck#visitToken(DetailAST)$if(212-223)",
       "elementFileAfter": "src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/FinalLocalVariableCheck.java",
-      "elementNameAfter": "src/main/java/com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck#visitToken(DetailAST)$if(213-223)",
+      "elementNameAfter": "src/main/java/com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck#visitToken(DetailAST)$if(212-223)",
       "comment": "new block"
+    },
+    {
+      "parentCommitId": "62c19a216f208a75158fd426523d23d1a98b70cb",
+      "commitId": "0a1a4c6e94c9b3b73b21b323f14ae7b7337b1b44",
+      "commitTime": 1459291651,
+      "changeType": "body change",
+      "elementFileBefore": "src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/FinalLocalVariableCheck.java",
+      "elementNameBefore": "src/main/java/com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck#visitToken(DetailAST)$if(212-223)",
+      "elementFileAfter": "src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/FinalLocalVariableCheck.java",
+      "elementNameAfter": "src/main/java/com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck#visitToken(DetailAST)$if(219-226)"
+    },
+    {
+      "parentCommitId": "62c19a216f208a75158fd426523d23d1a98b70cb",
+      "commitId": "0a1a4c6e94c9b3b73b21b323f14ae7b7337b1b44",
+      "commitTime": 1459291651,
+      "changeType": "expression change",
+      "elementFileBefore": "src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/FinalLocalVariableCheck.java",
+      "elementNameBefore": "src/main/java/com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck#visitToken(DetailAST)$if(212-223)",
+      "elementFileAfter": "src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/FinalLocalVariableCheck.java",
+      "elementNameAfter": "src/main/java/com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck#visitToken(DetailAST)$if(219-226)"
     }
   ]
 }
