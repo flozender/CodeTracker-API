@@ -901,8 +901,10 @@ public class REST {
                 historyInfo.getCommitId(),
                 historyInfo.getCommitTime(),
                 change.getType().getTitle(),
-                historyInfo.getElementBefore(),
-                historyInfo.getElementAfter()
+                historyInfo.getElementBefore().getName(),
+                historyInfo.getElementBefore().getLocation().getFilePath(),
+                historyInfo.getElementAfter().getName(),
+                historyInfo.getElementAfter().getLocation().getFilePath()
               );
               changeLog.add(currentElement);
             } else {
@@ -1226,24 +1228,34 @@ public class REST {
     String elementFileAfter;
     String elementNameAfter;
 
+    protected Long getCommitTime() {
+      return commitTime;
+    }
+
+    protected String getChangeType() {
+      return changeType;
+    }
+
     protected CTHBlockOracle(
       String parentCommitId,
       String commitId,
       Long commitTime,
       String changeType,
-      CodeElement before,
-      CodeElement after
+      String elementNameBefore,
+      String elementFileBefore,
+      String elementNameAfter,
+      String elementFileAfter
     ) {
       this.parentCommitId = parentCommitId;
       this.commitId = commitId;
       this.commitTime = commitTime;
       this.changeType = changeType;
 
-      this.elementNameBefore = before.getName();
-      this.elementFileBefore = before.getLocation().getFilePath();
+      this.elementNameBefore = elementNameBefore;
+      this.elementFileBefore = elementFileBefore;
 
-      this.elementNameAfter = after.getName();
-      this.elementFileAfter = after.getLocation().getFilePath();
+      this.elementNameAfter = elementNameAfter;
+      this.elementFileAfter = elementFileAfter;
     }
   }
 
@@ -1259,6 +1271,18 @@ public class REST {
     String elementFileAfter;
     String elementNameAfter;
     String comment;
+
+    protected Long getCommitTime() {
+      return commitTime;
+    }
+
+    protected String getChangeType() {
+      return changeType;
+    }
+
+    protected String getComment() {
+      return comment;
+    }
 
     protected CTHBlockOracleComment(
       String parentCommitId,

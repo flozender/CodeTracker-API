@@ -12,6 +12,7 @@ import java.io.FileWriter;
 import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.stream.Collectors;
+import org.CodeTrackerAPI.REST.*;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.codetracker.api.*;
@@ -336,44 +337,59 @@ public class OracleGenerator {
     HashMap<String, Integer> invalidReportedFiles
   ) {
     String changes = null;
-    ArrayList<Object> changeLog = new ArrayList<Object>();
+    ArrayList<CTHBlockOracleComment> changeLog = new ArrayList<CTHBlockOracleComment>();
     IRepository gitRepository = new GitRepository(repository);
+
     for (HistoryInfo<Block> historyInfo : blockHistoryInfo) {
       for (Change change : historyInfo.getChangeList()) {
-        // if comment is the same as the title, no comment in object
-        if (
-          change.getType().getTitle().equals(change.toString().toLowerCase())
-        ) {
-          REST.CTHBlockOracle currentElement = new REST.CTHBlockOracle(
-            gitRepository.getParentId(historyInfo.getCommitId()),
-            historyInfo.getCommitId(),
-            historyInfo.getCommitTime(),
-            change.getType().getTitle(),
-            historyInfo.getElementBefore(),
-            historyInfo.getElementAfter()
-          );
-          changeLog.add(currentElement);
-        } else {
-          REST.CTHBlockOracleComment currentElement = new REST.CTHBlockOracleComment(
-            gitRepository.getParentId(historyInfo.getCommitId()),
-            historyInfo.getCommitId(),
-            historyInfo.getCommitTime(),
-            change.getType().getTitle(),
-            historyInfo.getElementBefore(),
-            historyInfo.getElementAfter(),
-            change.toString().replaceAll("\t", " ")
-          );
+        CTHBlockOracleComment currentElement = new CTHBlockOracleComment(
+          gitRepository.getParentId(historyInfo.getCommitId()),
+          historyInfo.getCommitId(),
+          historyInfo.getCommitTime(),
+          change.getType().getTitle(),
+          historyInfo.getElementBefore(),
+          historyInfo.getElementAfter(),
+          change.toString().replaceAll("\t", " ")
+        );
 
-          changeLog.add(currentElement);
-        }
+        changeLog.add(currentElement);
       }
     }
 
     ObjectMapper mapper = new ObjectMapper();
     mapper.setVisibility(PropertyAccessor.FIELD, JsonAutoDetect.Visibility.ANY);
     try {
+      changeLog.sort(
+        Comparator
+          .comparing(CTHBlockOracleComment::getCommitTime)
+          .thenComparing(CTHBlockOracleComment::getChangeType)
+      );
+
       Collections.reverse(changeLog);
-      String json = mapper.writeValueAsString(changeLog);
+
+      ArrayList<Object> changeLogCasted = changeLog
+        .stream()
+        .map(change -> {
+          // if comment is the same as the title, no comment in object
+          if (
+            change.getChangeType().equals(change.getComment().toLowerCase())
+          ) {
+            return new CTHBlockOracle(
+              change.parentCommitId,
+              change.commitId,
+              change.commitTime,
+              change.changeType,
+              change.elementNameBefore,
+              change.elementFileBefore,
+              change.elementNameAfter,
+              change.elementFileAfter
+            );
+          }
+          return change;
+        })
+        .collect(Collectors.toCollection(ArrayList::new));
+
+      String json = mapper.writeValueAsString(changeLogCasted);
       changes = json;
     } catch (JsonProcessingException e) {
       handleError(e, 7);
