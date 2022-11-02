@@ -318,7 +318,11 @@ public class OracleGenerator {
         handleError(e, 6);
       }
     }
-    log("Generation finished successfully.");
+    log(
+      new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date()) +
+      " " +
+      "Generation finished successfully."
+    );
   }
 
   public static void createOracleEntry(
@@ -540,12 +544,7 @@ public class OracleGenerator {
     try {
       File logFile = new File("src/main/resources/oracle/block/log.txt");
       FileWriter logger = new FileWriter(logFile, true);
-      logger.write(
-        new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date()) +
-        " " +
-        message +
-        "\r\n"
-      );
+      logger.write(message + "\r\n");
       logger.close();
     } catch (Exception e) {
       System.out.println("Case 0 - Failed: logger failed");
