@@ -1,4 +1,4 @@
-2022-11-06 22:58:35 Started oracle generation
+2022-11-07 14:19:04 Started oracle generation
 Block training Data
 No key yet: checkstyle-Checker-fireErrors-ENHANCED_FOR_STATEMENT
 Data is written to file: src/main/resources/oracle/block/training/true/checkstyle-Checker-fireErrors-ENHANCED_FOR_STATEMENT.json
@@ -213,7 +213,7 @@ Data is written to file: src/main/resources/oracle/block/training/valid/commons-
 Key contained: commons-lang-LocaleUtils-toLocale-IF_STATEMENT -> 6
 Data is written to file: src/main/resources/oracle/block/training/valid/commons-lang-LocaleUtils-toLocale-IF_STATEMENT-6.json
 Key contained: commons-lang-LocaleUtils-toLocale-IF_STATEMENT -> 7
-Data is written to file: src/main/resources/oracle/block/training/invalid/reported/commons-lang-LocaleUtils-toLocale-IF_STATEMENT-7.json
+Data is written to file: src/main/resources/oracle/block/training/valid/commons-lang-LocaleUtils-toLocale-IF_STATEMENT-7.json
 Key contained: commons-lang-LocaleUtils-toLocale-IF_STATEMENT -> 8
 Data is written to file: src/main/resources/oracle/block/training/valid/commons-lang-LocaleUtils-toLocale-IF_STATEMENT-8.json
 Key contained: commons-lang-LocaleUtils-toLocale-IF_STATEMENT -> 9
@@ -585,7 +585,7 @@ Data is written to file: src/main/resources/oracle/block/training/true/hibernate
 Key contained: hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT -> 6
 Data is written to file: src/main/resources/oracle/block/training/true/hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT-6.json
 Key contained: hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT -> 7
-Data is written to file: src/main/resources/oracle/block/training/invalid/reported/hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT-7.json
+Data is written to file: src/main/resources/oracle/block/training/invalid/hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT-7.json
 Key contained: hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT -> 8
 Data is written to file: src/main/resources/oracle/block/training/true/hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT-8.json
 Key contained: hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT -> 9
@@ -593,7 +593,7 @@ Data is written to file: src/main/resources/oracle/block/training/valid/hibernat
 Key contained: hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT -> 10
 Data is written to file: src/main/resources/oracle/block/training/true/hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT-10.json
 Key contained: hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT -> 11
-Data is written to file: src/main/resources/oracle/block/training/invalid/reported/hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT-11.json
+Data is written to file: src/main/resources/oracle/block/training/valid/hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT-11.json
 Key contained: hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT -> 12
 Data is written to file: src/main/resources/oracle/block/training/valid/hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT-12.json
 Key contained: hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT -> 13
@@ -615,9 +615,9 @@ Data is written to file: src/main/resources/oracle/block/training/true/hibernate
 Key contained: hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT -> 21
 Data is written to file: src/main/resources/oracle/block/training/true/hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT-21.json
 Key contained: hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT -> 22
-Data is written to file: src/main/resources/oracle/block/training/invalid/reported/hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT-22.json
+Data is written to file: src/main/resources/oracle/block/training/invalid/hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT-22.json
 Key contained: hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT -> 23
-Data is written to file: src/main/resources/oracle/block/training/invalid/reported/hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT-23.json
+Data is written to file: src/main/resources/oracle/block/training/invalid/hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT-23.json
 Key contained: hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT -> 24
 Data is written to file: src/main/resources/oracle/block/training/true/hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT-24.json
 Key contained: hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT -> 25
@@ -1926,4 +1926,4 @@ Key contained: spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STAT
 Data is written to file: src/main/resources/oracle/block/training/valid/spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT-29.json
 Key contained: spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT -> 30
 Data is written to file: src/main/resources/oracle/block/training/valid/spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT-30.json
-2022-11-07 00:03:17 Generation finished successfully.
+2022-11-07 15:14:04 Generation finished successfully.
