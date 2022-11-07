@@ -84,7 +84,7 @@
     {
       "parentCommitId": "6b50c90daa764492e074198460c807d83d52325e",
       "commitId": "8d234965b572759181da7787fead07b225e9e5ca",
-      "commitTime": 1476426972,
+      "commitTime": 1476426556,
       "changeType": "body change",
       "elementFileBefore": "java-symbol-solver-core/src/main/java/me/tomassetti/symbolsolver/javaparsermodel/contexts/MethodCallExprContext.java",
       "elementNameBefore": "java-symbol-solver-core/src/main/java/me.tomassetti.symbolsolver.javaparsermodel.contexts.MethodCallExprContext#solveMethodAsUsage(String, List, TypeSolver)$if(199-210)",

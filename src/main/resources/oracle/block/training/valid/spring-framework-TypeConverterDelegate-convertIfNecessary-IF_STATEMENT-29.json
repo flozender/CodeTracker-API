@@ -14,7 +14,7 @@
     {
       "parentCommitId": "57e0c789a81bb68410bd2ef9e824d81b76b05909",
       "commitId": "b4095c3e1d61fc7279e6b2ca105ec60c3cd7128c",
-      "commitTime": 1432125256,
+      "commitTime": 1432125249,
       "changeType": "expression change",
       "elementFileBefore": "spring-beans/src/main/java/org/springframework/beans/TypeConverterDelegate.java",
       "elementNameBefore": "spring-beans/src/main/java/org.springframework.beans.TypeConverterDelegate#convertIfNecessary(String, Object, Object, Class, TypeDescriptor)$if(308-310)",
@@ -64,7 +64,7 @@
     {
       "parentCommitId": "0053319c6279a55094a723dc5fc0955b901cfd1c",
       "commitId": "86bef9030fa4e026107db74cd9eef288beb1beca",
-      "commitTime": 1324565657,
+      "commitTime": 1324562243,
       "changeType": "introduced",
       "elementFileBefore": "org.springframework.beans/src/main/java/org/springframework/beans/TypeConverterDelegate.java",
       "elementNameBefore": "org.springframework.beans/src/main/java/org.springframework.beans.TypeConverterDelegate#convertIfNecessary(String, Object, Object, Class, TypeDescriptor)$if(247-249)",

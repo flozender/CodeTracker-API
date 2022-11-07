@@ -14,7 +14,7 @@
     {
       "parentCommitId": "abe5d62bcf18781c4b32418932f60e62cfea1703",
       "commitId": "b3ecb0a6c9bf3a213377b889f2b3077a940363e2",
-      "commitTime": 1504210735,
+      "commitTime": 1485721742,
       "changeType": "body change",
       "elementFileBefore": "okhttp-urlconnection/src/main/java/okhttp3/JavaNetAuthenticator.java",
       "elementNameBefore": "okhttp-urlconnection/src/main/java/okhttp3.JavaNetAuthenticator#authenticate(Route, Response)$for(39-62)",
@@ -24,7 +24,7 @@
     {
       "parentCommitId": "9ecff8f961c321098c2598097fb5289e968ef1ac",
       "commitId": "0bfd6048574d61c138fd417051ae2a1bcb44638f",
-      "commitTime": 1450450613,
+      "commitTime": 1450361009,
       "changeType": "body change",
       "elementFileBefore": "okhttp/src/main/java/okhttp3/internal/http/AuthenticatorAdapter.java",
       "elementNameBefore": "okhttp/src/main/java/okhttp3.internal.http.AuthenticatorAdapter#authenticateProxy(Proxy, Response)$for(63-78)",
@@ -44,7 +44,7 @@
     {
       "parentCommitId": "a52c510810f896fcafa78033b29148b49c7db7ca",
       "commitId": "4c90a2e04a83646597a506a80b5a885d5c515bf0",
-      "commitTime": 1438563686,
+      "commitTime": 1438547049,
       "changeType": "body change",
       "elementFileBefore": "okhttp/src/main/java/com/squareup/okhttp/internal/http/AuthenticatorAdapter.java",
       "elementNameBefore": "okhttp/src/main/java/com.squareup.okhttp.internal.http.AuthenticatorAdapter#authenticateProxy(Proxy, Response)$for(65-80)",
@@ -64,7 +64,7 @@
     {
       "parentCommitId": "f5111c28356431c6c5d1e71dd1bbced9a8016cd8",
       "commitId": "e920196fbd71822fc284ab76204bf75f95d3265a",
-      "commitTime": 1398096023,
+      "commitTime": 1398087015,
       "changeType": "introduced",
       "elementFileBefore": "okhttp/src/main/java/com/squareup/okhttp/internal/huc/AuthenticatorAdapter.java",
       "elementNameBefore": "okhttp/src/main/java/com.squareup.okhttp.internal.huc.AuthenticatorAdapter#authenticateProxy(Proxy, Response)$for(63-78)",

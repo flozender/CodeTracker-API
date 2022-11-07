@@ -24,7 +24,7 @@
     {
       "parentCommitId": "55eb37ed52a4056b31a78bee8887a01c61c568af",
       "commitId": "4ffba763cf6645e722a2deeea552f998ec7dc22a",
-      "commitTime": 1298496833,
+      "commitTime": 1297688219,
       "changeType": "body change",
       "elementFileBefore": "hibernate-core/src/main/java/org/hibernate/cfg/annotations/CollectionBinder.java",
       "elementNameBefore": "hibernate-core/src/main/java/org.hibernate.cfg.annotations.CollectionBinder#bind()$if(401-401)",

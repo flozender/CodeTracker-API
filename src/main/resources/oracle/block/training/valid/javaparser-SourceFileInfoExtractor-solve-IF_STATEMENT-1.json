@@ -14,7 +14,7 @@
     {
       "parentCommitId": "9f20df294175a8dcc2f0c1331c818589c5de9cb4",
       "commitId": "b54617e765d73b3ce0d187cf12ad8da382bce439",
-      "commitTime": 1517683571,
+      "commitTime": 1517669146,
       "changeType": "expression change",
       "elementFileBefore": "javaparser-symbol-solver-core/src/main/java/com/github/javaparser/symbolsolver/SourceFileInfoExtractor.java",
       "elementNameBefore": "javaparser-symbol-solver-core/src/main/java/com.github.javaparser.symbolsolver.SourceFileInfoExtractor#solve(Node)$if(117-135)",
@@ -24,7 +24,7 @@
     {
       "parentCommitId": "9f20df294175a8dcc2f0c1331c818589c5de9cb4",
       "commitId": "b54617e765d73b3ce0d187cf12ad8da382bce439",
-      "commitTime": 1517683571,
+      "commitTime": 1517669146,
       "changeType": "body change",
       "elementFileBefore": "javaparser-symbol-solver-core/src/main/java/com/github/javaparser/symbolsolver/SourceFileInfoExtractor.java",
       "elementNameBefore": "javaparser-symbol-solver-core/src/main/java/com.github.javaparser.symbolsolver.SourceFileInfoExtractor#solve(Node)$if(117-135)",
@@ -54,7 +54,7 @@
     {
       "parentCommitId": "0d14741fef3a17451db153cfe379e398da4b4b79",
       "commitId": "3e4b012ca278ee33e9e02984367028cb1adf4bf5",
-      "commitTime": 1476898563,
+      "commitTime": 1476733901,
       "changeType": "expression change",
       "elementFileBefore": "java-symbol-solver-core/src/main/java/me/tomassetti/symbolsolver/SourceFileInfoExtractor.java",
       "elementNameBefore": "java-symbol-solver-core/src/main/java/me.tomassetti.symbolsolver.SourceFileInfoExtractor#solve(Node)$if(110-128)",
@@ -64,7 +64,7 @@
     {
       "parentCommitId": "0d14741fef3a17451db153cfe379e398da4b4b79",
       "commitId": "3e4b012ca278ee33e9e02984367028cb1adf4bf5",
-      "commitTime": 1476898563,
+      "commitTime": 1476733901,
       "changeType": "body change",
       "elementFileBefore": "java-symbol-solver-core/src/main/java/me/tomassetti/symbolsolver/SourceFileInfoExtractor.java",
       "elementNameBefore": "java-symbol-solver-core/src/main/java/me.tomassetti.symbolsolver.SourceFileInfoExtractor#solve(Node)$if(110-128)",

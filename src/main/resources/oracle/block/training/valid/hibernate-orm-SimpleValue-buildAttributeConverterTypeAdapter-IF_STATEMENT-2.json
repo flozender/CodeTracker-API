@@ -14,7 +14,7 @@
     {
       "parentCommitId": "173184e26d62a96df281093e6277da813bbcc22c",
       "commitId": "90cabb43ad8b186d73cb6b310fb2fd6774ffe44f",
-      "commitTime": 1513383918,
+      "commitTime": 1513383897,
       "changeType": "body change",
       "elementFileBefore": "hibernate-core/src/main/java/org/hibernate/mapping/SimpleValue.java",
       "elementNameBefore": "hibernate-core/src/main/java/org.hibernate.mapping.SimpleValue#buildAttributeConverterTypeAdapter()$if(546-565)",

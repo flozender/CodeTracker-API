@@ -44,7 +44,7 @@
     {
       "parentCommitId": "e10e16cd6b2a2342a6b7d169878117046b6c5e16",
       "commitId": "2e2e9b8dd0ecb113c86ec3a5d0cf87d4f6f72fd6",
-      "commitTime": 1371062720,
+      "commitTime": 1371062472,
       "changeType": "expression change",
       "elementFileBefore": "spring-context/src/main/java/org/springframework/context/annotation/ConfigurationClassBeanDefinitionReader.java",
       "elementNameBefore": "spring-context/src/main/java/org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader#loadBeanDefinitionsForBeanMethod(BeanMethod)$if(175-178)",
@@ -54,7 +54,7 @@
     {
       "parentCommitId": "2ecc51f06661fdf4846cad07a313bcb26dfa4b59",
       "commitId": "239ce1466ce118294f5c7b8e842a80815fd813de",
-      "commitTime": 1370366871,
+      "commitTime": 1369953318,
       "changeType": "expression change",
       "elementFileBefore": "spring-context/src/main/java/org/springframework/context/annotation/ConfigurationClassBeanDefinitionReader.java",
       "elementNameBefore": "spring-context/src/main/java/org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader#loadBeanDefinitionsForBeanMethod(BeanMethod)$if(156-159)",
@@ -64,7 +64,7 @@
     {
       "parentCommitId": "8e445f3a211395d43895f747d04158ff7f9c0913",
       "commitId": "b257253a2b6890ef532f27a662c441fc4fd21f3b",
-      "commitTime": 1368067280,
+      "commitTime": 1361385173,
       "changeType": "introduced",
       "elementFileBefore": "spring-context/src/main/java/org/springframework/context/annotation/ConfigurationClassBeanDefinitionReader.java",
       "elementNameBefore": "spring-context/src/main/java/org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader#loadBeanDefinitionsForBeanMethod(BeanMethod)$if(156-159)",

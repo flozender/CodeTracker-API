@@ -44,7 +44,7 @@
     {
       "parentCommitId": "9b5c0c51789db322c7a4cba3bc3cc70052ad61ac",
       "commitId": "b20f28d6034a54108c056947c631c360fa079138",
-      "commitTime": 1476374843,
+      "commitTime": 1476374721,
       "changeType": "introduced",
       "elementFileBefore": "java-symbol-solver-core/src/main/java/me/tomassetti/symbolsolver/resolution/MethodResolutionLogic.java",
       "elementNameBefore": "java-symbol-solver-core/src/main/java/me.tomassetti.symbolsolver.resolution.MethodResolutionLogic#isApplicable(MethodDeclaration, String, List, TypeSolver, boolean)$if(97-101)",

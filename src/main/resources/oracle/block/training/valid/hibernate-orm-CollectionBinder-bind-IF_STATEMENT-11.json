@@ -14,7 +14,7 @@
     {
       "parentCommitId": "1392b43852f82cbf5a11a7889ef19863fca996fb",
       "commitId": "7c2a58861341f1404b4974f1ed9809f40c1da8f6",
-      "commitTime": 1505725434,
+      "commitTime": 1502529459,
       "changeType": "introduced",
       "elementFileBefore": "hibernate-core/src/main/java/org/hibernate/cfg/annotations/CollectionBinder.java",
       "elementNameBefore": "hibernate-core/src/main/java/org.hibernate.cfg.annotations.CollectionBinder#bind()$if(484-491)",

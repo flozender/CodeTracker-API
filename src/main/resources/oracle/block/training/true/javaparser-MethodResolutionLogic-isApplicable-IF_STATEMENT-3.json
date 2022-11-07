@@ -34,7 +34,7 @@
     {
       "parentCommitId": "3eda5210d3d5a093f29e1c1fb1d0609580573140",
       "commitId": "051dbd94c17c4f142d3fe9e8fbd03c29d09ace54",
-      "commitTime": 1476478620,
+      "commitTime": 1476478244,
       "changeType": "body change",
       "elementFileBefore": "java-symbol-solver-core/src/main/java/me/tomassetti/symbolsolver/resolution/MethodResolutionLogic.java",
       "elementNameBefore": "java-symbol-solver-core/src/main/java/me.tomassetti.symbolsolver.resolution.MethodResolutionLogic#isApplicable(MethodDeclaration, String, List, TypeSolver, boolean)$if(52-63)",
@@ -54,7 +54,7 @@
     {
       "parentCommitId": "9b5c0c51789db322c7a4cba3bc3cc70052ad61ac",
       "commitId": "b20f28d6034a54108c056947c631c360fa079138",
-      "commitTime": 1476374843,
+      "commitTime": 1476374721,
       "changeType": "body change",
       "elementFileBefore": "java-symbol-solver-core/src/main/java/me/tomassetti/symbolsolver/resolution/MethodResolutionLogic.java",
       "elementNameBefore": "java-symbol-solver-core/src/main/java/me.tomassetti.symbolsolver.resolution.MethodResolutionLogic#isApplicable(MethodDeclaration, String, List, TypeSolver, boolean)$if(52-59)",

@@ -24,7 +24,7 @@
     {
       "parentCommitId": "1cc58e0a99f15cb0c071542aed4990898f0e28e1",
       "commitId": "6b82d293d5ed2ec6f4e02432594a73e354d17928",
-      "commitTime": 1360180909,
+      "commitTime": 1360179697,
       "changeType": "body change",
       "elementFileBefore": "spring-context/src/main/java/org/springframework/context/annotation/ConfigurationClassBeanDefinitionReader.java",
       "elementNameBefore": "spring-context/src/main/java/org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader#loadBeanDefinitionsForBeanMethod(BeanMethod)$if(256-260)",

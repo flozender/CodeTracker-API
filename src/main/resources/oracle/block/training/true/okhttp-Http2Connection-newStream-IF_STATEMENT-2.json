@@ -24,7 +24,7 @@
     {
       "parentCommitId": "0537eedd5d0223bfa08998f85a865a22b192c61d",
       "commitId": "fb46f100a4d66342a0b101624fd351a51b6f14a9",
-      "commitTime": 1393204561,
+      "commitTime": 1393202655,
       "changeType": "introduced",
       "elementFileBefore": "okhttp-protocols/src/main/java/com/squareup/okhttp/internal/spdy/SpdyConnection.java",
       "elementNameBefore": "okhttp-protocols/src/main/java/com.squareup.okhttp.internal.spdy.SpdyConnection#newStream(int, List, boolean, boolean)$if(245-248)",

@@ -14,7 +14,7 @@
     {
       "parentCommitId": "777a4e04d85611a1e857ea92cdb6f155c21c28a0",
       "commitId": "aaf39002ac7fa00b95f4719beca058f6f7445574",
-      "commitTime": 1438154965,
+      "commitTime": 1438154954,
       "changeType": "introduced",
       "elementFileBefore": "src/main/java/com/puppycrawl/tools/checkstyle/Main.java",
       "elementNameBefore": "src/main/java/com.puppycrawl.tools.checkstyle.Main#main(String[])$if(121-123)",

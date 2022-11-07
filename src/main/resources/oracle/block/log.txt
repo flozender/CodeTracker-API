@@ -1,4 +1,4 @@
-2022-11-07 14:19:04 Started oracle generation
+2022-11-07 17:10:44 Started oracle generation
 Block training Data
 No key yet: checkstyle-Checker-fireErrors-ENHANCED_FOR_STATEMENT
 Data is written to file: src/main/resources/oracle/block/training/true/checkstyle-Checker-fireErrors-ENHANCED_FOR_STATEMENT.json
@@ -1457,7 +1457,7 @@ Data is written to file: src/main/resources/oracle/block/training/true/jgit-Uplo
 Key contained: jgit-UploadPack-sendPack-IF_STATEMENT -> 21
 Data is written to file: src/main/resources/oracle/block/training/true/jgit-UploadPack-sendPack-IF_STATEMENT-21.json
 Key contained: jgit-UploadPack-sendPack-TRY_STATEMENT -> 1
-Data is written to file: src/main/resources/oracle/block/training/true/jgit-UploadPack-sendPack-TRY_STATEMENT-1.json
+Data is written to file: src/main/resources/oracle/block/training/false/jgit-UploadPack-sendPack-TRY_STATEMENT-1.json
 Key contained: jgit-UploadPack-sendPack-IF_STATEMENT -> 22
 Data is written to file: src/main/resources/oracle/block/training/true/jgit-UploadPack-sendPack-IF_STATEMENT-22.json
 No key yet: jgit-UploadPack-sendPack-FINALLY_BLOCK
@@ -1578,7 +1578,7 @@ java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
 	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)
 	at java.base/java.util.Objects.checkIndex(Objects.java:372)
 	at java.base/java.util.ArrayList.get(ArrayList.java:459)
-	at org.CodeTrackerAPI.OracleGenerator.main(OracleGenerator.java:284)
+	at org.CodeTrackerAPI.OracleGenerator.main(OracleGenerator.java:275)
 
 No key yet: okhttp-AsyncCall-execute-IF_STATEMENT
 Data is written to file: src/main/resources/oracle/block/training/valid/okhttp-AsyncCall-execute-IF_STATEMENT.json
@@ -1926,4 +1926,4 @@ Key contained: spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STAT
 Data is written to file: src/main/resources/oracle/block/training/valid/spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT-29.json
 Key contained: spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT -> 30
 Data is written to file: src/main/resources/oracle/block/training/valid/spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT-30.json
-2022-11-07 15:14:04 Generation finished successfully.
+2022-11-07 18:03:00 Generation finished successfully.

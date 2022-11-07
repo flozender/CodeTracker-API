@@ -14,7 +14,7 @@
     {
       "parentCommitId": "63a278d2f4da0a5d5be19ab90bf6cdb53e1996ff",
       "commitId": "350c43b6fe02401a73f967d9ef322061638b372a",
-      "commitTime": 1388369834,
+      "commitTime": 1388362446,
       "changeType": "body change",
       "elementFileBefore": "okhttp/src/main/java/com/squareup/okhttp/internal/http/SpdyTransport.java",
       "elementNameBefore": "okhttp/src/main/java/com.squareup.okhttp.internal.http.SpdyTransport#writeRequestHeaders()$if(50-52)",

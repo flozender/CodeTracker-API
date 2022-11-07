@@ -24,7 +24,7 @@
     {
       "parentCommitId": "f3d3a4493ae786d421176396ee68f01a0e6dbb64",
       "commitId": "dc78a7470a5da086a08140b200a20d840460ef79",
-      "commitTime": 1460741895,
+      "commitTime": 1460658346,
       "changeType": "body change",
       "elementFileBefore": "flink-core/src/main/java/org/apache/flink/api/java/typeutils/runtime/kryo/KryoSerializer.java",
       "elementNameBefore": "flink-core/src/main/java/org.apache.flink.api.java.typeutils.runtime.kryo.KryoSerializer#checkKryoInitialized()$if(327-375)",
@@ -34,7 +34,7 @@
     {
       "parentCommitId": "10eb16ab73e0d29d18d6babe77cb90789fef5f08",
       "commitId": "ed3810b1282dfba80d63b1f43a0c202925a3b11c",
-      "commitTime": 1453730836,
+      "commitTime": 1453303618,
       "changeType": "body change",
       "elementFileBefore": "flink-java/src/main/java/org/apache/flink/api/java/typeutils/runtime/kryo/KryoSerializer.java",
       "elementNameBefore": "flink-java/src/main/java/org.apache.flink.api.java.typeutils.runtime.kryo.KryoSerializer#checkKryoInitialized()$if(323-367)",
@@ -44,7 +44,7 @@
     {
       "parentCommitId": "d5a6b13ab1ff6f42369b6b1cd2aad73bd6910362",
       "commitId": "cd899f3be39c5f052a2a3e90771111d1a7df1d47",
-      "commitTime": 1448911902,
+      "commitTime": 1446566269,
       "changeType": "body change",
       "elementFileBefore": "flink-java/src/main/java/org/apache/flink/api/java/typeutils/runtime/kryo/KryoSerializer.java",
       "elementNameBefore": "flink-java/src/main/java/org.apache.flink.api.java.typeutils.runtime.kryo.KryoSerializer#checkKryoInitialized()$if(285-329)",
@@ -54,7 +54,7 @@
     {
       "parentCommitId": "c923fb3c1c1d61462e1079198ae9fb735bb0acf2",
       "commitId": "2cc5d98c690c1b1b1ff1f48628ca58b1b4f0c932",
-      "commitTime": 1442313211,
+      "commitTime": 1442242762,
       "changeType": "body change",
       "elementFileBefore": "flink-java/src/main/java/org/apache/flink/api/java/typeutils/runtime/kryo/KryoSerializer.java",
       "elementNameBefore": "flink-java/src/main/java/org.apache.flink.api.java.typeutils.runtime.kryo.KryoSerializer#checkKryoInitialized()$if(259-302)",
@@ -64,7 +64,7 @@
     {
       "parentCommitId": "5015ab490f89d384ac93752c22caf201ceb43776",
       "commitId": "354efec0f9da0fa03ea9b337b02a1a2a03a9ac16",
-      "commitTime": 1424271128,
+      "commitTime": 1422291265,
       "changeType": "body change",
       "elementFileBefore": "flink-java/src/main/java/org/apache/flink/api/java/typeutils/runtime/KryoSerializer.java",
       "elementNameBefore": "flink-java/src/main/java/org.apache.flink.api.java.typeutils.runtime.KryoSerializer#checkKryoInitialized()$if(248-280)",
@@ -74,7 +74,7 @@
     {
       "parentCommitId": "2d4ed15e8d2aa1a1fcd7001fccea2ee70cc8a8b0",
       "commitId": "a0b6af20beed6d12d0f33f6f58f323b20cc12961",
-      "commitTime": 1421618379,
+      "commitTime": 1421615047,
       "changeType": "body change",
       "elementFileBefore": "flink-java/src/main/java/org/apache/flink/api/java/typeutils/runtime/KryoSerializer.java",
       "elementNameBefore": "flink-java/src/main/java/org.apache.flink.api.java.typeutils.runtime.KryoSerializer#checkKryoInitialized()$if(194-210)",
@@ -84,7 +84,7 @@
     {
       "parentCommitId": "d3072ba57877a95001d6c210ec0f156b478619fb",
       "commitId": "2d4ed15e8d2aa1a1fcd7001fccea2ee70cc8a8b0",
-      "commitTime": 1421616364,
+      "commitTime": 1421162035,
       "changeType": "body change",
       "elementFileBefore": "flink-java/src/main/java/org/apache/flink/api/java/typeutils/runtime/KryoSerializer.java",
       "elementNameBefore": "flink-java/src/main/java/org.apache.flink.api.java.typeutils.runtime.KryoSerializer#checkKryoInitialized()$if(182-188)",
@@ -94,7 +94,7 @@
     {
       "parentCommitId": "935e316a38367cab513dfe2b010129e5d47b7b68",
       "commitId": "8af6ef49fd84c309aeba0a3c8963ac83e0243c59",
-      "commitTime": 1421006993,
+      "commitTime": 1420826663,
       "changeType": "body change",
       "elementFileBefore": "flink-java/src/main/java/org/apache/flink/api/java/typeutils/runtime/KryoSerializer.java",
       "elementNameBefore": "flink-java/src/main/java/org.apache.flink.api.java.typeutils.runtime.KryoSerializer#checkKryoInitialized()$if(181-186)",
@@ -104,7 +104,7 @@
     {
       "parentCommitId": "1c1c83b7425d75c359bbbae32531b0c83b6f835c",
       "commitId": "a70aa67a0881afc5d66329d46fe536d7a0b89fa8",
-      "commitTime": 1418845454,
+      "commitTime": 1418725852,
       "changeType": "body change",
       "elementFileBefore": "flink-java/src/main/java/org/apache/flink/api/java/typeutils/runtime/KryoSerializer.java",
       "elementNameBefore": "flink-java/src/main/java/org.apache.flink.api.java.typeutils.runtime.KryoSerializer#checkKryoInitialized()$if(155-159)",
@@ -114,7 +114,7 @@
     {
       "parentCommitId": "d60a3169fec671f9176f29c5a9a5c66142d1425f",
       "commitId": "22203e75f8a0d193ce0187396d0b267e05e9b58e",
-      "commitTime": 1409668500,
+      "commitTime": 1405610519,
       "changeType": "introduced",
       "elementFileBefore": "flink-java/src/main/java/org/apache/flink/api/java/typeutils/runtime/KryoSerializer.java",
       "elementNameBefore": "flink-java/src/main/java/org.apache.flink.api.java.typeutils.runtime.KryoSerializer#checkKryoInitialized()$if(114-118)",

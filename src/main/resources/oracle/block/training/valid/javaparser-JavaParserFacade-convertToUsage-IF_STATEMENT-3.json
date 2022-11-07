@@ -34,7 +34,7 @@
     {
       "parentCommitId": "88db8b2a8b93bcc692cb8fd5085ba68b8bcf1968",
       "commitId": "d6a1f32f00bd513d6bc56fbbfefcb9ae9c706492",
-      "commitTime": 1476734435,
+      "commitTime": 1476734345,
       "changeType": "body change",
       "elementFileBefore": "java-symbol-solver-core/src/main/java/me/tomassetti/symbolsolver/javaparsermodel/JavaParserFacade.java",
       "elementNameBefore": "java-symbol-solver-core/src/main/java/me.tomassetti.symbolsolver.javaparsermodel.JavaParserFacade#convertToUsage(Type, Context)$if(568-573)",

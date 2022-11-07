@@ -14,7 +14,7 @@
     {
       "parentCommitId": "e20e2af5756235d6244f2778eddd124542eb89dd",
       "commitId": "ce21086e087661553f3a774c38362327ee88996a",
-      "commitTime": 1488165925,
+      "commitTime": 1487937798,
       "changeType": "body change",
       "elementFileBefore": "src/main/java/com/puppycrawl/tools/checkstyle/utils/CommonUtils.java",
       "elementNameBefore": "src/main/java/com.puppycrawl.tools.checkstyle.utils.CommonUtils#createPattern(String, int)$catch(98-101)",
@@ -24,7 +24,7 @@
     {
       "parentCommitId": "d67d10e9f2b480f7f56fe7cda2a908cd5fe770c7",
       "commitId": "f65b17cbc30795247fef3077cce16a8bb53e9ffc",
-      "commitTime": 1449184604,
+      "commitTime": 1448147691,
       "changeType": "expression change",
       "elementFileBefore": "src/main/java/com/puppycrawl/tools/checkstyle/utils/CommonUtils.java",
       "elementNameBefore": "src/main/java/com.puppycrawl.tools.checkstyle.utils.CommonUtils#createPattern(String, int)$catch(205-208)",
@@ -34,7 +34,7 @@
     {
       "parentCommitId": "d67d10e9f2b480f7f56fe7cda2a908cd5fe770c7",
       "commitId": "f65b17cbc30795247fef3077cce16a8bb53e9ffc",
-      "commitTime": 1449184604,
+      "commitTime": 1448147691,
       "changeType": "body change",
       "elementFileBefore": "src/main/java/com/puppycrawl/tools/checkstyle/utils/CommonUtils.java",
       "elementNameBefore": "src/main/java/com.puppycrawl.tools.checkstyle.utils.CommonUtils#createPattern(String, int)$catch(205-208)",
@@ -44,7 +44,7 @@
     {
       "parentCommitId": "2ba55edc4e35866afbb154e3ea03cf03e56ab9bc",
       "commitId": "f2c6263e151e8a7300755b36fbb41511c0a0cca1",
-      "commitTime": 1446178343,
+      "commitTime": 1446146694,
       "changeType": "introduced",
       "elementFileBefore": "src/main/java/com/puppycrawl/tools/checkstyle/utils/CommonUtils.java",
       "elementNameBefore": "src/main/java/com.puppycrawl.tools.checkstyle.utils.CommonUtils#createPattern(String, int)$catch(205-208)",

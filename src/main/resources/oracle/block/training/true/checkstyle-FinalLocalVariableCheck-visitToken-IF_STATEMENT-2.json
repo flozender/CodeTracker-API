@@ -14,7 +14,7 @@
     {
       "parentCommitId": "e77e2c803b05f83ba1f4dcefb5167b60c1cc8108",
       "commitId": "8fef90609bcf29c84823f4a9affae013ded9379d",
-      "commitTime": 1501383011,
+      "commitTime": 1500258546,
       "changeType": "expression change",
       "elementFileBefore": "src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/FinalLocalVariableCheck.java",
       "elementNameBefore": "src/main/java/com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck#visitToken(DetailAST)$if(212-217)",
@@ -24,7 +24,7 @@
     {
       "parentCommitId": "da2d75a1780c1691dc4aa45489f9e9674b1c652e",
       "commitId": "36b91a59d62c9505b835717f00f470c499cf9b30",
-      "commitTime": 1446385289,
+      "commitTime": 1446222495,
       "changeType": "expression change",
       "elementFileBefore": "src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/FinalLocalVariableCheck.java",
       "elementNameBefore": "src/main/java/com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck#visitToken(DetailAST)$if(191-196)",
@@ -34,7 +34,7 @@
     {
       "parentCommitId": "e794bd04c76a7beb55ebcdf1241d65187903c1c4",
       "commitId": "b097b3f002ca40474b729c27c531787bc2e79f04",
-      "commitTime": 1438565272,
+      "commitTime": 1438506907,
       "changeType": "expression change",
       "elementFileBefore": "src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/FinalLocalVariableCheck.java",
       "elementNameBefore": "src/main/java/com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck#visitToken(DetailAST)$if(191-196)",
@@ -44,7 +44,7 @@
     {
       "parentCommitId": "0d66a67b0d3920031422d5bb02f0fc02ce580bae",
       "commitId": "c9c475a6c7a8cb728ba1c091b386db46f11a781f",
-      "commitTime": 1437411741,
+      "commitTime": 1437383702,
       "changeType": "expression change",
       "elementFileBefore": "src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/FinalLocalVariableCheck.java",
       "elementNameBefore": "src/main/java/com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck#visitToken(DetailAST)$if(161-166)",
@@ -54,7 +54,7 @@
     {
       "parentCommitId": "eb5896a4a1d66552f5100046413f15d62b485b62",
       "commitId": "11ff590ba5cc717cbe00d88eb0b578e805572bc8",
-      "commitTime": 1434663736,
+      "commitTime": 1434292465,
       "changeType": "expression change",
       "elementFileBefore": "src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/FinalLocalVariableCheck.java",
       "elementNameBefore": "src/main/java/com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck#visitToken(DetailAST)$if(161-165)",
@@ -64,7 +64,7 @@
     {
       "parentCommitId": "b9f232ffe08853fbfd0239d53d683d4fe5c6b817",
       "commitId": "1bd30555eac039d0486dffb3fc43b7a34117909b",
-      "commitTime": 1426023398,
+      "commitTime": 1426020337,
       "changeType": "expression change",
       "elementFileBefore": "src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/FinalLocalVariableCheck.java",
       "elementNameBefore": "src/main/java/com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck#visitToken(DetailAST)$if(156-161)",
@@ -74,7 +74,7 @@
     {
       "parentCommitId": "cf3c535a337703e574a592c5c0303e9206ed728a",
       "commitId": "93a33df5bda022b29fa6f4d6f3ad2d8b5f0a2b6f",
-      "commitTime": 1425620398,
+      "commitTime": 1424365207,
       "changeType": "expression change",
       "elementFileBefore": "src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/FinalLocalVariableCheck.java",
       "elementNameBefore": "src/main/java/com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck#visitToken(DetailAST)$if(118-123)",
@@ -84,7 +84,7 @@
     {
       "parentCommitId": "bf780dee7dfcc445a97fe93ad9a633975a052c6c",
       "commitId": "a6b47597067d3456c894435a8fdc52b1c7060bed",
-      "commitTime": 1424326024,
+      "commitTime": 1424291285,
       "changeType": "expression change",
       "elementFileBefore": "src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/FinalLocalVariableCheck.java",
       "elementNameBefore": "src/main/java/com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck#visitToken(DetailAST)$if(111-116)",
@@ -94,7 +94,7 @@
     {
       "parentCommitId": "6784e5bcd5baa6b5086bf8b63709856d685a74c8",
       "commitId": "c6019cd352aff6919a61b40fa8efce3567141206",
-      "commitTime": 1422326629,
+      "commitTime": 1422267409,
       "changeType": "expression change",
       "elementFileBefore": "src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/FinalLocalVariableCheck.java",
       "elementNameBefore": "src/main/java/com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck#visitToken(DetailAST)$if(111-115)",
@@ -104,7 +104,7 @@
     {
       "parentCommitId": "b94bac0719851b65b59b4aafc5bd3ef029321ed7",
       "commitId": "bb1b29851f14bf7eaf5656e01c285c0f5f3b9000",
-      "commitTime": 1421677214,
+      "commitTime": 1420970976,
       "changeType": "expression change",
       "elementFileBefore": "src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/FinalLocalVariableCheck.java",
       "elementNameBefore": "src/main/java/com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck#visitToken(DetailAST)$if(111-115)",
@@ -114,7 +114,7 @@
     {
       "parentCommitId": "b94bac0719851b65b59b4aafc5bd3ef029321ed7",
       "commitId": "bb1b29851f14bf7eaf5656e01c285c0f5f3b9000",
-      "commitTime": 1421677214,
+      "commitTime": 1420970976,
       "changeType": "body change",
       "elementFileBefore": "src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/FinalLocalVariableCheck.java",
       "elementNameBefore": "src/main/java/com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck#visitToken(DetailAST)$if(111-115)",

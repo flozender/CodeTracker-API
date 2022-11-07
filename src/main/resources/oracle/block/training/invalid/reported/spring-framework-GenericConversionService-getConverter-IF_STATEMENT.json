@@ -14,7 +14,7 @@
     {
       "parentCommitId": "9bfe675761b5e13dcc533b4f4a82fe240c7a2595",
       "commitId": "4dc289592d0072c7472ab455522362f8db42b4a7",
-      "commitTime": 1351584802,
+      "commitTime": 1351296642,
       "changeType": "body change",
       "elementFileBefore": "spring-core/src/main/java/org/springframework/core/convert/support/GenericConversionService.java",
       "elementNameBefore": "spring-core/src/main/java/org.springframework.core.convert.support.GenericConversionService#getConverter(TypeDescriptor, TypeDescriptor)$if(240-256)",

@@ -24,7 +24,7 @@
     {
       "parentCommitId": "3096888c7d5bef95e652833bdde96f9505ff33c5",
       "commitId": "00d2606b000f9bdafbd7f4a16b6599fb51b53fa4",
-      "commitTime": 1467730834,
+      "commitTime": 1467730826,
       "changeType": "body change",
       "elementFileBefore": "spring-context/src/main/java/org/springframework/context/annotation/ConfigurationClassPostProcessor.java",
       "elementNameBefore": "spring-context/src/main/java/org.springframework.context.annotation.ConfigurationClassPostProcessor#processConfigBeanDefinitions(BeanDefinitionRegistry)$if(337-354)",
@@ -44,7 +44,7 @@
     {
       "parentCommitId": "983b5338ed0284388d8ac528821a918cdb3b2634",
       "commitId": "4c59d85f690a29c45c644f9c3f13010d5cba84ed",
-      "commitTime": 1411423547,
+      "commitTime": 1411423289,
       "changeType": "body change",
       "elementFileBefore": "spring-context/src/main/java/org/springframework/context/annotation/ConfigurationClassPostProcessor.java",
       "elementNameBefore": "spring-context/src/main/java/org.springframework.context.annotation.ConfigurationClassPostProcessor#processConfigBeanDefinitions(BeanDefinitionRegistry)$if(322-334)",

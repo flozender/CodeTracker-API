@@ -14,7 +14,7 @@
     {
       "parentCommitId": "3edddd11276a4f1218278479a1f93a99534db498",
       "commitId": "529c4a36bb21b3fb7717c27f8a31c39c1b603e9d",
-      "commitTime": 1447822914,
+      "commitTime": 1447806141,
       "changeType": "expression change",
       "elementFileBefore": "okhttp/src/main/java/com/squareup/okhttp/Connection.java",
       "elementNameBefore": "okhttp/src/main/java/com.squareup.okhttp.Connection#connect(int, int, int, List, boolean)$if(155-155)",
@@ -24,7 +24,7 @@
     {
       "parentCommitId": "bff93ffe62999a03507909f32926aa1ed44086ad",
       "commitId": "dbca0acc6f8c188dfa48f07bb5886606bec8d28f",
-      "commitTime": 1388590201,
+      "commitTime": 1388561337,
       "changeType": "body change",
       "elementFileBefore": "okhttp/src/main/java/com/squareup/okhttp/Connection.java",
       "elementNameBefore": "okhttp/src/main/java/com.squareup.okhttp.Connection#connect(int, int, TunnelRequest)$if(95-97)",

@@ -14,7 +14,7 @@
     {
       "parentCommitId": "ffc3f6d87d640631c997fc9566679d094cdda267",
       "commitId": "f813712f5b413b354560cd7cc006352e9defa9a3",
-      "commitTime": 1496837955,
+      "commitTime": 1496837868,
       "changeType": "expression change",
       "elementFileBefore": "spring-context/src/main/java/org/springframework/context/annotation/ConfigurationClassParser.java",
       "elementNameBefore": "spring-context/src/main/java/org.springframework.context.annotation.ConfigurationClassParser#doProcessConfigurationClass(ConfigurationClass, SourceClass)$if(307-316)",
@@ -24,7 +24,7 @@
     {
       "parentCommitId": "ffc3f6d87d640631c997fc9566679d094cdda267",
       "commitId": "f813712f5b413b354560cd7cc006352e9defa9a3",
-      "commitTime": 1496837955,
+      "commitTime": 1496837868,
       "changeType": "body change",
       "elementFileBefore": "spring-context/src/main/java/org/springframework/context/annotation/ConfigurationClassParser.java",
       "elementNameBefore": "spring-context/src/main/java/org.springframework.context.annotation.ConfigurationClassParser#doProcessConfigurationClass(ConfigurationClass, SourceClass)$if(307-316)",
@@ -44,7 +44,7 @@
     {
       "parentCommitId": "e5dc6e964cce2ad32ce7ffbe682d177c43cb6191",
       "commitId": "d3b5aeb768b89d960302b471bd4b3e913dd2df27",
-      "commitTime": 1433381203,
+      "commitTime": 1433380834,
       "changeType": "body change",
       "elementFileBefore": "spring-context/src/main/java/org/springframework/context/annotation/ConfigurationClassParser.java",
       "elementNameBefore": "spring-context/src/main/java/org.springframework.context.annotation.ConfigurationClassParser#doProcessConfigurationClass(ConfigurationClass, SourceClass)$if(278-286)",
@@ -74,7 +74,7 @@
     {
       "parentCommitId": "51d828816d3a50004863964d8b9c92b2a32fdc33",
       "commitId": "e10e16cd6b2a2342a6b7d169878117046b6c5e16",
-      "commitTime": 1370881534,
+      "commitTime": 1370881121,
       "changeType": "expression change",
       "elementFileBefore": "spring-context/src/main/java/org/springframework/context/annotation/ConfigurationClassParser.java",
       "elementNameBefore": "spring-context/src/main/java/org.springframework.context.annotation.ConfigurationClassParser#doProcessConfigurationClass(ConfigurationClass, AnnotationMetadata)$if(247-254)",
@@ -84,7 +84,7 @@
     {
       "parentCommitId": "51d828816d3a50004863964d8b9c92b2a32fdc33",
       "commitId": "e10e16cd6b2a2342a6b7d169878117046b6c5e16",
-      "commitTime": 1370881534,
+      "commitTime": 1370881121,
       "changeType": "body change",
       "elementFileBefore": "spring-context/src/main/java/org/springframework/context/annotation/ConfigurationClassParser.java",
       "elementNameBefore": "spring-context/src/main/java/org.springframework.context.annotation.ConfigurationClassParser#doProcessConfigurationClass(ConfigurationClass, AnnotationMetadata)$if(247-254)",

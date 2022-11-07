@@ -14,7 +14,7 @@
     {
       "parentCommitId": "36a07aa89747bb5942bd4a1bf7f5192a2c48c5ef",
       "commitId": "0be8c20fca26357aa61c28dec2f3720f1d7488be",
-      "commitTime": 1532479646,
+      "commitTime": 1532471524,
       "changeType": "expression change",
       "elementFileBefore": "spring-webmvc/src/main/java/org/springframework/web/servlet/mvc/method/annotation/AbstractMessageConverterMethodProcessor.java",
       "elementNameBefore": "spring-webmvc/src/main/java/org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor#writeWithMessageConverters(T, MethodParameter, ServletServerHttpRequest, ServletServerHttpResponse)$if(232-235)",
@@ -24,7 +24,7 @@
     {
       "parentCommitId": "003d643adcc457478fec972945d2dc7094739b4c",
       "commitId": "28a5c3009ea0c31f879c0bb8b9e6cfd33faa81e5",
-      "commitTime": 1529361191,
+      "commitTime": 1529358535,
       "changeType": "expression change",
       "elementFileBefore": "spring-webmvc/src/main/java/org/springframework/web/servlet/mvc/method/annotation/AbstractMessageConverterMethodProcessor.java",
       "elementNameBefore": "spring-webmvc/src/main/java/org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor#writeWithMessageConverters(T, MethodParameter, ServletServerHttpRequest, ServletServerHttpResponse)$if(225-228)",
@@ -34,7 +34,7 @@
     {
       "parentCommitId": "ffc3f6d87d640631c997fc9566679d094cdda267",
       "commitId": "f813712f5b413b354560cd7cc006352e9defa9a3",
-      "commitTime": 1496837955,
+      "commitTime": 1496837868,
       "changeType": "body change",
       "elementFileBefore": "spring-webmvc/src/main/java/org/springframework/web/servlet/mvc/method/annotation/AbstractMessageConverterMethodProcessor.java",
       "elementNameBefore": "spring-webmvc/src/main/java/org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor#writeWithMessageConverters(T, MethodParameter, ServletServerHttpRequest, ServletServerHttpResponse)$if(187-189)",

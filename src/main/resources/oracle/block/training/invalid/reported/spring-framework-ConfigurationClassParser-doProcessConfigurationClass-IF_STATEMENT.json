@@ -14,7 +14,7 @@
     {
       "parentCommitId": "a410d90439e5f4a682287f144c98801f40afcc41",
       "commitId": "9a43d2ec208d2e8cd0866431acf26af3529f8677",
-      "commitTime": 1532091916,
+      "commitTime": 1532091913,
       "changeType": "body change",
       "elementFileBefore": "spring-context/src/main/java/org/springframework/context/annotation/ConfigurationClassParser.java",
       "elementNameBefore": "spring-context/src/main/java/org.springframework.context.annotation.ConfigurationClassParser#doProcessConfigurationClass(ConfigurationClass, SourceClass)$if(271-277)",

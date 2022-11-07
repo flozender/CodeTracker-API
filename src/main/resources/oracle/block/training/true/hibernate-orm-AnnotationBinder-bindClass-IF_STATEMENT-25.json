@@ -14,7 +14,7 @@
     {
       "parentCommitId": "e64e89b2cc6285bb624747a57377414b4f93e0db",
       "commitId": "5329bba1ea724eabf5783c71e5127b8f84ad0fcc",
-      "commitTime": 1386917867,
+      "commitTime": 1386915085,
       "changeType": "body change",
       "elementFileBefore": "hibernate-core/src/main/java/org/hibernate/cfg/AnnotationBinder.java",
       "elementNameBefore": "hibernate-core/src/main/java/org.hibernate.cfg.AnnotationBinder#bindClass(XClass, Map, Mappings)$if(727-727)",
@@ -24,7 +24,7 @@
     {
       "parentCommitId": "126592a55d61195d55c73f36f8427badb79a713f",
       "commitId": "a9b1425f3f07021dae556e710b2bdfdc3812661b",
-      "commitTime": 1295386549,
+      "commitTime": 1292968262,
       "changeType": "body change",
       "elementFileBefore": "hibernate-core/src/main/java/org/hibernate/cfg/AnnotationBinder.java",
       "elementNameBefore": "hibernate-core/src/main/java/org.hibernate.cfg.AnnotationBinder#bindClass(XClass, Map, Mappings)$if(676-680)",

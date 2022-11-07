@@ -24,7 +24,7 @@
     {
       "parentCommitId": "89dc6d0c3d6a48eaa4eda2a635a0735f9e134fa8",
       "commitId": "2843933b4b4778451d1d43822db1a148bf2aa7ea",
-      "commitTime": 1466892242,
+      "commitTime": 1466889543,
       "changeType": "body change",
       "elementFileBefore": "okhttp-urlconnection/src/main/java/okhttp3/internal/huc/OkHttpURLConnection.java",
       "elementNameBefore": "okhttp-urlconnection/src/main/java/okhttp3.internal.huc.OkHttpURLConnection#getResponse()$if(406-412)",
@@ -34,7 +34,7 @@
     {
       "parentCommitId": "e444deddd9683fc2fd586c889d9352c35089504d",
       "commitId": "084b06b48bae2b566bb1be3415b6c847d8ea3682",
-      "commitTime": 1466533800,
+      "commitTime": 1466357304,
       "changeType": "expression change",
       "elementFileBefore": "okhttp-urlconnection/src/main/java/okhttp3/internal/huc/HttpURLConnectionImpl.java",
       "elementNameBefore": "okhttp-urlconnection/src/main/java/okhttp3.internal.huc.HttpURLConnectionImpl#getResponse()$if(426-429)",
@@ -44,7 +44,7 @@
     {
       "parentCommitId": "e444deddd9683fc2fd586c889d9352c35089504d",
       "commitId": "084b06b48bae2b566bb1be3415b6c847d8ea3682",
-      "commitTime": 1466533800,
+      "commitTime": 1466357304,
       "changeType": "body change",
       "elementFileBefore": "okhttp-urlconnection/src/main/java/okhttp3/internal/huc/HttpURLConnectionImpl.java",
       "elementNameBefore": "okhttp-urlconnection/src/main/java/okhttp3.internal.huc.HttpURLConnectionImpl#getResponse()$if(426-429)",
@@ -54,7 +54,7 @@
     {
       "parentCommitId": "e0d34ebdd7aba18149d195804075a87b97f3c02d",
       "commitId": "c358656c8799d30fd422448153e99a5dd37e298a",
-      "commitTime": 1448721366,
+      "commitTime": 1448669766,
       "changeType": "body change",
       "elementFileBefore": "okhttp-urlconnection/src/main/java/com/squareup/okhttp/internal/huc/HttpURLConnectionImpl.java",
       "elementNameBefore": "okhttp-urlconnection/src/main/java/com.squareup.okhttp.internal.huc.HttpURLConnectionImpl#getResponse()$if(404-407)",
@@ -64,7 +64,7 @@
     {
       "parentCommitId": "6dff9f5630f6b7aa0b3442d195921c5dbfd1110f",
       "commitId": "9146c579dd9110d0028144c59515da9be1ce7108",
-      "commitTime": 1398140069,
+      "commitTime": 1398135075,
       "changeType": "expression change",
       "elementFileBefore": "okhttp/src/main/java/com/squareup/okhttp/internal/huc/HttpURLConnectionImpl.java",
       "elementNameBefore": "okhttp/src/main/java/com.squareup.okhttp.internal.huc.HttpURLConnectionImpl#getResponse()$if(344-347)",
@@ -74,7 +74,7 @@
     {
       "parentCommitId": "ce76caedda03789463439f8f798528cd15db5a52",
       "commitId": "dac5aed3d5f9307b9d1ab0a8c7840b232d053ef3",
-      "commitTime": 1392507883,
+      "commitTime": 1392506839,
       "changeType": "body change",
       "elementFileBefore": "okhttp/src/main/java/com/squareup/okhttp/internal/http/HttpURLConnectionImpl.java",
       "elementNameBefore": "okhttp/src/main/java/com.squareup.okhttp.internal.http.HttpURLConnectionImpl#getResponse()$if(329-332)",

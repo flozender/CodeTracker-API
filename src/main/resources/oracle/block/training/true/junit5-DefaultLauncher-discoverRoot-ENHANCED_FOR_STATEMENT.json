@@ -14,7 +14,7 @@
     {
       "parentCommitId": "a84575b8433bc02ac8e2ff018c904c780ae89d1f",
       "commitId": "d5c0b1cca585ea7cef809db5377f5ee6b31cf630",
-      "commitTime": 1504877214,
+      "commitTime": 1504618363,
       "changeType": "body change",
       "elementFileBefore": "junit-platform-launcher/src/main/java/org/junit/platform/launcher/core/DefaultLauncher.java",
       "elementNameBefore": "junit-platform-launcher/src/main/java/org.junit.platform.launcher.core.DefaultLauncher#discoverRoot(LauncherDiscoveryRequest, String)$for(100-119)",
@@ -34,7 +34,7 @@
     {
       "parentCommitId": "2eef1f0dbbcd9a3fad2d00a65b37a39d97a079cb",
       "commitId": "8ca326a0b7a664a38ed489bd4a69470b9391063d",
-      "commitTime": 1492252020,
+      "commitTime": 1492115786,
       "changeType": "body change",
       "elementFileBefore": "junit-platform-launcher/src/main/java/org/junit/platform/launcher/core/DefaultLauncher.java",
       "elementNameBefore": "junit-platform-launcher/src/main/java/org.junit.platform.launcher.core.DefaultLauncher#discoverRoot(LauncherDiscoveryRequest, String)$for(98-117)",
@@ -44,7 +44,7 @@
     {
       "parentCommitId": "1cea403ff64bb5afe8831874b8694dcf9b647afb",
       "commitId": "c49b423f2d1c723a3724597049810416a91f5cba",
-      "commitTime": 1492252020,
+      "commitTime": 1491829702,
       "changeType": "body change",
       "elementFileBefore": "junit-platform-launcher/src/main/java/org/junit/platform/launcher/core/DefaultLauncher.java",
       "elementNameBefore": "junit-platform-launcher/src/main/java/org.junit.platform.launcher.core.DefaultLauncher#discoverRoot(LauncherDiscoveryRequest, String)$for(97-121)",
@@ -74,7 +74,7 @@
     {
       "parentCommitId": "59d95c759888eccefa5f1bf21f52d68641ba769a",
       "commitId": "c1f6fc7c8a7dbdf120b7447c96c9b81751b8a96b",
-      "commitTime": 1465065689,
+      "commitTime": 1465065682,
       "changeType": "body change",
       "elementFileBefore": "junit-launcher/src/main/java/org/junit/gen5/launcher/main/DefaultLauncher.java",
       "elementNameBefore": "junit-launcher/src/main/java/org.junit.gen5.launcher.main.DefaultLauncher#discoverRoot(TestDiscoveryRequest, String)$for(87-103)",
@@ -84,7 +84,7 @@
     {
       "parentCommitId": "5f6f33a074e8469211e5d648a4f98a3628be18a1",
       "commitId": "d75683776656e7781919bec097971cbae38c5d9d",
-      "commitTime": 1464443747,
+      "commitTime": 1464443713,
       "changeType": "body change",
       "elementFileBefore": "junit-launcher/src/main/java/org/junit/gen5/launcher/main/DefaultLauncher.java",
       "elementNameBefore": "junit-launcher/src/main/java/org.junit.gen5.launcher.main.DefaultLauncher#discoverRoot(TestDiscoveryRequest, String)$for(87-103)",
@@ -124,7 +124,7 @@
     {
       "parentCommitId": "28637e6b6eeae797291c8f31902b09aa0fca594a",
       "commitId": "9ce6fbe62ab7eda318f2ecb9cc5f91a18dce39d3",
-      "commitTime": 1457635754,
+      "commitTime": 1457627866,
       "changeType": "body change",
       "elementFileBefore": "junit-launcher/src/main/java/org/junit/gen5/launcher/main/DefaultLauncher.java",
       "elementNameBefore": "junit-launcher/src/main/java/org.junit.gen5.launcher.main.DefaultLauncher#discoverRoot(TestDiscoveryRequest, String)$for(67-86)",
@@ -144,7 +144,7 @@
     {
       "parentCommitId": "1f209b6b9e9c66c4931f34a5d83df8e11c1d6dea",
       "commitId": "9c963d4a51e6d0fa8ecddb6c6f9f72f25e06dcd0",
-      "commitTime": 1453458759,
+      "commitTime": 1453458169,
       "changeType": "expression change",
       "elementFileBefore": "junit-launcher/src/main/java/org/junit/gen5/launcher/main/DefaultLauncher.java",
       "elementNameBefore": "junit-launcher/src/main/java/org.junit.gen5.launcher.main.DefaultLauncher#discoverRoot(TestDiscoveryRequest, String)$for(80-100)",
@@ -154,7 +154,7 @@
     {
       "parentCommitId": "1f209b6b9e9c66c4931f34a5d83df8e11c1d6dea",
       "commitId": "9c963d4a51e6d0fa8ecddb6c6f9f72f25e06dcd0",
-      "commitTime": 1453458759,
+      "commitTime": 1453458169,
       "changeType": "body change",
       "elementFileBefore": "junit-launcher/src/main/java/org/junit/gen5/launcher/main/DefaultLauncher.java",
       "elementNameBefore": "junit-launcher/src/main/java/org.junit.gen5.launcher.main.DefaultLauncher#discoverRoot(TestDiscoveryRequest, String)$for(80-100)",
@@ -224,7 +224,7 @@
     {
       "parentCommitId": "3ba4340960eb97b0e99b45d7b8e277cde2ef9c5b",
       "commitId": "b76422c02c3a9eed390c5949764dc8b7fc3e3243",
-      "commitTime": 1452974447,
+      "commitTime": 1452966493,
       "changeType": "body change",
       "elementFileBefore": "junit-launcher/src/main/java/org/junit/gen5/launcher/Launcher.java",
       "elementNameBefore": "junit-launcher/src/main/java/org.junit.gen5.launcher.Launcher#discoverRootDescriptor(DiscoveryRequest, String)$for(101-106)",
@@ -274,7 +274,7 @@
     {
       "parentCommitId": "9f7d082872c4b4109729a3a480f1dedad3083bad",
       "commitId": "e56fcfc20e3c100cf9e4ed4b142a6a3863c29353",
-      "commitTime": 1450454363,
+      "commitTime": 1450454217,
       "changeType": "body change",
       "elementFileBefore": "junit-launcher/src/main/java/org/junit/gen5/launcher/Launcher.java",
       "elementNameBefore": "junit-launcher/src/main/java/org.junit.gen5.launcher.Launcher#discoverRootDescriptor(TestPlanSpecification)$for(51-55)",
@@ -284,7 +284,7 @@
     {
       "parentCommitId": "b506af765c5a78d9bb8ea63b834d6b2b6c41ef54",
       "commitId": "830b6d5976b6db01dad3866cfb3d54c6216b1252",
-      "commitTime": 1449569937,
+      "commitTime": 1449490221,
       "changeType": "introduced",
       "elementFileBefore": "junit-launcher/src/main/java/org/junit/gen5/launcher/Launcher.java",
       "elementNameBefore": "junit-launcher/src/main/java/org.junit.gen5.launcher.Launcher#discoverRootDescriptor(TestPlanSpecification)$for(55-59)",

@@ -54,7 +54,7 @@
     {
       "parentCommitId": "6eddff67672879a8468ddbb08e1b93aa3ce37c6c",
       "commitId": "5fb5ab50a77efc761489493d4a0b8b9de85feec7",
-      "commitTime": 1497964491,
+      "commitTime": 1497964129,
       "changeType": "body change",
       "elementFileBefore": "okhttp/src/main/java/okhttp3/internal/connection/RealConnection.java",
       "elementNameBefore": "okhttp/src/main/java/okhttp3.internal.connection.RealConnection#connect(int, int, int, boolean)$while(144-174)",
@@ -64,7 +64,7 @@
     {
       "parentCommitId": "5c7257d8d1c07b66cb7b14832bc0d16b88abcfb5",
       "commitId": "8331b2d75a51631bee622daf2175854fe49ce29a",
-      "commitTime": 1483378611,
+      "commitTime": 1483378590,
       "changeType": "introduced",
       "elementFileBefore": "okhttp/src/main/java/okhttp3/internal/connection/RealConnection.java",
       "elementNameBefore": "okhttp/src/main/java/okhttp3.internal.connection.RealConnection#connect(int, int, int, List, boolean)$while(140-170)",
