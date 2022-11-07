@@ -12,14 +12,14 @@
   "startCommitId": "a36c903d4f1065bc59f5e6d2bb0f9d92a5e71d83",
   "expectedChanges": [
     {
-      "parentCommitId": "c023bfb593d32144f4511079dada681e2e8142d2",
-      "commitId": "34a6449c90a3b6074111a6bcbd31ad00ac1570f3",
-      "commitTime": 1310576497,
+      "parentCommitId": "5a7a09256e67ae8fde1a407d51fae326b973af9c",
+      "commitId": "9ef322c33c465d8ae9a1d854dfa977f47f629009",
+      "commitTime": 1303282276,
       "changeType": "body change",
       "elementFileBefore": "src/main/java/org/apache/commons/lang3/time/FastDateFormat.java",
-      "elementNameBefore": "src/main/java/org.apache.commons.lang3.time.FastDateFormat#parsePattern()$if(496-504)",
+      "elementNameBefore": "src/main/java/org.apache.commons.lang3.time.FastDateFormat#parsePattern()$if(664-668)",
       "elementFileAfter": "src/main/java/org/apache/commons/lang3/time/FastDateFormat.java",
-      "elementNameAfter": "src/main/java/org.apache.commons.lang3.time.FastDateFormat#parsePattern()$if(555-559)"
+      "elementNameAfter": "src/main/java/org.apache.commons.lang3.time.FastDateFormat#parsePattern()$if(549-553)"
     },
     {
       "parentCommitId": "9bb3f9b9a3e513cbac7f02d6ee97995d741d09de",
@@ -27,9 +27,9 @@
       "commitTime": 1055114063,
       "changeType": "body change",
       "elementFileBefore": "src/java/org/apache/commons/lang/time/FastDateFormat.java",
-      "elementNameBefore": "src/java/org.apache.commons.lang.time.FastDateFormat#parse(String, TimeZone, Locale, DateFormatSymbols)$if(393-401)",
+      "elementNameBefore": "src/java/org.apache.commons.lang.time.FastDateFormat#parse(String, TimeZone, Locale, DateFormatSymbols)$if(446-450)",
       "elementFileAfter": "src/java/org/apache/commons/lang/time/FastDateFormat.java",
-      "elementNameAfter": "src/java/org.apache.commons.lang.time.FastDateFormat#parsePattern()$if(448-456)"
+      "elementNameAfter": "src/java/org.apache.commons.lang.time.FastDateFormat#parsePattern()$if(501-505)"
     },
     {
       "parentCommitId": "2f50297e5eb582ed50e87e6801917abe5a30b3c1",
@@ -37,9 +37,9 @@
       "commitTime": 1041969355,
       "changeType": "introduced",
       "elementFileBefore": "src/java/org/apache/commons/lang/time/FastDateFormat.java",
-      "elementNameBefore": "src/java/org.apache.commons.lang.time.FastDateFormat#parse(String, TimeZone, Locale, DateFormatSymbols)$if(410-421)",
+      "elementNameBefore": "src/java/org.apache.commons.lang.time.FastDateFormat#parse(String, TimeZone, Locale, DateFormatSymbols)$if(471-476)",
       "elementFileAfter": "src/java/org/apache/commons/lang/time/FastDateFormat.java",
-      "elementNameAfter": "src/java/org.apache.commons.lang.time.FastDateFormat#parse(String, TimeZone, Locale, DateFormatSymbols)$if(410-421)",
+      "elementNameAfter": "src/java/org.apache.commons.lang.time.FastDateFormat#parse(String, TimeZone, Locale, DateFormatSymbols)$if(471-476)",
       "comment": "added with method"
     }
   ]
