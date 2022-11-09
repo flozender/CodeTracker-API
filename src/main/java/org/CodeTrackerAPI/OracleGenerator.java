@@ -349,7 +349,7 @@ public class OracleGenerator {
         CTHBlockOracleComment currentElement = new CTHBlockOracleComment(
           gitRepository.getParentId(historyInfo.getCommitId()),
           historyInfo.getCommitId(),
-          historyInfo.getCommitTime(),
+          historyInfo.getAuthoredTime(),
           change.getType().getTitle(),
           historyInfo.getElementBefore(),
           historyInfo.getElementAfter(),
