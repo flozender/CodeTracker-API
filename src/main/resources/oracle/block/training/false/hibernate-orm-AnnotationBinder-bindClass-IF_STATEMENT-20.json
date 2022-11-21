@@ -6,9 +6,9 @@
   "functionKey": "hibernate-core/src/main/java/org.hibernate.cfg.AnnotationBinder#bindClass(XClass, Map, MetadataBuildingContext)",
   "functionStartLine": 516,
   "blockType": "IF_STATEMENT",
-  "blockKey": "hibernate-core/src/main/java/org.hibernate.cfg.AnnotationBinder#bindClass(XClass, Map, MetadataBuildingContext)$if(755-769)",
-  "blockStartLine": 755,
-  "blockEndLine": 769,
+  "blockKey": "hibernate-core/src/main/java/org.hibernate.cfg.AnnotationBinder#bindClass(XClass, Map, MetadataBuildingContext)$if(736-753)",
+  "blockStartLine": 736,
+  "blockEndLine": 753,
   "startCommitId": "8bd79b29cfa7b2d539a746dc356d60b66e1e596b",
   "expectedChanges": [
     {
@@ -17,9 +17,9 @@
       "commitTime": 1426006551,
       "changeType": "body change",
       "elementFileBefore": "hibernate-core/src/main/java/org/hibernate/cfg/AnnotationBinder.java",
-      "elementNameBefore": "hibernate-core/src/main/java/org.hibernate.cfg.AnnotationBinder#bindClass(XClass, Map, Mappings)$if(751-765)",
+      "elementNameBefore": "hibernate-core/src/main/java/org.hibernate.cfg.AnnotationBinder#bindClass(XClass, Map, Mappings)$if(732-749)",
       "elementFileAfter": "hibernate-core/src/main/java/org/hibernate/cfg/AnnotationBinder.java",
-      "elementNameAfter": "hibernate-core/src/main/java/org.hibernate.cfg.AnnotationBinder#bindClass(XClass, Map, MetadataBuildingContext)$if(791-805)"
+      "elementNameAfter": "hibernate-core/src/main/java/org.hibernate.cfg.AnnotationBinder#bindClass(XClass, Map, MetadataBuildingContext)$if(772-789)"
     },
     {
       "parentCommitId": "e64e89b2cc6285bb624747a57377414b4f93e0db",
@@ -27,9 +27,9 @@
       "commitTime": 1386915085,
       "changeType": "introduced",
       "elementFileBefore": "hibernate-core/src/main/java/org/hibernate/cfg/AnnotationBinder.java",
-      "elementNameBefore": "hibernate-core/src/main/java/org.hibernate.cfg.AnnotationBinder#bindClass(XClass, Map, Mappings)$if(751-765)",
+      "elementNameBefore": "hibernate-core/src/main/java/org.hibernate.cfg.AnnotationBinder#bindClass(XClass, Map, Mappings)$if(732-749)",
       "elementFileAfter": "hibernate-core/src/main/java/org/hibernate/cfg/AnnotationBinder.java",
-      "elementNameAfter": "hibernate-core/src/main/java/org.hibernate.cfg.AnnotationBinder#bindClass(XClass, Map, Mappings)$if(751-765)",
+      "elementNameAfter": "hibernate-core/src/main/java/org.hibernate.cfg.AnnotationBinder#bindClass(XClass, Map, Mappings)$if(732-749)",
       "comment": "new block"
     }
   ]

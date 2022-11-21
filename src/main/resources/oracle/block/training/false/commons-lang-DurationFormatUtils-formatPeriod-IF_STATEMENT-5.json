@@ -12,15 +12,15 @@
   "startCommitId": "a36c903d4f1065bc59f5e6d2bb0f9d92a5e71d83",
   "expectedChanges": [
     {
-      "parentCommitId": "275aab5d863982d464aa5c3392cd99d03e436a80",
-      "commitId": "5111ae7db08a70323a51a21df0bbaf46f21e072e",
-      "commitTime": 1097881891,
+      "parentCommitId": "3424e42050708eafe3b41b78c9ad2d3d2d82c0e2",
+      "commitId": "f80cb56da1316d5cb977c07937c2794efc87a522",
+      "commitTime": 1096260547,
       "changeType": "introduced",
       "elementFileBefore": "src/java/org/apache/commons/lang/time/DurationFormatUtils.java",
-      "elementNameBefore": "src/java/org.apache.commons.lang.time.DurationFormatUtils#format(long, long, String, boolean, TimeZone)$if(326-329)",
+      "elementNameBefore": "src/java/org.apache.commons.lang.time.DurationFormatUtils#format(long, long, String, boolean, TimeZone)$if(325-328)",
       "elementFileAfter": "src/java/org/apache/commons/lang/time/DurationFormatUtils.java",
-      "elementNameAfter": "src/java/org.apache.commons.lang.time.DurationFormatUtils#formatPeriod(long, long, String, boolean, TimeZone)$if(335-338)",
-      "comment": "Inline Method public format(startMillis long, endMillis long, format String, padWithZeros boolean, timezone TimeZone) : String inlined to public formatPeriod(startMillis long, endMillis long, format String, padWithZeros boolean, timezone TimeZone) : String in class org.apache.commons.lang.time.DurationFormatUtils"
+      "elementNameAfter": "src/java/org.apache.commons.lang.time.DurationFormatUtils#format(long, long, String, boolean, TimeZone)$if(325-328)",
+      "comment": "new block"
     }
   ]
 }

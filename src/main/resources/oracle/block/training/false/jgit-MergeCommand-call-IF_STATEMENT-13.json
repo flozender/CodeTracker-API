@@ -61,6 +61,17 @@
       "elementNameBefore": "org.eclipse.jgit/src/org.eclipse.jgit.api.MergeCommand#call()$if(355-363)",
       "elementFileAfter": "org.eclipse.jgit/src/org/eclipse/jgit/api/MergeCommand.java",
       "elementNameAfter": "org.eclipse.jgit/src/org.eclipse.jgit.api.MergeCommand#call()$if(363-368)",
+      "comment": "Split Conditional if(!squash) to [if(commit && squash), if(!commit && !squash), if(commit && !squash)] in method public call() : MergeResult from class org.eclipse.jgit.api.MergeCommand"
+    },
+    {
+      "parentCommitId": "81b601de53125bbcd30620b58168154d7541d8ad",
+      "commitId": "545358577376bec8fc140a76ce0f72bf81cc0a94",
+      "commitTime": 1326389573,
+      "changeType": "block split",
+      "elementFileBefore": "org.eclipse.jgit/src/org/eclipse/jgit/api/MergeCommand.java",
+      "elementNameBefore": "org.eclipse.jgit/src/org.eclipse.jgit.api.MergeCommand#call()$if(355-363)",
+      "elementFileAfter": "org.eclipse.jgit/src/org/eclipse/jgit/api/MergeCommand.java",
+      "elementNameAfter": "org.eclipse.jgit/src/org.eclipse.jgit.api.MergeCommand#call()$if(363-368)",
       "comment": "Split Conditional if(!squash) to [if(!commit && squash), if(!commit && !squash), if(commit && !squash)] in method public call() : MergeResult from class org.eclipse.jgit.api.MergeCommand"
     },
     {
@@ -72,7 +83,7 @@
       "elementNameBefore": "org.eclipse.jgit/src/org.eclipse.jgit.api.MergeCommand#call()$if(355-363)",
       "elementFileAfter": "org.eclipse.jgit/src/org/eclipse/jgit/api/MergeCommand.java",
       "elementNameAfter": "org.eclipse.jgit/src/org.eclipse.jgit.api.MergeCommand#call()$if(363-368)",
-      "comment": "Split Conditional if(!squash) to [if(commit && squash), if(!commit && !squash), if(commit && !squash)] in method public call() : MergeResult from class org.eclipse.jgit.api.MergeCommand"
+      "comment": "Split Conditional if(!squash) to [if(commit && !squash), if(!commit && squash)] in method public call() : MergeResult from class org.eclipse.jgit.api.MergeCommand"
     }
   ]
 }

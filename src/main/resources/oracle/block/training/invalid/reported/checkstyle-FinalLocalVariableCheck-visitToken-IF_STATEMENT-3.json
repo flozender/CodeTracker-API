@@ -57,7 +57,7 @@
       "commitTime": 1459020118,
       "changeType": "expression change",
       "elementFileBefore": "src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/FinalLocalVariableCheck.java",
-      "elementNameBefore": "src/main/java/com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck#visitToken(DetailAST)$if(212-223)",
+      "elementNameBefore": "src/main/java/com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck#visitToken(DetailAST)$if(216-223)",
       "elementFileAfter": "src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/FinalLocalVariableCheck.java",
       "elementNameAfter": "src/main/java/com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck#visitToken(DetailAST)$if(219-226)"
     },
@@ -67,7 +67,7 @@
       "commitTime": 1459020118,
       "changeType": "body change",
       "elementFileBefore": "src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/FinalLocalVariableCheck.java",
-      "elementNameBefore": "src/main/java/com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck#visitToken(DetailAST)$if(212-223)",
+      "elementNameBefore": "src/main/java/com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck#visitToken(DetailAST)$if(216-223)",
       "elementFileAfter": "src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/FinalLocalVariableCheck.java",
       "elementNameAfter": "src/main/java/com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck#visitToken(DetailAST)$if(219-226)"
     },
@@ -77,9 +77,9 @@
       "commitTime": 1458985684,
       "changeType": "introduced",
       "elementFileBefore": "src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/FinalLocalVariableCheck.java",
-      "elementNameBefore": "src/main/java/com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck#visitToken(DetailAST)$if(212-223)",
+      "elementNameBefore": "src/main/java/com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck#visitToken(DetailAST)$if(216-223)",
       "elementFileAfter": "src/main/java/com/puppycrawl/tools/checkstyle/checks/coding/FinalLocalVariableCheck.java",
-      "elementNameAfter": "src/main/java/com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck#visitToken(DetailAST)$if(212-223)",
+      "elementNameAfter": "src/main/java/com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck#visitToken(DetailAST)$if(216-223)",
       "comment": "new block"
     }
   ]
