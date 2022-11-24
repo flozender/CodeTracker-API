@@ -1,4 +1,4 @@
-2022-11-21 13:54:14 Started oracle generation
+2022-11-22 15:37:08 Started oracle generation
 Block training Data
 No key yet: checkstyle-Checker-fireErrors-ENHANCED_FOR_STATEMENT
 Data is written to file: src/main/resources/oracle/block/training/true/checkstyle-Checker-fireErrors-ENHANCED_FOR_STATEMENT.json
@@ -51,9 +51,9 @@ Data is written to file: src/main/resources/oracle/block/training/invalid/report
 Key contained: checkstyle-Main-main-CATCH_CLAUSE -> 1
 Data is written to file: src/main/resources/oracle/block/training/invalid/reported/checkstyle-Main-main-CATCH_CLAUSE-1.json
 Key contained: checkstyle-Main-main-IF_STATEMENT -> 2
-Data is written to file: src/main/resources/oracle/block/training/valid/checkstyle-Main-main-IF_STATEMENT-2.json
+Data is written to file: src/main/resources/oracle/block/training/false/checkstyle-Main-main-IF_STATEMENT-2.json
 Key contained: checkstyle-Main-main-IF_STATEMENT -> 3
-Data is written to file: src/main/resources/oracle/block/training/valid/checkstyle-Main-main-IF_STATEMENT-3.json
+Data is written to file: src/main/resources/oracle/block/training/false/checkstyle-Main-main-IF_STATEMENT-3.json
 Key contained: checkstyle-Main-main-IF_STATEMENT -> 4
 Data is written to file: src/main/resources/oracle/block/training/valid/checkstyle-Main-main-IF_STATEMENT-4.json
 No key yet: checkstyle-Main-main-FINALLY_BLOCK
@@ -1593,13 +1593,13 @@ Data is written to file: src/main/resources/oracle/block/training/true/okhttp-As
 No key yet: okhttp-RealConnection-connect-IF_STATEMENT
 Data is written to file: src/main/resources/oracle/block/training/valid/okhttp-RealConnection-connect-IF_STATEMENT.json
 Key contained: okhttp-RealConnection-connect-IF_STATEMENT -> 1
-Data is written to file: src/main/resources/oracle/block/training/valid/okhttp-RealConnection-connect-IF_STATEMENT-1.json
+Data is written to file: src/main/resources/oracle/block/training/false/okhttp-RealConnection-connect-IF_STATEMENT-1.json
 Key contained: okhttp-RealConnection-connect-IF_STATEMENT -> 2
-Data is written to file: src/main/resources/oracle/block/training/valid/okhttp-RealConnection-connect-IF_STATEMENT-2.json
+Data is written to file: src/main/resources/oracle/block/training/false/okhttp-RealConnection-connect-IF_STATEMENT-2.json
 Key contained: okhttp-RealConnection-connect-IF_STATEMENT -> 3
 Data is written to file: src/main/resources/oracle/block/training/valid/okhttp-RealConnection-connect-IF_STATEMENT-3.json
 Key contained: okhttp-RealConnection-connect-IF_STATEMENT -> 4
-Data is written to file: src/main/resources/oracle/block/training/valid/okhttp-RealConnection-connect-IF_STATEMENT-4.json
+Data is written to file: src/main/resources/oracle/block/training/false/okhttp-RealConnection-connect-IF_STATEMENT-4.json
 Key contained: okhttp-RealConnection-connect-IF_STATEMENT -> 5
 Data is written to file: src/main/resources/oracle/block/training/valid/okhttp-RealConnection-connect-IF_STATEMENT-5.json
 Key contained: okhttp-RealConnection-connect-IF_STATEMENT -> 6
@@ -1865,9 +1865,9 @@ Data is written to file: src/main/resources/oracle/block/training/valid/spring-f
 Key contained: spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT -> 2
 Data is written to file: src/main/resources/oracle/block/training/valid/spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT-2.json
 Key contained: spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT -> 3
-Data is written to file: src/main/resources/oracle/block/training/valid/spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT-3.json
+Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT-3.json
 Key contained: spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT -> 4
-Data is written to file: src/main/resources/oracle/block/training/valid/spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT-4.json
+Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT-4.json
 Key contained: spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT -> 5
 Data is written to file: src/main/resources/oracle/block/training/true/spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT-5.json
 Key contained: spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT -> 6
@@ -1926,4 +1926,4 @@ Key contained: spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STAT
 Data is written to file: src/main/resources/oracle/block/training/valid/spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT-29.json
 Key contained: spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT -> 30
 Data is written to file: src/main/resources/oracle/block/training/valid/spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT-30.json
-2022-11-21 14:50:55 Generation finished successfully.
+2022-11-22 16:34:30 Generation finished successfully.

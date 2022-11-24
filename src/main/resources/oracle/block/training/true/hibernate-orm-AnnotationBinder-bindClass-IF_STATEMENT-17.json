@@ -60,7 +60,7 @@
       "elementNameBefore": "hibernate-core/src/main/java/org.hibernate.cfg.AnnotationBinder#bindClass(XClass, Map, Mappings)$if(688-726)",
       "elementFileAfter": "hibernate-core/src/main/java/org/hibernate/cfg/AnnotationBinder.java",
       "elementNameAfter": "hibernate-core/src/main/java/org.hibernate.cfg.AnnotationBinder#bindClass(XClass, Map, Mappings)$if(711-730)",
-      "comment": "Split Conditional if(InheritanceType.JOINED.equals(inheritanceState.getType()) && inheritanceState.hasParents()) to [if(InheritanceType.JOINED.equals(inheritanceState.getType())), if(inheritanceState.hasParents())] in method public bindClass(clazzToProcess XClass, inheritanceStatePerClass Map<XClass,InheritanceState>, mappings Mappings) : void from class org.hibernate.cfg.AnnotationBinder"
+      "comment": "Split Conditional if(InheritanceType.JOINED.equals(inheritanceState.getType()) && inheritanceState.hasParents()) to [if(inheritanceState.hasParents()), if(InheritanceType.JOINED.equals(inheritanceState.getType()))] in method public bindClass(clazzToProcess XClass, inheritanceStatePerClass Map<XClass,InheritanceState>, mappings Mappings) : void from class org.hibernate.cfg.AnnotationBinder"
     },
     {
       "parentCommitId": "8473c4a47b1110aeef637a8ff56ec64f159727f7",

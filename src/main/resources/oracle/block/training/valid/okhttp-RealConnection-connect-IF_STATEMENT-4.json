@@ -30,7 +30,18 @@
       "elementNameBefore": "okhttp/src/main/java/okhttp3.internal.connection.RealConnection#connect(int, int, int, List, boolean)$if(96-100)",
       "elementFileAfter": "okhttp/src/main/java/okhttp3/internal/connection/RealConnection.java",
       "elementNameAfter": "okhttp/src/main/java/okhttp3.internal.connection.RealConnection#connect(int, int, int, List, boolean)$if(96-106)",
-      "comment": "Split Conditional if(route.address().sslSocketFactory() == null && !connectionSpecs.contains(ConnectionSpec.CLEARTEXT)) to [if(route.address().sslSocketFactory() == null), if(!connectionSpecs.contains(ConnectionSpec.CLEARTEXT))] in method public connect(connectTimeout int, readTimeout int, writeTimeout int, connectionSpecs List<ConnectionSpec>, connectionRetryEnabled boolean) : void from class okhttp3.internal.connection.RealConnection"
+      "comment": "Split Conditional if(route.address().sslSocketFactory() == null && !connectionSpecs.contains(ConnectionSpec.CLEARTEXT)) to [if(!connectionSpecs.contains(ConnectionSpec.CLEARTEXT)), if(route.address().sslSocketFactory() == null)] in method public connect(connectTimeout int, readTimeout int, writeTimeout int, connectionSpecs List<ConnectionSpec>, connectionRetryEnabled boolean) : void from class okhttp3.internal.connection.RealConnection"
+    },
+    {
+      "parentCommitId": "f98ff257ceb949b404ec5d6cb1fece0e22e53264",
+      "commitId": "738f7fa4def3bc9da39c8b815fe0905a6e6505fa",
+      "commitTime": 1467514724,
+      "changeType": "block split",
+      "elementFileBefore": "okhttp/src/main/java/okhttp3/internal/connection/RealConnection.java",
+      "elementNameBefore": "okhttp/src/main/java/okhttp3.internal.connection.RealConnection#connect(int, int, int, List, boolean)$if(96-100)",
+      "elementFileAfter": "okhttp/src/main/java/okhttp3/internal/connection/RealConnection.java",
+      "elementNameAfter": "okhttp/src/main/java/okhttp3.internal.connection.RealConnection#connect(int, int, int, List, boolean)$if(96-106)",
+      "comment": "Split Conditional if(route.address().sslSocketFactory() == null && !connectionSpecs.contains(ConnectionSpec.CLEARTEXT)) to [if(!Platform.get().isCleartextTrafficPermitted(host)), if(route.address().sslSocketFactory() == null), if(!connectionSpecs.contains(ConnectionSpec.CLEARTEXT))] in method public connect(connectTimeout int, readTimeout int, writeTimeout int, connectionSpecs List<ConnectionSpec>, connectionRetryEnabled boolean) : void from class okhttp3.internal.connection.RealConnection"
     },
     {
       "parentCommitId": "992dd934f061a21f8a802ed8fd8d99b75047dba8",

@@ -15,21 +15,12 @@
       "parentCommitId": "a286232da374cbccefddbf406830dbb598b6c824",
       "commitId": "12b79a59383d1b647c9957815ef53861f0752dad",
       "commitTime": 1524766661,
-      "changeType": "expression change",
+      "changeType": "block split",
       "elementFileBefore": "hibernate-core/src/main/java/org/hibernate/event/internal/DefaultRefreshEventListener.java",
       "elementNameBefore": "hibernate-core/src/main/java/org.hibernate.event.internal.DefaultRefreshEventListener#onRefresh(RefreshEvent, Map)$if(179-182)",
       "elementFileAfter": "hibernate-core/src/main/java/org/hibernate/event/internal/DefaultRefreshEventListener.java",
-      "elementNameAfter": "hibernate-core/src/main/java/org.hibernate.event.internal.DefaultRefreshEventListener#onRefresh(RefreshEvent, Map)$if(182-202)"
-    },
-    {
-      "parentCommitId": "a286232da374cbccefddbf406830dbb598b6c824",
-      "commitId": "12b79a59383d1b647c9957815ef53861f0752dad",
-      "commitTime": 1524766661,
-      "changeType": "body change",
-      "elementFileBefore": "hibernate-core/src/main/java/org/hibernate/event/internal/DefaultRefreshEventListener.java",
-      "elementNameBefore": "hibernate-core/src/main/java/org.hibernate.event.internal.DefaultRefreshEventListener#onRefresh(RefreshEvent, Map)$if(179-182)",
-      "elementFileAfter": "hibernate-core/src/main/java/org/hibernate/event/internal/DefaultRefreshEventListener.java",
-      "elementNameAfter": "hibernate-core/src/main/java/org.hibernate.event.internal.DefaultRefreshEventListener#onRefresh(RefreshEvent, Map)$if(182-202)"
+      "elementNameAfter": "hibernate-core/src/main/java/org.hibernate.event.internal.DefaultRefreshEventListener#onRefresh(RefreshEvent, Map)$if(182-202)",
+      "comment": "Split Conditional if(currentLockMode != null && currentLockMode.greaterThan(event.getLockMode())) to [if(currentLockMode.greaterThan(requestedLockMode)), if(e != null)] in method public onRefresh(event RefreshEvent, refreshedAlready Map) : void from class org.hibernate.event.internal.DefaultRefreshEventListener"
     },
     {
       "parentCommitId": "712bc4af8968071f91ae38b34fb33d53ca1427f9",
