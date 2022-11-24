@@ -477,6 +477,7 @@ public class REST {
                     }
                   }
                 );
+                System.out.println("Evaluating: " + files[0]);
                 String response = FileUtils.readFileToString(
                   files[0],
                   StandardCharsets.UTF_8
