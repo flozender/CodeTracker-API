@@ -15,21 +15,12 @@
       "parentCommitId": "1c40d83f52730379e56b0a95485aad42a52b8e04",
       "commitId": "1080cc5a0d67012c0ef08d9468fbbc9d90b0c238",
       "commitTime": 1363826344,
-      "changeType": "expression change",
+      "changeType": "block split",
       "elementFileBefore": "org.eclipse.jgit/src/org/eclipse/jgit/lib/IndexDiff.java",
       "elementNameBefore": "org.eclipse.jgit/src/org.eclipse.jgit.lib.IndexDiff#diff(ProgressMonitor, int, int, String)$if(298-301)",
       "elementFileAfter": "org.eclipse.jgit/src/org/eclipse/jgit/lib/IndexDiff.java",
-      "elementNameAfter": "org.eclipse.jgit/src/org.eclipse.jgit.lib.IndexDiff#diff(ProgressMonitor, int, int, String)$if(400-407)"
-    },
-    {
-      "parentCommitId": "1c40d83f52730379e56b0a95485aad42a52b8e04",
-      "commitId": "1080cc5a0d67012c0ef08d9468fbbc9d90b0c238",
-      "commitTime": 1363826344,
-      "changeType": "body change",
-      "elementFileBefore": "org.eclipse.jgit/src/org/eclipse/jgit/lib/IndexDiff.java",
-      "elementNameBefore": "org.eclipse.jgit/src/org.eclipse.jgit.lib.IndexDiff#diff(ProgressMonitor, int, int, String)$if(298-301)",
-      "elementFileAfter": "org.eclipse.jgit/src/org/eclipse/jgit/lib/IndexDiff.java",
-      "elementNameAfter": "org.eclipse.jgit/src/org.eclipse.jgit.lib.IndexDiff#diff(ProgressMonitor, int, int, String)$if(400-407)"
+      "elementNameAfter": "org.eclipse.jgit/src/org.eclipse.jgit.lib.IndexDiff#diff(ProgressMonitor, int, int, String)$if(400-407)",
+      "comment": "Split Conditional if(dirCacheEntry != null && dirCacheEntry.getStage() > 0) to [if(dirCacheEntry != null), if(stage > 0)] in method public diff(monitor ProgressMonitor, estWorkTreeSize int, estIndexSize int, title String) : boolean from class org.eclipse.jgit.lib.IndexDiff"
     },
     {
       "parentCommitId": "e435f7de7748081945b02a0896dc54f4d6cc053c",

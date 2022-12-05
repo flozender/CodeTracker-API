@@ -1,4 +1,4 @@
-2022-11-22 15:37:08 Started oracle generation
+2022-12-05 16:10:55 Started oracle generation
 Block training Data
 No key yet: checkstyle-Checker-fireErrors-ENHANCED_FOR_STATEMENT
 Data is written to file: src/main/resources/oracle/block/training/true/checkstyle-Checker-fireErrors-ENHANCED_FOR_STATEMENT.json
@@ -41,9 +41,9 @@ Data is written to file: src/main/resources/oracle/block/training/true/checkstyl
 Key contained: checkstyle-JavadocMethodCheck-checkThrowsTags-IF_STATEMENT -> 4
 Data is written to file: src/main/resources/oracle/block/training/valid/checkstyle-JavadocMethodCheck-checkThrowsTags-IF_STATEMENT-4.json
 No key yet: checkstyle-Main-main-IF_STATEMENT
-Data is written to file: src/main/resources/oracle/block/training/valid/checkstyle-Main-main-IF_STATEMENT.json
+Data is written to file: src/main/resources/oracle/block/training/false/checkstyle-Main-main-IF_STATEMENT.json
 Key contained: checkstyle-Main-main-IF_STATEMENT -> 1
-Data is written to file: src/main/resources/oracle/block/training/valid/checkstyle-Main-main-IF_STATEMENT-1.json
+Data is written to file: src/main/resources/oracle/block/training/false/checkstyle-Main-main-IF_STATEMENT-1.json
 No key yet: checkstyle-Main-main-TRY_STATEMENT
 Data is written to file: src/main/resources/oracle/block/training/invalid/checkstyle-Main-main-TRY_STATEMENT.json
 No key yet: checkstyle-Main-main-CATCH_CLAUSE
@@ -127,7 +127,7 @@ Data is written to file: src/main/resources/oracle/block/training/true/commons-l
 Key contained: commons-lang-DurationFormatUtils-formatPeriod-WHILE_STATEMENT -> 6
 Data is written to file: src/main/resources/oracle/block/training/valid/commons-lang-DurationFormatUtils-formatPeriod-WHILE_STATEMENT-6.json
 No key yet: commons-lang-DurationFormatUtils-formatPeriod-IF_STATEMENT
-Data is written to file: src/main/resources/oracle/block/training/false/commons-lang-DurationFormatUtils-formatPeriod-IF_STATEMENT.json
+Data is written to file: src/main/resources/oracle/block/training/valid/commons-lang-DurationFormatUtils-formatPeriod-IF_STATEMENT.json
 Key contained: commons-lang-DurationFormatUtils-formatPeriod-IF_STATEMENT -> 1
 Data is written to file: src/main/resources/oracle/block/training/valid/commons-lang-DurationFormatUtils-formatPeriod-IF_STATEMENT-1.json
 Key contained: commons-lang-DurationFormatUtils-formatPeriod-IF_STATEMENT -> 2
@@ -141,15 +141,15 @@ Data is written to file: src/main/resources/oracle/block/training/valid/commons-
 Key contained: commons-lang-DurationFormatUtils-formatPeriod-WHILE_STATEMENT -> 9
 Data is written to file: src/main/resources/oracle/block/training/valid/commons-lang-DurationFormatUtils-formatPeriod-WHILE_STATEMENT-9.json
 Key contained: commons-lang-DurationFormatUtils-formatPeriod-IF_STATEMENT -> 4
-Data is written to file: src/main/resources/oracle/block/training/false/commons-lang-DurationFormatUtils-formatPeriod-IF_STATEMENT-4.json
+Data is written to file: src/main/resources/oracle/block/training/valid/commons-lang-DurationFormatUtils-formatPeriod-IF_STATEMENT-4.json
 Key contained: commons-lang-DurationFormatUtils-formatPeriod-IF_STATEMENT -> 5
-Data is written to file: src/main/resources/oracle/block/training/false/commons-lang-DurationFormatUtils-formatPeriod-IF_STATEMENT-5.json
+Data is written to file: src/main/resources/oracle/block/training/valid/commons-lang-DurationFormatUtils-formatPeriod-IF_STATEMENT-5.json
 Key contained: commons-lang-DurationFormatUtils-formatPeriod-IF_STATEMENT -> 6
-Data is written to file: src/main/resources/oracle/block/training/false/commons-lang-DurationFormatUtils-formatPeriod-IF_STATEMENT-6.json
+Data is written to file: src/main/resources/oracle/block/training/valid/commons-lang-DurationFormatUtils-formatPeriod-IF_STATEMENT-6.json
 Key contained: commons-lang-DurationFormatUtils-formatPeriod-IF_STATEMENT -> 7
-Data is written to file: src/main/resources/oracle/block/training/false/commons-lang-DurationFormatUtils-formatPeriod-IF_STATEMENT-7.json
+Data is written to file: src/main/resources/oracle/block/training/valid/commons-lang-DurationFormatUtils-formatPeriod-IF_STATEMENT-7.json
 Key contained: commons-lang-DurationFormatUtils-formatPeriod-IF_STATEMENT -> 8
-Data is written to file: src/main/resources/oracle/block/training/false/commons-lang-DurationFormatUtils-formatPeriod-IF_STATEMENT-8.json
+Data is written to file: src/main/resources/oracle/block/training/valid/commons-lang-DurationFormatUtils-formatPeriod-IF_STATEMENT-8.json
 No key yet: commons-lang-EqualsBuilder-reflectionAppend-IF_STATEMENT
 Data is written to file: src/main/resources/oracle/block/training/true/commons-lang-EqualsBuilder-reflectionAppend-IF_STATEMENT.json
 Key contained: commons-lang-EqualsBuilder-reflectionAppend-IF_STATEMENT -> 1
@@ -535,7 +535,7 @@ Data is written to file: src/main/resources/oracle/block/training/valid/flink-Po
 Key contained: flink-PojoSerializer-deserialize-IF_STATEMENT -> 2
 Data is written to file: src/main/resources/oracle/block/training/valid/flink-PojoSerializer-deserialize-IF_STATEMENT-2.json
 Key contained: flink-PojoSerializer-deserialize-IF_STATEMENT -> 3
-Data is written to file: src/main/resources/oracle/block/training/false/flink-PojoSerializer-deserialize-IF_STATEMENT-3.json
+Data is written to file: src/main/resources/oracle/block/training/valid/flink-PojoSerializer-deserialize-IF_STATEMENT-3.json
 Key contained: flink-PojoSerializer-deserialize-IF_STATEMENT -> 4
 Data is written to file: src/main/resources/oracle/block/training/valid/flink-PojoSerializer-deserialize-IF_STATEMENT-4.json
 Key contained: flink-PojoSerializer-deserialize-IF_STATEMENT -> 5
@@ -611,7 +611,7 @@ Data is written to file: src/main/resources/oracle/block/training/valid/hibernat
 Key contained: hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT -> 19
 Data is written to file: src/main/resources/oracle/block/training/valid/hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT-19.json
 Key contained: hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT -> 20
-Data is written to file: src/main/resources/oracle/block/training/false/hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT-20.json
+Data is written to file: src/main/resources/oracle/block/training/valid/hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT-20.json
 Key contained: hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT -> 21
 Data is written to file: src/main/resources/oracle/block/training/true/hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT-21.json
 Key contained: hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT -> 22
@@ -937,51 +937,51 @@ Data is written to file: src/main/resources/oracle/block/training/valid/javapars
 Key contained: javaparser-SourceFileInfoExtractor-solve-IF_STATEMENT -> 3
 Data is written to file: src/main/resources/oracle/block/training/valid/javaparser-SourceFileInfoExtractor-solve-IF_STATEMENT-3.json
 No key yet: jgit-CommitCommand-call-IF_STATEMENT
-Data is written to file: src/main/resources/oracle/block/training/false/jgit-CommitCommand-call-IF_STATEMENT.json
+Data is written to file: src/main/resources/oracle/block/training/valid/jgit-CommitCommand-call-IF_STATEMENT.json
 Key contained: jgit-CommitCommand-call-IF_STATEMENT -> 1
-Data is written to file: src/main/resources/oracle/block/training/false/jgit-CommitCommand-call-IF_STATEMENT-1.json
+Data is written to file: src/main/resources/oracle/block/training/valid/jgit-CommitCommand-call-IF_STATEMENT-1.json
 No key yet: jgit-CommitCommand-call-TRY_STATEMENT
-Data is written to file: src/main/resources/oracle/block/training/false/jgit-CommitCommand-call-TRY_STATEMENT.json
+Data is written to file: src/main/resources/oracle/block/training/valid/jgit-CommitCommand-call-TRY_STATEMENT.json
 No key yet: jgit-CommitCommand-call-CATCH_CLAUSE
-Data is written to file: src/main/resources/oracle/block/training/false/jgit-CommitCommand-call-CATCH_CLAUSE.json
+Data is written to file: src/main/resources/oracle/block/training/valid/jgit-CommitCommand-call-CATCH_CLAUSE.json
 Key contained: jgit-CommitCommand-call-IF_STATEMENT -> 2
-Data is written to file: src/main/resources/oracle/block/training/false/jgit-CommitCommand-call-IF_STATEMENT-2.json
+Data is written to file: src/main/resources/oracle/block/training/valid/jgit-CommitCommand-call-IF_STATEMENT-2.json
 Key contained: jgit-CommitCommand-call-IF_STATEMENT -> 3
 Data is written to file: src/main/resources/oracle/block/training/true/jgit-CommitCommand-call-IF_STATEMENT-3.json
 Key contained: jgit-CommitCommand-call-IF_STATEMENT -> 4
-Data is written to file: src/main/resources/oracle/block/training/false/jgit-CommitCommand-call-IF_STATEMENT-4.json
+Data is written to file: src/main/resources/oracle/block/training/valid/jgit-CommitCommand-call-IF_STATEMENT-4.json
 No key yet: jgit-CommitCommand-call-ENHANCED_FOR_STATEMENT
-Data is written to file: src/main/resources/oracle/block/training/false/jgit-CommitCommand-call-ENHANCED_FOR_STATEMENT.json
+Data is written to file: src/main/resources/oracle/block/training/invalid/reported/jgit-CommitCommand-call-ENHANCED_FOR_STATEMENT.json
 Key contained: jgit-CommitCommand-call-IF_STATEMENT -> 5
-Data is written to file: src/main/resources/oracle/block/training/false/jgit-CommitCommand-call-IF_STATEMENT-5.json
+Data is written to file: src/main/resources/oracle/block/training/valid/jgit-CommitCommand-call-IF_STATEMENT-5.json
 Key contained: jgit-CommitCommand-call-IF_STATEMENT -> 6
-Data is written to file: src/main/resources/oracle/block/training/false/jgit-CommitCommand-call-IF_STATEMENT-6.json
+Data is written to file: src/main/resources/oracle/block/training/valid/jgit-CommitCommand-call-IF_STATEMENT-6.json
 Key contained: jgit-CommitCommand-call-IF_STATEMENT -> 7
-Data is written to file: src/main/resources/oracle/block/training/false/jgit-CommitCommand-call-IF_STATEMENT-7.json
+Data is written to file: src/main/resources/oracle/block/training/valid/jgit-CommitCommand-call-IF_STATEMENT-7.json
 Key contained: jgit-CommitCommand-call-IF_STATEMENT -> 8
-Data is written to file: src/main/resources/oracle/block/training/false/jgit-CommitCommand-call-IF_STATEMENT-8.json
+Data is written to file: src/main/resources/oracle/block/training/valid/jgit-CommitCommand-call-IF_STATEMENT-8.json
 Key contained: jgit-CommitCommand-call-IF_STATEMENT -> 9
-Data is written to file: src/main/resources/oracle/block/training/false/jgit-CommitCommand-call-IF_STATEMENT-9.json
+Data is written to file: src/main/resources/oracle/block/training/valid/jgit-CommitCommand-call-IF_STATEMENT-9.json
 Key contained: jgit-CommitCommand-call-IF_STATEMENT -> 10
-Data is written to file: src/main/resources/oracle/block/training/false/jgit-CommitCommand-call-IF_STATEMENT-10.json
+Data is written to file: src/main/resources/oracle/block/training/valid/jgit-CommitCommand-call-IF_STATEMENT-10.json
 Key contained: jgit-CommitCommand-call-IF_STATEMENT -> 11
-Data is written to file: src/main/resources/oracle/block/training/false/jgit-CommitCommand-call-IF_STATEMENT-11.json
+Data is written to file: src/main/resources/oracle/block/training/valid/jgit-CommitCommand-call-IF_STATEMENT-11.json
 Key contained: jgit-CommitCommand-call-IF_STATEMENT -> 12
-Data is written to file: src/main/resources/oracle/block/training/false/jgit-CommitCommand-call-IF_STATEMENT-12.json
+Data is written to file: src/main/resources/oracle/block/training/valid/jgit-CommitCommand-call-IF_STATEMENT-12.json
 Key contained: jgit-CommitCommand-call-IF_STATEMENT -> 13
-Data is written to file: src/main/resources/oracle/block/training/false/jgit-CommitCommand-call-IF_STATEMENT-13.json
+Data is written to file: src/main/resources/oracle/block/training/valid/jgit-CommitCommand-call-IF_STATEMENT-13.json
 Key contained: jgit-CommitCommand-call-IF_STATEMENT -> 14
-Data is written to file: src/main/resources/oracle/block/training/false/jgit-CommitCommand-call-IF_STATEMENT-14.json
+Data is written to file: src/main/resources/oracle/block/training/valid/jgit-CommitCommand-call-IF_STATEMENT-14.json
 Key contained: jgit-CommitCommand-call-IF_STATEMENT -> 15
-Data is written to file: src/main/resources/oracle/block/training/false/jgit-CommitCommand-call-IF_STATEMENT-15.json
+Data is written to file: src/main/resources/oracle/block/training/valid/jgit-CommitCommand-call-IF_STATEMENT-15.json
 Key contained: jgit-CommitCommand-call-IF_STATEMENT -> 16
-Data is written to file: src/main/resources/oracle/block/training/false/jgit-CommitCommand-call-IF_STATEMENT-16.json
+Data is written to file: src/main/resources/oracle/block/training/valid/jgit-CommitCommand-call-IF_STATEMENT-16.json
 Key contained: jgit-CommitCommand-call-IF_STATEMENT -> 17
-Data is written to file: src/main/resources/oracle/block/training/false/jgit-CommitCommand-call-IF_STATEMENT-17.json
+Data is written to file: src/main/resources/oracle/block/training/invalid/reported/jgit-CommitCommand-call-IF_STATEMENT-17.json
 No key yet: jgit-CommitCommand-call-SWITCH_STATEMENT
 Data is written to file: src/main/resources/oracle/block/training/true/jgit-CommitCommand-call-SWITCH_STATEMENT.json
 Key contained: jgit-CommitCommand-call-TRY_STATEMENT -> 1
-Data is written to file: src/main/resources/oracle/block/training/false/jgit-CommitCommand-call-TRY_STATEMENT-1.json
+Data is written to file: src/main/resources/oracle/block/training/invalid/reported/jgit-CommitCommand-call-TRY_STATEMENT-1.json
 No key yet: jgit-CommitCommand-call-FINALLY_BLOCK
 Data is written to file: src/main/resources/oracle/block/training/true/jgit-CommitCommand-call-FINALLY_BLOCK.json
 Key contained: jgit-CommitCommand-call-TRY_STATEMENT -> 2
@@ -1005,17 +1005,17 @@ Data is written to file: src/main/resources/oracle/block/training/false/jgit-Ind
 Key contained: jgit-IndexDiff-diff-IF_STATEMENT -> 6
 Data is written to file: src/main/resources/oracle/block/training/true/jgit-IndexDiff-diff-IF_STATEMENT-6.json
 Key contained: jgit-IndexDiff-diff-IF_STATEMENT -> 7
-Data is written to file: src/main/resources/oracle/block/training/false/jgit-IndexDiff-diff-IF_STATEMENT-7.json
+Data is written to file: src/main/resources/oracle/block/training/valid/jgit-IndexDiff-diff-IF_STATEMENT-7.json
 Key contained: jgit-IndexDiff-diff-IF_STATEMENT -> 8
 Data is written to file: src/main/resources/oracle/block/training/true/jgit-IndexDiff-diff-IF_STATEMENT-8.json
 Key contained: jgit-IndexDiff-diff-IF_STATEMENT -> 9
-Data is written to file: src/main/resources/oracle/block/training/false/jgit-IndexDiff-diff-IF_STATEMENT-9.json
+Data is written to file: src/main/resources/oracle/block/training/valid/jgit-IndexDiff-diff-IF_STATEMENT-9.json
 Key contained: jgit-IndexDiff-diff-IF_STATEMENT -> 10
 Data is written to file: src/main/resources/oracle/block/training/true/jgit-IndexDiff-diff-IF_STATEMENT-10.json
 Key contained: jgit-IndexDiff-diff-IF_STATEMENT -> 11
 Data is written to file: src/main/resources/oracle/block/training/true/jgit-IndexDiff-diff-IF_STATEMENT-11.json
 Key contained: jgit-IndexDiff-diff-IF_STATEMENT -> 12
-Data is written to file: src/main/resources/oracle/block/training/false/jgit-IndexDiff-diff-IF_STATEMENT-12.json
+Data is written to file: src/main/resources/oracle/block/training/valid/jgit-IndexDiff-diff-IF_STATEMENT-12.json
 Key contained: jgit-IndexDiff-diff-IF_STATEMENT -> 13
 Data is written to file: src/main/resources/oracle/block/training/true/jgit-IndexDiff-diff-IF_STATEMENT-13.json
 Key contained: jgit-IndexDiff-diff-IF_STATEMENT -> 14
@@ -1023,49 +1023,49 @@ Data is written to file: src/main/resources/oracle/block/training/true/jgit-Inde
 Key contained: jgit-IndexDiff-diff-IF_STATEMENT -> 15
 Data is written to file: src/main/resources/oracle/block/training/true/jgit-IndexDiff-diff-IF_STATEMENT-15.json
 Key contained: jgit-IndexDiff-diff-IF_STATEMENT -> 16
-Data is written to file: src/main/resources/oracle/block/training/false/jgit-IndexDiff-diff-IF_STATEMENT-16.json
+Data is written to file: src/main/resources/oracle/block/training/valid/jgit-IndexDiff-diff-IF_STATEMENT-16.json
 Key contained: jgit-IndexDiff-diff-IF_STATEMENT -> 17
-Data is written to file: src/main/resources/oracle/block/training/false/jgit-IndexDiff-diff-IF_STATEMENT-17.json
+Data is written to file: src/main/resources/oracle/block/training/valid/jgit-IndexDiff-diff-IF_STATEMENT-17.json
 Key contained: jgit-IndexDiff-diff-IF_STATEMENT -> 18
 Data is written to file: src/main/resources/oracle/block/training/true/jgit-IndexDiff-diff-IF_STATEMENT-18.json
 Key contained: jgit-IndexDiff-diff-IF_STATEMENT -> 19
 Data is written to file: src/main/resources/oracle/block/training/true/jgit-IndexDiff-diff-IF_STATEMENT-19.json
 Key contained: jgit-IndexDiff-diff-IF_STATEMENT -> 20
-Data is written to file: src/main/resources/oracle/block/training/false/jgit-IndexDiff-diff-IF_STATEMENT-20.json
+Data is written to file: src/main/resources/oracle/block/training/invalid/reported/jgit-IndexDiff-diff-IF_STATEMENT-20.json
 No key yet: jgit-IndexDiff-diff-FOR_STATEMENT
-Data is written to file: src/main/resources/oracle/block/training/false/jgit-IndexDiff-diff-FOR_STATEMENT.json
+Data is written to file: src/main/resources/oracle/block/training/valid/jgit-IndexDiff-diff-FOR_STATEMENT.json
 Key contained: jgit-IndexDiff-diff-IF_STATEMENT -> 21
-Data is written to file: src/main/resources/oracle/block/training/false/jgit-IndexDiff-diff-IF_STATEMENT-21.json
+Data is written to file: src/main/resources/oracle/block/training/valid/jgit-IndexDiff-diff-IF_STATEMENT-21.json
 No key yet: jgit-IndexDiff-diff-WHILE_STATEMENT
 Data is written to file: src/main/resources/oracle/block/training/true/jgit-IndexDiff-diff-WHILE_STATEMENT.json
 No key yet: jgit-IndexDiff-diff-TRY_STATEMENT
-Data is written to file: src/main/resources/oracle/block/training/false/jgit-IndexDiff-diff-TRY_STATEMENT.json
+Data is written to file: src/main/resources/oracle/block/training/invalid/reported/jgit-IndexDiff-diff-TRY_STATEMENT.json
 Key contained: jgit-IndexDiff-diff-IF_STATEMENT -> 22
-Data is written to file: src/main/resources/oracle/block/training/false/jgit-IndexDiff-diff-IF_STATEMENT-22.json
+Data is written to file: src/main/resources/oracle/block/training/valid/jgit-IndexDiff-diff-IF_STATEMENT-22.json
 Key contained: jgit-IndexDiff-diff-IF_STATEMENT -> 23
-Data is written to file: src/main/resources/oracle/block/training/false/jgit-IndexDiff-diff-IF_STATEMENT-23.json
+Data is written to file: src/main/resources/oracle/block/training/valid/jgit-IndexDiff-diff-IF_STATEMENT-23.json
 Key contained: jgit-IndexDiff-diff-TRY_STATEMENT -> 1
-Data is written to file: src/main/resources/oracle/block/training/false/jgit-IndexDiff-diff-TRY_STATEMENT-1.json
+Data is written to file: src/main/resources/oracle/block/training/valid/jgit-IndexDiff-diff-TRY_STATEMENT-1.json
 No key yet: jgit-IndexDiff-diff-CATCH_CLAUSE
-Data is written to file: src/main/resources/oracle/block/training/false/jgit-IndexDiff-diff-CATCH_CLAUSE.json
+Data is written to file: src/main/resources/oracle/block/training/valid/jgit-IndexDiff-diff-CATCH_CLAUSE.json
 Key contained: jgit-IndexDiff-diff-IF_STATEMENT -> 24
-Data is written to file: src/main/resources/oracle/block/training/false/jgit-IndexDiff-diff-IF_STATEMENT-24.json
+Data is written to file: src/main/resources/oracle/block/training/valid/jgit-IndexDiff-diff-IF_STATEMENT-24.json
 Key contained: jgit-IndexDiff-diff-IF_STATEMENT -> 25
-Data is written to file: src/main/resources/oracle/block/training/false/jgit-IndexDiff-diff-IF_STATEMENT-25.json
+Data is written to file: src/main/resources/oracle/block/training/valid/jgit-IndexDiff-diff-IF_STATEMENT-25.json
 Key contained: jgit-IndexDiff-diff-IF_STATEMENT -> 26
-Data is written to file: src/main/resources/oracle/block/training/false/jgit-IndexDiff-diff-IF_STATEMENT-26.json
+Data is written to file: src/main/resources/oracle/block/training/valid/jgit-IndexDiff-diff-IF_STATEMENT-26.json
 Key contained: jgit-IndexDiff-diff-IF_STATEMENT -> 27
-Data is written to file: src/main/resources/oracle/block/training/false/jgit-IndexDiff-diff-IF_STATEMENT-27.json
+Data is written to file: src/main/resources/oracle/block/training/valid/jgit-IndexDiff-diff-IF_STATEMENT-27.json
 Key contained: jgit-IndexDiff-diff-IF_STATEMENT -> 28
-Data is written to file: src/main/resources/oracle/block/training/false/jgit-IndexDiff-diff-IF_STATEMENT-28.json
+Data is written to file: src/main/resources/oracle/block/training/valid/jgit-IndexDiff-diff-IF_STATEMENT-28.json
 Key contained: jgit-IndexDiff-diff-IF_STATEMENT -> 29
-Data is written to file: src/main/resources/oracle/block/training/false/jgit-IndexDiff-diff-IF_STATEMENT-29.json
+Data is written to file: src/main/resources/oracle/block/training/valid/jgit-IndexDiff-diff-IF_STATEMENT-29.json
 Key contained: jgit-IndexDiff-diff-TRY_STATEMENT -> 2
-Data is written to file: src/main/resources/oracle/block/training/false/jgit-IndexDiff-diff-TRY_STATEMENT-2.json
+Data is written to file: src/main/resources/oracle/block/training/valid/jgit-IndexDiff-diff-TRY_STATEMENT-2.json
 Key contained: jgit-IndexDiff-diff-WHILE_STATEMENT -> 1
-Data is written to file: src/main/resources/oracle/block/training/false/jgit-IndexDiff-diff-WHILE_STATEMENT-1.json
+Data is written to file: src/main/resources/oracle/block/training/valid/jgit-IndexDiff-diff-WHILE_STATEMENT-1.json
 Key contained: jgit-IndexDiff-diff-IF_STATEMENT -> 30
-Data is written to file: src/main/resources/oracle/block/training/false/jgit-IndexDiff-diff-IF_STATEMENT-30.json
+Data is written to file: src/main/resources/oracle/block/training/valid/jgit-IndexDiff-diff-IF_STATEMENT-30.json
 Key contained: jgit-IndexDiff-diff-IF_STATEMENT -> 31
 Data is written to file: src/main/resources/oracle/block/training/true/jgit-IndexDiff-diff-IF_STATEMENT-31.json
 Key contained: jgit-IndexDiff-diff-IF_STATEMENT -> 32
@@ -1091,11 +1091,11 @@ Data is written to file: src/main/resources/oracle/block/training/false/jgit-Mer
 Key contained: jgit-MergeCommand-call-IF_STATEMENT -> 9
 Data is written to file: src/main/resources/oracle/block/training/false/jgit-MergeCommand-call-IF_STATEMENT-9.json
 Key contained: jgit-MergeCommand-call-IF_STATEMENT -> 10
-Data is written to file: src/main/resources/oracle/block/training/false/jgit-MergeCommand-call-IF_STATEMENT-10.json
+Data is written to file: src/main/resources/oracle/block/training/valid/jgit-MergeCommand-call-IF_STATEMENT-10.json
 Key contained: jgit-MergeCommand-call-IF_STATEMENT -> 11
 Data is written to file: src/main/resources/oracle/block/training/false/jgit-MergeCommand-call-IF_STATEMENT-11.json
 Key contained: jgit-MergeCommand-call-IF_STATEMENT -> 12
-Data is written to file: src/main/resources/oracle/block/training/false/jgit-MergeCommand-call-IF_STATEMENT-12.json
+Data is written to file: src/main/resources/oracle/block/training/invalid/reported/jgit-MergeCommand-call-IF_STATEMENT-12.json
 No key yet: jgit-MergeCommand-call-TRY_STATEMENT
 Data is written to file: src/main/resources/oracle/block/training/false/jgit-MergeCommand-call-TRY_STATEMENT.json
 Key contained: jgit-MergeCommand-call-IF_STATEMENT -> 13
@@ -1113,9 +1113,9 @@ Data is written to file: src/main/resources/oracle/block/training/true/jgit-Merg
 Key contained: jgit-MergeCommand-call-TRY_STATEMENT -> 1
 Data is written to file: src/main/resources/oracle/block/training/false/jgit-MergeCommand-call-TRY_STATEMENT-1.json
 No key yet: jgit-MergeCommand-call-CATCH_CLAUSE
-Data is written to file: src/main/resources/oracle/block/training/false/jgit-MergeCommand-call-CATCH_CLAUSE.json
+Data is written to file: src/main/resources/oracle/block/training/valid/jgit-MergeCommand-call-CATCH_CLAUSE.json
 Key contained: jgit-MergeCommand-call-CATCH_CLAUSE -> 1
-Data is written to file: src/main/resources/oracle/block/training/false/jgit-MergeCommand-call-CATCH_CLAUSE-1.json
+Data is written to file: src/main/resources/oracle/block/training/invalid/reported/jgit-MergeCommand-call-CATCH_CLAUSE-1.json
 No key yet: jgit-PackWriter-findObjectsToPack-IF_STATEMENT
 Data is written to file: src/main/resources/oracle/block/training/false/jgit-PackWriter-findObjectsToPack-IF_STATEMENT.json
 Key contained: jgit-PackWriter-findObjectsToPack-IF_STATEMENT -> 1
@@ -1494,12 +1494,23 @@ No key yet: junit5-DefaultLauncher-discoverRoot-IF_STATEMENT
 Data is written to file: src/main/resources/oracle/block/training/valid/junit5-DefaultLauncher-discoverRoot-IF_STATEMENT.json
 No key yet: junit5-DefaultLauncher-discoverRoot-ENHANCED_FOR_STATEMENT
 Data is written to file: src/main/resources/oracle/block/training/true/junit5-DefaultLauncher-discoverRoot-ENHANCED_FOR_STATEMENT.json
-No key yet: junit5-NodeTestTask-execute-IF_STATEMENT
-Data is written to file: src/main/resources/oracle/block/training/valid/junit5-NodeTestTask-execute-IF_STATEMENT.json
-Key contained: junit5-NodeTestTask-execute-IF_STATEMENT -> 1
-Data is written to file: src/main/resources/oracle/block/training/invalid/junit5-NodeTestTask-execute-IF_STATEMENT-1.json
-Key contained: junit5-NodeTestTask-execute-IF_STATEMENT -> 2
-Data is written to file: src/main/resources/oracle/block/training/valid/junit5-NodeTestTask-execute-IF_STATEMENT-2.json
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at gr.uom.java.xmi.decomposition.UMLOperationBodyMapper.commonConditional(UMLOperationBodyMapper.java:6740)
+	at gr.uom.java.xmi.decomposition.UMLOperationBodyMapper.findReplacementsWithExactMatching(UMLOperationBodyMapper.java:4881)
+	at gr.uom.java.xmi.decomposition.UMLOperationBodyMapper.processLeaves(UMLOperationBodyMapper.java:3444)
+	at gr.uom.java.xmi.decomposition.UMLOperationBodyMapper.<init>(UMLOperationBodyMapper.java:1533)
+	at gr.uom.java.xmi.diff.ExtractOperationDetection.createMapperForExtractedMethod(ExtractOperationDetection.java:398)
+	at gr.uom.java.xmi.diff.ExtractOperationDetection.processNestedMapper(ExtractOperationDetection.java:212)
+	at gr.uom.java.xmi.diff.ExtractOperationDetection.processAddedOperation(ExtractOperationDetection.java:173)
+	at gr.uom.java.xmi.diff.ExtractOperationDetection.check(ExtractOperationDetection.java:113)
+	at gr.uom.java.xmi.diff.UMLModelDiff.checkForExtractedOperationsWithinMovedMethod(UMLModelDiff.java:1637)
+	at gr.uom.java.xmi.diff.UMLModelDiff.checkForOperationMoves(UMLModelDiff.java:3285)
+	at gr.uom.java.xmi.diff.UMLModelDiff.checkForOperationMovesIncludingRemovedAndAddedClasses(UMLModelDiff.java:2950)
+	at gr.uom.java.xmi.diff.UMLModelDiff.getRefactorings(UMLModelDiff.java:2117)
+	at org.codetracker.BlockTrackerImpl.track(BlockTrackerImpl.java:156)
+	at org.CodeTrackerAPI.OracleGenerator.main(OracleGenerator.java:248)
+
 No key yet: junit5-TestMethodTestDescriptor-execute-IF_STATEMENT
 Data is written to file: src/main/resources/oracle/block/training/valid/junit5-TestMethodTestDescriptor-execute-IF_STATEMENT.json
 Key contained: junit5-TestMethodTestDescriptor-execute-IF_STATEMENT -> 1
@@ -1593,13 +1604,13 @@ Data is written to file: src/main/resources/oracle/block/training/true/okhttp-As
 No key yet: okhttp-RealConnection-connect-IF_STATEMENT
 Data is written to file: src/main/resources/oracle/block/training/valid/okhttp-RealConnection-connect-IF_STATEMENT.json
 Key contained: okhttp-RealConnection-connect-IF_STATEMENT -> 1
-Data is written to file: src/main/resources/oracle/block/training/false/okhttp-RealConnection-connect-IF_STATEMENT-1.json
+Data is written to file: src/main/resources/oracle/block/training/invalid/reported/okhttp-RealConnection-connect-IF_STATEMENT-1.json
 Key contained: okhttp-RealConnection-connect-IF_STATEMENT -> 2
-Data is written to file: src/main/resources/oracle/block/training/false/okhttp-RealConnection-connect-IF_STATEMENT-2.json
+Data is written to file: src/main/resources/oracle/block/training/valid/okhttp-RealConnection-connect-IF_STATEMENT-2.json
 Key contained: okhttp-RealConnection-connect-IF_STATEMENT -> 3
 Data is written to file: src/main/resources/oracle/block/training/valid/okhttp-RealConnection-connect-IF_STATEMENT-3.json
 Key contained: okhttp-RealConnection-connect-IF_STATEMENT -> 4
-Data is written to file: src/main/resources/oracle/block/training/false/okhttp-RealConnection-connect-IF_STATEMENT-4.json
+Data is written to file: src/main/resources/oracle/block/training/valid/okhttp-RealConnection-connect-IF_STATEMENT-4.json
 Key contained: okhttp-RealConnection-connect-IF_STATEMENT -> 5
 Data is written to file: src/main/resources/oracle/block/training/valid/okhttp-RealConnection-connect-IF_STATEMENT-5.json
 Key contained: okhttp-RealConnection-connect-IF_STATEMENT -> 6
@@ -1657,13 +1668,13 @@ Data is written to file: src/main/resources/oracle/block/training/invalid/report
 Key contained: spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT -> 12
 Data is written to file: src/main/resources/oracle/block/training/valid/spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT-12.json
 Key contained: spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT -> 13
-Data is written to file: src/main/resources/oracle/block/training/valid/spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT-13.json
+Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT-13.json
 Key contained: spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT -> 14
 Data is written to file: src/main/resources/oracle/block/training/valid/spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT-14.json
 Key contained: spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT -> 15
 Data is written to file: src/main/resources/oracle/block/training/invalid/reported/spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT-15.json
 Key contained: spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT -> 16
-Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT-16.json
+Data is written to file: src/main/resources/oracle/block/training/invalid/reported/spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT-16.json
 Key contained: spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT -> 17
 Data is written to file: src/main/resources/oracle/block/training/invalid/reported/spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT-17.json
 Key contained: spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-ENHANCED_FOR_STATEMENT -> 3
@@ -1677,7 +1688,7 @@ Data is written to file: src/main/resources/oracle/block/training/true/spring-fr
 No key yet: spring-framework-ConfigurationClassBeanDefinitionReader-loadBeanDefinitionsForBeanMethod-IF_STATEMENT
 Data is written to file: src/main/resources/oracle/block/training/invalid/reported/spring-framework-ConfigurationClassBeanDefinitionReader-loadBeanDefinitionsForBeanMethod-IF_STATEMENT.json
 Key contained: spring-framework-ConfigurationClassBeanDefinitionReader-loadBeanDefinitionsForBeanMethod-IF_STATEMENT -> 1
-Data is written to file: src/main/resources/oracle/block/training/valid/spring-framework-ConfigurationClassBeanDefinitionReader-loadBeanDefinitionsForBeanMethod-IF_STATEMENT-1.json
+Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-ConfigurationClassBeanDefinitionReader-loadBeanDefinitionsForBeanMethod-IF_STATEMENT-1.json
 No key yet: spring-framework-ConfigurationClassBeanDefinitionReader-loadBeanDefinitionsForBeanMethod-ENHANCED_FOR_STATEMENT
 Data is written to file: src/main/resources/oracle/block/training/valid/spring-framework-ConfigurationClassBeanDefinitionReader-loadBeanDefinitionsForBeanMethod-ENHANCED_FOR_STATEMENT.json
 Key contained: spring-framework-ConfigurationClassBeanDefinitionReader-loadBeanDefinitionsForBeanMethod-IF_STATEMENT -> 2
@@ -1891,7 +1902,7 @@ Data is written to file: src/main/resources/oracle/block/training/valid/spring-f
 Key contained: spring-framework-TypeConverterDelegate-convertIfNecessary-CATCH_CLAUSE -> 1
 Data is written to file: src/main/resources/oracle/block/training/valid/spring-framework-TypeConverterDelegate-convertIfNecessary-CATCH_CLAUSE-1.json
 Key contained: spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT -> 14
-Data is written to file: src/main/resources/oracle/block/training/false/spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT-14.json
+Data is written to file: src/main/resources/oracle/block/training/valid/spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT-14.json
 Key contained: spring-framework-TypeConverterDelegate-convertIfNecessary-CATCH_CLAUSE -> 2
 Data is written to file: src/main/resources/oracle/block/training/valid/spring-framework-TypeConverterDelegate-convertIfNecessary-CATCH_CLAUSE-2.json
 Key contained: spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT -> 15
@@ -1926,4 +1937,4 @@ Key contained: spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STAT
 Data is written to file: src/main/resources/oracle/block/training/valid/spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT-29.json
 Key contained: spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT -> 30
 Data is written to file: src/main/resources/oracle/block/training/valid/spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT-30.json
-2022-11-22 16:34:30 Generation finished successfully.
+2022-12-05 17:05:20 Generation finished successfully.

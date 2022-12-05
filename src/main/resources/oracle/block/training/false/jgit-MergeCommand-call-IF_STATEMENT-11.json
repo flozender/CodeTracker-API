@@ -6,9 +6,9 @@
   "functionKey": "org.eclipse.jgit/src/org.eclipse.jgit.api.MergeCommand#call()",
   "functionStartLine": 225,
   "blockType": "IF_STATEMENT",
-  "blockKey": "org.eclipse.jgit/src/org.eclipse.jgit.api.MergeCommand#call()$if(403-407)",
-  "blockStartLine": 403,
-  "blockEndLine": 407,
+  "blockKey": "org.eclipse.jgit/src/org.eclipse.jgit.api.MergeCommand#call()$if(387-389)",
+  "blockStartLine": 387,
+  "blockEndLine": 389,
   "startCommitId": "bd1a82502680b5de5bf86f6c4470185fd1602386",
   "expectedChanges": [
     {
@@ -26,12 +26,21 @@
       "parentCommitId": "81b601de53125bbcd30620b58168154d7541d8ad",
       "commitId": "545358577376bec8fc140a76ce0f72bf81cc0a94",
       "commitTime": 1326389573,
-      "changeType": "block split",
+      "changeType": "expression change",
       "elementFileBefore": "org.eclipse.jgit/src/org/eclipse/jgit/api/MergeCommand.java",
       "elementNameBefore": "org.eclipse.jgit/src/org.eclipse.jgit.api.MergeCommand#call()$if(355-363)",
       "elementFileAfter": "org.eclipse.jgit/src/org/eclipse/jgit/api/MergeCommand.java",
-      "elementNameAfter": "org.eclipse.jgit/src/org.eclipse.jgit.api.MergeCommand#call()$if(369-373)",
-      "comment": "Split Conditional if(!squash) to [if(commit && squash), if(!commit && !squash), if(commit && !squash)] in method public call() : MergeResult from class org.eclipse.jgit.api.MergeCommand"
+      "elementNameAfter": "org.eclipse.jgit/src/org.eclipse.jgit.api.MergeCommand#call()$if(357-359)"
+    },
+    {
+      "parentCommitId": "81b601de53125bbcd30620b58168154d7541d8ad",
+      "commitId": "545358577376bec8fc140a76ce0f72bf81cc0a94",
+      "commitTime": 1326389573,
+      "changeType": "body change",
+      "elementFileBefore": "org.eclipse.jgit/src/org/eclipse/jgit/api/MergeCommand.java",
+      "elementNameBefore": "org.eclipse.jgit/src/org.eclipse.jgit.api.MergeCommand#call()$if(355-363)",
+      "elementFileAfter": "org.eclipse.jgit/src/org/eclipse/jgit/api/MergeCommand.java",
+      "elementNameAfter": "org.eclipse.jgit/src/org.eclipse.jgit.api.MergeCommand#call()$if(357-359)"
     }
   ]
 }
