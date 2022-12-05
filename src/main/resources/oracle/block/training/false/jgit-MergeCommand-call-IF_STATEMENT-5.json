@@ -1,6 +1,6 @@
 {
   "repositoryName": "jgit",
-  "repositoryWebURL": "https://github.com/flozender/jgit.git",
+  "repositoryWebURL": "https://github.com/eclipse/jgit.git",
   "filePath": "org.eclipse.jgit/src/org/eclipse/jgit/api/MergeCommand.java",
   "functionName": "call",
   "functionKey": "org.eclipse.jgit/src/org.eclipse.jgit.api.MergeCommand#call()",

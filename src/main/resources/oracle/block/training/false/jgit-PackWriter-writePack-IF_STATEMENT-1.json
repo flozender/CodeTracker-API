@@ -1,6 +1,6 @@
 {
   "repositoryName": "jgit",
-  "repositoryWebURL": "https://github.com/flozender/jgit.git",
+  "repositoryWebURL": "https://github.com/eclipse/jgit.git",
   "filePath": "org.eclipse.jgit/src/org/eclipse/jgit/internal/storage/pack/PackWriter.java",
   "functionName": "writePack",
   "functionKey": "org.eclipse.jgit/src/org.eclipse.jgit.internal.storage.pack.PackWriter#writePack(ProgressMonitor, ProgressMonitor, OutputStream)",
