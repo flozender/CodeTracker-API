@@ -6,20 +6,30 @@
   "functionKey": "org.eclipse.jgit/src/org.eclipse.jgit.lib.IndexDiff#diff(ProgressMonitor, int, int, String)",
   "functionStartLine": 389,
   "blockType": "IF_STATEMENT",
-  "blockKey": "org.eclipse.jgit/src/org.eclipse.jgit.lib.IndexDiff#diff(ProgressMonitor, int, int, String)$if(453-464)",
-  "blockStartLine": 453,
-  "blockEndLine": 464,
+  "blockKey": "org.eclipse.jgit/src/org.eclipse.jgit.lib.IndexDiff#diff(ProgressMonitor, int, int, String)$if(501-519)",
+  "blockStartLine": 501,
+  "blockEndLine": 519,
   "startCommitId": "bd1a82502680b5de5bf86f6c4470185fd1602386",
   "expectedChanges": [
     {
-      "parentCommitId": "1c40d83f52730379e56b0a95485aad42a52b8e04",
-      "commitId": "1080cc5a0d67012c0ef08d9468fbbc9d90b0c238",
-      "commitTime": 1363826344,
+      "parentCommitId": "2f5a08798eb29e8141c452c0dc2622bc8fe90dd0",
+      "commitId": "95172dea173425697814e3ba0b4eb823301bf7d0",
+      "commitTime": 1413532719,
       "changeType": "body change",
       "elementFileBefore": "org.eclipse.jgit/src/org/eclipse/jgit/lib/IndexDiff.java",
-      "elementNameBefore": "org.eclipse.jgit/src/org.eclipse.jgit.lib.IndexDiff#diff(ProgressMonitor, int, int, String)$if(295-302)",
+      "elementNameBefore": "org.eclipse.jgit/src/org.eclipse.jgit.lib.IndexDiff#diff(ProgressMonitor, int, int, String)$if(437-449)",
       "elementFileAfter": "org.eclipse.jgit/src/org/eclipse/jgit/lib/IndexDiff.java",
-      "elementNameAfter": "org.eclipse.jgit/src/org.eclipse.jgit.lib.IndexDiff#diff(ProgressMonitor, int, int, String)$if(397-408)"
+      "elementNameAfter": "org.eclipse.jgit/src/org.eclipse.jgit.lib.IndexDiff#diff(ProgressMonitor, int, int, String)$if(480-496)"
+    },
+    {
+      "parentCommitId": "8352d1729ca63d4d6d831b2da0b168c950bc6f52",
+      "commitId": "5404e70dc64201786cd6a21efb41310912860122",
+      "commitTime": 1388017324,
+      "changeType": "body change",
+      "elementFileBefore": "org.eclipse.jgit/src/org/eclipse/jgit/lib/IndexDiff.java",
+      "elementNameBefore": "org.eclipse.jgit/src/org.eclipse.jgit.lib.IndexDiff#diff(ProgressMonitor, int, int, String)$if(437-448)",
+      "elementFileAfter": "org.eclipse.jgit/src/org/eclipse/jgit/lib/IndexDiff.java",
+      "elementNameAfter": "org.eclipse.jgit/src/org.eclipse.jgit.lib.IndexDiff#diff(ProgressMonitor, int, int, String)$if(437-449)"
     },
     {
       "parentCommitId": "e435f7de7748081945b02a0896dc54f4d6cc053c",
@@ -29,7 +39,7 @@
       "elementFileBefore": "org.eclipse.jgit/src/org/eclipse/jgit/lib/IndexDiff.java",
       "elementNameBefore": "org.eclipse.jgit/src/org.eclipse.jgit.lib.IndexDiff#diff(ProgressMonitor, int, int, String)$if(316-333)",
       "elementFileAfter": "org.eclipse.jgit/src/org/eclipse/jgit/lib/IndexDiff.java",
-      "elementNameAfter": "org.eclipse.jgit/src/org.eclipse.jgit.lib.IndexDiff#diff(ProgressMonitor, int, int, String)$if(289-296)"
+      "elementNameAfter": "org.eclipse.jgit/src/org.eclipse.jgit.lib.IndexDiff#diff(ProgressMonitor, int, int, String)$if(325-336)"
     },
     {
       "parentCommitId": "b69284f72d717f50981c822edbff1dc3313cdd58",
