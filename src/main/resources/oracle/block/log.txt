@@ -1,4 +1,4 @@
-2022-12-13 14:01:58 Started oracle generation
+2022-12-17 12:57:21 Started oracle generation
 Block training Data
 No key yet: checkstyle-Checker-fireErrors-ENHANCED_FOR_STATEMENT
 Data is written to file: src/main/resources/oracle/block/training/true/checkstyle-Checker-fireErrors-ENHANCED_FOR_STATEMENT.json
@@ -1111,11 +1111,11 @@ Data is written to file: src/main/resources/oracle/block/training/true/jgit-Merg
 Key contained: jgit-MergeCommand-call-IF_STATEMENT -> 18
 Data is written to file: src/main/resources/oracle/block/training/true/jgit-MergeCommand-call-IF_STATEMENT-18.json
 Key contained: jgit-MergeCommand-call-TRY_STATEMENT -> 1
-Data is written to file: src/main/resources/oracle/block/training/false/jgit-MergeCommand-call-TRY_STATEMENT-1.json
+Data is written to file: src/main/resources/oracle/block/training/true/jgit-MergeCommand-call-TRY_STATEMENT-1.json
 No key yet: jgit-MergeCommand-call-CATCH_CLAUSE
 Data is written to file: src/main/resources/oracle/block/training/valid/jgit-MergeCommand-call-CATCH_CLAUSE.json
 Key contained: jgit-MergeCommand-call-CATCH_CLAUSE -> 1
-Data is written to file: src/main/resources/oracle/block/training/invalid/reported/jgit-MergeCommand-call-CATCH_CLAUSE-1.json
+Data is written to file: src/main/resources/oracle/block/training/true/jgit-MergeCommand-call-CATCH_CLAUSE-1.json
 No key yet: jgit-PackWriter-findObjectsToPack-IF_STATEMENT
 Data is written to file: src/main/resources/oracle/block/training/false/jgit-PackWriter-findObjectsToPack-IF_STATEMENT.json
 Key contained: jgit-PackWriter-findObjectsToPack-IF_STATEMENT -> 1
@@ -1926,4 +1926,4 @@ Key contained: spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STAT
 Data is written to file: src/main/resources/oracle/block/training/valid/spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT-29.json
 Key contained: spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT -> 30
 Data is written to file: src/main/resources/oracle/block/training/valid/spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT-30.json
-2022-12-13 14:58:37 Generation finished successfully.
+2022-12-17 13:55:54 Generation finished successfully.

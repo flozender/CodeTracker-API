@@ -332,32 +332,32 @@
       "elementNameAfter": "org.eclipse.jgit/src/org.eclipse.jgit.api.MergeCommand#call()$try(127-228)"
     },
     {
+      "parentCommitId": "e2e38792b5403da38d5e3ab0e15b626e051107f2",
+      "commitId": "5fc990130bbd3cf3a0d505c0e12132ec0ecd6b75",
+      "commitTime": 1282549697,
+      "changeType": "catch block change",
+      "elementFileBefore": "org.eclipse.jgit/src/org/eclipse/jgit/api/MergeCommand.java",
+      "elementNameBefore": "org.eclipse.jgit/src/org.eclipse.jgit.api.MergeCommand#call()$try(114-168)",
+      "elementFileAfter": "org.eclipse.jgit/src/org/eclipse/jgit/api/MergeCommand.java",
+      "elementNameAfter": "org.eclipse.jgit/src/org.eclipse.jgit.api.MergeCommand#call()$try(114-168)"
+    },
+    {
       "parentCommitId": "94ba9574cd5589bbf7a3671533390b43936fe65b",
       "commitId": "75c9b2438594dc6ac125ff1bdf97022c7f429b78",
       "commitTime": 1282225932,
       "changeType": "body change",
       "elementFileBefore": "org.eclipse.jgit/src/org/eclipse/jgit/api/MergeCommand.java",
-      "elementNameBefore": "org.eclipse.jgit/src/org.eclipse.jgit.api.MergeCommand#call()$try(122-157)",
+      "elementNameBefore": "org.eclipse.jgit/src/org.eclipse.jgit.api.MergeCommand#call()$try(114-163)",
       "elementFileAfter": "org.eclipse.jgit/src/org/eclipse/jgit/api/MergeCommand.java",
-      "elementNameAfter": "org.eclipse.jgit/src/org.eclipse.jgit.api.MergeCommand#call()$try(123-162)"
+      "elementNameAfter": "org.eclipse.jgit/src/org.eclipse.jgit.api.MergeCommand#call()$try(114-168)"
     },
     {
       "parentCommitId": "77f79659f575dd8b8739707e6c8ddba51d765c78",
       "commitId": "45e79a526c7ffebaf8e4758a6cb6b7af05716707",
       "commitTime": 1281619158,
-      "changeType": "finally block change",
+      "changeType": "finally block added",
       "elementFileBefore": "org.eclipse.jgit/src/org/eclipse/jgit/api/MergeCommand.java",
-      "elementNameBefore": "org.eclipse.jgit/src/org.eclipse.jgit.api.MergeCommand#call()$try(123-162)",
-      "elementFileAfter": "org.eclipse.jgit/src/org/eclipse/jgit/api/MergeCommand.java",
-      "elementNameAfter": "org.eclipse.jgit/src/org.eclipse.jgit.api.MergeCommand#call()$try(120-221)"
-    },
-    {
-      "parentCommitId": "77f79659f575dd8b8739707e6c8ddba51d765c78",
-      "commitId": "45e79a526c7ffebaf8e4758a6cb6b7af05716707",
-      "commitTime": 1281619158,
-      "changeType": "catch block added",
-      "elementFileBefore": "org.eclipse.jgit/src/org/eclipse/jgit/api/MergeCommand.java",
-      "elementNameBefore": "org.eclipse.jgit/src/org.eclipse.jgit.api.MergeCommand#call()$try(123-162)",
+      "elementNameBefore": "org.eclipse.jgit/src/org.eclipse.jgit.api.MergeCommand#call()$try(114-168)",
       "elementFileAfter": "org.eclipse.jgit/src/org/eclipse/jgit/api/MergeCommand.java",
       "elementNameAfter": "org.eclipse.jgit/src/org.eclipse.jgit.api.MergeCommand#call()$try(120-221)"
     },
@@ -367,7 +367,7 @@
       "commitTime": 1281619158,
       "changeType": "body change",
       "elementFileBefore": "org.eclipse.jgit/src/org/eclipse/jgit/api/MergeCommand.java",
-      "elementNameBefore": "org.eclipse.jgit/src/org.eclipse.jgit.api.MergeCommand#call()$try(123-162)",
+      "elementNameBefore": "org.eclipse.jgit/src/org.eclipse.jgit.api.MergeCommand#call()$try(114-168)",
       "elementFileAfter": "org.eclipse.jgit/src/org/eclipse/jgit/api/MergeCommand.java",
       "elementNameAfter": "org.eclipse.jgit/src/org.eclipse.jgit.api.MergeCommand#call()$try(120-221)"
     },
@@ -375,12 +375,22 @@
       "parentCommitId": "4913ad57fce7f9c3ab9600a55ba02f589b3088c1",
       "commitId": "515deaf7e503738b4c53c3c2dfd6d7acab3bef18",
       "commitTime": 1277849571,
+      "changeType": "body change",
+      "elementFileBefore": "org.eclipse.jgit/src/org/eclipse/jgit/api/MergeCommand.java",
+      "elementNameBefore": "org.eclipse.jgit/src/org.eclipse.jgit.api.MergeCommand#call()$try(114-159)",
+      "elementFileAfter": "org.eclipse.jgit/src/org/eclipse/jgit/api/MergeCommand.java",
+      "elementNameAfter": "org.eclipse.jgit/src/org.eclipse.jgit.api.MergeCommand#call()$try(114-163)"
+    },
+    {
+      "parentCommitId": "6ca9843f3ebbea152969a8b795efce1d4ff15dbf",
+      "commitId": "5b0e73b849d19c9f072c4c6738a5d5adae413112",
+      "commitTime": 1274360979,
       "changeType": "introduced",
       "elementFileBefore": "org.eclipse.jgit/src/org/eclipse/jgit/api/MergeCommand.java",
-      "elementNameBefore": "org.eclipse.jgit/src/org.eclipse.jgit.api.MergeCommand#call()$try(122-157)",
+      "elementNameBefore": "org.eclipse.jgit/src/org.eclipse.jgit.api.MergeCommand#call()$try(114-159)",
       "elementFileAfter": "org.eclipse.jgit/src/org/eclipse/jgit/api/MergeCommand.java",
-      "elementNameAfter": "org.eclipse.jgit/src/org.eclipse.jgit.api.MergeCommand#call()$try(122-157)",
-      "comment": "new block"
+      "elementNameAfter": "org.eclipse.jgit/src/org.eclipse.jgit.api.MergeCommand#call()$try(114-159)",
+      "comment": "added with method"
     }
   ]
 }
