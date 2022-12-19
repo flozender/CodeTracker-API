@@ -6,9 +6,9 @@
   "functionKey": "src/main/java/com.puppycrawl.tools.checkstyle.Main#main(String[])",
   "functionStartLine": 174,
   "blockType": "IF_STATEMENT",
-  "blockKey": "src/main/java/com.puppycrawl.tools.checkstyle.Main#main(String[])$if(232-239)",
-  "blockStartLine": 232,
-  "blockEndLine": 239,
+  "blockKey": "src/main/java/com.puppycrawl.tools.checkstyle.Main#main(String[])$if(233-238)",
+  "blockStartLine": 233,
+  "blockEndLine": 238,
   "startCommitId": "119fd4fb33bef9f5c66fc950396669af842c21a3",
   "expectedChanges": [
     {
@@ -19,7 +19,7 @@
       "elementFileBefore": "src/main/java/com/puppycrawl/tools/checkstyle/Main.java",
       "elementNameBefore": "src/main/java/com.puppycrawl.tools.checkstyle.Main#main(String[])$if(229-234)",
       "elementFileAfter": "src/main/java/com/puppycrawl/tools/checkstyle/Main.java",
-      "elementNameAfter": "src/main/java/com.puppycrawl.tools.checkstyle.Main#main(String[])$if(230-237)",
+      "elementNameAfter": "src/main/java/com.puppycrawl.tools.checkstyle.Main#main(String[])$if(231-236)",
       "comment": "Split Conditional if(errorCounter != 0 && !cliViolations) to [if(!cliViolations), if(errorCounter != 0)] in method public main(args String...) : void from class com.puppycrawl.tools.checkstyle.Main"
     },
     {
@@ -31,6 +31,17 @@
       "elementNameBefore": "src/main/java/com.puppycrawl.tools.checkstyle.Main#main(String[])$if(213-215)",
       "elementFileAfter": "src/main/java/com/puppycrawl/tools/checkstyle/Main.java",
       "elementNameAfter": "src/main/java/com.puppycrawl.tools.checkstyle.Main#main(String[])$if(229-234)"
+    },
+    {
+      "parentCommitId": "d6272b70eb5ad61fd8ab34091e970c50b1f67386",
+      "commitId": "1a2c318e22a0b2b22ccc76019217c0892fe2d59b",
+      "commitTime": 1430527271,
+      "changeType": "introduced",
+      "elementFileBefore": "src/main/java/com/puppycrawl/tools/checkstyle/Main.java",
+      "elementNameBefore": "src/main/java/com.puppycrawl.tools.checkstyle.Main#main(String[])$if(113-115)",
+      "elementFileAfter": "src/main/java/com/puppycrawl/tools/checkstyle/Main.java",
+      "elementNameAfter": "src/main/java/com.puppycrawl.tools.checkstyle.Main#main(String[])$if(113-115)",
+      "comment": "new block"
     }
   ]
 }

@@ -120,6 +120,17 @@
       "elementNameBefore": "src/main/java/com.puppycrawl.tools.checkstyle.Main#main(String[])$if(73-95)",
       "elementFileAfter": "src/main/java/com/puppycrawl/tools/checkstyle/Main.java",
       "elementNameAfter": "src/main/java/com.puppycrawl.tools.checkstyle.Main#main(String[])$if(77-100)"
+    },
+    {
+      "parentCommitId": "d6272b70eb5ad61fd8ab34091e970c50b1f67386",
+      "commitId": "1a2c318e22a0b2b22ccc76019217c0892fe2d59b",
+      "commitTime": 1430527271,
+      "changeType": "introduced",
+      "elementFileBefore": "src/main/java/com/puppycrawl/tools/checkstyle/Main.java",
+      "elementNameBefore": "src/main/java/com.puppycrawl.tools.checkstyle.Main#main(String[])$if(75-97)",
+      "elementFileAfter": "src/main/java/com/puppycrawl/tools/checkstyle/Main.java",
+      "elementNameAfter": "src/main/java/com.puppycrawl.tools.checkstyle.Main#main(String[])$if(75-97)",
+      "comment": "new block"
     }
   ]
 }
