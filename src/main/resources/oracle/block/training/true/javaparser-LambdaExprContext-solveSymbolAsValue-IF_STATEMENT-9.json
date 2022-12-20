@@ -14,7 +14,7 @@
     {
       "parentCommitId": "9f20df294175a8dcc2f0c1331c818589c5de9cb4",
       "commitId": "b54617e765d73b3ce0d187cf12ad8da382bce439",
-      "commitTime": 1517669146,
+      "commitTime": 1517683571,
       "changeType": "expression change",
       "elementFileBefore": "javaparser-symbol-solver-core/src/main/java/com/github/javaparser/symbolsolver/javaparsermodel/contexts/LambdaExprContext.java",
       "elementNameBefore": "javaparser-symbol-solver-core/src/main/java/com.github.javaparser.symbolsolver.javaparsermodel.contexts.LambdaExprContext#solveSymbolAsValue(String, TypeSolver)$if(63-131)",
@@ -24,7 +24,7 @@
     {
       "parentCommitId": "9f20df294175a8dcc2f0c1331c818589c5de9cb4",
       "commitId": "b54617e765d73b3ce0d187cf12ad8da382bce439",
-      "commitTime": 1517669146,
+      "commitTime": 1517683571,
       "changeType": "body change",
       "elementFileBefore": "javaparser-symbol-solver-core/src/main/java/com/github/javaparser/symbolsolver/javaparsermodel/contexts/LambdaExprContext.java",
       "elementNameBefore": "javaparser-symbol-solver-core/src/main/java/com.github.javaparser.symbolsolver.javaparsermodel.contexts.LambdaExprContext#solveSymbolAsValue(String, TypeSolver)$if(63-131)",
@@ -104,7 +104,7 @@
     {
       "parentCommitId": "ba1a6f460d78648597035ae675a9dfeecb3d534f",
       "commitId": "6fcf6356a95a250db103245c1c5f2d596f9493d6",
-      "commitTime": 1477127253,
+      "commitTime": 1477127916,
       "changeType": "body change",
       "elementFileBefore": "java-symbol-solver-core/src/main/java/com/github/javaparser/symbolsolver/javaparsermodel/contexts/LambdaExprContext.java",
       "elementNameBefore": "java-symbol-solver-core/src/main/java/com.github.javaparser.symbolsolver.javaparsermodel.contexts.LambdaExprContext#solveSymbolAsValue(String, TypeSolver)$if(61-99)",
@@ -134,7 +134,7 @@
     {
       "parentCommitId": "9dc06a758c00cc235372dbc225a7e20c1f5269d3",
       "commitId": "967b0302143d4d6868c3d9035a8615ccfd198b6e",
-      "commitTime": 1476884543,
+      "commitTime": 1476898586,
       "changeType": "body change",
       "elementFileBefore": "java-symbol-solver-core/src/main/java/me/tomassetti/symbolsolver/javaparsermodel/contexts/LambdaExprContext.java",
       "elementNameBefore": "java-symbol-solver-core/src/main/java/me.tomassetti.symbolsolver.javaparsermodel.contexts.LambdaExprContext#solveSymbolAsValue(String, TypeSolver)$if(62-110)",
@@ -144,7 +144,7 @@
     {
       "parentCommitId": "03e407957d600a18ef0a4a83224c17d155ef8645",
       "commitId": "4601dfb9d1acf7f564948b7ddbb9201d62849ad7",
-      "commitTime": 1476732263,
+      "commitTime": 1476898502,
       "changeType": "expression change",
       "elementFileBefore": "java-symbol-solver-core/src/main/java/me/tomassetti/symbolsolver/javaparsermodel/contexts/LambdaExprContext.java",
       "elementNameBefore": "java-symbol-solver-core/src/main/java/me.tomassetti.symbolsolver.javaparsermodel.contexts.LambdaExprContext#solveSymbolAsValue(String, TypeSolver)$if(61-109)",
@@ -154,7 +154,7 @@
     {
       "parentCommitId": "03e407957d600a18ef0a4a83224c17d155ef8645",
       "commitId": "4601dfb9d1acf7f564948b7ddbb9201d62849ad7",
-      "commitTime": 1476732263,
+      "commitTime": 1476898502,
       "changeType": "body change",
       "elementFileBefore": "java-symbol-solver-core/src/main/java/me/tomassetti/symbolsolver/javaparsermodel/contexts/LambdaExprContext.java",
       "elementNameBefore": "java-symbol-solver-core/src/main/java/me.tomassetti.symbolsolver.javaparsermodel.contexts.LambdaExprContext#solveSymbolAsValue(String, TypeSolver)$if(61-109)",
@@ -164,7 +164,7 @@
     {
       "parentCommitId": "4b857a4f148b5f516074cea439db813c48a07aff",
       "commitId": "03e407957d600a18ef0a4a83224c17d155ef8645",
-      "commitTime": 1476731246,
+      "commitTime": 1476898462,
       "changeType": "body change",
       "elementFileBefore": "java-symbol-solver-core/src/main/java/me/tomassetti/symbolsolver/javaparsermodel/contexts/LambdaExprContext.java",
       "elementNameBefore": "java-symbol-solver-core/src/main/java/me.tomassetti.symbolsolver.javaparsermodel.contexts.LambdaExprContext#solveSymbolAsValue(String, TypeSolver)$if(61-109)",
@@ -174,7 +174,7 @@
     {
       "parentCommitId": "3c22c2a4c3801572795c139deedd806643783afe",
       "commitId": "341e081a5f8909a3a467671befcca2941b786d3d",
-      "commitTime": 1476726938,
+      "commitTime": 1476898421,
       "changeType": "body change",
       "elementFileBefore": "java-symbol-solver-core/src/main/java/me/tomassetti/symbolsolver/javaparsermodel/contexts/LambdaExprContext.java",
       "elementNameBefore": "java-symbol-solver-core/src/main/java/me.tomassetti.symbolsolver.javaparsermodel.contexts.LambdaExprContext#solveSymbolAsValue(String, TypeSolver)$if(61-109)",
@@ -184,7 +184,7 @@
     {
       "parentCommitId": "3eda5210d3d5a093f29e1c1fb1d0609580573140",
       "commitId": "051dbd94c17c4f142d3fe9e8fbd03c29d09ace54",
-      "commitTime": 1476478244,
+      "commitTime": 1476478620,
       "changeType": "body change",
       "elementFileBefore": "java-symbol-solver-core/src/main/java/me/tomassetti/symbolsolver/javaparsermodel/contexts/LambdaExprContext.java",
       "elementNameBefore": "java-symbol-solver-core/src/main/java/me.tomassetti.symbolsolver.javaparsermodel.contexts.LambdaExprContext#solveSymbolAsValue(String, TypeSolver)$if(45-93)",
@@ -214,7 +214,7 @@
     {
       "parentCommitId": "6b50c90daa764492e074198460c807d83d52325e",
       "commitId": "8d234965b572759181da7787fead07b225e9e5ca",
-      "commitTime": 1476426556,
+      "commitTime": 1476426972,
       "changeType": "body change",
       "elementFileBefore": "java-symbol-solver-core/src/main/java/me/tomassetti/symbolsolver/javaparsermodel/contexts/LambdaExprContext.java",
       "elementNameBefore": "java-symbol-solver-core/src/main/java/me.tomassetti.symbolsolver.javaparsermodel.contexts.LambdaExprContext#solveSymbolAsValue(String, TypeSolver)$if(45-93)",
@@ -234,7 +234,7 @@
     {
       "parentCommitId": "38d780df85a22c9baffb1f772a45b063cad73aab",
       "commitId": "401a56f412ca186a00a2282d9088e8cb7b67e0e5",
-      "commitTime": 1476307999,
+      "commitTime": 1476308582,
       "changeType": "body change",
       "elementFileBefore": "java-symbol-solver-core/src/main/java/me/tomassetti/symbolsolver/javaparsermodel/contexts/LambdaExprContext.java",
       "elementNameBefore": "java-symbol-solver-core/src/main/java/me.tomassetti.symbolsolver.javaparsermodel.contexts.LambdaExprContext#solveSymbolAsValue(String, TypeSolver)$if(44-73)",
@@ -244,7 +244,7 @@
     {
       "parentCommitId": "de1a81827f176ec98a8f69e3bdd030de9fe73401",
       "commitId": "e529ad59cb7c1766706162cbc3a4fca49cd88e3e",
-      "commitTime": 1474642006,
+      "commitTime": 1474642198,
       "changeType": "body change",
       "elementFileBefore": "java-symbol-solver-core/src/main/java/me/tomassetti/symbolsolver/javaparsermodel/contexts/LambdaExprContext.java",
       "elementNameBefore": "java-symbol-solver-core/src/main/java/me.tomassetti.symbolsolver.javaparsermodel.contexts.LambdaExprContext#solveSymbolAsValue(String, TypeSolver)$if(36-45)",

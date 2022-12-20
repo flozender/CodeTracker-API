@@ -54,7 +54,7 @@
     {
       "parentCommitId": "6eddff67672879a8468ddbb08e1b93aa3ce37c6c",
       "commitId": "5fb5ab50a77efc761489493d4a0b8b9de85feec7",
-      "commitTime": 1497964129,
+      "commitTime": 1497964491,
       "changeType": "body change",
       "elementFileBefore": "okhttp/src/main/java/okhttp3/internal/connection/RealConnection.java",
       "elementNameBefore": "okhttp/src/main/java/okhttp3.internal.connection.RealConnection#connect(int, int, int, boolean)$while(144-174)",
@@ -64,7 +64,7 @@
     {
       "parentCommitId": "5c7257d8d1c07b66cb7b14832bc0d16b88abcfb5",
       "commitId": "8331b2d75a51631bee622daf2175854fe49ce29a",
-      "commitTime": 1483378590,
+      "commitTime": 1483378611,
       "changeType": "expression change",
       "elementFileBefore": "okhttp/src/main/java/okhttp3/internal/connection/RealConnection.java",
       "elementNameBefore": "okhttp/src/main/java/okhttp3.internal.connection.RealConnection#connect(int, int, int, List, boolean)$while(108-136)",
@@ -74,7 +74,7 @@
     {
       "parentCommitId": "5c7257d8d1c07b66cb7b14832bc0d16b88abcfb5",
       "commitId": "8331b2d75a51631bee622daf2175854fe49ce29a",
-      "commitTime": 1483378590,
+      "commitTime": 1483378611,
       "changeType": "body change",
       "elementFileBefore": "okhttp/src/main/java/okhttp3/internal/connection/RealConnection.java",
       "elementNameBefore": "okhttp/src/main/java/okhttp3.internal.connection.RealConnection#connect(int, int, int, List, boolean)$while(108-136)",
@@ -84,7 +84,7 @@
     {
       "parentCommitId": "837dc04dbef627e734e369e29ccdce7a6178537d",
       "commitId": "03a840de533b1f1c201aa4e99f95f42f9a8269a4",
-      "commitTime": 1460046438,
+      "commitTime": 1460116589,
       "changeType": "body change",
       "elementFileBefore": "okhttp/src/main/java/okhttp3/internal/io/RealConnection.java",
       "elementNameBefore": "okhttp/src/main/java/okhttp3.internal.io.RealConnection#connect(int, int, int, List, boolean)$while(106-132)",
@@ -94,7 +94,7 @@
     {
       "parentCommitId": "54dc2df914f2aae37fb48cc2c2f7560ee664bc2b",
       "commitId": "c9a89876de476983f273edbf108c365127c18c5e",
-      "commitTime": 1450245472,
+      "commitTime": 1450247699,
       "changeType": "body change",
       "elementFileBefore": "okhttp/src/main/java/com/squareup/okhttp/internal/io/RealConnection.java",
       "elementNameBefore": "okhttp/src/main/java/com.squareup.okhttp.internal.io.RealConnection#connect(int, int, int, List, boolean)$while(103-129)",
@@ -114,7 +114,7 @@
     {
       "parentCommitId": "b59a7527cabc35bb2346773a9fdcd0f9a8f862b1",
       "commitId": "c5f58e45454d1ffc621c65e377cb91345018e087",
-      "commitTime": 1449019783,
+      "commitTime": 1449078281,
       "changeType": "body change",
       "elementFileBefore": "okhttp/src/main/java/com/squareup/okhttp/internal/io/RealConnection.java",
       "elementNameBefore": "okhttp/src/main/java/com.squareup.okhttp.internal.io.RealConnection#connect(int, int, int, List, boolean)$while(100-127)",
@@ -134,7 +134,7 @@
     {
       "parentCommitId": "e0d34ebdd7aba18149d195804075a87b97f3c02d",
       "commitId": "c358656c8799d30fd422448153e99a5dd37e298a",
-      "commitTime": 1448669766,
+      "commitTime": 1448721366,
       "changeType": "body change",
       "elementFileBefore": "okhttp/src/main/java/com/squareup/okhttp/Connection.java",
       "elementNameBefore": "okhttp/src/main/java/com.squareup.okhttp.Connection#connect(int, int, int, List, boolean)$while(167-191)",
@@ -144,7 +144,7 @@
     {
       "parentCommitId": "3edddd11276a4f1218278479a1f93a99534db498",
       "commitId": "529c4a36bb21b3fb7717c27f8a31c39c1b603e9d",
-      "commitTime": 1447806141,
+      "commitTime": 1447822914,
       "changeType": "expression change",
       "elementFileBefore": "okhttp/src/main/java/com/squareup/okhttp/Connection.java",
       "elementNameBefore": "okhttp/src/main/java/com.squareup.okhttp.Connection#connect(int, int, int, List, boolean)$while(168-190)",
@@ -154,7 +154,7 @@
     {
       "parentCommitId": "3edddd11276a4f1218278479a1f93a99534db498",
       "commitId": "529c4a36bb21b3fb7717c27f8a31c39c1b603e9d",
-      "commitTime": 1447806141,
+      "commitTime": 1447822914,
       "changeType": "body change",
       "elementFileBefore": "okhttp/src/main/java/com/squareup/okhttp/Connection.java",
       "elementNameBefore": "okhttp/src/main/java/com.squareup.okhttp.Connection#connect(int, int, int, List, boolean)$while(168-190)",

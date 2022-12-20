@@ -14,7 +14,7 @@
     {
       "parentCommitId": "9f89fd4626bbb4e34a905835e397bcffbad59307",
       "commitId": "0095d8adf26b9469115b1be0358cb09d1fcb5fd4",
-      "commitTime": 1477245388,
+      "commitTime": 1479059248,
       "changeType": "introduced",
       "elementFileBefore": "src/main/java/org/apache/commons/lang3/builder/EqualsBuilder.java",
       "elementNameBefore": "src/main/java/org.apache.commons.lang3.builder.EqualsBuilder#reflectionAppend(Object, Object)$if(526-536)",

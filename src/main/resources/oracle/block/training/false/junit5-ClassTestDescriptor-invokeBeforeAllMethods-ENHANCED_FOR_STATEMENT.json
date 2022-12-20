@@ -14,7 +14,7 @@
     {
       "parentCommitId": "551cf902507171237211431742bbb57f527565c5",
       "commitId": "7205f05c4a314a808b1a558d1e3044ec9bccc21a",
-      "commitTime": 1498234133,
+      "commitTime": 1498839402,
       "changeType": "body change",
       "elementFileBefore": "junit-jupiter-engine/src/main/java/org/junit/jupiter/engine/descriptor/ClassTestDescriptor.java",
       "elementNameBefore": "junit-jupiter-engine/src/main/java/org.junit.jupiter.engine.descriptor.ClassTestDescriptor#invokeBeforeAllMethods(JupiterEngineExecutionContext)$for(208-213)",
@@ -55,7 +55,7 @@
     {
       "parentCommitId": "3fff7ddc9fc12d252a2ffe059922792fa681adff",
       "commitId": "9eacc9c2d51557bffa003ca24fa125b8cbe69bbb",
-      "commitTime": 1464266107,
+      "commitTime": 1464266577,
       "changeType": "body change",
       "elementFileBefore": "junit5-engine/src/main/java/org/junit/gen5/engine/junit5/descriptor/ClassTestDescriptor.java",
       "elementNameBefore": "junit5-engine/src/main/java/org.junit.gen5.engine.junit5.descriptor.ClassTestDescriptor#invokeBeforeAllMethods(ExtensionRegistry, ContainerExtensionContext)$forEach(196-197)",
@@ -65,7 +65,7 @@
     {
       "parentCommitId": "b691e6a02b9436939bf1867156aa8d8cea4e3fbf",
       "commitId": "6b575f2ee5f02288a774ff0a85ce3a3e3cb6946f",
-      "commitTime": 1462225143,
+      "commitTime": 1462227519,
       "changeType": "loop replaced with pipeline",
       "elementFileBefore": "junit5-engine/src/main/java/org/junit/gen5/engine/junit5/descriptor/ClassTestDescriptor.java",
       "elementNameBefore": "junit5-engine/src/main/java/org.junit.gen5.engine.junit5.descriptor.ClassTestDescriptor#invokeBeforeAllMethods(ExtensionRegistry, ContainerExtensionContext)$for(179-186)",
@@ -76,7 +76,7 @@
     {
       "parentCommitId": "b2ba6b95138382f25ca757a5ca2a7295bee4c3b8",
       "commitId": "b691e6a02b9436939bf1867156aa8d8cea4e3fbf",
-      "commitTime": 1462206585,
+      "commitTime": 1462208336,
       "changeType": "introduced",
       "elementFileBefore": "junit5-engine/src/main/java/org/junit/gen5/engine/junit5/descriptor/ClassTestDescriptor.java",
       "elementNameBefore": "junit5-engine/src/main/java/org.junit.gen5.engine.junit5.descriptor.ClassTestDescriptor#invokeBeforeAllMethods(ExtensionRegistry, ContainerExtensionContext)$for(179-186)",

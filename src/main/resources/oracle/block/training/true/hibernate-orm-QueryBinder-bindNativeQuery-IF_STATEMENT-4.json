@@ -14,7 +14,7 @@
     {
       "parentCommitId": "aa31b26d322989276b978c4a8c511a70bc2a0fc8",
       "commitId": "9caca0ce37d5a2763d476c6fa2471addcca710ca",
-      "commitTime": 1426006551,
+      "commitTime": 1426024431,
       "changeType": "body change",
       "elementFileBefore": "hibernate-core/src/main/java/org/hibernate/cfg/annotations/QueryBinder.java",
       "elementNameBefore": "hibernate-core/src/main/java/org.hibernate.cfg.annotations.QueryBinder#bindNativeQuery(NamedNativeQuery, Mappings, boolean)$if(141-146)",

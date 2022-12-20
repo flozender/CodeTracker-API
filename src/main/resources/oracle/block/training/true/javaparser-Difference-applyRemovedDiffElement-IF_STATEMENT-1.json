@@ -14,7 +14,7 @@
     {
       "parentCommitId": "aea012851b3729fbb84680de6bdb88f039b65da0",
       "commitId": "2d3f5e219af9d1ba916f1dc21a6169a41a254632",
-      "commitTime": 1528240642,
+      "commitTime": 1528404857,
       "changeType": "expression change",
       "elementFileBefore": "javaparser-core/src/main/java/com/github/javaparser/printer/lexicalpreservation/Difference.java",
       "elementNameBefore": "javaparser-core/src/main/java/com.github.javaparser.printer.lexicalpreservation.Difference#applyRemovedDiffElement(Removed, TextElement, boolean, boolean)$if(291-293)",

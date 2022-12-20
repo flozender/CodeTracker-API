@@ -14,7 +14,7 @@
     {
       "parentCommitId": "adb935db795070e96a703fe8bb3f579f5a26df9e",
       "commitId": "51252ebbcaa9e65aee83311aec25ca3c7c6d7d37",
-      "commitTime": 1467677339,
+      "commitTime": 1467677340,
       "changeType": "expression change",
       "elementFileBefore": "spring-beans/src/main/java/org/springframework/beans/TypeConverterDelegate.java",
       "elementNameBefore": "spring-beans/src/main/java/org.springframework.beans.TypeConverterDelegate#convertIfNecessary(String, Object, Object, Class, TypeDescriptor)$if(272-274)",
@@ -24,7 +24,7 @@
     {
       "parentCommitId": "adb935db795070e96a703fe8bb3f579f5a26df9e",
       "commitId": "51252ebbcaa9e65aee83311aec25ca3c7c6d7d37",
-      "commitTime": 1467677339,
+      "commitTime": 1467677340,
       "changeType": "body change",
       "elementFileBefore": "spring-beans/src/main/java/org/springframework/beans/TypeConverterDelegate.java",
       "elementNameBefore": "spring-beans/src/main/java/org.springframework.beans.TypeConverterDelegate#convertIfNecessary(String, Object, Object, Class, TypeDescriptor)$if(272-274)",
@@ -44,7 +44,7 @@
     {
       "parentCommitId": "c2356e57c8d9160e22d99f39279a32c5944b5b53",
       "commitId": "0dc6082b01606c3c996b728541467ba5104b747f",
-      "commitTime": 1402631426,
+      "commitTime": 1402942616,
       "changeType": "introduced",
       "elementFileBefore": "spring-beans/src/main/java/org/springframework/beans/TypeConverterDelegate.java",
       "elementNameBefore": "spring-beans/src/main/java/org.springframework.beans.TypeConverterDelegate#convertIfNecessary(String, Object, Object, Class, TypeDescriptor)$if(260-262)",
