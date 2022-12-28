@@ -412,17 +412,6 @@
       "elementNameAfter": "javaparser-core/src/main/java/com.github.javaparser.printer.lexicalpreservation.Difference#apply(NodeText, Node)$do(359-495)"
     },
     {
-      "parentCommitId": "c73ae5d79b62de91209477538b45ab5216fb108e",
-      "commitId": "cc13f68e3655ea43b56dd13ee55a81f3a2d37fee",
-      "commitTime": 1487866773,
-      "changeType": "introduced",
-      "elementFileBefore": "javaparser-core/src/main/java/com/github/javaparser/printer/lexicalpreservation/LexicalDifferenceCalculator.java",
-      "elementNameBefore": "javaparser-core/src/main/java/com.github.javaparser.printer.lexicalpreservation.LexicalDifferenceCalculator.Difference#apply(NodeText)$do(335-389)",
-      "elementFileAfter": "javaparser-core/src/main/java/com/github/javaparser/printer/lexicalpreservation/LexicalDifferenceCalculator.java",
-      "elementNameAfter": "javaparser-core/src/main/java/com.github.javaparser.printer.lexicalpreservation.LexicalDifferenceCalculator.Difference#apply(NodeText)$do(335-389)",
-      "comment": "new block"
-    },
-    {
       "parentCommitId": "aecf9b13c6819589756b8cb31e2a8b6d8862bb8b",
       "commitId": "882790065271126fc4b17a71bebb078b60ffe00c",
       "commitTime": 1487866773,
@@ -621,6 +610,17 @@
       "elementNameBefore": "javaparser-core/src/main/java/com.github.javaparser.printer.lexicalpreservation.Difference#apply(NodeText)$do(289-389)",
       "elementFileAfter": "javaparser-core/src/main/java/com/github/javaparser/printer/lexicalpreservation/Difference.java",
       "elementNameAfter": "javaparser-core/src/main/java/com.github.javaparser.printer.lexicalpreservation.Difference#apply(NodeText)$do(300-404)"
+    },
+    {
+      "parentCommitId": "c73ae5d79b62de91209477538b45ab5216fb108e",
+      "commitId": "cc13f68e3655ea43b56dd13ee55a81f3a2d37fee",
+      "commitTime": 1487866773,
+      "changeType": "introduced",
+      "elementFileBefore": "javaparser-core/src/main/java/com/github/javaparser/printer/lexicalpreservation/LexicalDifferenceCalculator.java",
+      "elementNameBefore": "javaparser-core/src/main/java/com.github.javaparser.printer.lexicalpreservation.LexicalDifferenceCalculator.Difference#apply(NodeText)$do(335-389)",
+      "elementFileAfter": "javaparser-core/src/main/java/com/github/javaparser/printer/lexicalpreservation/LexicalDifferenceCalculator.java",
+      "elementNameAfter": "javaparser-core/src/main/java/com.github.javaparser.printer.lexicalpreservation.LexicalDifferenceCalculator.Difference#apply(NodeText)$do(335-389)",
+      "comment": "new block"
     }
   ]
 }

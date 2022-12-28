@@ -38,6 +38,8 @@ import org.eclipse.jgit.api.Git;
 import org.eclipse.jgit.api.PullResult;
 import org.eclipse.jgit.lib.Repository;
 import org.eclipse.jgit.revwalk.RevCommit;
+import org.eclipse.jgit.transport.CredentialsProvider;
+import org.eclipse.jgit.transport.UsernamePasswordCredentialsProvider;
 import org.kohsuke.github.GHIssueBuilder;
 import org.kohsuke.github.GHRepository;
 import org.kohsuke.github.GitHub;
@@ -73,7 +75,7 @@ public class REST {
 
               String changes = "";
               GitService gitService = new GitServiceImpl();
-
+              CredentialsProvider cp = new UsernamePasswordCredentialsProvider(System.getenv("GITHUB_USERNAME"), System.getenv("GITHUB_KEY"));
               try (
                 Repository repository = gitService.cloneIfNotExists(
                   "tmp/" + repoName,
@@ -81,7 +83,7 @@ public class REST {
                 )
               ) {
                 try (Git git = new Git(repository)) {
-                  PullResult call = git.pull().call();
+                  PullResult call = git.pull().setCredentialsProvider(cp).call();
                   System.out.println(
                     "Pulled from the remote repository: " + call
                   );
@@ -227,6 +229,7 @@ public class REST {
               );
               String response;
               GitService gitService = new GitServiceImpl();
+              CredentialsProvider cp = new UsernamePasswordCredentialsProvider(System.getenv("GITHUB_USERNAME"), System.getenv("GITHUB_KEY"));
 
               try (
                 Repository repository = gitService.cloneIfNotExists(
@@ -235,7 +238,7 @@ public class REST {
                 )
               ) {
                 try (Git git = new Git(repository)) {
-                  PullResult call = git.pull().call();
+                  PullResult call = git.pull().setCredentialsProvider(cp).call();
                   System.out.println(
                     "Pulled from the remote repository: " + call
                   );

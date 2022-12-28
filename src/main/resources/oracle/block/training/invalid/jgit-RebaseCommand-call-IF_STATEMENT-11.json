@@ -25,12 +25,52 @@
       "parentCommitId": "1783749e169c57cef7131e1749a01ee269b89df8",
       "commitId": "2a7cd0086bf1bd614478c5722eac5142326e6f2b",
       "commitTime": 1291918931,
+      "changeType": "expression change",
+      "elementFileBefore": "org.eclipse.jgit/src/org/eclipse/jgit/api/RebaseCommand.java",
+      "elementNameBefore": "org.eclipse.jgit/src/org.eclipse.jgit.api.RebaseCommand#call()$if(223-224)",
+      "elementFileAfter": "org.eclipse.jgit/src/org/eclipse/jgit/api/RebaseCommand.java",
+      "elementNameAfter": "org.eclipse.jgit/src/org.eclipse.jgit.api.RebaseCommand#call()$if(221-222)"
+    },
+    {
+      "parentCommitId": "1783749e169c57cef7131e1749a01ee269b89df8",
+      "commitId": "2a7cd0086bf1bd614478c5722eac5142326e6f2b",
+      "commitTime": 1291918931,
+      "changeType": "body change",
+      "elementFileBefore": "org.eclipse.jgit/src/org/eclipse/jgit/api/RebaseCommand.java",
+      "elementNameBefore": "org.eclipse.jgit/src/org.eclipse.jgit.api.RebaseCommand#call()$if(223-224)",
+      "elementFileAfter": "org.eclipse.jgit/src/org/eclipse/jgit/api/RebaseCommand.java",
+      "elementNameAfter": "org.eclipse.jgit/src/org.eclipse.jgit.api.RebaseCommand#call()$if(221-222)"
+    },
+    {
+      "parentCommitId": "c0b49c1366ae429eedc724d5b34c6d41ae249fcf",
+      "commitId": "6bca46e1683a07f18f00f6ad552eab79ab50bb88",
+      "commitTime": 1291907421,
+      "changeType": "expression change",
+      "elementFileBefore": "org.eclipse.jgit/src/org/eclipse/jgit/api/RebaseCommand.java",
+      "elementNameBefore": "org.eclipse.jgit/src/org.eclipse.jgit.api.RebaseCommand#call()$if(178-180)",
+      "elementFileAfter": "org.eclipse.jgit/src/org/eclipse/jgit/api/RebaseCommand.java",
+      "elementNameAfter": "org.eclipse.jgit/src/org.eclipse.jgit.api.RebaseCommand#call()$if(223-224)"
+    },
+    {
+      "parentCommitId": "c0b49c1366ae429eedc724d5b34c6d41ae249fcf",
+      "commitId": "6bca46e1683a07f18f00f6ad552eab79ab50bb88",
+      "commitTime": 1291907421,
+      "changeType": "body change",
+      "elementFileBefore": "org.eclipse.jgit/src/org/eclipse/jgit/api/RebaseCommand.java",
+      "elementNameBefore": "org.eclipse.jgit/src/org.eclipse.jgit.api.RebaseCommand#call()$if(178-180)",
+      "elementFileAfter": "org.eclipse.jgit/src/org/eclipse/jgit/api/RebaseCommand.java",
+      "elementNameAfter": "org.eclipse.jgit/src/org.eclipse.jgit.api.RebaseCommand#call()$if(223-224)"
+    },
+    {
+      "parentCommitId": "bd98a0a9a52973704467cda892e99711524de48b",
+      "commitId": "e5b96a7848d680cf50123a44cbc147db91d798d3",
+      "commitTime": 1290441516,
       "changeType": "introduced",
       "elementFileBefore": "org.eclipse.jgit/src/org/eclipse/jgit/api/RebaseCommand.java",
-      "elementNameBefore": "org.eclipse.jgit/src/org.eclipse.jgit.api.RebaseCommand#call()$if(221-222)",
+      "elementNameBefore": "org.eclipse.jgit/src/org.eclipse.jgit.api.RebaseCommand#call()$if(175-177)",
       "elementFileAfter": "org.eclipse.jgit/src/org/eclipse/jgit/api/RebaseCommand.java",
-      "elementNameAfter": "org.eclipse.jgit/src/org.eclipse.jgit.api.RebaseCommand#call()$if(221-222)",
-      "comment": "new block"
+      "elementNameAfter": "org.eclipse.jgit/src/org.eclipse.jgit.api.RebaseCommand#call()$if(175-177)",
+      "comment": "added with method"
     }
   ]
 }
