@@ -75,7 +75,6 @@ public class REST {
 
               String changes = "";
               GitService gitService = new GitServiceImpl();
-              CredentialsProvider cp = new UsernamePasswordCredentialsProvider(System.getenv("GITHUB_USERNAME"), System.getenv("GITHUB_KEY"));
               try (
                 Repository repository = gitService.cloneIfNotExists(
                   "tmp/" + repoName,
@@ -83,14 +82,27 @@ public class REST {
                 )
               ) {
                 try (Git git = new Git(repository)) {
-                  PullResult call = git.pull().setCredentialsProvider(cp).call();
+                  PullResult call;
+                  Boolean credentialsProvided =
+                    System.getenv("GITHUB_USERNAME") != null &&
+                    System.getenv("GITHUB_KEY") != null;
+                  if (credentialsProvided) {
+                    CredentialsProvider cp = new UsernamePasswordCredentialsProvider(
+                      System.getenv("GITHUB_USERNAME"),
+                      System.getenv("GITHUB_KEY")
+                    );
+                    call = git.pull().setCredentialsProvider(cp).call();
+                  } else {
+                    call = git.pull().call();
+                  }
+
                   System.out.println(
                     "Pulled from the remote repository: " + call
                   );
                   latestCommitHash =
                     git.log().setMaxCount(1).call().iterator().next().getName();
                 }
-                if ("master".equals(commitId)) {
+                if ("master".equals(commitId) || "main".equals(commitId)) {
                   commitId = latestCommitHash;
                 }
 
@@ -229,7 +241,6 @@ public class REST {
               );
               String response;
               GitService gitService = new GitServiceImpl();
-              CredentialsProvider cp = new UsernamePasswordCredentialsProvider(System.getenv("GITHUB_USERNAME"), System.getenv("GITHUB_KEY"));
 
               try (
                 Repository repository = gitService.cloneIfNotExists(
@@ -238,14 +249,26 @@ public class REST {
                 )
               ) {
                 try (Git git = new Git(repository)) {
-                  PullResult call = git.pull().setCredentialsProvider(cp).call();
+                  PullResult call;
+                  Boolean credentialsProvided =
+                    System.getenv("GITHUB_USERNAME") != null &&
+                    System.getenv("GITHUB_KEY") != null;
+                  if (credentialsProvided) {
+                    CredentialsProvider cp = new UsernamePasswordCredentialsProvider(
+                      System.getenv("GITHUB_USERNAME"),
+                      System.getenv("GITHUB_KEY")
+                    );
+                    call = git.pull().setCredentialsProvider(cp).call();
+                  } else {
+                    call = git.pull().call();
+                  }
                   System.out.println(
                     "Pulled from the remote repository: " + call
                   );
                   latestCommitHash =
                     git.log().setMaxCount(1).call().iterator().next().getName();
                 }
-                if ("master".equals(commitId)) {
+                if ("master".equals(commitId) || "main".equals(commitId)) {
                   commitId = latestCommitHash;
                 }
 
