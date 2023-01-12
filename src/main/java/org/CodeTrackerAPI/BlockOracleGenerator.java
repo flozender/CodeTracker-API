@@ -27,7 +27,7 @@ import org.eclipse.jgit.lib.Repository;
 import org.refactoringminer.api.GitService;
 import org.refactoringminer.util.GitServiceImpl;
 
-public class OracleGenerator {
+public class BlockOracleGenerator {
 
   public static String oracleType = "training";
   public static HashMap<String, Integer> methodBlocks = new HashMap<>();
