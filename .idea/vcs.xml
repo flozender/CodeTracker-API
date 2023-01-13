@@ -18,6 +18,7 @@
     <mapping directory="$PROJECT_DIR$/tmp/hibernate-search" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/tmp/intellij-community" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/tmp/jadx" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tmp/java-tomcat-example-app" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/tmp/javaparser" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/tmp/jetty.project" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/tmp/jgit" vcs="Git" />
