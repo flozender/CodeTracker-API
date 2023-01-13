@@ -86,6 +86,9 @@ public class REST {
                   Boolean credentialsProvided =
                     System.getenv("GITHUB_USERNAME") != null &&
                     System.getenv("GITHUB_KEY") != null;
+                  System.out.println(
+                    "Credentials provided: " + credentialsProvided
+                  );
                   if (credentialsProvided) {
                     CredentialsProvider cp = new UsernamePasswordCredentialsProvider(
                       System.getenv("GITHUB_USERNAME"),
@@ -253,6 +256,9 @@ public class REST {
                   Boolean credentialsProvided =
                     System.getenv("GITHUB_USERNAME") != null &&
                     System.getenv("GITHUB_KEY") != null;
+                  System.out.println(
+                    "Credentials provided: " + credentialsProvided
+                  );
                   if (credentialsProvided) {
                     CredentialsProvider cp = new UsernamePasswordCredentialsProvider(
                       System.getenv("GITHUB_USERNAME"),
@@ -332,12 +338,12 @@ public class REST {
                   if (checkReported) {
                     dir =
                       new File(
-                        "src/main/resources/oracle/block/training/invalid/test-reported"
+                        "src/main/resources/oracle/block/test/invalid/test-reported"
                       );
                   } else {
                     dir =
                       new File(
-                        "src/main/resources/oracle/block/training/false"
+                        "src/main/resources/oracle/block/test/false"
                       );
                   }
                   File[] files = dir.listFiles(
@@ -435,14 +441,14 @@ public class REST {
                   }
 
                   String newFileName =
-                    "src/main/resources/oracle/block/training/" +
+                    "src/main/resources/oracle/block/test/" +
                     folderName +
                     "/" +
                     fileName;
 
                   if (!valid & report) {
                     newFileName =
-                      "src/main/resources/oracle/block/training/" +
+                      "src/main/resources/oracle/block/test/" +
                       folderName +
                       "/reported/" +
                       fileName;
@@ -483,11 +489,11 @@ public class REST {
                 if (checkReported) {
                   dir =
                     new File(
-                      "src/main/resources/oracle/block/training/invalid/test-reported"
+                      "src/main/resources/oracle/block/test/invalid/test-reported"
                     );
                 } else {
                   dir =
-                    new File("src/main/resources/oracle/block/training/false");
+                    new File("src/main/resources/oracle/block/test/false");
                 }
 
                 File[] files = dir.listFiles(
