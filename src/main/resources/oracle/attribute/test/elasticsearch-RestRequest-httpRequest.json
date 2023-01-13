@@ -4,7 +4,7 @@
   "startCommitId": "767c69593c67befb843686de8ea51b7bc87728c9",
   "filePath": "server/src/main/java/org/elasticsearch/rest/RestRequest.java",
   "attributeName": "httpRequest",
-  "attributeKey": "server/src/main/java/org.elasticsearch.rest.RestRequest@(final)(private)httpRequest:HttpRequest(66)",
+  "attributeKey": "server/src/main/java/org.elasticsearch.rest.RestRequest@httpRequest:HttpRequest(66)",
   "attributeDeclarationLine": 66,
   "expectedChanges": [
     {

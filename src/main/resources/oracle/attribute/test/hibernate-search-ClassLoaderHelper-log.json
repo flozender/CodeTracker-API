@@ -4,7 +4,7 @@
   "startCommitId": "5b778035965d7588ad1d1ae522c4bafebd3a0e16",
   "filePath": "engine/src/main/java/org/hibernate/search/util/impl/ClassLoaderHelper.java",
   "attributeName": "log",
-  "attributeKey": "engine/src/main/java/org.hibernate.search.util.impl.ClassLoaderHelper@(final,static)(private)log:Log(37)",
+  "attributeKey": "engine/src/main/java/org.hibernate.search.util.impl.ClassLoaderHelper@log:Log(37)",
   "attributeDeclarationLine": 37,
   "expectedChanges": [
     {

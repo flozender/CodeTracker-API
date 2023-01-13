@@ -4,7 +4,7 @@
   "startCommitId": "38bf976cd4b9e324c21664bd7ae3d554df803705",
   "filePath": "lucene/queryparser/src/java/org/apache/lucene/queryparser/classic/QueryParserBase.java",
   "attributeName": "operator",
-  "attributeKey": "lucene/queryparser/src/java/org.apache.lucene.queryparser.classic.QueryParserBase@(package)operator:Operator(61)",
+  "attributeKey": "lucene/queryparser/src/java/org.apache.lucene.queryparser.classic.QueryParserBase@operator:Operator(61)",
   "attributeDeclarationLine": 61,
   "expectedChanges": [
     {

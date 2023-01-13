@@ -4,7 +4,7 @@
   "startCommitId": "38bf976cd4b9e324c21664bd7ae3d554df803705",
   "filePath": "lucene/core/src/java/org/apache/lucene/index/ConcurrentMergeScheduler.java",
   "attributeName": "maxThreadCount",
-  "attributeKey": "lucene/core/src/java/org.apache.lucene.index.ConcurrentMergeScheduler@(private)maxThreadCount:int(94)",
+  "attributeKey": "lucene/core/src/java/org.apache.lucene.index.ConcurrentMergeScheduler@maxThreadCount:int(94)",
   "attributeDeclarationLine": 94,
   "expectedChanges": [
     {

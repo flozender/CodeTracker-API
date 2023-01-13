@@ -4,7 +4,7 @@
   "startCommitId": "5cfe8dbee950dbf3a8de3ece2f6f3363f13d904a",
   "filePath": "spring-boot-project/spring-boot/src/main/java/org/springframework/boot/web/servlet/context/ServletWebServerApplicationContext.java",
   "attributeName": "logger",
-  "attributeKey": "spring-boot-project/spring-boot/src/main/java/org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext@(final,static)(private)logger:Log(94)",
+  "attributeKey": "spring-boot-project/spring-boot/src/main/java/org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext@logger:Log(94)",
   "attributeDeclarationLine": 94,
   "expectedChanges": [
     {

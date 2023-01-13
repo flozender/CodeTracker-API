@@ -4,7 +4,7 @@
   "startCommitId": "ecb1bb9d4d484ae63ee77f8ad45bdce154db9356",
   "filePath": "java/compiler/impl/src/com/intellij/compiler/impl/javaCompiler/eclipse/EclipseCompilerConfigurable.java",
   "attributeName": "myCbGenerateNoWarnings",
-  "attributeKey": "java/compiler/impl/src/com/intellij/compiler/impl/javaCompiler/eclipse/com.intellij.compiler.impl.javaCompiler.eclipse.EclipseCompilerConfigurable@(private)myCbGenerateNoWarnings:JCheckBox(41)",
+  "attributeKey": "java/compiler/impl/src/com/intellij/compiler/impl/javaCompiler/eclipse/com.intellij.compiler.impl.javaCompiler.eclipse.EclipseCompilerConfigurable@myCbGenerateNoWarnings:JCheckBox(41)",
   "attributeDeclarationLine": 41,
   "expectedChanges": [
     {

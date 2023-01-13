@@ -4,7 +4,7 @@
   "startCommitId": "5b778035965d7588ad1d1ae522c4bafebd3a0e16",
   "filePath": "engine/src/main/java/org/hibernate/search/backend/impl/batch/DefaultBatchBackend.java",
   "attributeName": "transactionalDispatcher",
-  "attributeKey": "engine/src/main/java/org.hibernate.search.backend.impl.batch.DefaultBatchBackend@(final)(private)transactionalDispatcher:OperationDispatcher(41)",
+  "attributeKey": "engine/src/main/java/org.hibernate.search.backend.impl.batch.DefaultBatchBackend@transactionalDispatcher:OperationDispatcher(41)",
   "attributeDeclarationLine": 41,
   "expectedChanges": [
     {

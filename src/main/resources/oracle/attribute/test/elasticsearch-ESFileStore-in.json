@@ -4,7 +4,7 @@
   "startCommitId": "767c69593c67befb843686de8ea51b7bc87728c9",
   "filePath": "server/src/main/java/org/elasticsearch/env/ESFileStore.java",
   "attributeName": "in",
-  "attributeKey": "server/src/main/java/org.elasticsearch.env.ESFileStore@(final)(package)in:FileStore(42)",
+  "attributeKey": "server/src/main/java/org.elasticsearch.env.ESFileStore@in:FileStore(42)",
   "attributeDeclarationLine": 42,
   "expectedChanges": [
     {

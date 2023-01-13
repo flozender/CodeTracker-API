@@ -4,7 +4,7 @@
   "startCommitId": "5b778035965d7588ad1d1ae522c4bafebd3a0e16",
   "filePath": "engine/src/main/java/org/hibernate/search/spatial/impl/DistanceQuery.java",
   "attributeName": "center",
-  "attributeKey": "engine/src/main/java/org.hibernate.search.spatial.impl.DistanceQuery@(final)(private)center:Point(42)",
+  "attributeKey": "engine/src/main/java/org.hibernate.search.spatial.impl.DistanceQuery@center:Point(42)",
   "attributeDeclarationLine": 42,
   "expectedChanges": [
     {

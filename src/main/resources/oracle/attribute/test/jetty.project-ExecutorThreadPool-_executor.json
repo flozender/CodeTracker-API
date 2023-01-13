@@ -4,7 +4,7 @@
   "startCommitId": "fc5dd874f3deda71e6cd42af994a5af5cb6be4af",
   "filePath": "jetty-util/src/main/java/org/eclipse/jetty/util/thread/ExecutorThreadPool.java",
   "attributeName": "_executor",
-  "attributeKey": "jetty-util/src/main/java/org.eclipse.jetty.util.thread.ExecutorThreadPool@(final)(private)_executor:ThreadPoolExecutor(44)",
+  "attributeKey": "jetty-util/src/main/java/org.eclipse.jetty.util.thread.ExecutorThreadPool@_executor:ThreadPoolExecutor(44)",
   "attributeDeclarationLine": 44,
   "expectedChanges": [
     {

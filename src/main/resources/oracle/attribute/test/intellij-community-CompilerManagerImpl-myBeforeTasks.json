@@ -4,7 +4,7 @@
   "startCommitId": "ecb1bb9d4d484ae63ee77f8ad45bdce154db9356",
   "filePath": "java/compiler/impl/src/com/intellij/compiler/CompilerManagerImpl.java",
   "attributeName": "myBeforeTasks",
-  "attributeKey": "java/compiler/impl/src/com.intellij.compiler.CompilerManagerImpl@(final)(private)myBeforeTasks:List<CompileTask>(61)",
+  "attributeKey": "java/compiler/impl/src/com.intellij.compiler.CompilerManagerImpl@myBeforeTasks:List<CompileTask>(61)",
   "attributeDeclarationLine": 61,
   "expectedChanges": [
     {

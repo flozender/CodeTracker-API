@@ -4,7 +4,7 @@
   "startCommitId": "38bf976cd4b9e324c21664bd7ae3d554df803705",
   "filePath": "lucene/core/src/java/org/apache/lucene/index/IndexWriter.java",
   "attributeName": "writeDocValuesLock",
-  "attributeKey": "lucene/core/src/java/org.apache.lucene.index.IndexWriter@(final)(private)writeDocValuesLock:AtomicBoolean(577)",
+  "attributeKey": "lucene/core/src/java/org.apache.lucene.index.IndexWriter@writeDocValuesLock:AtomicBoolean(577)",
   "attributeDeclarationLine": 577,
   "expectedChanges": [
     {

@@ -4,7 +4,7 @@
   "startCommitId": "559de2c461e94ab636c959149c775bb27111fb48",
   "filePath": "src/main/java/org/apache/commons/io/input/Tailer.java",
   "attributeName": "delayMillis",
-  "attributeKey": "src/main/java/org.apache.commons.io.input.Tailer@(final)(private)delayMillis:long(149)",
+  "attributeKey": "src/main/java/org.apache.commons.io.input.Tailer@delayMillis:long(149)",
   "attributeDeclarationLine": 149,
   "expectedChanges": [
     {

@@ -4,7 +4,7 @@
   "startCommitId": "fc5dd874f3deda71e6cd42af994a5af5cb6be4af",
   "filePath": "jetty-http2/http2-server/src/main/java/org/eclipse/jetty/http2/server/HttpTransportOverHTTP2.java",
   "attributeName": "connector",
-  "attributeKey": "jetty-http2/http2-server/src/main/java/org.eclipse.jetty.http2.server.HttpTransportOverHTTP2@(final)(private)connector:Connector(50)",
+  "attributeKey": "jetty-http2/http2-server/src/main/java/org.eclipse.jetty.http2.server.HttpTransportOverHTTP2@connector:Connector(50)",
   "attributeDeclarationLine": 50,
   "expectedChanges": [
     {

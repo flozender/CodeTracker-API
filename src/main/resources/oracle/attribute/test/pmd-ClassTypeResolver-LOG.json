@@ -4,7 +4,7 @@
   "startCommitId": "d528dcd5d45582229ab3410deb7c40b2143d015d",
   "filePath": "pmd-java/src/main/java/net/sourceforge/pmd/lang/java/typeresolution/ClassTypeResolver.java",
   "attributeName": "LOG",
-  "attributeKey": "pmd-java/src/main/java/net.sourceforge.pmd.lang.java.typeresolution.ClassTypeResolver@(final,static)(private)LOG:Logger(107)",
+  "attributeKey": "pmd-java/src/main/java/net.sourceforge.pmd.lang.java.typeresolution.ClassTypeResolver@LOG:Logger(107)",
   "attributeDeclarationLine": 107,
   "expectedChanges": [
     {

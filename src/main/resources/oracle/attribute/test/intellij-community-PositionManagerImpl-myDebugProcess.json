@@ -4,7 +4,7 @@
   "startCommitId": "ecb1bb9d4d484ae63ee77f8ad45bdce154db9356",
   "filePath": "java/debugger/impl/src/com/intellij/debugger/engine/PositionManagerImpl.java",
   "attributeName": "myDebugProcess",
-  "attributeKey": "java/debugger/impl/src/com.intellij.debugger.engine.PositionManagerImpl@(final)(private)myDebugProcess:DebugProcessImpl(49)",
+  "attributeKey": "java/debugger/impl/src/com.intellij.debugger.engine.PositionManagerImpl@myDebugProcess:DebugProcessImpl(49)",
   "attributeDeclarationLine": 49,
   "expectedChanges": [
     {

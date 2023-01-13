@@ -17,11 +17,13 @@ import org.codetracker.BaseTracker;
 import org.codetracker.api.*;
 import org.codetracker.change.Change;
 import org.codetracker.element.Attribute;
+import org.codetracker.element.BaseCodeElement;
 import org.codetracker.element.Block;
 import org.codetracker.element.Method;
 import org.codetracker.util.CodeElementLocator;
 import org.codetracker.util.GitRepository;
 import org.codetracker.util.IRepository;
+import org.codetracker.util.Util;
 import org.eclipse.jgit.lib.Repository;
 import org.refactoringminer.api.GitService;
 import org.refactoringminer.util.GitServiceImpl;
@@ -245,6 +247,12 @@ public class AttributeOracleGenerator {
             umlAttribute,
             iRepository.getVersion(commitId)
     );
+    
+    String sourceFolder = Util.getPath(umlAttribute.getLocationInfo().getFilePath(), umlAttribute.getClassName());
+    String className = umlAttribute.getClassName();
+    String name = umlAttribute.getName();
+    String type = umlAttribute.getType().toString();
+    int startLine = umlAttribute.getLocationInfo().getStartLine();
 
     response =
       response +
@@ -252,7 +260,7 @@ public class AttributeOracleGenerator {
        umlAttribute.getName() +
       "\"," +
       "\"attributeKey\": \"" +
-      attribute.getName() +
+      String.format("%s%s@%s:%s(%d)", sourceFolder, className, name, type, startLine) +
       "\"," +
       "\"attributeDeclarationLine\": " +
        umlAttribute.getLocationInfo().getStartLine() +

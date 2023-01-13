@@ -4,7 +4,7 @@
   "startCommitId": "5b778035965d7588ad1d1ae522c4bafebd3a0e16",
   "filePath": "engine/src/main/java/org/hibernate/search/engine/impl/TokenizerChain.java",
   "attributeName": "tokenizer",
-  "attributeKey": "engine/src/main/java/org.hibernate.search.engine.impl.TokenizerChain@(final)(private)tokenizer:TokenizerFactory(24)",
+  "attributeKey": "engine/src/main/java/org.hibernate.search.engine.impl.TokenizerChain@tokenizer:TokenizerFactory(24)",
   "attributeDeclarationLine": 24,
   "expectedChanges": [
     {

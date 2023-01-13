@@ -4,7 +4,7 @@
   "startCommitId": "38bf976cd4b9e324c21664bd7ae3d554df803705",
   "filePath": "lucene/core/src/java/org/apache/lucene/index/ConcurrentMergeScheduler.java",
   "attributeName": "targetMBPerSec",
-  "attributeKey": "lucene/core/src/java/org.apache.lucene.index.ConcurrentMergeScheduler@(protected)targetMBPerSec:double(117)",
+  "attributeKey": "lucene/core/src/java/org.apache.lucene.index.ConcurrentMergeScheduler@targetMBPerSec:double(117)",
   "attributeDeclarationLine": 117,
   "expectedChanges": [
     {

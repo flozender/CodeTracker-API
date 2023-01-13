@@ -4,7 +4,7 @@
   "startCommitId": "5b778035965d7588ad1d1ae522c4bafebd3a0e16",
   "filePath": "engine/src/main/java/org/hibernate/search/backend/impl/StreamingOperationDispatcher.java",
   "attributeName": "integrator",
-  "attributeKey": "engine/src/main/java/org.hibernate.search.backend.impl.StreamingOperationDispatcher@(final)(private)integrator:SearchIntegrator(30)",
+  "attributeKey": "engine/src/main/java/org.hibernate.search.backend.impl.StreamingOperationDispatcher@integrator:SearchIntegrator(30)",
   "attributeDeclarationLine": 30,
   "expectedChanges": [
     {

@@ -4,7 +4,7 @@
   "startCommitId": "fc5dd874f3deda71e6cd42af994a5af5cb6be4af",
   "filePath": "jetty-servlet/src/main/java/org/eclipse/jetty/servlet/ServletHolder.java",
   "attributeName": "_enabled",
-  "attributeKey": "jetty-servlet/src/main/java/org.eclipse.jetty.servlet.ServletHolder@(private)_enabled:boolean(88)",
+  "attributeKey": "jetty-servlet/src/main/java/org.eclipse.jetty.servlet.ServletHolder@_enabled:boolean(88)",
   "attributeDeclarationLine": 88,
   "expectedChanges": [
     {

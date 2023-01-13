@@ -4,7 +4,7 @@
   "startCommitId": "38bf976cd4b9e324c21664bd7ae3d554df803705",
   "filePath": "lucene/queryparser/src/java/org/apache/lucene/queryparser/classic/QueryParserBase.java",
   "attributeName": "MOD_NOT",
-  "attributeKey": "lucene/queryparser/src/java/org.apache.lucene.queryparser.classic.QueryParserBase@(final,static)(package)MOD_NOT:int(50)",
+  "attributeKey": "lucene/queryparser/src/java/org.apache.lucene.queryparser.classic.QueryParserBase@MOD_NOT:int(50)",
   "attributeDeclarationLine": 50,
   "expectedChanges": [
     {

@@ -4,7 +4,7 @@
   "startCommitId": "5b778035965d7588ad1d1ae522c4bafebd3a0e16",
   "filePath": "engine/src/main/java/org/hibernate/search/spatial/impl/DistanceQuery.java",
   "attributeName": "radius",
-  "attributeKey": "engine/src/main/java/org.hibernate.search.spatial.impl.DistanceQuery@(final)(private)radius:double(43)",
+  "attributeKey": "engine/src/main/java/org.hibernate.search.spatial.impl.DistanceQuery@radius:double(43)",
   "attributeDeclarationLine": 43,
   "expectedChanges": [
     {

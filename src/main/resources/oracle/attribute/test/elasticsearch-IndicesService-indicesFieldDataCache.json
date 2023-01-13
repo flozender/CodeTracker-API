@@ -4,7 +4,7 @@
   "startCommitId": "767c69593c67befb843686de8ea51b7bc87728c9",
   "filePath": "server/src/main/java/org/elasticsearch/indices/IndicesService.java",
   "attributeName": "indicesFieldDataCache",
-  "attributeKey": "server/src/main/java/org.elasticsearch.indices.IndicesService@(final)(private)indicesFieldDataCache:IndicesFieldDataCache(166)",
+  "attributeKey": "server/src/main/java/org.elasticsearch.indices.IndicesService@indicesFieldDataCache:IndicesFieldDataCache(166)",
   "attributeDeclarationLine": 166,
   "expectedChanges": [
     {

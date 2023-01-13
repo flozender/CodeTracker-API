@@ -4,7 +4,7 @@
   "startCommitId": "38bf976cd4b9e324c21664bd7ae3d554df803705",
   "filePath": "lucene/core/src/java/org/apache/lucene/index/IndexWriter.java",
   "attributeName": "directory",
-  "attributeKey": "lucene/core/src/java/org.apache.lucene.index.IndexWriter@(final)(private)directory:Directory(280)",
+  "attributeKey": "lucene/core/src/java/org.apache.lucene.index.IndexWriter@directory:Directory(280)",
   "attributeDeclarationLine": 280,
   "expectedChanges": [
     {

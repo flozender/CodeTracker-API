@@ -4,7 +4,7 @@
   "startCommitId": "559de2c461e94ab636c959149c775bb27111fb48",
   "filePath": "src/main/java/org/apache/commons/io/output/DemuxOutputStream.java",
   "attributeName": "outputStreamThreadLocal",
-  "attributeKey": "src/main/java/org.apache.commons.io.output.DemuxOutputStream@(final)(private)outputStreamThreadLocal:InheritableThreadLocal<OutputStream>(27)",
+  "attributeKey": "src/main/java/org.apache.commons.io.output.DemuxOutputStream@outputStreamThreadLocal:InheritableThreadLocal<OutputStream>(27)",
   "attributeDeclarationLine": 27,
   "expectedChanges": [
     {

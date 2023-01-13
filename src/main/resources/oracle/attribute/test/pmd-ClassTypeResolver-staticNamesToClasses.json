@@ -4,7 +4,7 @@
   "startCommitId": "d528dcd5d45582229ab3410deb7c40b2143d015d",
   "filePath": "pmd-java/src/main/java/net/sourceforge/pmd/lang/java/typeresolution/ClassTypeResolver.java",
   "attributeName": "staticNamesToClasses",
-  "attributeKey": "pmd-java/src/main/java/net.sourceforge.pmd.lang.java.typeresolution.ClassTypeResolver@(private)staticNamesToClasses:Map<String,List<JavaTypeDefinition>>(113)",
+  "attributeKey": "pmd-java/src/main/java/net.sourceforge.pmd.lang.java.typeresolution.ClassTypeResolver@staticNamesToClasses:Map<String,List<JavaTypeDefinition>>(113)",
   "attributeDeclarationLine": 113,
   "expectedChanges": [
     {

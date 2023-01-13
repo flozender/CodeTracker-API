@@ -4,7 +4,7 @@
   "startCommitId": "5b778035965d7588ad1d1ae522c4bafebd3a0e16",
   "filePath": "engine/src/main/java/org/hibernate/search/backend/impl/batch/DefaultBatchBackend.java",
   "attributeName": "progressMonitor",
-  "attributeKey": "engine/src/main/java/org.hibernate.search.backend.impl.batch.DefaultBatchBackend@(final)(private)progressMonitor:MassIndexerProgressMonitor(39)",
+  "attributeKey": "engine/src/main/java/org.hibernate.search.backend.impl.batch.DefaultBatchBackend@progressMonitor:MassIndexerProgressMonitor(39)",
   "attributeDeclarationLine": 39,
   "expectedChanges": [
     {

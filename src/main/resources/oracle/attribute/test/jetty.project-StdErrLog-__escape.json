@@ -4,7 +4,7 @@
   "startCommitId": "fc5dd874f3deda71e6cd42af994a5af5cb6be4af",
   "filePath": "jetty-util/src/main/java/org/eclipse/jetty/util/log/StdErrLog.java",
   "attributeName": "__escape",
-  "attributeKey": "jetty-util/src/main/java/org.eclipse.jetty.util.log.StdErrLog@(final,static)(private)__escape:boolean(103)",
+  "attributeKey": "jetty-util/src/main/java/org.eclipse.jetty.util.log.StdErrLog@__escape:boolean(103)",
   "attributeDeclarationLine": 103,
   "expectedChanges": [
     {

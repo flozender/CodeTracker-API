@@ -4,7 +4,7 @@
   "startCommitId": "fc5dd874f3deda71e6cd42af994a5af5cb6be4af",
   "filePath": "jetty-servlet/src/main/java/org/eclipse/jetty/servlet/ServletHolder.java",
   "attributeName": "_config",
-  "attributeKey": "jetty-servlet/src/main/java/org.eclipse.jetty.servlet.ServletHolder@(private)_config:Config(87)",
+  "attributeKey": "jetty-servlet/src/main/java/org.eclipse.jetty.servlet.ServletHolder@_config:Config(87)",
   "attributeDeclarationLine": 87,
   "expectedChanges": [
     {

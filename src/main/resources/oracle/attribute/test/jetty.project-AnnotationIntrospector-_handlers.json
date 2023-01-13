@@ -4,7 +4,7 @@
   "startCommitId": "fc5dd874f3deda71e6cd42af994a5af5cb6be4af",
   "filePath": "jetty-annotations/src/main/java/org/eclipse/jetty/annotations/AnnotationIntrospector.java",
   "attributeName": "_handlers",
-  "attributeKey": "jetty-annotations/src/main/java/org.eclipse.jetty.annotations.AnnotationIntrospector@(protected)_handlers:List<IntrospectableAnnotationHandler>(31)",
+  "attributeKey": "jetty-annotations/src/main/java/org.eclipse.jetty.annotations.AnnotationIntrospector@_handlers:List<IntrospectableAnnotationHandler>(31)",
   "attributeDeclarationLine": 31,
   "expectedChanges": [
     {
