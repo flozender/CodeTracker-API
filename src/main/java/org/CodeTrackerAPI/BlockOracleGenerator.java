@@ -363,11 +363,11 @@ public class BlockOracleGenerator {
     ObjectMapper mapper = new ObjectMapper();
     mapper.setVisibility(PropertyAccessor.FIELD, JsonAutoDetect.Visibility.ANY);
     try {
-      changeLog.sort(
-        Comparator
-          .comparing(CTHBlockOracleComment::getCommitTime)
-          .thenComparing(CTHBlockOracleComment::getChangeType)
-      );
+//      changeLog.sort(
+//        Comparator
+//          .comparing(CTHBlockOracleComment::getCommitTime)
+//          .thenComparing(CTHBlockOracleComment::getChangeType)
+//      );
 
       Collections.reverse(changeLog);
 
