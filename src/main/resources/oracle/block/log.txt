@@ -1,4 +1,4 @@
-2023-01-13 15:12:52 Started oracle generation
+2023-01-17 16:24:16 Started oracle generation
 Block test Data
 No key yet: commons-io-DemuxOutputStream-flush-IF_STATEMENT
 Data is written to file: src/main/resources/oracle/block/test/true/commons-io-DemuxOutputStream-flush-IF_STATEMENT.json
@@ -9,11 +9,11 @@ Data is written to file: src/main/resources/oracle/block/test/true/commons-io-Fi
 Key contained: commons-io-FilenameUtils-wildcardMatch-IF_STATEMENT -> 1
 Data is written to file: src/main/resources/oracle/block/test/true/commons-io-FilenameUtils-wildcardMatch-IF_STATEMENT-1.json
 Key contained: commons-io-FilenameUtils-wildcardMatch-IF_STATEMENT -> 2
-Data is written to file: src/main/resources/oracle/block/test/false/commons-io-FilenameUtils-wildcardMatch-IF_STATEMENT-2.json
+Data is written to file: src/main/resources/oracle/block/test/valid/commons-io-FilenameUtils-wildcardMatch-IF_STATEMENT-2.json
 Key contained: commons-io-FilenameUtils-wildcardMatch-IF_STATEMENT -> 3
 Data is written to file: src/main/resources/oracle/block/test/true/commons-io-FilenameUtils-wildcardMatch-IF_STATEMENT-3.json
 Key contained: commons-io-FilenameUtils-wildcardMatch-IF_STATEMENT -> 4
-Data is written to file: src/main/resources/oracle/block/test/false/commons-io-FilenameUtils-wildcardMatch-IF_STATEMENT-4.json
+Data is written to file: src/main/resources/oracle/block/test/valid/commons-io-FilenameUtils-wildcardMatch-IF_STATEMENT-4.json
 Key contained: commons-io-FilenameUtils-wildcardMatch-IF_STATEMENT -> 5
 Data is written to file: src/main/resources/oracle/block/test/true/commons-io-FilenameUtils-wildcardMatch-IF_STATEMENT-5.json
 Key contained: commons-io-FilenameUtils-wildcardMatch-IF_STATEMENT -> 6
@@ -35,15 +35,15 @@ Data is written to file: src/main/resources/oracle/block/test/true/commons-io-Fi
 No key yet: commons-io-FilenameUtils-wildcardMatch-DO_STATEMENT
 Data is written to file: src/main/resources/oracle/block/test/true/commons-io-FilenameUtils-wildcardMatch-DO_STATEMENT.json
 No key yet: commons-io-IOUtils-contentEqualsIgnoreEOL-IF_STATEMENT
-Data is written to file: src/main/resources/oracle/block/test/false/commons-io-IOUtils-contentEqualsIgnoreEOL-IF_STATEMENT.json
+Data is written to file: src/main/resources/oracle/block/test/valid/commons-io-IOUtils-contentEqualsIgnoreEOL-IF_STATEMENT.json
 No key yet: commons-io-IOUtils-contentEqualsIgnoreEOL-WHILE_STATEMENT
 Data is written to file: src/main/resources/oracle/block/test/true/commons-io-IOUtils-contentEqualsIgnoreEOL-WHILE_STATEMENT.json
 No key yet: commons-io-ProxyWriter-write-IF_STATEMENT
-Data is written to file: src/main/resources/oracle/block/test/false/commons-io-ProxyWriter-write-IF_STATEMENT.json
+Data is written to file: src/main/resources/oracle/block/test/valid/commons-io-ProxyWriter-write-IF_STATEMENT.json
 No key yet: commons-io-ProxyWriter-write-TRY_STATEMENT
-Data is written to file: src/main/resources/oracle/block/test/false/commons-io-ProxyWriter-write-TRY_STATEMENT.json
+Data is written to file: src/main/resources/oracle/block/test/valid/commons-io-ProxyWriter-write-TRY_STATEMENT.json
 No key yet: commons-io-ProxyWriter-write-CATCH_CLAUSE
-Data is written to file: src/main/resources/oracle/block/test/false/commons-io-ProxyWriter-write-CATCH_CLAUSE.json
+Data is written to file: src/main/resources/oracle/block/test/valid/commons-io-ProxyWriter-write-CATCH_CLAUSE.json
 No key yet: commons-io-Tailer-run-TRY_STATEMENT
 Data is written to file: src/main/resources/oracle/block/test/true/commons-io-Tailer-run-TRY_STATEMENT.json
 No key yet: commons-io-Tailer-run-CATCH_CLAUSE
@@ -53,11 +53,11 @@ Data is written to file: src/main/resources/oracle/block/test/true/commons-io-Ta
 No key yet: commons-io-Tailer-run-WHILE_STATEMENT
 Data is written to file: src/main/resources/oracle/block/test/true/commons-io-Tailer-run-WHILE_STATEMENT.json
 Key contained: commons-io-Tailer-run-TRY_STATEMENT -> 1
-Data is written to file: src/main/resources/oracle/block/test/false/commons-io-Tailer-run-TRY_STATEMENT-1.json
+Data is written to file: src/main/resources/oracle/block/test/valid/commons-io-Tailer-run-TRY_STATEMENT-1.json
 Key contained: commons-io-Tailer-run-CATCH_CLAUSE -> 1
-Data is written to file: src/main/resources/oracle/block/test/false/commons-io-Tailer-run-CATCH_CLAUSE-1.json
+Data is written to file: src/main/resources/oracle/block/test/valid/commons-io-Tailer-run-CATCH_CLAUSE-1.json
 Key contained: commons-io-Tailer-run-TRY_STATEMENT -> 2
-Data is written to file: src/main/resources/oracle/block/test/false/commons-io-Tailer-run-TRY_STATEMENT-2.json
+Data is written to file: src/main/resources/oracle/block/test/invalid/reported/commons-io-Tailer-run-TRY_STATEMENT-2.json
 Key contained: commons-io-Tailer-run-CATCH_CLAUSE -> 2
 Data is written to file: src/main/resources/oracle/block/test/true/commons-io-Tailer-run-CATCH_CLAUSE-2.json
 Key contained: commons-io-Tailer-run-IF_STATEMENT -> 1
@@ -67,9 +67,9 @@ Data is written to file: src/main/resources/oracle/block/test/true/commons-io-Ta
 Key contained: commons-io-Tailer-run-IF_STATEMENT -> 3
 Data is written to file: src/main/resources/oracle/block/test/true/commons-io-Tailer-run-IF_STATEMENT-3.json
 Key contained: commons-io-Tailer-run-IF_STATEMENT -> 4
-Data is written to file: src/main/resources/oracle/block/test/false/commons-io-Tailer-run-IF_STATEMENT-4.json
+Data is written to file: src/main/resources/oracle/block/test/invalid/reported/commons-io-Tailer-run-IF_STATEMENT-4.json
 Key contained: commons-io-Tailer-run-IF_STATEMENT -> 5
-Data is written to file: src/main/resources/oracle/block/test/false/commons-io-Tailer-run-IF_STATEMENT-5.json
+Data is written to file: src/main/resources/oracle/block/test/valid/commons-io-Tailer-run-IF_STATEMENT-5.json
 Key contained: commons-io-Tailer-run-WHILE_STATEMENT -> 1
 Data is written to file: src/main/resources/oracle/block/test/true/commons-io-Tailer-run-WHILE_STATEMENT-1.json
 Key contained: commons-io-Tailer-run-TRY_STATEMENT -> 3
@@ -77,41 +77,41 @@ Data is written to file: src/main/resources/oracle/block/test/true/commons-io-Ta
 Key contained: commons-io-Tailer-run-CATCH_CLAUSE -> 3
 Data is written to file: src/main/resources/oracle/block/test/true/commons-io-Tailer-run-CATCH_CLAUSE-3.json
 Key contained: commons-io-Tailer-run-CATCH_CLAUSE -> 4
-Data is written to file: src/main/resources/oracle/block/test/false/commons-io-Tailer-run-CATCH_CLAUSE-4.json
+Data is written to file: src/main/resources/oracle/block/test/invalid/reported/commons-io-Tailer-run-CATCH_CLAUSE-4.json
 Key contained: commons-io-Tailer-run-IF_STATEMENT -> 6
-Data is written to file: src/main/resources/oracle/block/test/false/commons-io-Tailer-run-IF_STATEMENT-6.json
+Data is written to file: src/main/resources/oracle/block/test/valid/commons-io-Tailer-run-IF_STATEMENT-6.json
 Key contained: commons-io-Tailer-run-TRY_STATEMENT -> 4
-Data is written to file: src/main/resources/oracle/block/test/false/commons-io-Tailer-run-TRY_STATEMENT-4.json
+Data is written to file: src/main/resources/oracle/block/test/valid/commons-io-Tailer-run-TRY_STATEMENT-4.json
 Key contained: commons-io-Tailer-run-CATCH_CLAUSE -> 5
-Data is written to file: src/main/resources/oracle/block/test/false/commons-io-Tailer-run-CATCH_CLAUSE-5.json
+Data is written to file: src/main/resources/oracle/block/test/valid/commons-io-Tailer-run-CATCH_CLAUSE-5.json
 No key yet: commons-io-Tailer-run-FINALLY_BLOCK
-Data is written to file: src/main/resources/oracle/block/test/false/commons-io-Tailer-run-FINALLY_BLOCK.json
+Data is written to file: src/main/resources/oracle/block/test/invalid/commons-io-Tailer-run-FINALLY_BLOCK.json
 No key yet: commons-io-XmlStreamReader-doHttpStream-TRY_STATEMENT
 Data is written to file: src/main/resources/oracle/block/test/false/commons-io-XmlStreamReader-doHttpStream-TRY_STATEMENT.json
 No key yet: commons-io-XmlStreamReader-doHttpStream-IF_STATEMENT
-Data is written to file: src/main/resources/oracle/block/test/false/commons-io-XmlStreamReader-doHttpStream-IF_STATEMENT.json
+Data is written to file: src/main/resources/oracle/block/test/valid/commons-io-XmlStreamReader-doHttpStream-IF_STATEMENT.json
 No key yet: commons-io-XmlStreamReader-doHttpStream-CATCH_CLAUSE
-Data is written to file: src/main/resources/oracle/block/test/false/commons-io-XmlStreamReader-doHttpStream-CATCH_CLAUSE.json
+Data is written to file: src/main/resources/oracle/block/test/valid/commons-io-XmlStreamReader-doHttpStream-CATCH_CLAUSE.json
 No key yet: elasticsearch-BulkRequest-add-ENHANCED_FOR_STATEMENT
 Data is written to file: src/main/resources/oracle/block/test/true/elasticsearch-BulkRequest-add-ENHANCED_FOR_STATEMENT.json
 No key yet: elasticsearch-ESFileStore-getUnallocatedSpace-IF_STATEMENT
-Data is written to file: src/main/resources/oracle/block/test/false/elasticsearch-ESFileStore-getUnallocatedSpace-IF_STATEMENT.json
+Data is written to file: src/main/resources/oracle/block/test/valid/elasticsearch-ESFileStore-getUnallocatedSpace-IF_STATEMENT.json
 No key yet: elasticsearch-IndicesSegmentResponse-addCustomXContentFields-IF_STATEMENT
 Data is written to file: src/main/resources/oracle/block/test/true/elasticsearch-IndicesSegmentResponse-addCustomXContentFields-IF_STATEMENT.json
 Key contained: elasticsearch-IndicesSegmentResponse-addCustomXContentFields-IF_STATEMENT -> 1
-Data is written to file: src/main/resources/oracle/block/test/false/elasticsearch-IndicesSegmentResponse-addCustomXContentFields-IF_STATEMENT-1.json
+Data is written to file: src/main/resources/oracle/block/test/valid/elasticsearch-IndicesSegmentResponse-addCustomXContentFields-IF_STATEMENT-1.json
 Key contained: elasticsearch-IndicesSegmentResponse-addCustomXContentFields-IF_STATEMENT -> 2
-Data is written to file: src/main/resources/oracle/block/test/false/elasticsearch-IndicesSegmentResponse-addCustomXContentFields-IF_STATEMENT-2.json
+Data is written to file: src/main/resources/oracle/block/test/valid/elasticsearch-IndicesSegmentResponse-addCustomXContentFields-IF_STATEMENT-2.json
 Key contained: elasticsearch-IndicesSegmentResponse-addCustomXContentFields-IF_STATEMENT -> 3
-Data is written to file: src/main/resources/oracle/block/test/false/elasticsearch-IndicesSegmentResponse-addCustomXContentFields-IF_STATEMENT-3.json
+Data is written to file: src/main/resources/oracle/block/test/valid/elasticsearch-IndicesSegmentResponse-addCustomXContentFields-IF_STATEMENT-3.json
 Key contained: elasticsearch-IndicesSegmentResponse-addCustomXContentFields-IF_STATEMENT -> 4
-Data is written to file: src/main/resources/oracle/block/test/false/elasticsearch-IndicesSegmentResponse-addCustomXContentFields-IF_STATEMENT-4.json
+Data is written to file: src/main/resources/oracle/block/test/valid/elasticsearch-IndicesSegmentResponse-addCustomXContentFields-IF_STATEMENT-4.json
 No key yet: elasticsearch-IndicesSegmentResponse-addCustomXContentFields-ENHANCED_FOR_STATEMENT
-Data is written to file: src/main/resources/oracle/block/test/false/elasticsearch-IndicesSegmentResponse-addCustomXContentFields-ENHANCED_FOR_STATEMENT.json
+Data is written to file: src/main/resources/oracle/block/test/valid/elasticsearch-IndicesSegmentResponse-addCustomXContentFields-ENHANCED_FOR_STATEMENT.json
 Key contained: elasticsearch-IndicesSegmentResponse-addCustomXContentFields-IF_STATEMENT -> 5
-Data is written to file: src/main/resources/oracle/block/test/false/elasticsearch-IndicesSegmentResponse-addCustomXContentFields-IF_STATEMENT-5.json
+Data is written to file: src/main/resources/oracle/block/test/valid/elasticsearch-IndicesSegmentResponse-addCustomXContentFields-IF_STATEMENT-5.json
 Key contained: elasticsearch-IndicesSegmentResponse-addCustomXContentFields-IF_STATEMENT -> 6
-Data is written to file: src/main/resources/oracle/block/test/false/elasticsearch-IndicesSegmentResponse-addCustomXContentFields-IF_STATEMENT-6.json
+Data is written to file: src/main/resources/oracle/block/test/valid/elasticsearch-IndicesSegmentResponse-addCustomXContentFields-IF_STATEMENT-6.json
 Key contained: elasticsearch-IndicesSegmentResponse-addCustomXContentFields-ENHANCED_FOR_STATEMENT -> 1
 Data is written to file: src/main/resources/oracle/block/test/true/elasticsearch-IndicesSegmentResponse-addCustomXContentFields-ENHANCED_FOR_STATEMENT-1.json
 Key contained: elasticsearch-IndicesSegmentResponse-addCustomXContentFields-ENHANCED_FOR_STATEMENT -> 2
@@ -125,7 +125,7 @@ Data is written to file: src/main/resources/oracle/block/test/true/elasticsearch
 No key yet: elasticsearch-IndicesSegmentResponse-toXContent-IF_STATEMENT
 Data is written to file: src/main/resources/oracle/block/test/true/elasticsearch-IndicesSegmentResponse-toXContent-IF_STATEMENT.json
 No key yet: elasticsearch-IndicesService-verifyIndexMetadata-IF_STATEMENT
-Data is written to file: src/main/resources/oracle/block/test/false/elasticsearch-IndicesService-verifyIndexMetadata-IF_STATEMENT.json
+Data is written to file: src/main/resources/oracle/block/test/valid/elasticsearch-IndicesService-verifyIndexMetadata-IF_STATEMENT.json
 No key yet: elasticsearch-IndicesService-verifyIndexMetadata-TRY_STATEMENT
 Data is written to file: src/main/resources/oracle/block/test/true/elasticsearch-IndicesService-verifyIndexMetadata-TRY_STATEMENT.json
 No key yet: elasticsearch-IndicesService-verifyIndexMetadata-FINALLY_BLOCK
@@ -167,27 +167,27 @@ Data is written to file: src/main/resources/oracle/block/test/false/hadoop-FiCaS
 No key yet: hadoop-FifoScheduler-allocate-IF_STATEMENT
 Data is written to file: src/main/resources/oracle/block/test/true/hadoop-FifoScheduler-allocate-IF_STATEMENT.json
 Key contained: hadoop-FifoScheduler-allocate-IF_STATEMENT -> 1
-Data is written to file: src/main/resources/oracle/block/test/false/hadoop-FifoScheduler-allocate-IF_STATEMENT-1.json
+Data is written to file: src/main/resources/oracle/block/test/valid/hadoop-FifoScheduler-allocate-IF_STATEMENT-1.json
 Key contained: hadoop-FifoScheduler-allocate-IF_STATEMENT -> 2
-Data is written to file: src/main/resources/oracle/block/test/false/hadoop-FifoScheduler-allocate-IF_STATEMENT-2.json
+Data is written to file: src/main/resources/oracle/block/test/valid/hadoop-FifoScheduler-allocate-IF_STATEMENT-2.json
 Key contained: hadoop-FifoScheduler-allocate-IF_STATEMENT -> 3
 Data is written to file: src/main/resources/oracle/block/test/true/hadoop-FifoScheduler-allocate-IF_STATEMENT-3.json
 No key yet: hadoop-FifoScheduler-allocate-SYNCHRONIZED_STATEMENT
-Data is written to file: src/main/resources/oracle/block/test/false/hadoop-FifoScheduler-allocate-SYNCHRONIZED_STATEMENT.json
+Data is written to file: src/main/resources/oracle/block/test/valid/hadoop-FifoScheduler-allocate-SYNCHRONIZED_STATEMENT.json
 No key yet: hadoop-FifoScheduler-getAppsInQueue-ENHANCED_FOR_STATEMENT
 Data is written to file: src/main/resources/oracle/block/test/true/hadoop-FifoScheduler-getAppsInQueue-ENHANCED_FOR_STATEMENT.json
 No key yet: hadoop-FifoScheduler-getAppsInQueue-IF_STATEMENT
 Data is written to file: src/main/resources/oracle/block/test/true/hadoop-FifoScheduler-getAppsInQueue-IF_STATEMENT.json
 No key yet: hadoop-LeveldbConfigurationStore-retrieve-IF_STATEMENT
-Data is written to file: src/main/resources/oracle/block/test/false/hadoop-LeveldbConfigurationStore-retrieve-IF_STATEMENT.json
+Data is written to file: src/main/resources/oracle/block/test/valid/hadoop-LeveldbConfigurationStore-retrieve-IF_STATEMENT.json
 No key yet: hadoop-LeveldbConfigurationStore-retrieve-WHILE_STATEMENT
 Data is written to file: src/main/resources/oracle/block/test/false/hadoop-LeveldbConfigurationStore-retrieve-WHILE_STATEMENT.json
 No key yet: hadoop-NodeReportPBImpl-setCapability-IF_STATEMENT
 Data is written to file: src/main/resources/oracle/block/test/true/hadoop-NodeReportPBImpl-setCapability-IF_STATEMENT.json
 No key yet: hadoop-RMServerUtils-normalizeAndValidateRequests-TRY_STATEMENT
-Data is written to file: src/main/resources/oracle/block/test/false/hadoop-RMServerUtils-normalizeAndValidateRequests-TRY_STATEMENT.json
+Data is written to file: src/main/resources/oracle/block/test/valid/hadoop-RMServerUtils-normalizeAndValidateRequests-TRY_STATEMENT.json
 No key yet: hadoop-RMServerUtils-normalizeAndValidateRequests-CATCH_CLAUSE
-Data is written to file: src/main/resources/oracle/block/test/false/hadoop-RMServerUtils-normalizeAndValidateRequests-CATCH_CLAUSE.json
+Data is written to file: src/main/resources/oracle/block/test/valid/hadoop-RMServerUtils-normalizeAndValidateRequests-CATCH_CLAUSE.json
 No key yet: hadoop-RMServerUtils-normalizeAndValidateRequests-ENHANCED_FOR_STATEMENT
 Data is written to file: src/main/resources/oracle/block/test/true/hadoop-RMServerUtils-normalizeAndValidateRequests-ENHANCED_FOR_STATEMENT.json
 No key yet: hadoop-SchedulerApplicationAttempt-getRunningAggregateAppResourceUsage-ENHANCED_FOR_STATEMENT
@@ -209,15 +209,15 @@ Data is written to file: src/main/resources/oracle/block/test/true/hibernate-sea
 Key contained: hibernate-search-new TwoPhaseIterator-matches-IF_STATEMENT -> 1
 Data is written to file: src/main/resources/oracle/block/test/true/hibernate-search-new TwoPhaseIterator-matches-IF_STATEMENT-1.json
 No key yet: hibernate-search-NumericFieldUtils-createNumericRangeQuery-IF_STATEMENT
-Data is written to file: src/main/resources/oracle/block/test/false/hibernate-search-NumericFieldUtils-createNumericRangeQuery-IF_STATEMENT.json
+Data is written to file: src/main/resources/oracle/block/test/valid/hibernate-search-NumericFieldUtils-createNumericRangeQuery-IF_STATEMENT.json
 Key contained: hibernate-search-NumericFieldUtils-createNumericRangeQuery-IF_STATEMENT -> 1
-Data is written to file: src/main/resources/oracle/block/test/false/hibernate-search-NumericFieldUtils-createNumericRangeQuery-IF_STATEMENT-1.json
+Data is written to file: src/main/resources/oracle/block/test/valid/hibernate-search-NumericFieldUtils-createNumericRangeQuery-IF_STATEMENT-1.json
 Key contained: hibernate-search-NumericFieldUtils-createNumericRangeQuery-IF_STATEMENT -> 2
 Data is written to file: src/main/resources/oracle/block/test/true/hibernate-search-NumericFieldUtils-createNumericRangeQuery-IF_STATEMENT-2.json
 Key contained: hibernate-search-NumericFieldUtils-createNumericRangeQuery-IF_STATEMENT -> 3
-Data is written to file: src/main/resources/oracle/block/test/false/hibernate-search-NumericFieldUtils-createNumericRangeQuery-IF_STATEMENT-3.json
+Data is written to file: src/main/resources/oracle/block/test/valid/hibernate-search-NumericFieldUtils-createNumericRangeQuery-IF_STATEMENT-3.json
 Key contained: hibernate-search-NumericFieldUtils-createNumericRangeQuery-IF_STATEMENT -> 4
-Data is written to file: src/main/resources/oracle/block/test/false/hibernate-search-NumericFieldUtils-createNumericRangeQuery-IF_STATEMENT-4.json
+Data is written to file: src/main/resources/oracle/block/test/valid/hibernate-search-NumericFieldUtils-createNumericRangeQuery-IF_STATEMENT-4.json
 Key contained: hibernate-search-NumericFieldUtils-createNumericRangeQuery-IF_STATEMENT -> 5
 Data is written to file: src/main/resources/oracle/block/test/true/hibernate-search-NumericFieldUtils-createNumericRangeQuery-IF_STATEMENT-5.json
 Key contained: hibernate-search-NumericFieldUtils-createNumericRangeQuery-IF_STATEMENT -> 6
@@ -225,29 +225,29 @@ Data is written to file: src/main/resources/oracle/block/test/true/hibernate-sea
 Key contained: hibernate-search-NumericFieldUtils-createNumericRangeQuery-IF_STATEMENT -> 7
 Data is written to file: src/main/resources/oracle/block/test/true/hibernate-search-NumericFieldUtils-createNumericRangeQuery-IF_STATEMENT-7.json
 Key contained: hibernate-search-NumericFieldUtils-createNumericRangeQuery-IF_STATEMENT -> 8
-Data is written to file: src/main/resources/oracle/block/test/false/hibernate-search-NumericFieldUtils-createNumericRangeQuery-IF_STATEMENT-8.json
+Data is written to file: src/main/resources/oracle/block/test/valid/hibernate-search-NumericFieldUtils-createNumericRangeQuery-IF_STATEMENT-8.json
 Key contained: hibernate-search-NumericFieldUtils-createNumericRangeQuery-IF_STATEMENT -> 9
-Data is written to file: src/main/resources/oracle/block/test/false/hibernate-search-NumericFieldUtils-createNumericRangeQuery-IF_STATEMENT-9.json
+Data is written to file: src/main/resources/oracle/block/test/valid/hibernate-search-NumericFieldUtils-createNumericRangeQuery-IF_STATEMENT-9.json
 Key contained: hibernate-search-NumericFieldUtils-createNumericRangeQuery-IF_STATEMENT -> 10
 Data is written to file: src/main/resources/oracle/block/test/false/hibernate-search-NumericFieldUtils-createNumericRangeQuery-IF_STATEMENT-10.json
 Key contained: hibernate-search-NumericFieldUtils-createNumericRangeQuery-IF_STATEMENT -> 11
-Data is written to file: src/main/resources/oracle/block/test/false/hibernate-search-NumericFieldUtils-createNumericRangeQuery-IF_STATEMENT-11.json
+Data is written to file: src/main/resources/oracle/block/test/valid/hibernate-search-NumericFieldUtils-createNumericRangeQuery-IF_STATEMENT-11.json
 Key contained: hibernate-search-NumericFieldUtils-createNumericRangeQuery-IF_STATEMENT -> 12
-Data is written to file: src/main/resources/oracle/block/test/false/hibernate-search-NumericFieldUtils-createNumericRangeQuery-IF_STATEMENT-12.json
+Data is written to file: src/main/resources/oracle/block/test/valid/hibernate-search-NumericFieldUtils-createNumericRangeQuery-IF_STATEMENT-12.json
 No key yet: hibernate-search-TokenizerChain-createComponents-ENHANCED_FOR_STATEMENT
 Data is written to file: src/main/resources/oracle/block/test/true/hibernate-search-TokenizerChain-createComponents-ENHANCED_FOR_STATEMENT.json
 No key yet: intellij-community-ArtifactBySourceFileFinderImpl-getFileToArtifactsMap-IF_STATEMENT
 Data is written to file: src/main/resources/oracle/block/test/true/intellij-community-ArtifactBySourceFileFinderImpl-getFileToArtifactsMap-IF_STATEMENT.json
 No key yet: intellij-community-CompilerManagerImpl-removeCompiler-ENHANCED_FOR_STATEMENT
-Data is written to file: src/main/resources/oracle/block/test/false/intellij-community-CompilerManagerImpl-removeCompiler-ENHANCED_FOR_STATEMENT.json
+Data is written to file: src/main/resources/oracle/block/test/valid/intellij-community-CompilerManagerImpl-removeCompiler-ENHANCED_FOR_STATEMENT.json
 No key yet: intellij-community-ExceptionBreakpoint-getThisObject-IF_STATEMENT
 Data is written to file: src/main/resources/oracle/block/test/true/intellij-community-ExceptionBreakpoint-getThisObject-IF_STATEMENT.json
 No key yet: intellij-community-TranslatingCompilerFilesMonitor-isInContentOfOpenedProject-IF_STATEMENT
-Data is written to file: src/main/resources/oracle/block/test/false/intellij-community-TranslatingCompilerFilesMonitor-isInContentOfOpenedProject-IF_STATEMENT.json
+Data is written to file: src/main/resources/oracle/block/test/invalid/intellij-community-TranslatingCompilerFilesMonitor-isInContentOfOpenedProject-IF_STATEMENT.json
 Key contained: intellij-community-TranslatingCompilerFilesMonitor-isInContentOfOpenedProject-IF_STATEMENT -> 1
-Data is written to file: src/main/resources/oracle/block/test/false/intellij-community-TranslatingCompilerFilesMonitor-isInContentOfOpenedProject-IF_STATEMENT-1.json
+Data is written to file: src/main/resources/oracle/block/test/invalid/intellij-community-TranslatingCompilerFilesMonitor-isInContentOfOpenedProject-IF_STATEMENT-1.json
 No key yet: intellij-community-TranslatingCompilerFilesMonitor-isInContentOfOpenedProject-ENHANCED_FOR_STATEMENT
-Data is written to file: src/main/resources/oracle/block/test/false/intellij-community-TranslatingCompilerFilesMonitor-isInContentOfOpenedProject-ENHANCED_FOR_STATEMENT.json
+Data is written to file: src/main/resources/oracle/block/test/invalid/intellij-community-TranslatingCompilerFilesMonitor-isInContentOfOpenedProject-ENHANCED_FOR_STATEMENT.json
 No key yet: jetty.project-AnnotationIntrospector-introspect-IF_STATEMENT
 Data is written to file: src/main/resources/oracle/block/test/true/jetty.project-AnnotationIntrospector-introspect-IF_STATEMENT.json
 Key contained: jetty.project-AnnotationIntrospector-introspect-IF_STATEMENT -> 1
@@ -255,7 +255,7 @@ Data is written to file: src/main/resources/oracle/block/test/true/jetty.project
 No key yet: jetty.project-AnnotationIntrospector-introspect-TRY_STATEMENT
 Data is written to file: src/main/resources/oracle/block/test/true/jetty.project-AnnotationIntrospector-introspect-TRY_STATEMENT.json
 No key yet: jetty.project-AnnotationIntrospector-introspect-CATCH_CLAUSE
-Data is written to file: src/main/resources/oracle/block/test/false/jetty.project-AnnotationIntrospector-introspect-CATCH_CLAUSE.json
+Data is written to file: src/main/resources/oracle/block/test/valid/jetty.project-AnnotationIntrospector-introspect-CATCH_CLAUSE.json
 Key contained: jetty.project-AnnotationIntrospector-introspect-CATCH_CLAUSE -> 1
 Data is written to file: src/main/resources/oracle/block/test/true/jetty.project-AnnotationIntrospector-introspect-CATCH_CLAUSE-1.json
 No key yet: jetty.project-AnnotationIntrospector-introspect-ENHANCED_FOR_STATEMENT
@@ -273,25 +273,25 @@ Data is written to file: src/main/resources/oracle/block/test/true/jetty.project
 No key yet: jetty.project-FragmentDescriptor-processAfters-WHILE_STATEMENT
 Data is written to file: src/main/resources/oracle/block/test/true/jetty.project-FragmentDescriptor-processAfters-WHILE_STATEMENT.json
 No key yet: jetty.project-HttpTransportOverHTTP2-push-IF_STATEMENT
-Data is written to file: src/main/resources/oracle/block/test/false/jetty.project-HttpTransportOverHTTP2-push-IF_STATEMENT.json
+Data is written to file: src/main/resources/oracle/block/test/valid/jetty.project-HttpTransportOverHTTP2-push-IF_STATEMENT.json
 Key contained: jetty.project-HttpTransportOverHTTP2-push-IF_STATEMENT -> 1
-Data is written to file: src/main/resources/oracle/block/test/false/jetty.project-HttpTransportOverHTTP2-push-IF_STATEMENT-1.json
+Data is written to file: src/main/resources/oracle/block/test/valid/jetty.project-HttpTransportOverHTTP2-push-IF_STATEMENT-1.json
 Key contained: jetty.project-HttpTransportOverHTTP2-push-IF_STATEMENT -> 2
-Data is written to file: src/main/resources/oracle/block/test/false/jetty.project-HttpTransportOverHTTP2-push-IF_STATEMENT-2.json
+Data is written to file: src/main/resources/oracle/block/test/valid/jetty.project-HttpTransportOverHTTP2-push-IF_STATEMENT-2.json
 No key yet: jetty.project-HttpTransportOverHTTP2-send-IF_STATEMENT
-Data is written to file: src/main/resources/oracle/block/test/false/jetty.project-HttpTransportOverHTTP2-send-IF_STATEMENT.json
+Data is written to file: src/main/resources/oracle/block/test/valid/jetty.project-HttpTransportOverHTTP2-send-IF_STATEMENT.json
 Key contained: jetty.project-HttpTransportOverHTTP2-send-IF_STATEMENT -> 1
-Data is written to file: src/main/resources/oracle/block/test/false/jetty.project-HttpTransportOverHTTP2-send-IF_STATEMENT-1.json
+Data is written to file: src/main/resources/oracle/block/test/valid/jetty.project-HttpTransportOverHTTP2-send-IF_STATEMENT-1.json
 Key contained: jetty.project-HttpTransportOverHTTP2-send-IF_STATEMENT -> 2
-Data is written to file: src/main/resources/oracle/block/test/false/jetty.project-HttpTransportOverHTTP2-send-IF_STATEMENT-2.json
+Data is written to file: src/main/resources/oracle/block/test/valid/jetty.project-HttpTransportOverHTTP2-send-IF_STATEMENT-2.json
 Key contained: jetty.project-HttpTransportOverHTTP2-send-IF_STATEMENT -> 3
 Data is written to file: src/main/resources/oracle/block/test/false/jetty.project-HttpTransportOverHTTP2-send-IF_STATEMENT-3.json
 Key contained: jetty.project-HttpTransportOverHTTP2-send-IF_STATEMENT -> 4
-Data is written to file: src/main/resources/oracle/block/test/false/jetty.project-HttpTransportOverHTTP2-send-IF_STATEMENT-4.json
+Data is written to file: src/main/resources/oracle/block/test/valid/jetty.project-HttpTransportOverHTTP2-send-IF_STATEMENT-4.json
 Key contained: jetty.project-HttpTransportOverHTTP2-send-IF_STATEMENT -> 5
-Data is written to file: src/main/resources/oracle/block/test/false/jetty.project-HttpTransportOverHTTP2-send-IF_STATEMENT-5.json
+Data is written to file: src/main/resources/oracle/block/test/valid/jetty.project-HttpTransportOverHTTP2-send-IF_STATEMENT-5.json
 Key contained: jetty.project-HttpTransportOverHTTP2-send-IF_STATEMENT -> 6
-Data is written to file: src/main/resources/oracle/block/test/false/jetty.project-HttpTransportOverHTTP2-send-IF_STATEMENT-6.json
+Data is written to file: src/main/resources/oracle/block/test/invalid/reported/jetty.project-HttpTransportOverHTTP2-send-IF_STATEMENT-6.json
 Key contained: jetty.project-HttpTransportOverHTTP2-send-IF_STATEMENT -> 7
 Data is written to file: src/main/resources/oracle/block/test/false/jetty.project-HttpTransportOverHTTP2-send-IF_STATEMENT-7.json
 Key contained: jetty.project-HttpTransportOverHTTP2-send-IF_STATEMENT -> 8
@@ -299,23 +299,23 @@ Data is written to file: src/main/resources/oracle/block/test/false/jetty.projec
 Key contained: jetty.project-HttpTransportOverHTTP2-send-IF_STATEMENT -> 9
 Data is written to file: src/main/resources/oracle/block/test/false/jetty.project-HttpTransportOverHTTP2-send-IF_STATEMENT-9.json
 Key contained: jetty.project-HttpTransportOverHTTP2-send-IF_STATEMENT -> 10
-Data is written to file: src/main/resources/oracle/block/test/false/jetty.project-HttpTransportOverHTTP2-send-IF_STATEMENT-10.json
+Data is written to file: src/main/resources/oracle/block/test/valid/jetty.project-HttpTransportOverHTTP2-send-IF_STATEMENT-10.json
 Key contained: jetty.project-HttpTransportOverHTTP2-send-IF_STATEMENT -> 11
-Data is written to file: src/main/resources/oracle/block/test/false/jetty.project-HttpTransportOverHTTP2-send-IF_STATEMENT-11.json
+Data is written to file: src/main/resources/oracle/block/test/valid/jetty.project-HttpTransportOverHTTP2-send-IF_STATEMENT-11.json
 Key contained: jetty.project-HttpTransportOverHTTP2-send-IF_STATEMENT -> 12
-Data is written to file: src/main/resources/oracle/block/test/false/jetty.project-HttpTransportOverHTTP2-send-IF_STATEMENT-12.json
+Data is written to file: src/main/resources/oracle/block/test/valid/jetty.project-HttpTransportOverHTTP2-send-IF_STATEMENT-12.json
 Key contained: jetty.project-HttpTransportOverHTTP2-send-IF_STATEMENT -> 13
 Data is written to file: src/main/resources/oracle/block/test/false/jetty.project-HttpTransportOverHTTP2-send-IF_STATEMENT-13.json
 Key contained: jetty.project-HttpTransportOverHTTP2-send-IF_STATEMENT -> 14
-Data is written to file: src/main/resources/oracle/block/test/false/jetty.project-HttpTransportOverHTTP2-send-IF_STATEMENT-14.json
+Data is written to file: src/main/resources/oracle/block/test/valid/jetty.project-HttpTransportOverHTTP2-send-IF_STATEMENT-14.json
 No key yet: jetty.project-JsrSession-addMessageHandler-IF_STATEMENT
-Data is written to file: src/main/resources/oracle/block/test/false/jetty.project-JsrSession-addMessageHandler-IF_STATEMENT.json
+Data is written to file: src/main/resources/oracle/block/test/valid/jetty.project-JsrSession-addMessageHandler-IF_STATEMENT.json
 Key contained: jetty.project-JsrSession-addMessageHandler-IF_STATEMENT -> 1
-Data is written to file: src/main/resources/oracle/block/test/false/jetty.project-JsrSession-addMessageHandler-IF_STATEMENT-1.json
+Data is written to file: src/main/resources/oracle/block/test/invalid/jetty.project-JsrSession-addMessageHandler-IF_STATEMENT-1.json
 No key yet: jetty.project-JsrSession-addMessageHandler-ENHANCED_FOR_STATEMENT
-Data is written to file: src/main/resources/oracle/block/test/false/jetty.project-JsrSession-addMessageHandler-ENHANCED_FOR_STATEMENT.json
+Data is written to file: src/main/resources/oracle/block/test/invalid/jetty.project-JsrSession-addMessageHandler-ENHANCED_FOR_STATEMENT.json
 No key yet: jetty.project-JsrSession-addMessageHandler-SYNCHRONIZED_STATEMENT
-Data is written to file: src/main/resources/oracle/block/test/false/jetty.project-JsrSession-addMessageHandler-SYNCHRONIZED_STATEMENT.json
+Data is written to file: src/main/resources/oracle/block/test/invalid/jetty.project-JsrSession-addMessageHandler-SYNCHRONIZED_STATEMENT.json
 No key yet: jetty.project-Module-equals-IF_STATEMENT
 Data is written to file: src/main/resources/oracle/block/test/true/jetty.project-Module-equals-IF_STATEMENT.json
 Key contained: jetty.project-Module-equals-IF_STATEMENT -> 1
@@ -323,45 +323,45 @@ Data is written to file: src/main/resources/oracle/block/test/true/jetty.project
 Key contained: jetty.project-Module-equals-IF_STATEMENT -> 2
 Data is written to file: src/main/resources/oracle/block/test/true/jetty.project-Module-equals-IF_STATEMENT-2.json
 Key contained: jetty.project-Module-equals-IF_STATEMENT -> 3
-Data is written to file: src/main/resources/oracle/block/test/false/jetty.project-Module-equals-IF_STATEMENT-3.json
+Data is written to file: src/main/resources/oracle/block/test/valid/jetty.project-Module-equals-IF_STATEMENT-3.json
 No key yet: jetty.project-ServletHolder-doStart-IF_STATEMENT
-Data is written to file: src/main/resources/oracle/block/test/false/jetty.project-ServletHolder-doStart-IF_STATEMENT.json
+Data is written to file: src/main/resources/oracle/block/test/valid/jetty.project-ServletHolder-doStart-IF_STATEMENT.json
 Key contained: jetty.project-ServletHolder-doStart-IF_STATEMENT -> 1
-Data is written to file: src/main/resources/oracle/block/test/false/jetty.project-ServletHolder-doStart-IF_STATEMENT-1.json
+Data is written to file: src/main/resources/oracle/block/test/valid/jetty.project-ServletHolder-doStart-IF_STATEMENT-1.json
 Key contained: jetty.project-ServletHolder-doStart-IF_STATEMENT -> 2
-Data is written to file: src/main/resources/oracle/block/test/false/jetty.project-ServletHolder-doStart-IF_STATEMENT-2.json
+Data is written to file: src/main/resources/oracle/block/test/valid/jetty.project-ServletHolder-doStart-IF_STATEMENT-2.json
 Key contained: jetty.project-ServletHolder-doStart-IF_STATEMENT -> 3
-Data is written to file: src/main/resources/oracle/block/test/false/jetty.project-ServletHolder-doStart-IF_STATEMENT-3.json
+Data is written to file: src/main/resources/oracle/block/test/valid/jetty.project-ServletHolder-doStart-IF_STATEMENT-3.json
 Key contained: jetty.project-ServletHolder-doStart-IF_STATEMENT -> 4
-Data is written to file: src/main/resources/oracle/block/test/false/jetty.project-ServletHolder-doStart-IF_STATEMENT-4.json
+Data is written to file: src/main/resources/oracle/block/test/valid/jetty.project-ServletHolder-doStart-IF_STATEMENT-4.json
 No key yet: jetty.project-ServletHolder-doStart-ENHANCED_FOR_STATEMENT
-Data is written to file: src/main/resources/oracle/block/test/false/jetty.project-ServletHolder-doStart-ENHANCED_FOR_STATEMENT.json
+Data is written to file: src/main/resources/oracle/block/test/valid/jetty.project-ServletHolder-doStart-ENHANCED_FOR_STATEMENT.json
 Key contained: jetty.project-ServletHolder-doStart-IF_STATEMENT -> 5
-Data is written to file: src/main/resources/oracle/block/test/false/jetty.project-ServletHolder-doStart-IF_STATEMENT-5.json
+Data is written to file: src/main/resources/oracle/block/test/valid/jetty.project-ServletHolder-doStart-IF_STATEMENT-5.json
 Key contained: jetty.project-ServletHolder-doStart-IF_STATEMENT -> 6
-Data is written to file: src/main/resources/oracle/block/test/false/jetty.project-ServletHolder-doStart-IF_STATEMENT-6.json
+Data is written to file: src/main/resources/oracle/block/test/valid/jetty.project-ServletHolder-doStart-IF_STATEMENT-6.json
 Key contained: jetty.project-ServletHolder-doStart-IF_STATEMENT -> 7
-Data is written to file: src/main/resources/oracle/block/test/false/jetty.project-ServletHolder-doStart-IF_STATEMENT-7.json
+Data is written to file: src/main/resources/oracle/block/test/invalid/jetty.project-ServletHolder-doStart-IF_STATEMENT-7.json
 Key contained: jetty.project-ServletHolder-doStart-IF_STATEMENT -> 8
-Data is written to file: src/main/resources/oracle/block/test/false/jetty.project-ServletHolder-doStart-IF_STATEMENT-8.json
+Data is written to file: src/main/resources/oracle/block/test/valid/jetty.project-ServletHolder-doStart-IF_STATEMENT-8.json
 No key yet: jetty.project-ServletHolder-doStart-TRY_STATEMENT
 Data is written to file: src/main/resources/oracle/block/test/true/jetty.project-ServletHolder-doStart-TRY_STATEMENT.json
 Key contained: jetty.project-ServletHolder-doStart-IF_STATEMENT -> 9
-Data is written to file: src/main/resources/oracle/block/test/false/jetty.project-ServletHolder-doStart-IF_STATEMENT-9.json
+Data is written to file: src/main/resources/oracle/block/test/valid/jetty.project-ServletHolder-doStart-IF_STATEMENT-9.json
 No key yet: jetty.project-ServletHolder-doStart-CATCH_CLAUSE
 Data is written to file: src/main/resources/oracle/block/test/true/jetty.project-ServletHolder-doStart-CATCH_CLAUSE.json
 Key contained: jetty.project-ServletHolder-doStart-TRY_STATEMENT -> 1
-Data is written to file: src/main/resources/oracle/block/test/false/jetty.project-ServletHolder-doStart-TRY_STATEMENT-1.json
+Data is written to file: src/main/resources/oracle/block/test/invalid/jetty.project-ServletHolder-doStart-TRY_STATEMENT-1.json
 Key contained: jetty.project-ServletHolder-doStart-IF_STATEMENT -> 10
-Data is written to file: src/main/resources/oracle/block/test/false/jetty.project-ServletHolder-doStart-IF_STATEMENT-10.json
+Data is written to file: src/main/resources/oracle/block/test/invalid/reported/jetty.project-ServletHolder-doStart-IF_STATEMENT-10.json
 Key contained: jetty.project-ServletHolder-doStart-CATCH_CLAUSE -> 1
-Data is written to file: src/main/resources/oracle/block/test/false/jetty.project-ServletHolder-doStart-CATCH_CLAUSE-1.json
+Data is written to file: src/main/resources/oracle/block/test/invalid/reported/jetty.project-ServletHolder-doStart-CATCH_CLAUSE-1.json
 Key contained: jetty.project-ServletHolder-doStart-IF_STATEMENT -> 11
 Data is written to file: src/main/resources/oracle/block/test/true/jetty.project-ServletHolder-doStart-IF_STATEMENT-11.json
 Key contained: jetty.project-ServletHolder-doStart-IF_STATEMENT -> 12
 Data is written to file: src/main/resources/oracle/block/test/true/jetty.project-ServletHolder-doStart-IF_STATEMENT-12.json
 No key yet: jetty.project-ServletHolder-doStart-SYNCHRONIZED_STATEMENT
-Data is written to file: src/main/resources/oracle/block/test/false/jetty.project-ServletHolder-doStart-SYNCHRONIZED_STATEMENT.json
+Data is written to file: src/main/resources/oracle/block/test/valid/jetty.project-ServletHolder-doStart-SYNCHRONIZED_STATEMENT.json
 No key yet: jetty.project-StdErrLog-escape-IF_STATEMENT
 Data is written to file: src/main/resources/oracle/block/test/true/jetty.project-StdErrLog-escape-IF_STATEMENT.json
 Key contained: jetty.project-StdErrLog-escape-IF_STATEMENT -> 1
@@ -371,55 +371,55 @@ Data is written to file: src/main/resources/oracle/block/test/true/jetty.project
 No key yet: jetty.project-StdErrLog-escape-FOR_STATEMENT
 Data is written to file: src/main/resources/oracle/block/test/true/jetty.project-StdErrLog-escape-FOR_STATEMENT.json
 Key contained: jetty.project-StdErrLog-escape-IF_STATEMENT -> 3
-Data is written to file: src/main/resources/oracle/block/test/false/jetty.project-StdErrLog-escape-IF_STATEMENT-3.json
+Data is written to file: src/main/resources/oracle/block/test/valid/jetty.project-StdErrLog-escape-IF_STATEMENT-3.json
 No key yet: lucene-solr-ConcurrentMergeScheduler-sync-IF_STATEMENT
-Data is written to file: src/main/resources/oracle/block/test/false/lucene-solr-ConcurrentMergeScheduler-sync-IF_STATEMENT.json
+Data is written to file: src/main/resources/oracle/block/test/valid/lucene-solr-ConcurrentMergeScheduler-sync-IF_STATEMENT.json
 No key yet: lucene-solr-ConcurrentMergeScheduler-sync-ENHANCED_FOR_STATEMENT
-Data is written to file: src/main/resources/oracle/block/test/false/lucene-solr-ConcurrentMergeScheduler-sync-ENHANCED_FOR_STATEMENT.json
+Data is written to file: src/main/resources/oracle/block/test/valid/lucene-solr-ConcurrentMergeScheduler-sync-ENHANCED_FOR_STATEMENT.json
 No key yet: lucene-solr-ConcurrentMergeScheduler-sync-SYNCHRONIZED_STATEMENT
-Data is written to file: src/main/resources/oracle/block/test/false/lucene-solr-ConcurrentMergeScheduler-sync-SYNCHRONIZED_STATEMENT.json
+Data is written to file: src/main/resources/oracle/block/test/valid/lucene-solr-ConcurrentMergeScheduler-sync-SYNCHRONIZED_STATEMENT.json
 No key yet: lucene-solr-ConcurrentMergeScheduler-sync-TRY_STATEMENT
-Data is written to file: src/main/resources/oracle/block/test/false/lucene-solr-ConcurrentMergeScheduler-sync-TRY_STATEMENT.json
+Data is written to file: src/main/resources/oracle/block/test/invalid/lucene-solr-ConcurrentMergeScheduler-sync-TRY_STATEMENT.json
 No key yet: lucene-solr-ConcurrentMergeScheduler-sync-CATCH_CLAUSE
-Data is written to file: src/main/resources/oracle/block/test/false/lucene-solr-ConcurrentMergeScheduler-sync-CATCH_CLAUSE.json
+Data is written to file: src/main/resources/oracle/block/test/invalid/reported/lucene-solr-ConcurrentMergeScheduler-sync-CATCH_CLAUSE.json
 Key contained: lucene-solr-ConcurrentMergeScheduler-sync-IF_STATEMENT -> 1
-Data is written to file: src/main/resources/oracle/block/test/false/lucene-solr-ConcurrentMergeScheduler-sync-IF_STATEMENT-1.json
+Data is written to file: src/main/resources/oracle/block/test/valid/lucene-solr-ConcurrentMergeScheduler-sync-IF_STATEMENT-1.json
 No key yet: lucene-solr-ConcurrentMergeScheduler-sync-WHILE_STATEMENT
-Data is written to file: src/main/resources/oracle/block/test/false/lucene-solr-ConcurrentMergeScheduler-sync-WHILE_STATEMENT.json
+Data is written to file: src/main/resources/oracle/block/test/valid/lucene-solr-ConcurrentMergeScheduler-sync-WHILE_STATEMENT.json
 Key contained: lucene-solr-ConcurrentMergeScheduler-sync-TRY_STATEMENT -> 1
-Data is written to file: src/main/resources/oracle/block/test/false/lucene-solr-ConcurrentMergeScheduler-sync-TRY_STATEMENT-1.json
+Data is written to file: src/main/resources/oracle/block/test/valid/lucene-solr-ConcurrentMergeScheduler-sync-TRY_STATEMENT-1.json
 Key contained: lucene-solr-ConcurrentMergeScheduler-sync-IF_STATEMENT -> 2
-Data is written to file: src/main/resources/oracle/block/test/false/lucene-solr-ConcurrentMergeScheduler-sync-IF_STATEMENT-2.json
+Data is written to file: src/main/resources/oracle/block/test/valid/lucene-solr-ConcurrentMergeScheduler-sync-IF_STATEMENT-2.json
 No key yet: lucene-solr-ConcurrentMergeScheduler-sync-FINALLY_BLOCK
-Data is written to file: src/main/resources/oracle/block/test/false/lucene-solr-ConcurrentMergeScheduler-sync-FINALLY_BLOCK.json
+Data is written to file: src/main/resources/oracle/block/test/valid/lucene-solr-ConcurrentMergeScheduler-sync-FINALLY_BLOCK.json
 No key yet: lucene-solr-ConcurrentMergeScheduler-updateMergeThreads-IF_STATEMENT
-Data is written to file: src/main/resources/oracle/block/test/false/lucene-solr-ConcurrentMergeScheduler-updateMergeThreads-IF_STATEMENT.json
+Data is written to file: src/main/resources/oracle/block/test/valid/lucene-solr-ConcurrentMergeScheduler-updateMergeThreads-IF_STATEMENT.json
 No key yet: lucene-solr-ConcurrentMergeScheduler-updateMergeThreads-WHILE_STATEMENT
-Data is written to file: src/main/resources/oracle/block/test/false/lucene-solr-ConcurrentMergeScheduler-updateMergeThreads-WHILE_STATEMENT.json
+Data is written to file: src/main/resources/oracle/block/test/valid/lucene-solr-ConcurrentMergeScheduler-updateMergeThreads-WHILE_STATEMENT.json
 Key contained: lucene-solr-ConcurrentMergeScheduler-updateMergeThreads-IF_STATEMENT -> 1
-Data is written to file: src/main/resources/oracle/block/test/false/lucene-solr-ConcurrentMergeScheduler-updateMergeThreads-IF_STATEMENT-1.json
+Data is written to file: src/main/resources/oracle/block/test/valid/lucene-solr-ConcurrentMergeScheduler-updateMergeThreads-IF_STATEMENT-1.json
 No key yet: lucene-solr-ConcurrentMergeScheduler-updateMergeThreads-FOR_STATEMENT
-Data is written to file: src/main/resources/oracle/block/test/false/lucene-solr-ConcurrentMergeScheduler-updateMergeThreads-FOR_STATEMENT.json
+Data is written to file: src/main/resources/oracle/block/test/invalid/lucene-solr-ConcurrentMergeScheduler-updateMergeThreads-FOR_STATEMENT.json
 Key contained: lucene-solr-ConcurrentMergeScheduler-updateMergeThreads-IF_STATEMENT -> 2
 Data is written to file: src/main/resources/oracle/block/test/true/lucene-solr-ConcurrentMergeScheduler-updateMergeThreads-IF_STATEMENT-2.json
 Key contained: lucene-solr-ConcurrentMergeScheduler-updateMergeThreads-IF_STATEMENT -> 3
-Data is written to file: src/main/resources/oracle/block/test/false/lucene-solr-ConcurrentMergeScheduler-updateMergeThreads-IF_STATEMENT-3.json
+Data is written to file: src/main/resources/oracle/block/test/valid/lucene-solr-ConcurrentMergeScheduler-updateMergeThreads-IF_STATEMENT-3.json
 Key contained: lucene-solr-ConcurrentMergeScheduler-updateMergeThreads-IF_STATEMENT -> 4
-Data is written to file: src/main/resources/oracle/block/test/false/lucene-solr-ConcurrentMergeScheduler-updateMergeThreads-IF_STATEMENT-4.json
+Data is written to file: src/main/resources/oracle/block/test/valid/lucene-solr-ConcurrentMergeScheduler-updateMergeThreads-IF_STATEMENT-4.json
 Key contained: lucene-solr-ConcurrentMergeScheduler-updateMergeThreads-IF_STATEMENT -> 5
-Data is written to file: src/main/resources/oracle/block/test/false/lucene-solr-ConcurrentMergeScheduler-updateMergeThreads-IF_STATEMENT-5.json
+Data is written to file: src/main/resources/oracle/block/test/valid/lucene-solr-ConcurrentMergeScheduler-updateMergeThreads-IF_STATEMENT-5.json
 Key contained: lucene-solr-ConcurrentMergeScheduler-updateMergeThreads-IF_STATEMENT -> 6
 Data is written to file: src/main/resources/oracle/block/test/true/lucene-solr-ConcurrentMergeScheduler-updateMergeThreads-IF_STATEMENT-6.json
 Key contained: lucene-solr-ConcurrentMergeScheduler-updateMergeThreads-IF_STATEMENT -> 7
-Data is written to file: src/main/resources/oracle/block/test/false/lucene-solr-ConcurrentMergeScheduler-updateMergeThreads-IF_STATEMENT-7.json
+Data is written to file: src/main/resources/oracle/block/test/valid/lucene-solr-ConcurrentMergeScheduler-updateMergeThreads-IF_STATEMENT-7.json
 Key contained: lucene-solr-ConcurrentMergeScheduler-updateMergeThreads-IF_STATEMENT -> 8
-Data is written to file: src/main/resources/oracle/block/test/false/lucene-solr-ConcurrentMergeScheduler-updateMergeThreads-IF_STATEMENT-8.json
+Data is written to file: src/main/resources/oracle/block/test/valid/lucene-solr-ConcurrentMergeScheduler-updateMergeThreads-IF_STATEMENT-8.json
 Key contained: lucene-solr-ConcurrentMergeScheduler-updateMergeThreads-IF_STATEMENT -> 9
-Data is written to file: src/main/resources/oracle/block/test/false/lucene-solr-ConcurrentMergeScheduler-updateMergeThreads-IF_STATEMENT-9.json
+Data is written to file: src/main/resources/oracle/block/test/valid/lucene-solr-ConcurrentMergeScheduler-updateMergeThreads-IF_STATEMENT-9.json
 Key contained: lucene-solr-ConcurrentMergeScheduler-updateMergeThreads-IF_STATEMENT -> 10
-Data is written to file: src/main/resources/oracle/block/test/false/lucene-solr-ConcurrentMergeScheduler-updateMergeThreads-IF_STATEMENT-10.json
+Data is written to file: src/main/resources/oracle/block/test/valid/lucene-solr-ConcurrentMergeScheduler-updateMergeThreads-IF_STATEMENT-10.json
 Key contained: lucene-solr-ConcurrentMergeScheduler-updateMergeThreads-IF_STATEMENT -> 11
-Data is written to file: src/main/resources/oracle/block/test/false/lucene-solr-ConcurrentMergeScheduler-updateMergeThreads-IF_STATEMENT-11.json
+Data is written to file: src/main/resources/oracle/block/test/valid/lucene-solr-ConcurrentMergeScheduler-updateMergeThreads-IF_STATEMENT-11.json
 Key contained: lucene-solr-ConcurrentMergeScheduler-updateMergeThreads-IF_STATEMENT -> 12
 Data is written to file: src/main/resources/oracle/block/test/true/lucene-solr-ConcurrentMergeScheduler-updateMergeThreads-IF_STATEMENT-12.json
 Key contained: lucene-solr-ConcurrentMergeScheduler-updateMergeThreads-IF_STATEMENT -> 13
@@ -427,21 +427,21 @@ Data is written to file: src/main/resources/oracle/block/test/true/lucene-solr-C
 Key contained: lucene-solr-ConcurrentMergeScheduler-updateMergeThreads-FOR_STATEMENT -> 1
 Data is written to file: src/main/resources/oracle/block/test/true/lucene-solr-ConcurrentMergeScheduler-updateMergeThreads-FOR_STATEMENT-1.json
 Key contained: lucene-solr-ConcurrentMergeScheduler-updateMergeThreads-IF_STATEMENT -> 14
-Data is written to file: src/main/resources/oracle/block/test/false/lucene-solr-ConcurrentMergeScheduler-updateMergeThreads-IF_STATEMENT-14.json
+Data is written to file: src/main/resources/oracle/block/test/valid/lucene-solr-ConcurrentMergeScheduler-updateMergeThreads-IF_STATEMENT-14.json
 No key yet: lucene-solr-ConstantScoreQuery-rewrite-IF_STATEMENT
-Data is written to file: src/main/resources/oracle/block/test/false/lucene-solr-ConstantScoreQuery-rewrite-IF_STATEMENT.json
+Data is written to file: src/main/resources/oracle/block/test/valid/lucene-solr-ConstantScoreQuery-rewrite-IF_STATEMENT.json
 Key contained: lucene-solr-ConstantScoreQuery-rewrite-IF_STATEMENT -> 1
-Data is written to file: src/main/resources/oracle/block/test/false/lucene-solr-ConstantScoreQuery-rewrite-IF_STATEMENT-1.json
+Data is written to file: src/main/resources/oracle/block/test/valid/lucene-solr-ConstantScoreQuery-rewrite-IF_STATEMENT-1.json
 Key contained: lucene-solr-ConstantScoreQuery-rewrite-IF_STATEMENT -> 2
-Data is written to file: src/main/resources/oracle/block/test/false/lucene-solr-ConstantScoreQuery-rewrite-IF_STATEMENT-2.json
+Data is written to file: src/main/resources/oracle/block/test/valid/lucene-solr-ConstantScoreQuery-rewrite-IF_STATEMENT-2.json
 No key yet: lucene-solr-Field-tokenStream-IF_STATEMENT
 Data is written to file: src/main/resources/oracle/block/test/true/lucene-solr-Field-tokenStream-IF_STATEMENT.json
 Key contained: lucene-solr-Field-tokenStream-IF_STATEMENT -> 1
 Data is written to file: src/main/resources/oracle/block/test/false/lucene-solr-Field-tokenStream-IF_STATEMENT-1.json
 Key contained: lucene-solr-Field-tokenStream-IF_STATEMENT -> 2
-Data is written to file: src/main/resources/oracle/block/test/false/lucene-solr-Field-tokenStream-IF_STATEMENT-2.json
+Data is written to file: src/main/resources/oracle/block/test/valid/lucene-solr-Field-tokenStream-IF_STATEMENT-2.json
 Key contained: lucene-solr-Field-tokenStream-IF_STATEMENT -> 3
-Data is written to file: src/main/resources/oracle/block/test/false/lucene-solr-Field-tokenStream-IF_STATEMENT-3.json
+Data is written to file: src/main/resources/oracle/block/test/valid/lucene-solr-Field-tokenStream-IF_STATEMENT-3.json
 Key contained: lucene-solr-Field-tokenStream-IF_STATEMENT -> 4
 Data is written to file: src/main/resources/oracle/block/test/true/lucene-solr-Field-tokenStream-IF_STATEMENT-4.json
 Key contained: lucene-solr-Field-tokenStream-IF_STATEMENT -> 5
@@ -453,31 +453,31 @@ Data is written to file: src/main/resources/oracle/block/test/true/lucene-solr-F
 Key contained: lucene-solr-Field-tokenStream-IF_STATEMENT -> 8
 Data is written to file: src/main/resources/oracle/block/test/true/lucene-solr-Field-tokenStream-IF_STATEMENT-8.json
 No key yet: lucene-solr-IndexWriter-shutdown-IF_STATEMENT
-Data is written to file: src/main/resources/oracle/block/test/false/lucene-solr-IndexWriter-shutdown-IF_STATEMENT.json
+Data is written to file: src/main/resources/oracle/block/test/invalid/lucene-solr-IndexWriter-shutdown-IF_STATEMENT.json
 Key contained: lucene-solr-IndexWriter-shutdown-IF_STATEMENT -> 1
-Data is written to file: src/main/resources/oracle/block/test/false/lucene-solr-IndexWriter-shutdown-IF_STATEMENT-1.json
+Data is written to file: src/main/resources/oracle/block/test/invalid/lucene-solr-IndexWriter-shutdown-IF_STATEMENT-1.json
 No key yet: lucene-solr-IndexWriter-shutdown-TRY_STATEMENT
 Data is written to file: src/main/resources/oracle/block/test/false/lucene-solr-IndexWriter-shutdown-TRY_STATEMENT.json
 Key contained: lucene-solr-IndexWriter-shutdown-TRY_STATEMENT -> 1
-Data is written to file: src/main/resources/oracle/block/test/false/lucene-solr-IndexWriter-shutdown-TRY_STATEMENT-1.json
+Data is written to file: src/main/resources/oracle/block/test/invalid/lucene-solr-IndexWriter-shutdown-TRY_STATEMENT-1.json
 No key yet: lucene-solr-IndexWriter-shutdown-CATCH_CLAUSE
-Data is written to file: src/main/resources/oracle/block/test/false/lucene-solr-IndexWriter-shutdown-CATCH_CLAUSE.json
+Data is written to file: src/main/resources/oracle/block/test/invalid/lucene-solr-IndexWriter-shutdown-CATCH_CLAUSE.json
 Key contained: lucene-solr-IndexWriter-shutdown-CATCH_CLAUSE -> 1
-Data is written to file: src/main/resources/oracle/block/test/false/lucene-solr-IndexWriter-shutdown-CATCH_CLAUSE-1.json
+Data is written to file: src/main/resources/oracle/block/test/invalid/lucene-solr-IndexWriter-shutdown-CATCH_CLAUSE-1.json
 Key contained: lucene-solr-IndexWriter-shutdown-IF_STATEMENT -> 2
-Data is written to file: src/main/resources/oracle/block/test/false/lucene-solr-IndexWriter-shutdown-IF_STATEMENT-2.json
+Data is written to file: src/main/resources/oracle/block/test/valid/lucene-solr-IndexWriter-shutdown-IF_STATEMENT-2.json
 No key yet: lucene-solr-IndexWriter-writeSomeDocValuesUpdates-IF_STATEMENT
 Data is written to file: src/main/resources/oracle/block/test/true/lucene-solr-IndexWriter-writeSomeDocValuesUpdates-IF_STATEMENT.json
 Key contained: lucene-solr-IndexWriter-writeSomeDocValuesUpdates-IF_STATEMENT -> 1
 Data is written to file: src/main/resources/oracle/block/test/true/lucene-solr-IndexWriter-writeSomeDocValuesUpdates-IF_STATEMENT-1.json
 Key contained: lucene-solr-IndexWriter-writeSomeDocValuesUpdates-IF_STATEMENT -> 2
-Data is written to file: src/main/resources/oracle/block/test/false/lucene-solr-IndexWriter-writeSomeDocValuesUpdates-IF_STATEMENT-2.json
+Data is written to file: src/main/resources/oracle/block/test/valid/lucene-solr-IndexWriter-writeSomeDocValuesUpdates-IF_STATEMENT-2.json
 Key contained: lucene-solr-IndexWriter-writeSomeDocValuesUpdates-IF_STATEMENT -> 3
-Data is written to file: src/main/resources/oracle/block/test/false/lucene-solr-IndexWriter-writeSomeDocValuesUpdates-IF_STATEMENT-3.json
+Data is written to file: src/main/resources/oracle/block/test/valid/lucene-solr-IndexWriter-writeSomeDocValuesUpdates-IF_STATEMENT-3.json
 Key contained: lucene-solr-IndexWriter-writeSomeDocValuesUpdates-IF_STATEMENT -> 4
-Data is written to file: src/main/resources/oracle/block/test/false/lucene-solr-IndexWriter-writeSomeDocValuesUpdates-IF_STATEMENT-4.json
+Data is written to file: src/main/resources/oracle/block/test/valid/lucene-solr-IndexWriter-writeSomeDocValuesUpdates-IF_STATEMENT-4.json
 No key yet: lucene-solr-IndexWriter-writeSomeDocValuesUpdates-SYNCHRONIZED_STATEMENT
-Data is written to file: src/main/resources/oracle/block/test/false/lucene-solr-IndexWriter-writeSomeDocValuesUpdates-SYNCHRONIZED_STATEMENT.json
+Data is written to file: src/main/resources/oracle/block/test/invalid/lucene-solr-IndexWriter-writeSomeDocValuesUpdates-SYNCHRONIZED_STATEMENT.json
 No key yet: lucene-solr-IndexWriter-writeSomeDocValuesUpdates-ENHANCED_FOR_STATEMENT
 Data is written to file: src/main/resources/oracle/block/test/true/lucene-solr-IndexWriter-writeSomeDocValuesUpdates-ENHANCED_FOR_STATEMENT.json
 Key contained: lucene-solr-IndexWriter-writeSomeDocValuesUpdates-IF_STATEMENT -> 5
@@ -531,51 +531,51 @@ Data is written to file: src/main/resources/oracle/block/test/true/lucene-solr-Q
 Key contained: lucene-solr-QueryParserBase-addClause-IF_STATEMENT -> 9
 Data is written to file: src/main/resources/oracle/block/test/true/lucene-solr-QueryParserBase-addClause-IF_STATEMENT-9.json
 No key yet: lucene-solr-QueryParserBase-newRangeQuery-IF_STATEMENT
-Data is written to file: src/main/resources/oracle/block/test/false/lucene-solr-QueryParserBase-newRangeQuery-IF_STATEMENT.json
+Data is written to file: src/main/resources/oracle/block/test/valid/lucene-solr-QueryParserBase-newRangeQuery-IF_STATEMENT.json
 Key contained: lucene-solr-QueryParserBase-newRangeQuery-IF_STATEMENT -> 1
-Data is written to file: src/main/resources/oracle/block/test/false/lucene-solr-QueryParserBase-newRangeQuery-IF_STATEMENT-1.json
+Data is written to file: src/main/resources/oracle/block/test/valid/lucene-solr-QueryParserBase-newRangeQuery-IF_STATEMENT-1.json
 No key yet: mockito-InvocationsFinder-findPreviousVerifiedInOrder-IF_STATEMENT
-Data is written to file: src/main/resources/oracle/block/test/false/mockito-InvocationsFinder-findPreviousVerifiedInOrder-IF_STATEMENT.json
+Data is written to file: src/main/resources/oracle/block/test/valid/mockito-InvocationsFinder-findPreviousVerifiedInOrder-IF_STATEMENT.json
 No key yet: mockito-MatchersBinder-bindMatchers-ENHANCED_FOR_STATEMENT
-Data is written to file: src/main/resources/oracle/block/test/false/mockito-MatchersBinder-bindMatchers-ENHANCED_FOR_STATEMENT.json
+Data is written to file: src/main/resources/oracle/block/test/valid/mockito-MatchersBinder-bindMatchers-ENHANCED_FOR_STATEMENT.json
 No key yet: mockito-PluginLoader-loadPlugin-IF_STATEMENT
 Data is written to file: src/main/resources/oracle/block/test/true/mockito-PluginLoader-loadPlugin-IF_STATEMENT.json
 Key contained: mockito-PluginLoader-loadPlugin-IF_STATEMENT -> 1
-Data is written to file: src/main/resources/oracle/block/test/false/mockito-PluginLoader-loadPlugin-IF_STATEMENT-1.json
+Data is written to file: src/main/resources/oracle/block/test/invalid/mockito-PluginLoader-loadPlugin-IF_STATEMENT-1.json
 Key contained: mockito-PluginLoader-loadPlugin-IF_STATEMENT -> 2
-Data is written to file: src/main/resources/oracle/block/test/false/mockito-PluginLoader-loadPlugin-IF_STATEMENT-2.json
+Data is written to file: src/main/resources/oracle/block/test/invalid/mockito-PluginLoader-loadPlugin-IF_STATEMENT-2.json
 No key yet: mockito-PluginLoader-loadPlugin-TRY_STATEMENT
 Data is written to file: src/main/resources/oracle/block/test/true/mockito-PluginLoader-loadPlugin-TRY_STATEMENT.json
 No key yet: mockito-PluginLoader-loadPlugin-CATCH_CLAUSE
-Data is written to file: src/main/resources/oracle/block/test/false/mockito-PluginLoader-loadPlugin-CATCH_CLAUSE.json
+Data is written to file: src/main/resources/oracle/block/test/invalid/mockito-PluginLoader-loadPlugin-CATCH_CLAUSE.json
 No key yet: mockito-ReturnsArgumentAt-answer-IF_STATEMENT
-Data is written to file: src/main/resources/oracle/block/test/false/mockito-ReturnsArgumentAt-answer-IF_STATEMENT.json
+Data is written to file: src/main/resources/oracle/block/test/valid/mockito-ReturnsArgumentAt-answer-IF_STATEMENT.json
 No key yet: mockito-StringUtil-join-IF_STATEMENT
 Data is written to file: src/main/resources/oracle/block/test/true/mockito-StringUtil-join-IF_STATEMENT.json
 No key yet: mockito-StringUtil-join-ENHANCED_FOR_STATEMENT
 Data is written to file: src/main/resources/oracle/block/test/true/mockito-StringUtil-join-ENHANCED_FOR_STATEMENT.json
 No key yet: mockito-VerificationStartedNotifier-notifyVerificationStarted-IF_STATEMENT
-Data is written to file: src/main/resources/oracle/block/test/false/mockito-VerificationStartedNotifier-notifyVerificationStarted-IF_STATEMENT.json
+Data is written to file: src/main/resources/oracle/block/test/valid/mockito-VerificationStartedNotifier-notifyVerificationStarted-IF_STATEMENT.json
 No key yet: mockito-VerificationStartedNotifier-notifyVerificationStarted-ENHANCED_FOR_STATEMENT
-Data is written to file: src/main/resources/oracle/block/test/false/mockito-VerificationStartedNotifier-notifyVerificationStarted-ENHANCED_FOR_STATEMENT.json
+Data is written to file: src/main/resources/oracle/block/test/valid/mockito-VerificationStartedNotifier-notifyVerificationStarted-ENHANCED_FOR_STATEMENT.json
 No key yet: pmd-ClassTypeResolver-visit-IF_STATEMENT
-Data is written to file: src/main/resources/oracle/block/test/false/pmd-ClassTypeResolver-visit-IF_STATEMENT.json
+Data is written to file: src/main/resources/oracle/block/test/valid/pmd-ClassTypeResolver-visit-IF_STATEMENT.json
 No key yet: pmd-ClassTypeResolver-visit-TRY_STATEMENT
 Data is written to file: src/main/resources/oracle/block/test/true/pmd-ClassTypeResolver-visit-TRY_STATEMENT.json
 Key contained: pmd-ClassTypeResolver-visit-IF_STATEMENT -> 1
-Data is written to file: src/main/resources/oracle/block/test/false/pmd-ClassTypeResolver-visit-IF_STATEMENT-1.json
+Data is written to file: src/main/resources/oracle/block/test/valid/pmd-ClassTypeResolver-visit-IF_STATEMENT-1.json
 No key yet: pmd-ClassTypeResolver-visit-CATCH_CLAUSE
-Data is written to file: src/main/resources/oracle/block/test/false/pmd-ClassTypeResolver-visit-CATCH_CLAUSE.json
+Data is written to file: src/main/resources/oracle/block/test/invalid/reported/pmd-ClassTypeResolver-visit-CATCH_CLAUSE.json
 Key contained: pmd-ClassTypeResolver-visit-IF_STATEMENT -> 2
-Data is written to file: src/main/resources/oracle/block/test/false/pmd-ClassTypeResolver-visit-IF_STATEMENT-2.json
+Data is written to file: src/main/resources/oracle/block/test/valid/pmd-ClassTypeResolver-visit-IF_STATEMENT-2.json
 Key contained: pmd-ClassTypeResolver-visit-CATCH_CLAUSE -> 1
 Data is written to file: src/main/resources/oracle/block/test/true/pmd-ClassTypeResolver-visit-CATCH_CLAUSE-1.json
 No key yet: pmd-ClassTypeResolver-visit-FINALLY_BLOCK
-Data is written to file: src/main/resources/oracle/block/test/false/pmd-ClassTypeResolver-visit-FINALLY_BLOCK.json
+Data is written to file: src/main/resources/oracle/block/test/valid/pmd-ClassTypeResolver-visit-FINALLY_BLOCK.json
 No key yet: pmd-CommentUtil-javadocContentAfter-IF_STATEMENT
-Data is written to file: src/main/resources/oracle/block/test/false/pmd-CommentUtil-javadocContentAfter-IF_STATEMENT.json
+Data is written to file: src/main/resources/oracle/block/test/valid/pmd-CommentUtil-javadocContentAfter-IF_STATEMENT.json
 Key contained: pmd-CommentUtil-javadocContentAfter-IF_STATEMENT -> 1
-Data is written to file: src/main/resources/oracle/block/test/false/pmd-CommentUtil-javadocContentAfter-IF_STATEMENT-1.json
+Data is written to file: src/main/resources/oracle/block/test/valid/pmd-CommentUtil-javadocContentAfter-IF_STATEMENT-1.json
 Key contained: pmd-CommentUtil-javadocContentAfter-IF_STATEMENT -> 2
 Data is written to file: src/main/resources/oracle/block/test/true/pmd-CommentUtil-javadocContentAfter-IF_STATEMENT-2.json
 Key contained: pmd-CommentUtil-javadocContentAfter-IF_STATEMENT -> 3
@@ -587,9 +587,9 @@ Data is written to file: src/main/resources/oracle/block/test/true/pmd-FormalCom
 No key yet: pmd-FormalComment-findJavadocs-WHILE_STATEMENT
 Data is written to file: src/main/resources/oracle/block/test/true/pmd-FormalComment-findJavadocs-WHILE_STATEMENT.json
 No key yet: pmd-JUnitTestsShouldIncludeAssertRule-visit-IF_STATEMENT
-Data is written to file: src/main/resources/oracle/block/test/false/pmd-JUnitTestsShouldIncludeAssertRule-visit-IF_STATEMENT.json
+Data is written to file: src/main/resources/oracle/block/test/valid/pmd-JUnitTestsShouldIncludeAssertRule-visit-IF_STATEMENT.json
 No key yet: pmd-SourceFileScope-getSubTypes-IF_STATEMENT
-Data is written to file: src/main/resources/oracle/block/test/false/pmd-SourceFileScope-getSubTypes-IF_STATEMENT.json
+Data is written to file: src/main/resources/oracle/block/test/valid/pmd-SourceFileScope-getSubTypes-IF_STATEMENT.json
 Key contained: pmd-SourceFileScope-getSubTypes-IF_STATEMENT -> 1
 Data is written to file: src/main/resources/oracle/block/test/true/pmd-SourceFileScope-getSubTypes-IF_STATEMENT-1.json
 No key yet: pmd-SourceFileScope-getSubTypes-ENHANCED_FOR_STATEMENT
@@ -609,11 +609,11 @@ Data is written to file: src/main/resources/oracle/block/test/true/spring-boot-E
 No key yet: spring-boot-JsonParserFactory-getJsonParser-IF_STATEMENT
 Data is written to file: src/main/resources/oracle/block/test/true/spring-boot-JsonParserFactory-getJsonParser-IF_STATEMENT.json
 Key contained: spring-boot-JsonParserFactory-getJsonParser-IF_STATEMENT -> 1
-Data is written to file: src/main/resources/oracle/block/test/false/spring-boot-JsonParserFactory-getJsonParser-IF_STATEMENT-1.json
+Data is written to file: src/main/resources/oracle/block/test/valid/spring-boot-JsonParserFactory-getJsonParser-IF_STATEMENT-1.json
 Key contained: spring-boot-JsonParserFactory-getJsonParser-IF_STATEMENT -> 2
 Data is written to file: src/main/resources/oracle/block/test/true/spring-boot-JsonParserFactory-getJsonParser-IF_STATEMENT-2.json
 No key yet: spring-boot-ServletWebServerApplicationContext-prepareWebApplicationContext-IF_STATEMENT
-Data is written to file: src/main/resources/oracle/block/test/false/spring-boot-ServletWebServerApplicationContext-prepareWebApplicationContext-IF_STATEMENT.json
+Data is written to file: src/main/resources/oracle/block/test/valid/spring-boot-ServletWebServerApplicationContext-prepareWebApplicationContext-IF_STATEMENT.json
 Key contained: spring-boot-ServletWebServerApplicationContext-prepareWebApplicationContext-IF_STATEMENT -> 1
 Data is written to file: src/main/resources/oracle/block/test/true/spring-boot-ServletWebServerApplicationContext-prepareWebApplicationContext-IF_STATEMENT-1.json
 Key contained: spring-boot-ServletWebServerApplicationContext-prepareWebApplicationContext-IF_STATEMENT -> 2
@@ -627,9 +627,9 @@ Data is written to file: src/main/resources/oracle/block/test/true/spring-boot-S
 No key yet: spring-boot-SpringApplication-getBeanDefinitionRegistry-IF_STATEMENT
 Data is written to file: src/main/resources/oracle/block/test/true/spring-boot-SpringApplication-getBeanDefinitionRegistry-IF_STATEMENT.json
 Key contained: spring-boot-SpringApplication-getBeanDefinitionRegistry-IF_STATEMENT -> 1
-Data is written to file: src/main/resources/oracle/block/test/false/spring-boot-SpringApplication-getBeanDefinitionRegistry-IF_STATEMENT-1.json
+Data is written to file: src/main/resources/oracle/block/test/valid/spring-boot-SpringApplication-getBeanDefinitionRegistry-IF_STATEMENT-1.json
 No key yet: spring-boot-StaticResourceJars-addUrlConnection-IF_STATEMENT
 Data is written to file: src/main/resources/oracle/block/test/true/spring-boot-StaticResourceJars-addUrlConnection-IF_STATEMENT.json
 No key yet: spring-boot-UndertowWebServer-getPortFromChannel-IF_STATEMENT
 Data is written to file: src/main/resources/oracle/block/test/true/spring-boot-UndertowWebServer-getPortFromChannel-IF_STATEMENT.json
-2023-01-13 15:36:18 Generation finished successfully.
+2023-01-17 16:44:19 Generation finished successfully.
