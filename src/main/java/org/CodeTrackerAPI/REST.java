@@ -322,6 +322,7 @@ public class REST {
           .get(
             "/addToOracle",
             exchange -> {
+              String oracleElementType = "attribute";
               Map<String, Deque<String>> params = exchange.getQueryParameters();
               String commitId = params.get("commitId").getFirst();
               String commitURL = params.get("commitURL").getFirst();
@@ -338,12 +339,12 @@ public class REST {
                   if (checkReported) {
                     dir =
                       new File(
-                        "src/main/resources/oracle/block/test/invalid/test-reported"
+                        "src/main/resources/oracle/"+oracleElementType+"/test/invalid/test-reported"
                       );
                   } else {
                     dir =
                       new File(
-                        "src/main/resources/oracle/block/test/false"
+                        "src/main/resources/oracle/"+oracleElementType+"/test/false"
                       );
                   }
                   File[] files = dir.listFiles(
@@ -441,14 +442,14 @@ public class REST {
                   }
 
                   String newFileName =
-                    "src/main/resources/oracle/block/test/" +
+                    "src/main/resources/oracle/"+oracleElementType+"/test/" +
                     folderName +
                     "/" +
                     fileName;
 
                   if (!valid & report) {
                     newFileName =
-                      "src/main/resources/oracle/block/test/" +
+                      "src/main/resources/oracle/"+oracleElementType+"/test/" +
                       folderName +
                       "/reported/" +
                       fileName;
@@ -484,16 +485,17 @@ public class REST {
           .get(
             "/getOracleData",
             exchange -> {
+              String oracleElementType = "attribute";
               try {
                 File dir;
                 if (checkReported) {
                   dir =
                     new File(
-                      "src/main/resources/oracle/block/test/invalid/test-reported"
+                      "src/main/resources/oracle/"+oracleElementType+"/test/invalid/test-reported"
                     );
                 } else {
                   dir =
-                    new File("src/main/resources/oracle/block/test/false");
+                    new File("src/main/resources/oracle/"+oracleElementType+"/test/false");
                 }
 
                 File[] files = dir.listFiles(
