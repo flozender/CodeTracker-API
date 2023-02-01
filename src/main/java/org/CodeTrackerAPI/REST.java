@@ -36,6 +36,7 @@ import org.codetracker.util.GitRepository;
 import org.codetracker.util.IRepository;
 import org.eclipse.jgit.api.Git;
 import org.eclipse.jgit.api.PullResult;
+import org.eclipse.jgit.api.errors.TransportException;
 import org.eclipse.jgit.lib.Repository;
 import org.eclipse.jgit.revwalk.RevCommit;
 import org.eclipse.jgit.transport.CredentialsProvider;
@@ -52,26 +53,36 @@ public class REST {
   public static boolean checkReported = false;
 
   public static CredentialsProvider getCredentialsProvider() {
-    Boolean credentialsProvided =
+    boolean credentialsProvided =
       System.getenv("GITHUB_USERNAME") != null &&
       System.getenv("GITHUB_KEY") != null;
 
-    if (credentialsProvided) {
-      System.out.println(
-        "Credentials: " +
-        System.getenv("GITHUB_USERNAME") +
-        " " +
-        System.getenv("GITHUB_KEY")
-      );
-
-      CredentialsProvider credentialsProvider = new UsernamePasswordCredentialsProvider(
-        System.getenv("GITHUB_USERNAME"),
-        System.getenv("GITHUB_KEY")
-      );
-      return credentialsProvider;
+    if (!credentialsProvided) {
+      return null;
     }
 
-    return null;
+    System.out.println(
+      "Credentials: " +
+      System.getenv("GITHUB_USERNAME") +
+      " " +
+      System.getenv("GITHUB_KEY")
+    );
+
+    return new UsernamePasswordCredentialsProvider(
+      System.getenv("GITHUB_USERNAME"),
+      System.getenv("GITHUB_KEY")
+    );
+  }
+
+  public static CredentialsProvider getCredentialsProvider(
+    String username,
+    String password
+  ) {
+    if (username == null || password == null) {
+      return getCredentialsProvider();
+    }
+
+    return new UsernamePasswordCredentialsProvider(username, password);
   }
 
   public static void main(String[] args) {
@@ -91,19 +102,26 @@ public class REST {
               String filePath = params.get("filePath").getFirst();
               String name = params.get("selection").getFirst();
               String latestCommitHash;
-
+              String gitHubToken = null;
+              try {
+                gitHubToken = params.get("gitHubToken").getFirst();
+              } catch (Exception ignored) {}
               Integer lineNumber = Integer.parseInt(
                 params.get("lineNumber").getFirst()
               );
 
               String changes = "";
               GitService gitService = new GitServiceImpl();
-              CredentialsProvider credentialsProvider = getCredentialsProvider();
+              CredentialsProvider credentialsProvider = getCredentialsProvider(
+                owner,
+                gitHubToken
+              );
               try (
                 Repository repository = gitService.cloneIfNotExists(
                   "tmp/" + repoName,
                   "https://github.com/" + owner + "/" + repoName + ".git",
-                  credentialsProvider
+                  owner,
+                  gitHubToken
                 )
               ) {
                 try (Git git = new Git(repository)) {
@@ -249,6 +267,11 @@ public class REST {
           .get(
             "/codeElementType",
             exchange -> {
+              exchange
+                .getResponseHeaders()
+                .put(new HttpString("Access-Control-Allow-Origin"), "*")
+                .put(Headers.CONTENT_TYPE, "text/plain");
+
               Map<String, Deque<String>> params = exchange.getQueryParameters();
               String owner = params.get("owner").getFirst();
               String repoName = params.get("repoName").getFirst();
@@ -256,19 +279,27 @@ public class REST {
               String filePath = params.get("filePath").getFirst();
               String name = params.get("selection").getFirst();
               String latestCommitHash;
+              String gitHubToken = null;
+              try {
+                gitHubToken = params.get("gitHubToken").getFirst();
+              } catch (Exception ignored) {}
 
               Integer lineNumber = Integer.parseInt(
                 params.get("lineNumber").getFirst()
               );
               String response;
               GitService gitService = new GitServiceImpl();
-              CredentialsProvider credentialsProvider = getCredentialsProvider();
+              CredentialsProvider credentialsProvider = getCredentialsProvider(
+                owner,
+                gitHubToken
+              );
 
               try (
                 Repository repository = gitService.cloneIfNotExists(
                   "tmp/" + repoName,
                   "https://github.com/" + owner + "/" + repoName + ".git",
-                  credentialsProvider
+                  owner,
+                  gitHubToken
                 )
               ) {
                 try (Git git = new Git(repository)) {
@@ -304,6 +335,7 @@ public class REST {
                 if (codeElement == null) {
                   throw new Exception("Selected code element is invalid.");
                 }
+
                 if (codeElement.getClass() == Method.class) {
                   response = "{\"type\": \"Method\"}";
                 } else if (codeElement.getClass() == Variable.class) {
@@ -313,24 +345,33 @@ public class REST {
                 } else if (codeElement.getClass() == Block.class) {
                   response = "{\"type\": \"Block\"}";
                 } else {
-                  response = "{\"type\": \"Invalid Element\"}";
+                  response =
+                    "{\"type\": \"Invalid Element\", \"error\": \"Unsupported code element\"}";
                 }
 
-                exchange
-                  .getResponseHeaders()
-                  .put(new HttpString("Access-Control-Allow-Origin"), "*")
-                  .put(Headers.CONTENT_TYPE, "text/plain");
                 exchange.getResponseSender().send(response);
+              } catch (TransportException e) {
+                System.out.println("Authentication Failure: " + e);
+                exchange
+                  .getResponseSender()
+                  .send(
+                    "{\"type\": \"Invalid Element\", \"error\": \"Authentication required\"}"
+                  );
+              } catch (CodeElementNotFoundException e) {
+                System.out.println("Code element not found: " + e);
+                exchange
+                  .getResponseSender()
+                  .send(
+                    "{\"type\": \"Invalid Element\", \"error\": \"Unsupported code element\"}"
+                  );
               } catch (Exception e) {
                 System.out.println("Something went wrong: " + e);
                 e.printStackTrace();
                 exchange
-                  .getResponseHeaders()
-                  .put(new HttpString("Access-Control-Allow-Origin"), "*")
-                  .put(Headers.CONTENT_TYPE, "text/plain");
-                exchange
                   .getResponseSender()
-                  .send("{\"type\": \"Invalid Element\"}");
+                  .send(
+                    "{\"type\": \"Invalid Element\", \"error\": \"Internal server error\"}"
+                  );
               }
             }
           )
@@ -501,7 +542,9 @@ public class REST {
                   .put(Headers.CONTENT_TYPE, "text/plain");
                 exchange
                   .getResponseSender()
-                  .send("{\"type\": \"Invalid Element\"}");
+                  .send(
+                    "{\"type\": \"Invalid Element\", \"error\": \"Internal server error\"}"
+                  );
               }
             }
           )
