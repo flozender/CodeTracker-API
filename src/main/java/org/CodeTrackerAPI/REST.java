@@ -51,6 +51,29 @@ public class REST {
 
   public static boolean checkReported = false;
 
+  public static CredentialsProvider getCredentialsProvider() {
+    Boolean credentialsProvided =
+      System.getenv("GITHUB_USERNAME") != null &&
+      System.getenv("GITHUB_KEY") != null;
+
+    if (credentialsProvided) {
+      System.out.println(
+        "Credentials: " +
+        System.getenv("GITHUB_USERNAME") +
+        " " +
+        System.getenv("GITHUB_KEY")
+      );
+
+      CredentialsProvider credentialsProvider = new UsernamePasswordCredentialsProvider(
+        System.getenv("GITHUB_USERNAME"),
+        System.getenv("GITHUB_KEY")
+      );
+      return credentialsProvider;
+    }
+
+    return null;
+  }
+
   public static void main(String[] args) {
     PathHandler path = Handlers
       .path()
@@ -75,30 +98,25 @@ public class REST {
 
               String changes = "";
               GitService gitService = new GitServiceImpl();
+              CredentialsProvider credentialsProvider = getCredentialsProvider();
               try (
                 Repository repository = gitService.cloneIfNotExists(
                   "tmp/" + repoName,
-                  "https://github.com/" + owner + "/" + repoName + ".git"
+                  "https://github.com/" + owner + "/" + repoName + ".git",
+                  credentialsProvider
                 )
               ) {
                 try (Git git = new Git(repository)) {
                   PullResult call;
-                  Boolean credentialsProvided =
-                    System.getenv("GITHUB_USERNAME") != null &&
-                    System.getenv("GITHUB_KEY") != null;
-                  System.out.println(
-                    "Credentials provided: " + credentialsProvided
-                  );
-                  if (credentialsProvided) {
-                    CredentialsProvider cp = new UsernamePasswordCredentialsProvider(
-                      System.getenv("GITHUB_USERNAME"),
-                      System.getenv("GITHUB_KEY")
-                    );
-                    call = git.pull().setCredentialsProvider(cp).call();
+                  if (credentialsProvider != null) {
+                    call =
+                      git
+                        .pull()
+                        .setCredentialsProvider(credentialsProvider)
+                        .call();
                   } else {
                     call = git.pull().call();
                   }
-
                   System.out.println(
                     "Pulled from the remote repository: " + call
                   );
@@ -244,27 +262,23 @@ public class REST {
               );
               String response;
               GitService gitService = new GitServiceImpl();
+              CredentialsProvider credentialsProvider = getCredentialsProvider();
 
               try (
                 Repository repository = gitService.cloneIfNotExists(
                   "tmp/" + repoName,
-                  "https://github.com/" + owner + "/" + repoName + ".git"
+                  "https://github.com/" + owner + "/" + repoName + ".git",
+                  credentialsProvider
                 )
               ) {
                 try (Git git = new Git(repository)) {
                   PullResult call;
-                  Boolean credentialsProvided =
-                    System.getenv("GITHUB_USERNAME") != null &&
-                    System.getenv("GITHUB_KEY") != null;
-                  System.out.println(
-                    "Credentials provided: " + credentialsProvided
-                  );
-                  if (credentialsProvided) {
-                    CredentialsProvider cp = new UsernamePasswordCredentialsProvider(
-                      System.getenv("GITHUB_USERNAME"),
-                      System.getenv("GITHUB_KEY")
-                    );
-                    call = git.pull().setCredentialsProvider(cp).call();
+                  if (credentialsProvider != null) {
+                    call =
+                      git
+                        .pull()
+                        .setCredentialsProvider(credentialsProvider)
+                        .call();
                   } else {
                     call = git.pull().call();
                   }
@@ -309,6 +323,7 @@ public class REST {
                 exchange.getResponseSender().send(response);
               } catch (Exception e) {
                 System.out.println("Something went wrong: " + e);
+                e.printStackTrace();
                 exchange
                   .getResponseHeaders()
                   .put(new HttpString("Access-Control-Allow-Origin"), "*")
@@ -339,12 +354,16 @@ public class REST {
                   if (checkReported) {
                     dir =
                       new File(
-                        "src/main/resources/oracle/"+oracleElementType+"/test/invalid/test-reported"
+                        "src/main/resources/oracle/" +
+                        oracleElementType +
+                        "/test/invalid/test-reported"
                       );
                   } else {
                     dir =
                       new File(
-                        "src/main/resources/oracle/"+oracleElementType+"/test/false"
+                        "src/main/resources/oracle/" +
+                        oracleElementType +
+                        "/test/false"
                       );
                   }
                   File[] files = dir.listFiles(
@@ -442,14 +461,18 @@ public class REST {
                   }
 
                   String newFileName =
-                    "src/main/resources/oracle/"+oracleElementType+"/test/" +
+                    "src/main/resources/oracle/" +
+                    oracleElementType +
+                    "/test/" +
                     folderName +
                     "/" +
                     fileName;
 
                   if (!valid & report) {
                     newFileName =
-                      "src/main/resources/oracle/"+oracleElementType+"/test/" +
+                      "src/main/resources/oracle/" +
+                      oracleElementType +
+                      "/test/" +
                       folderName +
                       "/reported/" +
                       fileName;
@@ -491,11 +514,17 @@ public class REST {
                 if (checkReported) {
                   dir =
                     new File(
-                      "src/main/resources/oracle/"+oracleElementType+"/test/invalid/test-reported"
+                      "src/main/resources/oracle/" +
+                      oracleElementType +
+                      "/test/invalid/test-reported"
                     );
                 } else {
                   dir =
-                    new File("src/main/resources/oracle/"+oracleElementType+"/test/false");
+                    new File(
+                      "src/main/resources/oracle/" +
+                      oracleElementType +
+                      "/test/false"
+                    );
                 }
 
                 File[] files = dir.listFiles(
