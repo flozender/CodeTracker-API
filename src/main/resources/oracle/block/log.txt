@@ -1,4 +1,4 @@
-2023-01-17 16:24:16 Started oracle generation
+2023-02-05 22:21:58 Started oracle generation
 Block test Data
 No key yet: commons-io-DemuxOutputStream-flush-IF_STATEMENT
 Data is written to file: src/main/resources/oracle/block/test/true/commons-io-DemuxOutputStream-flush-IF_STATEMENT.json
@@ -181,7 +181,7 @@ Data is written to file: src/main/resources/oracle/block/test/true/hadoop-FifoSc
 No key yet: hadoop-LeveldbConfigurationStore-retrieve-IF_STATEMENT
 Data is written to file: src/main/resources/oracle/block/test/valid/hadoop-LeveldbConfigurationStore-retrieve-IF_STATEMENT.json
 No key yet: hadoop-LeveldbConfigurationStore-retrieve-WHILE_STATEMENT
-Data is written to file: src/main/resources/oracle/block/test/false/hadoop-LeveldbConfigurationStore-retrieve-WHILE_STATEMENT.json
+Data is written to file: src/main/resources/oracle/block/test/valid/hadoop-LeveldbConfigurationStore-retrieve-WHILE_STATEMENT.json
 No key yet: hadoop-NodeReportPBImpl-setCapability-IF_STATEMENT
 Data is written to file: src/main/resources/oracle/block/test/true/hadoop-NodeReportPBImpl-setCapability-IF_STATEMENT.json
 No key yet: hadoop-RMServerUtils-normalizeAndValidateRequests-TRY_STATEMENT
@@ -291,7 +291,7 @@ Data is written to file: src/main/resources/oracle/block/test/valid/jetty.projec
 Key contained: jetty.project-HttpTransportOverHTTP2-send-IF_STATEMENT -> 5
 Data is written to file: src/main/resources/oracle/block/test/valid/jetty.project-HttpTransportOverHTTP2-send-IF_STATEMENT-5.json
 Key contained: jetty.project-HttpTransportOverHTTP2-send-IF_STATEMENT -> 6
-Data is written to file: src/main/resources/oracle/block/test/invalid/reported/jetty.project-HttpTransportOverHTTP2-send-IF_STATEMENT-6.json
+Data is written to file: src/main/resources/oracle/block/test/valid/jetty.project-HttpTransportOverHTTP2-send-IF_STATEMENT-6.json
 Key contained: jetty.project-HttpTransportOverHTTP2-send-IF_STATEMENT -> 7
 Data is written to file: src/main/resources/oracle/block/test/false/jetty.project-HttpTransportOverHTTP2-send-IF_STATEMENT-7.json
 Key contained: jetty.project-HttpTransportOverHTTP2-send-IF_STATEMENT -> 8
@@ -305,17 +305,17 @@ Data is written to file: src/main/resources/oracle/block/test/valid/jetty.projec
 Key contained: jetty.project-HttpTransportOverHTTP2-send-IF_STATEMENT -> 12
 Data is written to file: src/main/resources/oracle/block/test/valid/jetty.project-HttpTransportOverHTTP2-send-IF_STATEMENT-12.json
 Key contained: jetty.project-HttpTransportOverHTTP2-send-IF_STATEMENT -> 13
-Data is written to file: src/main/resources/oracle/block/test/false/jetty.project-HttpTransportOverHTTP2-send-IF_STATEMENT-13.json
+Data is written to file: src/main/resources/oracle/block/test/valid/jetty.project-HttpTransportOverHTTP2-send-IF_STATEMENT-13.json
 Key contained: jetty.project-HttpTransportOverHTTP2-send-IF_STATEMENT -> 14
 Data is written to file: src/main/resources/oracle/block/test/valid/jetty.project-HttpTransportOverHTTP2-send-IF_STATEMENT-14.json
 No key yet: jetty.project-JsrSession-addMessageHandler-IF_STATEMENT
 Data is written to file: src/main/resources/oracle/block/test/valid/jetty.project-JsrSession-addMessageHandler-IF_STATEMENT.json
 Key contained: jetty.project-JsrSession-addMessageHandler-IF_STATEMENT -> 1
-Data is written to file: src/main/resources/oracle/block/test/invalid/jetty.project-JsrSession-addMessageHandler-IF_STATEMENT-1.json
+Data is written to file: src/main/resources/oracle/block/test/false/jetty.project-JsrSession-addMessageHandler-IF_STATEMENT-1.json
 No key yet: jetty.project-JsrSession-addMessageHandler-ENHANCED_FOR_STATEMENT
-Data is written to file: src/main/resources/oracle/block/test/invalid/jetty.project-JsrSession-addMessageHandler-ENHANCED_FOR_STATEMENT.json
+Data is written to file: src/main/resources/oracle/block/test/false/jetty.project-JsrSession-addMessageHandler-ENHANCED_FOR_STATEMENT.json
 No key yet: jetty.project-JsrSession-addMessageHandler-SYNCHRONIZED_STATEMENT
-Data is written to file: src/main/resources/oracle/block/test/invalid/jetty.project-JsrSession-addMessageHandler-SYNCHRONIZED_STATEMENT.json
+Data is written to file: src/main/resources/oracle/block/test/false/jetty.project-JsrSession-addMessageHandler-SYNCHRONIZED_STATEMENT.json
 No key yet: jetty.project-Module-equals-IF_STATEMENT
 Data is written to file: src/main/resources/oracle/block/test/true/jetty.project-Module-equals-IF_STATEMENT.json
 Key contained: jetty.project-Module-equals-IF_STATEMENT -> 1
@@ -543,11 +543,11 @@ Data is written to file: src/main/resources/oracle/block/test/true/mockito-Plugi
 Key contained: mockito-PluginLoader-loadPlugin-IF_STATEMENT -> 1
 Data is written to file: src/main/resources/oracle/block/test/invalid/mockito-PluginLoader-loadPlugin-IF_STATEMENT-1.json
 Key contained: mockito-PluginLoader-loadPlugin-IF_STATEMENT -> 2
-Data is written to file: src/main/resources/oracle/block/test/invalid/mockito-PluginLoader-loadPlugin-IF_STATEMENT-2.json
+Data is written to file: src/main/resources/oracle/block/test/true/mockito-PluginLoader-loadPlugin-IF_STATEMENT-2.json
 No key yet: mockito-PluginLoader-loadPlugin-TRY_STATEMENT
 Data is written to file: src/main/resources/oracle/block/test/true/mockito-PluginLoader-loadPlugin-TRY_STATEMENT.json
 No key yet: mockito-PluginLoader-loadPlugin-CATCH_CLAUSE
-Data is written to file: src/main/resources/oracle/block/test/invalid/mockito-PluginLoader-loadPlugin-CATCH_CLAUSE.json
+Data is written to file: src/main/resources/oracle/block/test/true/mockito-PluginLoader-loadPlugin-CATCH_CLAUSE.json
 No key yet: mockito-ReturnsArgumentAt-answer-IF_STATEMENT
 Data is written to file: src/main/resources/oracle/block/test/valid/mockito-ReturnsArgumentAt-answer-IF_STATEMENT.json
 No key yet: mockito-StringUtil-join-IF_STATEMENT
@@ -632,4 +632,4 @@ No key yet: spring-boot-StaticResourceJars-addUrlConnection-IF_STATEMENT
 Data is written to file: src/main/resources/oracle/block/test/true/spring-boot-StaticResourceJars-addUrlConnection-IF_STATEMENT.json
 No key yet: spring-boot-UndertowWebServer-getPortFromChannel-IF_STATEMENT
 Data is written to file: src/main/resources/oracle/block/test/true/spring-boot-UndertowWebServer-getPortFromChannel-IF_STATEMENT.json
-2023-01-17 16:44:19 Generation finished successfully.
+2023-02-05 22:43:35 Generation finished successfully.
