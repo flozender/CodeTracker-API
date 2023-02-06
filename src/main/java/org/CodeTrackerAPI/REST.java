@@ -378,7 +378,7 @@ public class REST {
           .get(
             "/addToOracle",
             exchange -> {
-              String oracleElementType = "attribute";
+              String oracleElementType = "block";
               Map<String, Deque<String>> params = exchange.getQueryParameters();
               String commitId = params.get("commitId").getFirst();
               String commitURL = params.get("commitURL").getFirst();
@@ -397,14 +397,14 @@ public class REST {
                       new File(
                         "src/main/resources/oracle/" +
                         oracleElementType +
-                        "/test/invalid/test-reported"
+                        "/training/invalid/test-reported"
                       );
                   } else {
                     dir =
                       new File(
                         "src/main/resources/oracle/" +
                         oracleElementType +
-                        "/test/false"
+                        "/training/false"
                       );
                   }
                   File[] files = dir.listFiles(
@@ -504,7 +504,7 @@ public class REST {
                   String newFileName =
                     "src/main/resources/oracle/" +
                     oracleElementType +
-                    "/test/" +
+                    "/training/" +
                     folderName +
                     "/" +
                     fileName;
@@ -513,7 +513,7 @@ public class REST {
                     newFileName =
                       "src/main/resources/oracle/" +
                       oracleElementType +
-                      "/test/" +
+                      "/training/" +
                       folderName +
                       "/reported/" +
                       fileName;
@@ -551,7 +551,7 @@ public class REST {
           .get(
             "/getOracleData",
             exchange -> {
-              String oracleElementType = "attribute";
+              String oracleElementType = "block";
               try {
                 File dir;
                 if (checkReported) {
@@ -559,14 +559,14 @@ public class REST {
                     new File(
                       "src/main/resources/oracle/" +
                       oracleElementType +
-                      "/test/invalid/test-reported"
+                      "/training/invalid/test-reported"
                     );
                 } else {
                   dir =
                     new File(
                       "src/main/resources/oracle/" +
                       oracleElementType +
-                      "/test/false"
+                      "/training/false"
                     );
                 }
 
@@ -993,8 +993,8 @@ public class REST {
         );
         System.out.println("After: " + historyInfo.getElementAfter().getName());
 
+        IRepository gitRepository = new GitRepository(repository);
         if (oracleGeneration) {
-          IRepository gitRepository = new GitRepository(repository);
           for (Change change : historyInfo.getChangeList()) {
             // if comment is the same as the title, no comment in object
             if (
@@ -1062,6 +1062,7 @@ public class REST {
           }
           CTHBlock currentElement = new CTHBlock(
             historyInfo.getCommitId(),
+            gitRepository.getParentId(historyInfo.getCommitId()),
             LocalDateTime
               .ofEpochSecond(historyInfo.getCommitTime(), 0, ZoneOffset.UTC)
               .toString(),
@@ -1271,6 +1272,7 @@ public class REST {
   private static class CTHBlock {
 
     String commitId;
+    String parentCommitId;
     String date;
     String before;
     Integer beforeLine;
@@ -1289,6 +1291,7 @@ public class REST {
 
     private CTHBlock(
       String commitId,
+      String parentCommitId,
       String date,
       CodeElement before,
       CodeElement after,
@@ -1299,6 +1302,7 @@ public class REST {
       CodeElement evolutionHook
     ) {
       this.commitId = commitId;
+      this.parentCommitId = parentCommitId;
       this.date = date;
 
       this.before = before.getName();

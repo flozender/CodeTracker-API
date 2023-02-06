@@ -29,7 +29,7 @@ import org.refactoringminer.util.GitServiceImpl;
 
 public class BlockOracleGenerator {
 
-  public static String oracleType = "test";
+  public static String oracleType = "training";
   public static HashMap<String, Integer> methodBlocks = new HashMap<>();
 
   public static void main(String[] args) {
