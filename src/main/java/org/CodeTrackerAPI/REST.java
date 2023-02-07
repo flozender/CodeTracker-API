@@ -118,7 +118,7 @@ public class REST {
               );
               try (
                 Repository repository = gitService.cloneIfNotExists(
-                  "tmp/" + repoName,
+                  "tmp/" + owner + "/" + repoName,
                   "https://github.com/" + owner + "/" + repoName + ".git",
                   owner,
                   gitHubToken
@@ -296,7 +296,7 @@ public class REST {
 
               try (
                 Repository repository = gitService.cloneIfNotExists(
-                  "tmp/" + repoName,
+                  "tmp/" + owner + "/" + repoName,
                   "https://github.com/" + owner + "/" + repoName + ".git",
                   owner,
                   gitHubToken
