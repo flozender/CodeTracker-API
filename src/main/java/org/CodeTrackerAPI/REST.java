@@ -656,21 +656,14 @@ public class REST {
         );
         System.out.println("After: " + historyInfo.getElementAfter().getName());
         for (Change change : historyInfo.getChangeList()) {
+          System.out.println(change.getType().getTitle() + ": " + change);
           if (
             change.getType().getTitle().equals(change.toString().toLowerCase())
           ) {
-            System.out.println(
-              WordUtils.capitalizeFully(change.getType().getTitle())
-            );
             currentChanges.add(
               WordUtils.capitalizeFully(change.getType().getTitle())
             );
           } else {
-            System.out.println(
-              WordUtils.capitalizeFully(change.getType().getTitle()) +
-              ": " +
-              change
-            );
             currentChanges.add(
               WordUtils.capitalizeFully(change.getType().getTitle()) +
               ": " +
@@ -770,21 +763,14 @@ public class REST {
         );
         System.out.println("After: " + historyInfo.getElementAfter().getName());
         for (Change change : historyInfo.getChangeList()) {
+          System.out.println(change.getType().getTitle() + ": " + change);
           if (
             change.getType().getTitle().equals(change.toString().toLowerCase())
           ) {
-            System.out.println(
-              WordUtils.capitalizeFully(change.getType().getTitle())
-            );
             currentChanges.add(
               WordUtils.capitalizeFully(change.getType().getTitle())
             );
           } else {
-            System.out.println(
-              WordUtils.capitalizeFully(change.getType().getTitle()) +
-              ": " +
-              change
-            );
             currentChanges.add(
               WordUtils.capitalizeFully(change.getType().getTitle()) +
               ": " +
@@ -879,21 +865,14 @@ public class REST {
         );
         System.out.println("After: " + historyInfo.getElementAfter().getName());
         for (Change change : historyInfo.getChangeList()) {
+          System.out.println(change.getType().getTitle() + ": " + change);
           if (
             change.getType().getTitle().equals(change.toString().toLowerCase())
           ) {
-            System.out.println(
-              WordUtils.capitalizeFully(change.getType().getTitle())
-            );
             currentChanges.add(
               WordUtils.capitalizeFully(change.getType().getTitle())
             );
           } else {
-            System.out.println(
-              WordUtils.capitalizeFully(change.getType().getTitle()) +
-              ": " +
-              change
-            );
             currentChanges.add(
               WordUtils.capitalizeFully(change.getType().getTitle()) +
               ": " +
@@ -1030,24 +1009,17 @@ public class REST {
           }
         } else {
           for (Change change : historyInfo.getChangeList()) {
+            System.out.println(change.getType().getTitle() + ": " + change);
             if (
               change
                 .getType()
                 .getTitle()
                 .equals(change.toString().toLowerCase())
             ) {
-              System.out.println(
-                WordUtils.capitalizeFully(change.getType().getTitle())
-              );
               currentChanges.add(
                 WordUtils.capitalizeFully(change.getType().getTitle())
               );
             } else {
-              System.out.println(
-                WordUtils.capitalizeFully(change.getType().getTitle()) +
-                ": " +
-                change
-              );
               currentChanges.add(
                 WordUtils.capitalizeFully(change.getType().getTitle()) +
                 ": " +
