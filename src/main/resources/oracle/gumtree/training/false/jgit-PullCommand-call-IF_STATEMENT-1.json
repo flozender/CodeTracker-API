@@ -1,0 +1,109 @@
+{
+  "repositoryName": "jgit",
+  "repositoryWebURL": "https://github.com/eclipse/jgit.git",
+  "filePath": "org.eclipse.jgit/src/org/eclipse/jgit/api/PullCommand.java",
+  "functionName": "call",
+  "functionKey": "org.eclipse.jgit/src/org.eclipse.jgit.api.PullCommand#call()",
+  "functionStartLine": 196,
+  "blockType": "IF_STATEMENT",
+  "blockKey": "org.eclipse.jgit/src/org.eclipse.jgit.api.PullCommand#call()$if(308-334)",
+  "blockStartLine": 308,
+  "blockEndLine": 334,
+  "startCommitId": "bd1a82502680b5de5bf86f6c4470185fd1602386",
+  "expectedChanges": [
+    {
+      "parentCommitId": "8787176ef1cd4c7b7fc6e312bdf680f384c38467",
+      "commitId": "efacad0fc8e98505be6f007230ab2b1cdc1684f3",
+      "commitTime": 1432851333,
+      "changeType": "body change",
+      "elementFileBefore": "org.eclipse.jgit/src/org/eclipse/jgit/api/PullCommand.java",
+      "elementNameBefore": "org.eclipse.jgit/src/org.eclipse.jgit.api.PullCommand#call()$if(279-303)",
+      "elementFileAfter": "org.eclipse.jgit/src/org/eclipse/jgit/api/PullCommand.java",
+      "elementNameAfter": "org.eclipse.jgit/src/org.eclipse.jgit.api.PullCommand#call()$if(281-307)"
+    },
+    {
+      "parentCommitId": "c0392381ee915c8ddd08a5fe8b94548fd86b8fcd",
+      "commitId": "da901c49688ef72858cd2b6904e0f8e478fa0ec3",
+      "commitTime": 1320951467,
+      "changeType": "body change",
+      "elementFileBefore": "org.eclipse.jgit/src/org/eclipse/jgit/api/PullCommand.java",
+      "elementNameBefore": "org.eclipse.jgit/src/org.eclipse.jgit.api.PullCommand#call()$if(254-278)",
+      "elementFileAfter": "org.eclipse.jgit/src/org/eclipse/jgit/api/PullCommand.java",
+      "elementNameAfter": "org.eclipse.jgit/src/org.eclipse.jgit.api.PullCommand#call()$if(209-233)"
+    },
+    {
+      "parentCommitId": "18e822a7fefb35e4a68ca4b337541c0a1a222a43",
+      "commitId": "68459b646e6c8243dc5650cbe08ce1bcdb8a621d",
+      "commitTime": 1297867586,
+      "changeType": "finally block change",
+      "elementFileBefore": "org.eclipse.jgit/src/org/eclipse/jgit/api/PullCommand.java",
+      "elementNameBefore": "org.eclipse.jgit/src/org.eclipse.jgit.api.PullCommand#call()$if(235-256)",
+      "elementFileAfter": "org.eclipse.jgit/src/org/eclipse/jgit/api/PullCommand.java",
+      "elementNameAfter": "org.eclipse.jgit/src/org.eclipse.jgit.api.PullCommand#call()$if(235-259)"
+    },
+    {
+      "parentCommitId": "0544c9af4159ede49a42119833f680b2435e78a7",
+      "commitId": "7668a462829b12e4f6a192c43157152ef63ff305",
+      "commitTime": 1288282682,
+      "changeType": "body change",
+      "elementFileBefore": "org.eclipse.jgit/src/org/eclipse/jgit/api/PullCommand.java",
+      "elementNameBefore": "org.eclipse.jgit/src/org.eclipse.jgit.api.PullCommand#call()$if(215-230)",
+      "elementFileAfter": "org.eclipse.jgit/src/org/eclipse/jgit/api/PullCommand.java",
+      "elementNameAfter": "org.eclipse.jgit/src/org.eclipse.jgit.api.PullCommand#call()$if(223-244)"
+    },
+    {
+      "parentCommitId": "0544c9af4159ede49a42119833f680b2435e78a7",
+      "commitId": "7668a462829b12e4f6a192c43157152ef63ff305",
+      "commitTime": 1288282682,
+      "changeType": "finally block change",
+      "elementFileBefore": "org.eclipse.jgit/src/org/eclipse/jgit/api/PullCommand.java",
+      "elementNameBefore": "org.eclipse.jgit/src/org.eclipse.jgit.api.PullCommand#call()$if(215-230)",
+      "elementFileAfter": "org.eclipse.jgit/src/org/eclipse/jgit/api/PullCommand.java",
+      "elementNameAfter": "org.eclipse.jgit/src/org.eclipse.jgit.api.PullCommand#call()$if(223-244)"
+    },
+    {
+      "parentCommitId": "2160c09dd4f678c5f2f8e730945be637210b39de",
+      "commitId": "db55d13f5f4b641a9390076ced6b1775bcfcd6f6",
+      "commitTime": 1286546248,
+      "changeType": "introduced",
+      "elementFileBefore": "org.eclipse.jgit/src/org/eclipse/jgit/api/PullCommand.java",
+      "elementNameBefore": "org.eclipse.jgit/src/org.eclipse.jgit.api.PullCommand#call()$if(215-230)",
+      "elementFileAfter": "org.eclipse.jgit/src/org/eclipse/jgit/api/PullCommand.java",
+      "elementNameAfter": "org.eclipse.jgit/src/org.eclipse.jgit.api.PullCommand#call()$if(215-230)",
+      "comment": "added with method"
+    }
+  ],
+  "oracleChanges": [
+    {
+      "parentCommitId": "8787176ef1cd4c7b7fc6e312bdf680f384c38467",
+      "commitId": "efacad0fc8e98505be6f007230ab2b1cdc1684f3",
+      "commitTime": 1432851333,
+      "changeType": "body change",
+      "elementFileBefore": "org.eclipse.jgit/src/org/eclipse/jgit/api/PullCommand.java",
+      "elementNameBefore": "org.eclipse.jgit/src/org.eclipse.jgit.api.PullCommand#call()$if(279-303)",
+      "elementFileAfter": "org.eclipse.jgit/src/org/eclipse/jgit/api/PullCommand.java",
+      "elementNameAfter": "org.eclipse.jgit/src/org.eclipse.jgit.api.PullCommand#call()$if(281-307)"
+    },
+    {
+      "parentCommitId": "18e822a7fefb35e4a68ca4b337541c0a1a222a43",
+      "commitId": "68459b646e6c8243dc5650cbe08ce1bcdb8a621d",
+      "commitTime": 1297867586,
+      "changeType": "body change",
+      "elementFileBefore": "org.eclipse.jgit/src/org/eclipse/jgit/api/PullCommand.java",
+      "elementNameBefore": "org.eclipse.jgit/src/org.eclipse.jgit.api.PullCommand#call()$if(235-256)",
+      "elementFileAfter": "org.eclipse.jgit/src/org/eclipse/jgit/api/PullCommand.java",
+      "elementNameAfter": "org.eclipse.jgit/src/org.eclipse.jgit.api.PullCommand#call()$if(235-259)"
+    },
+    {
+      "parentCommitId": "0544c9af4159ede49a42119833f680b2435e78a7",
+      "commitId": "7668a462829b12e4f6a192c43157152ef63ff305",
+      "commitTime": 1288282682,
+      "changeType": "introduced",
+      "elementFileBefore": "org.eclipse.jgit/src/org/eclipse/jgit/api/PullCommand.java",
+      "elementNameBefore": "org.eclipse.jgit/src/org.eclipse.jgit.api.PullCommand#call()$if(223-244)",
+      "elementFileAfter": "org.eclipse.jgit/src/org/eclipse/jgit/api/PullCommand.java",
+      "elementNameAfter": "org.eclipse.jgit/src/org.eclipse.jgit.api.PullCommand#call()$if(223-244)",
+      "comment": "new block"
+    }
+  ]
+}

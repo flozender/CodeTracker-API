@@ -1,0 +1,49 @@
+{
+  "repositoryName": "okhttp",
+  "repositoryWebURL": "https://github.com/square/okhttp.git",
+  "filePath": "okhttp/src/main/java/okhttp3/internal/connection/RealConnection.java",
+  "functionName": "connect",
+  "functionKey": "okhttp/src/main/java/okhttp3.internal.connection.RealConnection#connect(int, int, int, int, boolean, Call, EventListener)",
+  "functionStartLine": 130,
+  "blockType": "IF_STATEMENT",
+  "blockKey": "okhttp/src/main/java/okhttp3.internal.connection.RealConnection#connect(int, int, int, int, boolean, Call, EventListener)$if(183-187)",
+  "blockStartLine": 183,
+  "blockEndLine": 187,
+  "startCommitId": "5224f3045ba9b171fce521777edf389f9206173c",
+  "expectedChanges": [
+    {
+      "parentCommitId": "54dc2df914f2aae37fb48cc2c2f7560ee664bc2b",
+      "commitId": "c9a89876de476983f273edbf108c365127c18c5e",
+      "commitTime": 1450247699,
+      "changeType": "body change",
+      "elementFileBefore": "okhttp/src/main/java/com/squareup/okhttp/internal/io/RealConnection.java",
+      "elementNameBefore": "okhttp/src/main/java/com.squareup.okhttp.internal.io.RealConnection#connect(int, int, int, List, boolean)$if(119-123)",
+      "elementFileAfter": "okhttp/src/main/java/okhttp3/internal/io/RealConnection.java",
+      "elementNameAfter": "okhttp/src/main/java/okhttp3.internal.io.RealConnection#connect(int, int, int, List, boolean)$if(119-123)"
+    },
+    {
+      "parentCommitId": "e0d34ebdd7aba18149d195804075a87b97f3c02d",
+      "commitId": "c358656c8799d30fd422448153e99a5dd37e298a",
+      "commitTime": 1448721366,
+      "changeType": "introduced",
+      "elementFileBefore": "okhttp/src/main/java/com/squareup/okhttp/internal/io/RealConnection.java",
+      "elementNameBefore": "okhttp/src/main/java/com.squareup.okhttp.internal.io.RealConnection#connect(int, int, int, List, boolean)$if(108-112)",
+      "elementFileAfter": "okhttp/src/main/java/com/squareup/okhttp/internal/io/RealConnection.java",
+      "elementNameAfter": "okhttp/src/main/java/com.squareup.okhttp.internal.io.RealConnection#connect(int, int, int, List, boolean)$if(108-112)",
+      "comment": "added with method"
+    }
+  ],
+  "oracleChanges": [
+    {
+      "parentCommitId": "1e5f3a967977db513585ed8f350a65ab3175e9ce",
+      "commitId": "b42e73f497eafe147667117202267ec756adff26",
+      "commitTime": 1438473253,
+      "changeType": "introduced",
+      "elementFileBefore": "okhttp/src/main/java/com/squareup/okhttp/Connection.java",
+      "elementNameBefore": "okhttp/src/main/java/com.squareup.okhttp.Connection#connect(int, int, int, Request, List, boolean)$if(180-184)",
+      "elementFileAfter": "okhttp/src/main/java/com/squareup/okhttp/Connection.java",
+      "elementNameAfter": "okhttp/src/main/java/com.squareup.okhttp.Connection#connect(int, int, int, Request, List, boolean)$if(180-184)",
+      "comment": "new block"
+    }
+  ]
+}

@@ -1,0 +1,1252 @@
+2023-03-08 22:33:26 Started oracle generation
+Block training Data
+No key yet: checkstyle-Checker-fireErrors-ENHANCED_FOR_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/checkstyle-Checker-fireErrors-ENHANCED_FOR_STATEMENT.json
+Key contained: checkstyle-Checker-fireErrors-ENHANCED_FOR_STATEMENT -> 1
+Data is written to file: src/main/resources/oracle/gumtree/training/false/checkstyle-Checker-fireErrors-ENHANCED_FOR_STATEMENT-1.json
+No key yet: checkstyle-CommonUtils-createPattern-CATCH_CLAUSE
+Data is written to file: src/main/resources/oracle/gumtree/training/false/checkstyle-CommonUtils-createPattern-CATCH_CLAUSE.json
+No key yet: checkstyle-CommonUtils-createPattern-TRY_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/checkstyle-CommonUtils-createPattern-TRY_STATEMENT.json
+No key yet: checkstyle-Main-main-CATCH_CLAUSE
+Data is written to file: src/main/resources/oracle/gumtree/training/false/checkstyle-Main-main-CATCH_CLAUSE.json
+Key contained: checkstyle-Main-main-CATCH_CLAUSE -> 1
+Data is written to file: src/main/resources/oracle/gumtree/training/false/checkstyle-Main-main-CATCH_CLAUSE-1.json
+No key yet: checkstyle-Main-main-FINALLY_BLOCK
+Data is written to file: src/main/resources/oracle/gumtree/training/false/checkstyle-Main-main-FINALLY_BLOCK.json
+No key yet: checkstyle-Main-main-IF_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/checkstyle-Main-main-IF_STATEMENT.json
+Key contained: checkstyle-Main-main-IF_STATEMENT -> 1
+Data is written to file: src/main/resources/oracle/gumtree/training/false/checkstyle-Main-main-IF_STATEMENT-1.json
+No key yet: checkstyle-Main-main-TRY_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/checkstyle-Main-main-TRY_STATEMENT.json
+No key yet: checkstyle-TreeWalker-processFiltered-IF_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/checkstyle-TreeWalker-processFiltered-IF_STATEMENT.json
+No key yet: commons-lang-DateUtils-modify-ENHANCED_FOR_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-DateUtils-modify-ENHANCED_FOR_STATEMENT.json
+Key contained: commons-lang-DateUtils-modify-ENHANCED_FOR_STATEMENT -> 1
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-DateUtils-modify-ENHANCED_FOR_STATEMENT-1.json
+No key yet: commons-lang-DateUtils-modify-IF_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-DateUtils-modify-IF_STATEMENT.json
+Key contained: commons-lang-DateUtils-modify-IF_STATEMENT -> 1
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-DateUtils-modify-IF_STATEMENT-1.json
+Key contained: commons-lang-DateUtils-modify-IF_STATEMENT -> 2
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-DateUtils-modify-IF_STATEMENT-2.json
+Key contained: commons-lang-DateUtils-modify-IF_STATEMENT -> 3
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-DateUtils-modify-IF_STATEMENT-3.json
+Key contained: commons-lang-DateUtils-modify-IF_STATEMENT -> 4
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-DateUtils-modify-IF_STATEMENT-4.json
+Key contained: commons-lang-DateUtils-modify-IF_STATEMENT -> 5
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-DateUtils-modify-IF_STATEMENT-5.json
+Key contained: commons-lang-DateUtils-modify-IF_STATEMENT -> 6
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-DateUtils-modify-IF_STATEMENT-6.json
+Key contained: commons-lang-DateUtils-modify-IF_STATEMENT -> 7
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-DateUtils-modify-IF_STATEMENT-7.json
+Key contained: commons-lang-DateUtils-modify-IF_STATEMENT -> 8
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-DateUtils-modify-IF_STATEMENT-8.json
+No key yet: commons-lang-DateUtils-modify-SWITCH_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-DateUtils-modify-SWITCH_STATEMENT.json
+No key yet: commons-lang-DurationFormatUtils-formatPeriod-IF_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-DurationFormatUtils-formatPeriod-IF_STATEMENT.json
+Key contained: commons-lang-DurationFormatUtils-formatPeriod-IF_STATEMENT -> 1
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-DurationFormatUtils-formatPeriod-IF_STATEMENT-1.json
+No key yet: commons-lang-DurationFormatUtils-formatPeriod-WHILE_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-DurationFormatUtils-formatPeriod-WHILE_STATEMENT.json
+Key contained: commons-lang-DurationFormatUtils-formatPeriod-WHILE_STATEMENT -> 1
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-DurationFormatUtils-formatPeriod-WHILE_STATEMENT-1.json
+Key contained: commons-lang-DurationFormatUtils-formatPeriod-WHILE_STATEMENT -> 2
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-DurationFormatUtils-formatPeriod-WHILE_STATEMENT-2.json
+No key yet: commons-lang-EqualsBuilder-reflectionAppend-CATCH_CLAUSE
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-EqualsBuilder-reflectionAppend-CATCH_CLAUSE.json
+No key yet: commons-lang-EqualsBuilder-reflectionAppend-IF_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-EqualsBuilder-reflectionAppend-IF_STATEMENT.json
+Key contained: commons-lang-EqualsBuilder-reflectionAppend-IF_STATEMENT -> 1
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-EqualsBuilder-reflectionAppend-IF_STATEMENT-1.json
+Key contained: commons-lang-EqualsBuilder-reflectionAppend-IF_STATEMENT -> 2
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-EqualsBuilder-reflectionAppend-IF_STATEMENT-2.json
+Key contained: commons-lang-EqualsBuilder-reflectionAppend-IF_STATEMENT -> 3
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-EqualsBuilder-reflectionAppend-IF_STATEMENT-3.json
+Key contained: commons-lang-EqualsBuilder-reflectionAppend-IF_STATEMENT -> 4
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-EqualsBuilder-reflectionAppend-IF_STATEMENT-4.json
+Key contained: commons-lang-EqualsBuilder-reflectionAppend-IF_STATEMENT -> 5
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-EqualsBuilder-reflectionAppend-IF_STATEMENT-5.json
+No key yet: commons-lang-EqualsBuilder-reflectionAppend-TRY_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-EqualsBuilder-reflectionAppend-TRY_STATEMENT.json
+No key yet: commons-lang-EqualsBuilder-reflectionAppend-WHILE_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-EqualsBuilder-reflectionAppend-WHILE_STATEMENT.json
+No key yet: commons-lang-FastDatePrinter-parsePattern-FOR_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-FastDatePrinter-parsePattern-FOR_STATEMENT.json
+No key yet: commons-lang-FastDatePrinter-parsePattern-IF_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-FastDatePrinter-parsePattern-IF_STATEMENT.json
+Key contained: commons-lang-FastDatePrinter-parsePattern-IF_STATEMENT -> 1
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-FastDatePrinter-parsePattern-IF_STATEMENT-1.json
+Key contained: commons-lang-FastDatePrinter-parsePattern-IF_STATEMENT -> 2
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-FastDatePrinter-parsePattern-IF_STATEMENT-2.json
+Key contained: commons-lang-FastDatePrinter-parsePattern-IF_STATEMENT -> 3
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-FastDatePrinter-parsePattern-IF_STATEMENT-3.json
+Key contained: commons-lang-FastDatePrinter-parsePattern-IF_STATEMENT -> 4
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-FastDatePrinter-parsePattern-IF_STATEMENT-4.json
+Key contained: commons-lang-FastDatePrinter-parsePattern-IF_STATEMENT -> 5
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-FastDatePrinter-parsePattern-IF_STATEMENT-5.json
+Key contained: commons-lang-FastDatePrinter-parsePattern-IF_STATEMENT -> 6
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-FastDatePrinter-parsePattern-IF_STATEMENT-6.json
+Key contained: commons-lang-FastDatePrinter-parsePattern-IF_STATEMENT -> 7
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-FastDatePrinter-parsePattern-IF_STATEMENT-7.json
+No key yet: commons-lang-FastDatePrinter-parsePattern-SWITCH_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-FastDatePrinter-parsePattern-SWITCH_STATEMENT.json
+No key yet: commons-lang-LocaleUtils-toLocale-IF_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-LocaleUtils-toLocale-IF_STATEMENT.json
+Key contained: commons-lang-LocaleUtils-toLocale-IF_STATEMENT -> 1
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-LocaleUtils-toLocale-IF_STATEMENT-1.json
+No key yet: commons-lang-NumberUtils-createNumber-CATCH_CLAUSE
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-NumberUtils-createNumber-CATCH_CLAUSE.json
+Key contained: commons-lang-NumberUtils-createNumber-CATCH_CLAUSE -> 1
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-NumberUtils-createNumber-CATCH_CLAUSE-1.json
+Key contained: commons-lang-NumberUtils-createNumber-CATCH_CLAUSE -> 2
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-NumberUtils-createNumber-CATCH_CLAUSE-2.json
+Key contained: commons-lang-NumberUtils-createNumber-CATCH_CLAUSE -> 3
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-NumberUtils-createNumber-CATCH_CLAUSE-3.json
+Key contained: commons-lang-NumberUtils-createNumber-CATCH_CLAUSE -> 4
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-NumberUtils-createNumber-CATCH_CLAUSE-4.json
+Key contained: commons-lang-NumberUtils-createNumber-CATCH_CLAUSE -> 5
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-NumberUtils-createNumber-CATCH_CLAUSE-5.json
+Key contained: commons-lang-NumberUtils-createNumber-CATCH_CLAUSE -> 6
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-NumberUtils-createNumber-CATCH_CLAUSE-6.json
+No key yet: commons-lang-NumberUtils-createNumber-IF_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-NumberUtils-createNumber-IF_STATEMENT.json
+Key contained: commons-lang-NumberUtils-createNumber-IF_STATEMENT -> 1
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-NumberUtils-createNumber-IF_STATEMENT-1.json
+Key contained: commons-lang-NumberUtils-createNumber-IF_STATEMENT -> 2
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-NumberUtils-createNumber-IF_STATEMENT-2.json
+Key contained: commons-lang-NumberUtils-createNumber-IF_STATEMENT -> 3
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-NumberUtils-createNumber-IF_STATEMENT-3.json
+Key contained: commons-lang-NumberUtils-createNumber-IF_STATEMENT -> 4
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-NumberUtils-createNumber-IF_STATEMENT-4.json
+Key contained: commons-lang-NumberUtils-createNumber-IF_STATEMENT -> 5
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-NumberUtils-createNumber-IF_STATEMENT-5.json
+No key yet: commons-lang-NumberUtils-createNumber-TRY_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-NumberUtils-createNumber-TRY_STATEMENT.json
+No key yet: commons-lang-NumberUtils-isCreatable-FOR_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-NumberUtils-isCreatable-FOR_STATEMENT.json
+Key contained: commons-lang-NumberUtils-isCreatable-FOR_STATEMENT -> 1
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-NumberUtils-isCreatable-FOR_STATEMENT-1.json
+No key yet: commons-lang-NumberUtils-isCreatable-IF_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-NumberUtils-isCreatable-IF_STATEMENT.json
+Key contained: commons-lang-NumberUtils-isCreatable-IF_STATEMENT -> 1
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-NumberUtils-isCreatable-IF_STATEMENT-1.json
+Key contained: commons-lang-NumberUtils-isCreatable-IF_STATEMENT -> 2
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-NumberUtils-isCreatable-IF_STATEMENT-2.json
+Key contained: commons-lang-NumberUtils-isCreatable-IF_STATEMENT -> 3
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-NumberUtils-isCreatable-IF_STATEMENT-3.json
+Key contained: commons-lang-NumberUtils-isCreatable-IF_STATEMENT -> 4
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-NumberUtils-isCreatable-IF_STATEMENT-4.json
+Key contained: commons-lang-NumberUtils-isCreatable-IF_STATEMENT -> 5
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-NumberUtils-isCreatable-IF_STATEMENT-5.json
+Key contained: commons-lang-NumberUtils-isCreatable-IF_STATEMENT -> 6
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-NumberUtils-isCreatable-IF_STATEMENT-6.json
+Key contained: commons-lang-NumberUtils-isCreatable-IF_STATEMENT -> 7
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-NumberUtils-isCreatable-IF_STATEMENT-7.json
+Key contained: commons-lang-NumberUtils-isCreatable-IF_STATEMENT -> 8
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-NumberUtils-isCreatable-IF_STATEMENT-8.json
+Key contained: commons-lang-NumberUtils-isCreatable-IF_STATEMENT -> 9
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-NumberUtils-isCreatable-IF_STATEMENT-9.json
+Key contained: commons-lang-NumberUtils-isCreatable-IF_STATEMENT -> 10
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-NumberUtils-isCreatable-IF_STATEMENT-10.json
+Key contained: commons-lang-NumberUtils-isCreatable-IF_STATEMENT -> 11
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-NumberUtils-isCreatable-IF_STATEMENT-11.json
+Key contained: commons-lang-NumberUtils-isCreatable-IF_STATEMENT -> 12
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-NumberUtils-isCreatable-IF_STATEMENT-12.json
+Key contained: commons-lang-NumberUtils-isCreatable-IF_STATEMENT -> 13
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-NumberUtils-isCreatable-IF_STATEMENT-13.json
+Key contained: commons-lang-NumberUtils-isCreatable-IF_STATEMENT -> 14
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-NumberUtils-isCreatable-IF_STATEMENT-14.json
+Key contained: commons-lang-NumberUtils-isCreatable-IF_STATEMENT -> 15
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-NumberUtils-isCreatable-IF_STATEMENT-15.json
+Key contained: commons-lang-NumberUtils-isCreatable-IF_STATEMENT -> 16
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-NumberUtils-isCreatable-IF_STATEMENT-16.json
+Key contained: commons-lang-NumberUtils-isCreatable-IF_STATEMENT -> 17
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-NumberUtils-isCreatable-IF_STATEMENT-17.json
+Key contained: commons-lang-NumberUtils-isCreatable-IF_STATEMENT -> 18
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-NumberUtils-isCreatable-IF_STATEMENT-18.json
+Key contained: commons-lang-NumberUtils-isCreatable-IF_STATEMENT -> 19
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-NumberUtils-isCreatable-IF_STATEMENT-19.json
+Key contained: commons-lang-NumberUtils-isCreatable-IF_STATEMENT -> 20
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-NumberUtils-isCreatable-IF_STATEMENT-20.json
+Key contained: commons-lang-NumberUtils-isCreatable-IF_STATEMENT -> 21
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-NumberUtils-isCreatable-IF_STATEMENT-21.json
+No key yet: commons-lang-NumberUtils-isCreatable-WHILE_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-NumberUtils-isCreatable-WHILE_STATEMENT.json
+No key yet: commons-lang-RandomStringUtils-random-IF_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-RandomStringUtils-random-IF_STATEMENT.json
+Key contained: commons-lang-RandomStringUtils-random-IF_STATEMENT -> 1
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-RandomStringUtils-random-IF_STATEMENT-1.json
+Key contained: commons-lang-RandomStringUtils-random-IF_STATEMENT -> 2
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-RandomStringUtils-random-IF_STATEMENT-2.json
+Key contained: commons-lang-RandomStringUtils-random-IF_STATEMENT -> 3
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-RandomStringUtils-random-IF_STATEMENT-3.json
+Key contained: commons-lang-RandomStringUtils-random-IF_STATEMENT -> 4
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-RandomStringUtils-random-IF_STATEMENT-4.json
+Key contained: commons-lang-RandomStringUtils-random-IF_STATEMENT -> 5
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-RandomStringUtils-random-IF_STATEMENT-5.json
+No key yet: commons-lang-RandomStringUtils-random-WHILE_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-RandomStringUtils-random-WHILE_STATEMENT.json
+No key yet: commons-lang-StrSubstitutor-substitute-IF_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-StrSubstitutor-substitute-IF_STATEMENT.json
+Key contained: commons-lang-StrSubstitutor-substitute-IF_STATEMENT -> 1
+Data is written to file: src/main/resources/oracle/gumtree/training/false/commons-lang-StrSubstitutor-substitute-IF_STATEMENT-1.json
+No key yet: flink-CheckpointCoordinator-receiveAcknowledgeMessage-SWITCH_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/flink-CheckpointCoordinator-receiveAcknowledgeMessage-SWITCH_STATEMENT.json
+No key yet: flink-DispatcherRestEndpoint-initializeHandlers-CATCH_CLAUSE
+Data is written to file: src/main/resources/oracle/gumtree/training/false/flink-DispatcherRestEndpoint-initializeHandlers-CATCH_CLAUSE.json
+No key yet: flink-FileSystem-getUnguardedFileSystem-CATCH_CLAUSE
+Data is written to file: src/main/resources/oracle/gumtree/training/false/flink-FileSystem-getUnguardedFileSystem-CATCH_CLAUSE.json
+Key contained: flink-FileSystem-getUnguardedFileSystem-CATCH_CLAUSE -> 1
+Data is written to file: src/main/resources/oracle/gumtree/training/false/flink-FileSystem-getUnguardedFileSystem-CATCH_CLAUSE-1.json
+Key contained: flink-FileSystem-getUnguardedFileSystem-CATCH_CLAUSE -> 2
+Data is written to file: src/main/resources/oracle/gumtree/training/false/flink-FileSystem-getUnguardedFileSystem-CATCH_CLAUSE-2.json
+No key yet: flink-FileSystem-getUnguardedFileSystem-FINALLY_BLOCK
+Data is written to file: src/main/resources/oracle/gumtree/training/false/flink-FileSystem-getUnguardedFileSystem-FINALLY_BLOCK.json
+No key yet: flink-FileSystem-getUnguardedFileSystem-IF_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/flink-FileSystem-getUnguardedFileSystem-IF_STATEMENT.json
+Key contained: flink-FileSystem-getUnguardedFileSystem-IF_STATEMENT -> 1
+Data is written to file: src/main/resources/oracle/gumtree/training/false/flink-FileSystem-getUnguardedFileSystem-IF_STATEMENT-1.json
+Key contained: flink-FileSystem-getUnguardedFileSystem-IF_STATEMENT -> 2
+Data is written to file: src/main/resources/oracle/gumtree/training/false/flink-FileSystem-getUnguardedFileSystem-IF_STATEMENT-2.json
+No key yet: flink-FileSystem-getUnguardedFileSystem-TRY_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/flink-FileSystem-getUnguardedFileSystem-TRY_STATEMENT.json
+Key contained: flink-FileSystem-getUnguardedFileSystem-TRY_STATEMENT -> 1
+Data is written to file: src/main/resources/oracle/gumtree/training/false/flink-FileSystem-getUnguardedFileSystem-TRY_STATEMENT-1.json
+Key contained: flink-FileSystem-getUnguardedFileSystem-TRY_STATEMENT -> 2
+Data is written to file: src/main/resources/oracle/gumtree/training/false/flink-FileSystem-getUnguardedFileSystem-TRY_STATEMENT-2.json
+No key yet: flink-LocatableInputSplitAssigner-getNextInputSplit-IF_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/flink-LocatableInputSplitAssigner-getNextInputSplit-IF_STATEMENT.json
+Key contained: flink-LocatableInputSplitAssigner-getNextInputSplit-IF_STATEMENT -> 1
+Data is written to file: src/main/resources/oracle/gumtree/training/false/flink-LocatableInputSplitAssigner-getNextInputSplit-IF_STATEMENT-1.json
+Key contained: flink-LocatableInputSplitAssigner-getNextInputSplit-IF_STATEMENT -> 2
+Data is written to file: src/main/resources/oracle/gumtree/training/false/flink-LocatableInputSplitAssigner-getNextInputSplit-IF_STATEMENT-2.json
+No key yet: flink-LocatableInputSplitAssigner-getNextInputSplit-SYNCHRONIZED_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/flink-LocatableInputSplitAssigner-getNextInputSplit-SYNCHRONIZED_STATEMENT.json
+Key contained: flink-LocatableInputSplitAssigner-getNextInputSplit-SYNCHRONIZED_STATEMENT -> 1
+Data is written to file: src/main/resources/oracle/gumtree/training/false/flink-LocatableInputSplitAssigner-getNextInputSplit-SYNCHRONIZED_STATEMENT-1.json
+No key yet: flink-PojoSerializer-deserialize-CATCH_CLAUSE
+Data is written to file: src/main/resources/oracle/gumtree/training/false/flink-PojoSerializer-deserialize-CATCH_CLAUSE.json
+Key contained: flink-PojoSerializer-deserialize-CATCH_CLAUSE -> 1
+Data is written to file: src/main/resources/oracle/gumtree/training/false/flink-PojoSerializer-deserialize-CATCH_CLAUSE-1.json
+No key yet: flink-PojoSerializer-deserialize-IF_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/flink-PojoSerializer-deserialize-IF_STATEMENT.json
+No key yet: flink-PojoSerializer-deserialize-TRY_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/flink-PojoSerializer-deserialize-TRY_STATEMENT.json
+No key yet: flink-RemoteStreamEnvironment-executeRemotely-CATCH_CLAUSE
+Data is written to file: src/main/resources/oracle/gumtree/training/false/flink-RemoteStreamEnvironment-executeRemotely-CATCH_CLAUSE.json
+Key contained: flink-RemoteStreamEnvironment-executeRemotely-CATCH_CLAUSE -> 1
+Data is written to file: src/main/resources/oracle/gumtree/training/false/flink-RemoteStreamEnvironment-executeRemotely-CATCH_CLAUSE-1.json
+Key contained: flink-RemoteStreamEnvironment-executeRemotely-CATCH_CLAUSE -> 2
+Data is written to file: src/main/resources/oracle/gumtree/training/false/flink-RemoteStreamEnvironment-executeRemotely-CATCH_CLAUSE-2.json
+Key contained: flink-RemoteStreamEnvironment-executeRemotely-CATCH_CLAUSE -> 3
+Data is written to file: src/main/resources/oracle/gumtree/training/false/flink-RemoteStreamEnvironment-executeRemotely-CATCH_CLAUSE-3.json
+No key yet: flink-RemoteStreamEnvironment-executeRemotely-FINALLY_BLOCK
+Data is written to file: src/main/resources/oracle/gumtree/training/false/flink-RemoteStreamEnvironment-executeRemotely-FINALLY_BLOCK.json
+No key yet: flink-RemoteStreamEnvironment-executeRemotely-IF_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/flink-RemoteStreamEnvironment-executeRemotely-IF_STATEMENT.json
+No key yet: flink-RemoteStreamEnvironment-executeRemotely-TRY_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/flink-RemoteStreamEnvironment-executeRemotely-TRY_STATEMENT.json
+No key yet: hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT.json
+Key contained: hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT -> 1
+Data is written to file: src/main/resources/oracle/gumtree/training/false/hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT-1.json
+Key contained: hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT -> 2
+Data is written to file: src/main/resources/oracle/gumtree/training/false/hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT-2.json
+Key contained: hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT -> 3
+Data is written to file: src/main/resources/oracle/gumtree/training/false/hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT-3.json
+Key contained: hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT -> 4
+Data is written to file: src/main/resources/oracle/gumtree/training/false/hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT-4.json
+Key contained: hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT -> 5
+Data is written to file: src/main/resources/oracle/gumtree/training/false/hibernate-orm-AnnotationBinder-bindClass-IF_STATEMENT-5.json
+No key yet: hibernate-orm-DefaultRefreshEventListener-onRefresh-IF_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/hibernate-orm-DefaultRefreshEventListener-onRefresh-IF_STATEMENT.json
+Key contained: hibernate-orm-DefaultRefreshEventListener-onRefresh-IF_STATEMENT -> 1
+Data is written to file: src/main/resources/oracle/gumtree/training/false/hibernate-orm-DefaultRefreshEventListener-onRefresh-IF_STATEMENT-1.json
+Key contained: hibernate-orm-DefaultRefreshEventListener-onRefresh-IF_STATEMENT -> 2
+Data is written to file: src/main/resources/oracle/gumtree/training/false/hibernate-orm-DefaultRefreshEventListener-onRefresh-IF_STATEMENT-2.json
+Key contained: hibernate-orm-DefaultRefreshEventListener-onRefresh-IF_STATEMENT -> 3
+Data is written to file: src/main/resources/oracle/gumtree/training/false/hibernate-orm-DefaultRefreshEventListener-onRefresh-IF_STATEMENT-3.json
+No key yet: hibernate-orm-QueryBinder-bindNativeQuery-IF_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/hibernate-orm-QueryBinder-bindNativeQuery-IF_STATEMENT.json
+Key contained: hibernate-orm-QueryBinder-bindNativeQuery-IF_STATEMENT -> 1
+Data is written to file: src/main/resources/oracle/gumtree/training/false/hibernate-orm-QueryBinder-bindNativeQuery-IF_STATEMENT-1.json
+No key yet: hibernate-orm-RevisionInfoConfiguration-configure-CATCH_CLAUSE
+Data is written to file: src/main/resources/oracle/gumtree/training/false/hibernate-orm-RevisionInfoConfiguration-configure-CATCH_CLAUSE.json
+No key yet: hibernate-orm-RevisionInfoConfiguration-configure-ENHANCED_FOR_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/hibernate-orm-RevisionInfoConfiguration-configure-ENHANCED_FOR_STATEMENT.json
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+Case 5 - Failed: java.lang.NullPointerException
+java.lang.NullPointerException
+	at org.codetracker.util.GitRepository.getCommitTime(GitRepository.java:39)
+	at org.codetracker.util.IRepository.getVersion(IRepository.java:40)
+	at org.codetracker.BlockTrackerGumTreeImpl.track(BlockTrackerGumTreeImpl.java:119)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:220)
+
+No key yet: jgit-CommitCommand-call-CATCH_CLAUSE
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-CommitCommand-call-CATCH_CLAUSE.json
+Key contained: jgit-CommitCommand-call-CATCH_CLAUSE -> 1
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-CommitCommand-call-CATCH_CLAUSE-1.json
+Key contained: jgit-CommitCommand-call-CATCH_CLAUSE -> 2
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-CommitCommand-call-CATCH_CLAUSE-2.json
+No key yet: jgit-CommitCommand-call-ENHANCED_FOR_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-CommitCommand-call-ENHANCED_FOR_STATEMENT.json
+No key yet: jgit-CommitCommand-call-FINALLY_BLOCK
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-CommitCommand-call-FINALLY_BLOCK.json
+No key yet: jgit-CommitCommand-call-TRY_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-CommitCommand-call-TRY_STATEMENT.json
+Key contained: jgit-CommitCommand-call-TRY_STATEMENT -> 1
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-CommitCommand-call-TRY_STATEMENT-1.json
+No key yet: jgit-IndexDiff-diff-CATCH_CLAUSE
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-IndexDiff-diff-CATCH_CLAUSE.json
+No key yet: jgit-IndexDiff-diff-FOR_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-IndexDiff-diff-FOR_STATEMENT.json
+No key yet: jgit-IndexDiff-diff-IF_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-IndexDiff-diff-IF_STATEMENT.json
+Key contained: jgit-IndexDiff-diff-IF_STATEMENT -> 1
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-IndexDiff-diff-IF_STATEMENT-1.json
+Key contained: jgit-IndexDiff-diff-IF_STATEMENT -> 2
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-IndexDiff-diff-IF_STATEMENT-2.json
+Key contained: jgit-IndexDiff-diff-IF_STATEMENT -> 3
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-IndexDiff-diff-IF_STATEMENT-3.json
+Key contained: jgit-IndexDiff-diff-IF_STATEMENT -> 4
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-IndexDiff-diff-IF_STATEMENT-4.json
+Key contained: jgit-IndexDiff-diff-IF_STATEMENT -> 5
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-IndexDiff-diff-IF_STATEMENT-5.json
+Key contained: jgit-IndexDiff-diff-IF_STATEMENT -> 6
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-IndexDiff-diff-IF_STATEMENT-6.json
+Key contained: jgit-IndexDiff-diff-IF_STATEMENT -> 7
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-IndexDiff-diff-IF_STATEMENT-7.json
+Key contained: jgit-IndexDiff-diff-IF_STATEMENT -> 8
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-IndexDiff-diff-IF_STATEMENT-8.json
+Key contained: jgit-IndexDiff-diff-IF_STATEMENT -> 9
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-IndexDiff-diff-IF_STATEMENT-9.json
+Key contained: jgit-IndexDiff-diff-IF_STATEMENT -> 10
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-IndexDiff-diff-IF_STATEMENT-10.json
+Key contained: jgit-IndexDiff-diff-IF_STATEMENT -> 11
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-IndexDiff-diff-IF_STATEMENT-11.json
+Key contained: jgit-IndexDiff-diff-IF_STATEMENT -> 12
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-IndexDiff-diff-IF_STATEMENT-12.json
+Key contained: jgit-IndexDiff-diff-IF_STATEMENT -> 13
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-IndexDiff-diff-IF_STATEMENT-13.json
+Key contained: jgit-IndexDiff-diff-IF_STATEMENT -> 14
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-IndexDiff-diff-IF_STATEMENT-14.json
+Key contained: jgit-IndexDiff-diff-IF_STATEMENT -> 15
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-IndexDiff-diff-IF_STATEMENT-15.json
+Key contained: jgit-IndexDiff-diff-IF_STATEMENT -> 16
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-IndexDiff-diff-IF_STATEMENT-16.json
+No key yet: jgit-IndexDiff-diff-WHILE_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-IndexDiff-diff-WHILE_STATEMENT.json
+No key yet: jgit-MergeCommand-call-CATCH_CLAUSE
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-MergeCommand-call-CATCH_CLAUSE.json
+Key contained: jgit-MergeCommand-call-CATCH_CLAUSE -> 1
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-MergeCommand-call-CATCH_CLAUSE-1.json
+No key yet: jgit-MergeCommand-call-IF_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-MergeCommand-call-IF_STATEMENT.json
+Key contained: jgit-MergeCommand-call-IF_STATEMENT -> 1
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-MergeCommand-call-IF_STATEMENT-1.json
+Key contained: jgit-MergeCommand-call-IF_STATEMENT -> 2
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-MergeCommand-call-IF_STATEMENT-2.json
+Key contained: jgit-MergeCommand-call-IF_STATEMENT -> 3
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-MergeCommand-call-IF_STATEMENT-3.json
+No key yet: jgit-MergeCommand-call-TRY_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-MergeCommand-call-TRY_STATEMENT.json
+No key yet: jgit-PackWriter-findObjectsToPack-CATCH_CLAUSE
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-PackWriter-findObjectsToPack-CATCH_CLAUSE.json
+No key yet: jgit-PackWriter-findObjectsToPack-FINALLY_BLOCK
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-PackWriter-findObjectsToPack-FINALLY_BLOCK.json
+Key contained: jgit-PackWriter-findObjectsToPack-FINALLY_BLOCK -> 1
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-PackWriter-findObjectsToPack-FINALLY_BLOCK-1.json
+No key yet: jgit-PackWriter-findObjectsToPack-IF_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-PackWriter-findObjectsToPack-IF_STATEMENT.json
+Key contained: jgit-PackWriter-findObjectsToPack-IF_STATEMENT -> 1
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-PackWriter-findObjectsToPack-IF_STATEMENT-1.json
+Key contained: jgit-PackWriter-findObjectsToPack-IF_STATEMENT -> 2
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-PackWriter-findObjectsToPack-IF_STATEMENT-2.json
+No key yet: jgit-PackWriter-findObjectsToPack-TRY_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-PackWriter-findObjectsToPack-TRY_STATEMENT.json
+No key yet: jgit-PackWriter-findObjectsToPack-WHILE_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-PackWriter-findObjectsToPack-WHILE_STATEMENT.json
+Key contained: jgit-PackWriter-findObjectsToPack-WHILE_STATEMENT -> 1
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-PackWriter-findObjectsToPack-WHILE_STATEMENT-1.json
+No key yet: jgit-PackWriter-writePack-FINALLY_BLOCK
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-PackWriter-writePack-FINALLY_BLOCK.json
+No key yet: jgit-PackWriter-writePack-IF_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-PackWriter-writePack-IF_STATEMENT.json
+No key yet: jgit-PullCommand-call-CATCH_CLAUSE
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-PullCommand-call-CATCH_CLAUSE.json
+Key contained: jgit-PullCommand-call-CATCH_CLAUSE -> 1
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-PullCommand-call-CATCH_CLAUSE-1.json
+No key yet: jgit-PullCommand-call-IF_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-PullCommand-call-IF_STATEMENT.json
+Key contained: jgit-PullCommand-call-IF_STATEMENT -> 1
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-PullCommand-call-IF_STATEMENT-1.json
+Key contained: jgit-PullCommand-call-IF_STATEMENT -> 2
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-PullCommand-call-IF_STATEMENT-2.json
+Key contained: jgit-PullCommand-call-IF_STATEMENT -> 3
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-PullCommand-call-IF_STATEMENT-3.json
+Key contained: jgit-PullCommand-call-IF_STATEMENT -> 4
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-PullCommand-call-IF_STATEMENT-4.json
+No key yet: jgit-RebaseCommand-call-CATCH_CLAUSE
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-RebaseCommand-call-CATCH_CLAUSE.json
+Key contained: jgit-RebaseCommand-call-CATCH_CLAUSE -> 1
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-RebaseCommand-call-CATCH_CLAUSE-1.json
+Key contained: jgit-RebaseCommand-call-CATCH_CLAUSE -> 2
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-RebaseCommand-call-CATCH_CLAUSE-2.json
+Key contained: jgit-RebaseCommand-call-CATCH_CLAUSE -> 3
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-RebaseCommand-call-CATCH_CLAUSE-3.json
+No key yet: jgit-RebaseCommand-call-FOR_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-RebaseCommand-call-FOR_STATEMENT.json
+No key yet: jgit-RebaseCommand-call-IF_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-RebaseCommand-call-IF_STATEMENT.json
+Key contained: jgit-RebaseCommand-call-IF_STATEMENT -> 1
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-RebaseCommand-call-IF_STATEMENT-1.json
+No key yet: jgit-RepoCommand-call-CATCH_CLAUSE
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-RepoCommand-call-CATCH_CLAUSE.json
+Key contained: jgit-RepoCommand-call-CATCH_CLAUSE -> 1
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-RepoCommand-call-CATCH_CLAUSE-1.json
+Key contained: jgit-RepoCommand-call-CATCH_CLAUSE -> 2
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-RepoCommand-call-CATCH_CLAUSE-2.json
+Key contained: jgit-RepoCommand-call-CATCH_CLAUSE -> 3
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-RepoCommand-call-CATCH_CLAUSE-3.json
+Key contained: jgit-RepoCommand-call-CATCH_CLAUSE -> 4
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-RepoCommand-call-CATCH_CLAUSE-4.json
+No key yet: jgit-RepoCommand-call-FINALLY_BLOCK
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-RepoCommand-call-FINALLY_BLOCK.json
+No key yet: jgit-RepoCommand-call-IF_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-RepoCommand-call-IF_STATEMENT.json
+Key contained: jgit-RepoCommand-call-IF_STATEMENT -> 1
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-RepoCommand-call-IF_STATEMENT-1.json
+No key yet: jgit-RepoCommand-call-TRY_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-RepoCommand-call-TRY_STATEMENT.json
+No key yet: jgit-UploadPack-sendPack-CATCH_CLAUSE
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-UploadPack-sendPack-CATCH_CLAUSE.json
+No key yet: jgit-UploadPack-sendPack-ENHANCED_FOR_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-UploadPack-sendPack-ENHANCED_FOR_STATEMENT.json
+Key contained: jgit-UploadPack-sendPack-ENHANCED_FOR_STATEMENT -> 1
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-UploadPack-sendPack-ENHANCED_FOR_STATEMENT-1.json
+No key yet: jgit-UploadPack-sendPack-FINALLY_BLOCK
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-UploadPack-sendPack-FINALLY_BLOCK.json
+No key yet: jgit-UploadPack-sendPack-IF_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-UploadPack-sendPack-IF_STATEMENT.json
+Key contained: jgit-UploadPack-sendPack-IF_STATEMENT -> 1
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-UploadPack-sendPack-IF_STATEMENT-1.json
+Key contained: jgit-UploadPack-sendPack-IF_STATEMENT -> 2
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-UploadPack-sendPack-IF_STATEMENT-2.json
+Key contained: jgit-UploadPack-sendPack-IF_STATEMENT -> 3
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-UploadPack-sendPack-IF_STATEMENT-3.json
+Key contained: jgit-UploadPack-sendPack-IF_STATEMENT -> 4
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-UploadPack-sendPack-IF_STATEMENT-4.json
+Key contained: jgit-UploadPack-sendPack-IF_STATEMENT -> 5
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-UploadPack-sendPack-IF_STATEMENT-5.json
+Key contained: jgit-UploadPack-sendPack-IF_STATEMENT -> 6
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-UploadPack-sendPack-IF_STATEMENT-6.json
+Key contained: jgit-UploadPack-sendPack-IF_STATEMENT -> 7
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-UploadPack-sendPack-IF_STATEMENT-7.json
+Key contained: jgit-UploadPack-sendPack-IF_STATEMENT -> 8
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-UploadPack-sendPack-IF_STATEMENT-8.json
+Key contained: jgit-UploadPack-sendPack-IF_STATEMENT -> 9
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-UploadPack-sendPack-IF_STATEMENT-9.json
+Key contained: jgit-UploadPack-sendPack-IF_STATEMENT -> 10
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-UploadPack-sendPack-IF_STATEMENT-10.json
+Key contained: jgit-UploadPack-sendPack-IF_STATEMENT -> 11
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-UploadPack-sendPack-IF_STATEMENT-11.json
+Key contained: jgit-UploadPack-sendPack-IF_STATEMENT -> 12
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-UploadPack-sendPack-IF_STATEMENT-12.json
+Key contained: jgit-UploadPack-sendPack-IF_STATEMENT -> 13
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-UploadPack-sendPack-IF_STATEMENT-13.json
+Key contained: jgit-UploadPack-sendPack-IF_STATEMENT -> 14
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-UploadPack-sendPack-IF_STATEMENT-14.json
+Key contained: jgit-UploadPack-sendPack-IF_STATEMENT -> 15
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-UploadPack-sendPack-IF_STATEMENT-15.json
+Key contained: jgit-UploadPack-sendPack-IF_STATEMENT -> 16
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-UploadPack-sendPack-IF_STATEMENT-16.json
+Key contained: jgit-UploadPack-sendPack-IF_STATEMENT -> 17
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-UploadPack-sendPack-IF_STATEMENT-17.json
+Key contained: jgit-UploadPack-sendPack-IF_STATEMENT -> 18
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-UploadPack-sendPack-IF_STATEMENT-18.json
+Key contained: jgit-UploadPack-sendPack-IF_STATEMENT -> 19
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-UploadPack-sendPack-IF_STATEMENT-19.json
+Key contained: jgit-UploadPack-sendPack-IF_STATEMENT -> 20
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-UploadPack-sendPack-IF_STATEMENT-20.json
+No key yet: jgit-UploadPack-sendPack-TRY_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-UploadPack-sendPack-TRY_STATEMENT.json
+Key contained: jgit-UploadPack-sendPack-TRY_STATEMENT -> 1
+Data is written to file: src/main/resources/oracle/gumtree/training/false/jgit-UploadPack-sendPack-TRY_STATEMENT-1.json
+No key yet: junit4-BlockJUnit4ClassRunner-methodBlock-CATCH_CLAUSE
+Data is written to file: src/main/resources/oracle/gumtree/training/false/junit4-BlockJUnit4ClassRunner-methodBlock-CATCH_CLAUSE.json
+No key yet: junit4-BlockJUnit4ClassRunner-methodBlock-TRY_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/junit4-BlockJUnit4ClassRunner-methodBlock-TRY_STATEMENT.json
+No key yet: junit4-BlockJUnit4ClassRunner-runChild-IF_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/junit4-BlockJUnit4ClassRunner-runChild-IF_STATEMENT.json
+No key yet: junit4-Parameterized-createRunnersForParameters-CATCH_CLAUSE
+Data is written to file: src/main/resources/oracle/gumtree/training/false/junit4-Parameterized-createRunnersForParameters-CATCH_CLAUSE.json
+No key yet: junit4-Parameterized-createRunnersForParameters-TRY_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/junit4-Parameterized-createRunnersForParameters-TRY_STATEMENT.json
+No key yet: junit5-ClassTestDescriptor-invokeBeforeAllMethods-ENHANCED_FOR_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/junit5-ClassTestDescriptor-invokeBeforeAllMethods-ENHANCED_FOR_STATEMENT.json
+No key yet: junit5-DefaultLauncher-discoverRoot-ENHANCED_FOR_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/junit5-DefaultLauncher-discoverRoot-ENHANCED_FOR_STATEMENT.json
+No key yet: junit5-DefaultLauncher-discoverRoot-IF_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/junit5-DefaultLauncher-discoverRoot-IF_STATEMENT.json
+No key yet: junit5-NodeTestTask-execute-IF_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/junit5-NodeTestTask-execute-IF_STATEMENT.json
+Key contained: junit5-NodeTestTask-execute-IF_STATEMENT -> 1
+Data is written to file: src/main/resources/oracle/gumtree/training/false/junit5-NodeTestTask-execute-IF_STATEMENT-1.json
+Key contained: junit5-NodeTestTask-execute-IF_STATEMENT -> 2
+Data is written to file: src/main/resources/oracle/gumtree/training/false/junit5-NodeTestTask-execute-IF_STATEMENT-2.json
+No key yet: okhttp-RealCall-execute-CATCH_CLAUSE
+Data is written to file: src/main/resources/oracle/gumtree/training/false/okhttp-RealCall-execute-CATCH_CLAUSE.json
+No key yet: okhttp-RealCall-execute-FINALLY_BLOCK
+Data is written to file: src/main/resources/oracle/gumtree/training/false/okhttp-RealCall-execute-FINALLY_BLOCK.json
+No key yet: okhttp-RealCall-execute-IF_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/okhttp-RealCall-execute-IF_STATEMENT.json
+Key contained: okhttp-RealCall-execute-IF_STATEMENT -> 1
+Data is written to file: src/main/resources/oracle/gumtree/training/false/okhttp-RealCall-execute-IF_STATEMENT-1.json
+No key yet: okhttp-RealCall-execute-TRY_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/okhttp-RealCall-execute-TRY_STATEMENT.json
+No key yet: okhttp-ConnectionPool-get-ENHANCED_FOR_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/okhttp-ConnectionPool-get-ENHANCED_FOR_STATEMENT.json
+No key yet: okhttp-Http2Connection-newStream-IF_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/okhttp-Http2Connection-newStream-IF_STATEMENT.json
+Key contained: okhttp-Http2Connection-newStream-IF_STATEMENT -> 1
+Data is written to file: src/main/resources/oracle/gumtree/training/false/okhttp-Http2Connection-newStream-IF_STATEMENT-1.json
+Key contained: okhttp-Http2Connection-newStream-IF_STATEMENT -> 2
+Data is written to file: src/main/resources/oracle/gumtree/training/false/okhttp-Http2Connection-newStream-IF_STATEMENT-2.json
+Key contained: okhttp-Http2Connection-newStream-IF_STATEMENT -> 3
+Data is written to file: src/main/resources/oracle/gumtree/training/false/okhttp-Http2Connection-newStream-IF_STATEMENT-3.json
+No key yet: okhttp-Http2Connection-newStream-SYNCHRONIZED_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/okhttp-Http2Connection-newStream-SYNCHRONIZED_STATEMENT.json
+Key contained: okhttp-Http2Connection-newStream-SYNCHRONIZED_STATEMENT -> 1
+Data is written to file: src/main/resources/oracle/gumtree/training/false/okhttp-Http2Connection-newStream-SYNCHRONIZED_STATEMENT-1.json
+No key yet: okhttp-JavaNetAuthenticator-authenticate-IF_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/okhttp-JavaNetAuthenticator-authenticate-IF_STATEMENT.json
+No key yet: okhttp-OkHttpURLConnection-getResponse-CATCH_CLAUSE
+Data is written to file: src/main/resources/oracle/gumtree/training/false/okhttp-OkHttpURLConnection-getResponse-CATCH_CLAUSE.json
+Key contained: okhttp-OkHttpURLConnection-getResponse-CATCH_CLAUSE -> 1
+Data is written to file: src/main/resources/oracle/gumtree/training/false/okhttp-OkHttpURLConnection-getResponse-CATCH_CLAUSE-1.json
+No key yet: okhttp-OkHttpURLConnection-getResponse-IF_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/okhttp-OkHttpURLConnection-getResponse-IF_STATEMENT.json
+Key contained: okhttp-OkHttpURLConnection-getResponse-IF_STATEMENT -> 1
+Data is written to file: src/main/resources/oracle/gumtree/training/false/okhttp-OkHttpURLConnection-getResponse-IF_STATEMENT-1.json
+No key yet: okhttp-Http2Connection-headers-IF_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/okhttp-Http2Connection-headers-IF_STATEMENT.json
+Case 5 - Failed: java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)
+	at java.base/java.util.Objects.checkIndex(Objects.java:372)
+	at java.base/java.util.ArrayList.get(ArrayList.java:459)
+	at org.CodeTrackerAPI.BlockOracleGenerator.main(BlockOracleGenerator.java:223)
+
+No key yet: okhttp-Http2Connection-headers-SYNCHRONIZED_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/okhttp-Http2Connection-headers-SYNCHRONIZED_STATEMENT.json
+No key yet: okhttp-RealConnection-connect-CATCH_CLAUSE
+Data is written to file: src/main/resources/oracle/gumtree/training/false/okhttp-RealConnection-connect-CATCH_CLAUSE.json
+No key yet: okhttp-RealConnection-connect-IF_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/okhttp-RealConnection-connect-IF_STATEMENT.json
+Key contained: okhttp-RealConnection-connect-IF_STATEMENT -> 1
+Data is written to file: src/main/resources/oracle/gumtree/training/false/okhttp-RealConnection-connect-IF_STATEMENT-1.json
+Key contained: okhttp-RealConnection-connect-IF_STATEMENT -> 2
+Data is written to file: src/main/resources/oracle/gumtree/training/false/okhttp-RealConnection-connect-IF_STATEMENT-2.json
+Key contained: okhttp-RealConnection-connect-IF_STATEMENT -> 3
+Data is written to file: src/main/resources/oracle/gumtree/training/false/okhttp-RealConnection-connect-IF_STATEMENT-3.json
+Key contained: okhttp-RealConnection-connect-IF_STATEMENT -> 4
+Data is written to file: src/main/resources/oracle/gumtree/training/false/okhttp-RealConnection-connect-IF_STATEMENT-4.json
+No key yet: okhttp-RealConnection-connect-TRY_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/okhttp-RealConnection-connect-TRY_STATEMENT.json
+No key yet: okhttp-RealConnection-connect-WHILE_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/okhttp-RealConnection-connect-WHILE_STATEMENT.json
+No key yet: spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-CATCH_CLAUSE
+Data is written to file: src/main/resources/oracle/gumtree/training/false/spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-CATCH_CLAUSE.json
+No key yet: spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-ENHANCED_FOR_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-ENHANCED_FOR_STATEMENT.json
+No key yet: spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT.json
+Key contained: spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT -> 1
+Data is written to file: src/main/resources/oracle/gumtree/training/false/spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT-1.json
+Key contained: spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT -> 2
+Data is written to file: src/main/resources/oracle/gumtree/training/false/spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT-2.json
+Key contained: spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT -> 3
+Data is written to file: src/main/resources/oracle/gumtree/training/false/spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT-3.json
+Key contained: spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT -> 4
+Data is written to file: src/main/resources/oracle/gumtree/training/false/spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT-4.json
+Key contained: spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT -> 5
+Data is written to file: src/main/resources/oracle/gumtree/training/false/spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT-5.json
+Key contained: spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT -> 6
+Data is written to file: src/main/resources/oracle/gumtree/training/false/spring-framework-AbstractMessageConverterMethodProcessor-writeWithMessageConverters-IF_STATEMENT-6.json
+No key yet: spring-framework-AbstractNestablePropertyAccessor-setPropertyValue-IF_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/spring-framework-AbstractNestablePropertyAccessor-setPropertyValue-IF_STATEMENT.json
+No key yet: spring-framework-ConfigurationClassBeanDefinitionReader-loadBeanDefinitionsForBeanMethod-ENHANCED_FOR_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/spring-framework-ConfigurationClassBeanDefinitionReader-loadBeanDefinitionsForBeanMethod-ENHANCED_FOR_STATEMENT.json
+No key yet: spring-framework-ConfigurationClassBeanDefinitionReader-loadBeanDefinitionsForBeanMethod-IF_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/spring-framework-ConfigurationClassBeanDefinitionReader-loadBeanDefinitionsForBeanMethod-IF_STATEMENT.json
+Key contained: spring-framework-ConfigurationClassBeanDefinitionReader-loadBeanDefinitionsForBeanMethod-IF_STATEMENT -> 1
+Data is written to file: src/main/resources/oracle/gumtree/training/false/spring-framework-ConfigurationClassBeanDefinitionReader-loadBeanDefinitionsForBeanMethod-IF_STATEMENT-1.json
+Key contained: spring-framework-ConfigurationClassBeanDefinitionReader-loadBeanDefinitionsForBeanMethod-IF_STATEMENT -> 2
+Data is written to file: src/main/resources/oracle/gumtree/training/false/spring-framework-ConfigurationClassBeanDefinitionReader-loadBeanDefinitionsForBeanMethod-IF_STATEMENT-2.json
+No key yet: spring-framework-ConfigurationClassParser-doProcessConfigurationClass-ENHANCED_FOR_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/spring-framework-ConfigurationClassParser-doProcessConfigurationClass-ENHANCED_FOR_STATEMENT.json
+Key contained: spring-framework-ConfigurationClassParser-doProcessConfigurationClass-ENHANCED_FOR_STATEMENT -> 1
+Data is written to file: src/main/resources/oracle/gumtree/training/false/spring-framework-ConfigurationClassParser-doProcessConfigurationClass-ENHANCED_FOR_STATEMENT-1.json
+No key yet: spring-framework-ConfigurationClassParser-doProcessConfigurationClass-IF_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/spring-framework-ConfigurationClassParser-doProcessConfigurationClass-IF_STATEMENT.json
+Key contained: spring-framework-ConfigurationClassParser-doProcessConfigurationClass-IF_STATEMENT -> 1
+Data is written to file: src/main/resources/oracle/gumtree/training/false/spring-framework-ConfigurationClassParser-doProcessConfigurationClass-IF_STATEMENT-1.json
+No key yet: spring-framework-ConfigurationClassPostProcessor-processConfigBeanDefinitions-ENHANCED_FOR_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/spring-framework-ConfigurationClassPostProcessor-processConfigBeanDefinitions-ENHANCED_FOR_STATEMENT.json
+No key yet: spring-framework-ConfigurationClassPostProcessor-processConfigBeanDefinitions-IF_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/spring-framework-ConfigurationClassPostProcessor-processConfigBeanDefinitions-IF_STATEMENT.json
+Key contained: spring-framework-ConfigurationClassPostProcessor-processConfigBeanDefinitions-IF_STATEMENT -> 1
+Data is written to file: src/main/resources/oracle/gumtree/training/false/spring-framework-ConfigurationClassPostProcessor-processConfigBeanDefinitions-IF_STATEMENT-1.json
+Key contained: spring-framework-ConfigurationClassPostProcessor-processConfigBeanDefinitions-IF_STATEMENT -> 2
+Data is written to file: src/main/resources/oracle/gumtree/training/false/spring-framework-ConfigurationClassPostProcessor-processConfigBeanDefinitions-IF_STATEMENT-2.json
+Key contained: spring-framework-ConfigurationClassPostProcessor-processConfigBeanDefinitions-IF_STATEMENT -> 3
+Data is written to file: src/main/resources/oracle/gumtree/training/false/spring-framework-ConfigurationClassPostProcessor-processConfigBeanDefinitions-IF_STATEMENT-3.json
+Key contained: spring-framework-ConfigurationClassPostProcessor-processConfigBeanDefinitions-IF_STATEMENT -> 4
+Data is written to file: src/main/resources/oracle/gumtree/training/false/spring-framework-ConfigurationClassPostProcessor-processConfigBeanDefinitions-IF_STATEMENT-4.json
+No key yet: spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-CATCH_CLAUSE
+Data is written to file: src/main/resources/oracle/gumtree/training/false/spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-CATCH_CLAUSE.json
+Key contained: spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-CATCH_CLAUSE -> 1
+Data is written to file: src/main/resources/oracle/gumtree/training/false/spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-CATCH_CLAUSE-1.json
+No key yet: spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-ENHANCED_FOR_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-ENHANCED_FOR_STATEMENT.json
+Key contained: spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-ENHANCED_FOR_STATEMENT -> 1
+Data is written to file: src/main/resources/oracle/gumtree/training/false/spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-ENHANCED_FOR_STATEMENT-1.json
+No key yet: spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT.json
+Key contained: spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT -> 1
+Data is written to file: src/main/resources/oracle/gumtree/training/false/spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT-1.json
+Key contained: spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT -> 2
+Data is written to file: src/main/resources/oracle/gumtree/training/false/spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT-2.json
+Key contained: spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT -> 3
+Data is written to file: src/main/resources/oracle/gumtree/training/false/spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT-3.json
+Key contained: spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT -> 4
+Data is written to file: src/main/resources/oracle/gumtree/training/false/spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT-4.json
+Key contained: spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT -> 5
+Data is written to file: src/main/resources/oracle/gumtree/training/false/spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT-5.json
+Key contained: spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT -> 6
+Data is written to file: src/main/resources/oracle/gumtree/training/false/spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT-6.json
+Key contained: spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT -> 7
+Data is written to file: src/main/resources/oracle/gumtree/training/false/spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT-7.json
+Key contained: spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT -> 8
+Data is written to file: src/main/resources/oracle/gumtree/training/false/spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT-8.json
+Key contained: spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT -> 9
+Data is written to file: src/main/resources/oracle/gumtree/training/false/spring-framework-ConstructorResolver-instantiateUsingFactoryMethod-IF_STATEMENT-9.json
+No key yet: spring-framework-GenericConversionService-getConverter-IF_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/spring-framework-GenericConversionService-getConverter-IF_STATEMENT.json
+Key contained: spring-framework-GenericConversionService-getConverter-IF_STATEMENT -> 1
+Data is written to file: src/main/resources/oracle/gumtree/training/false/spring-framework-GenericConversionService-getConverter-IF_STATEMENT-1.json
+Key contained: spring-framework-GenericConversionService-getConverter-IF_STATEMENT -> 2
+Data is written to file: src/main/resources/oracle/gumtree/training/false/spring-framework-GenericConversionService-getConverter-IF_STATEMENT-2.json
+No key yet: spring-framework-ServletHttpHandlerAdapter-service-CATCH_CLAUSE
+Data is written to file: src/main/resources/oracle/gumtree/training/false/spring-framework-ServletHttpHandlerAdapter-service-CATCH_CLAUSE.json
+No key yet: spring-framework-TypeConverterDelegate-convertIfNecessary-CATCH_CLAUSE
+Data is written to file: src/main/resources/oracle/gumtree/training/false/spring-framework-TypeConverterDelegate-convertIfNecessary-CATCH_CLAUSE.json
+Key contained: spring-framework-TypeConverterDelegate-convertIfNecessary-CATCH_CLAUSE -> 1
+Data is written to file: src/main/resources/oracle/gumtree/training/false/spring-framework-TypeConverterDelegate-convertIfNecessary-CATCH_CLAUSE-1.json
+Key contained: spring-framework-TypeConverterDelegate-convertIfNecessary-CATCH_CLAUSE -> 2
+Data is written to file: src/main/resources/oracle/gumtree/training/false/spring-framework-TypeConverterDelegate-convertIfNecessary-CATCH_CLAUSE-2.json
+No key yet: spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT
+Data is written to file: src/main/resources/oracle/gumtree/training/false/spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT.json
+Key contained: spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT -> 1
+Data is written to file: src/main/resources/oracle/gumtree/training/false/spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT-1.json
+Key contained: spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT -> 2
+Data is written to file: src/main/resources/oracle/gumtree/training/false/spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT-2.json
+Key contained: spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT -> 3
+Data is written to file: src/main/resources/oracle/gumtree/training/false/spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT-3.json
+Key contained: spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT -> 4
+Data is written to file: src/main/resources/oracle/gumtree/training/false/spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT-4.json
+Key contained: spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT -> 5
+Data is written to file: src/main/resources/oracle/gumtree/training/false/spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT-5.json
+Key contained: spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT -> 6
+Data is written to file: src/main/resources/oracle/gumtree/training/false/spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT-6.json
+Key contained: spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT -> 7
+Data is written to file: src/main/resources/oracle/gumtree/training/false/spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT-7.json
+Key contained: spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT -> 8
+Data is written to file: src/main/resources/oracle/gumtree/training/false/spring-framework-TypeConverterDelegate-convertIfNecessary-IF_STATEMENT-8.json
+2023-03-09 03:45:43 Generation finished successfully.

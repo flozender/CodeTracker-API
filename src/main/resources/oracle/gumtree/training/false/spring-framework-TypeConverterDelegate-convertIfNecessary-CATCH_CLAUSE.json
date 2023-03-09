@@ -1,0 +1,39 @@
+{
+  "repositoryName": "spring-framework",
+  "repositoryWebURL": "https://github.com/spring-projects/spring-framework.git",
+  "filePath": "spring-beans/src/main/java/org/springframework/beans/TypeConverterDelegate.java",
+  "functionName": "convertIfNecessary",
+  "functionKey": "spring-beans/src/main/java/org.springframework.beans.TypeConverterDelegate#convertIfNecessary(String, Object, Object, Class, TypeDescriptor)",
+  "functionStartLine": 138,
+  "blockType": "CATCH_CLAUSE",
+  "blockKey": "spring-beans/src/main/java/org.springframework.beans.TypeConverterDelegate#convertIfNecessary(String, Object, Object, Class, TypeDescriptor)$catch(237-242)",
+  "blockStartLine": 237,
+  "blockEndLine": 242,
+  "startCommitId": "b325c74216fd9564a36602158fa1269e2e832874",
+  "expectedChanges": [
+    {
+      "parentCommitId": "ffc3f6d87d640631c997fc9566679d094cdda267",
+      "commitId": "f813712f5b413b354560cd7cc006352e9defa9a3",
+      "commitTime": 1496837955,
+      "changeType": "introduced",
+      "elementFileBefore": "spring-beans/src/main/java/org/springframework/beans/TypeConverterDelegate.java",
+      "elementNameBefore": "spring-beans/src/main/java/org.springframework.beans.TypeConverterDelegate#convertIfNecessary(String, Object, Object, Class, TypeDescriptor)$catch(236-241)",
+      "elementFileAfter": "spring-beans/src/main/java/org/springframework/beans/TypeConverterDelegate.java",
+      "elementNameAfter": "spring-beans/src/main/java/org.springframework.beans.TypeConverterDelegate#convertIfNecessary(String, Object, Object, Class, TypeDescriptor)$catch(236-241)",
+      "comment": "new block"
+    }
+  ],
+  "oracleChanges": [
+    {
+      "parentCommitId": "9f9f2349cd6cffc0633b83ab9ea284bd7a8ae47f",
+      "commitId": "fee838a65e87f5da4b65b04ea5101681d6308104",
+      "commitTime": 1251120642,
+      "changeType": "introduced",
+      "elementFileBefore": "org.springframework.beans/src/main/java/org/springframework/beans/TypeConverterDelegate.java",
+      "elementNameBefore": "org.springframework.beans/src/main/java/org.springframework.beans.TypeConverterDelegate#convertIfNecessary(String, Object, Object, Class, PropertyDescriptor, MethodParameter)$catch(211-216)",
+      "elementFileAfter": "org.springframework.beans/src/main/java/org/springframework/beans/TypeConverterDelegate.java",
+      "elementNameAfter": "org.springframework.beans/src/main/java/org.springframework.beans.TypeConverterDelegate#convertIfNecessary(String, Object, Object, Class, PropertyDescriptor, MethodParameter)$catch(211-216)",
+      "comment": "new block"
+    }
+  ]
+}
