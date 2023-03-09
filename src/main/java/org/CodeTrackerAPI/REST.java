@@ -378,7 +378,7 @@ public class REST {
           .get(
             "/addToOracle",
             exchange -> {
-              String oracleElementType = "block";
+              String oracleElementType = "gumtree";
               Map<String, Deque<String>> params = exchange.getQueryParameters();
               String commitId = params.get("commitId").getFirst();
               String commitURL = params.get("commitURL").getFirst();
@@ -551,7 +551,7 @@ public class REST {
           .get(
             "/getOracleData",
             exchange -> {
-              String oracleElementType = "block";
+              String oracleElementType = "gumtree";
               try {
                 File dir;
                 if (checkReported) {
@@ -1259,7 +1259,7 @@ public class REST {
     Integer evolutionHookLine;
     String evolutionHookPath;
     String evolutionHookCommit;
-    String type = "block";
+    String type = "gumtree";
 
     private CTHBlock(
       String commitId,

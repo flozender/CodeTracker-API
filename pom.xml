@@ -69,5 +69,15 @@
             <artifactId>refactoring-miner</artifactId>
             <version>2.3.2-SNAPSHOT</version>
         </dependency>
+        <dependency>
+            <groupId>com.github.gumtreediff</groupId>
+            <artifactId>core</artifactId>
+            <version>3.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.gumtreediff</groupId>
+            <artifactId>gen.jdt</artifactId>
+            <version>3.0.0</version>
+        </dependency>
     </dependencies>
 </project>
