@@ -231,6 +231,7 @@ public class BlockOracleGenerator {
                     if (originalChanges.size() == 0 || !originalChanges.get(0).equals("introduced")) {
                         createOracleEntry(
                                 repository,
+                                file,
                                 blockJSON,
                                 commitId,
                                 blockHistoryInfo,
@@ -259,6 +260,7 @@ public class BlockOracleGenerator {
 
     public static void createOracleEntry(
             Repository repository,
+            File file,
             Map<String, Object> blockJSON,
             String commitId,
             List<HistoryInfo<Block>> blockHistoryInfo,
@@ -443,29 +445,29 @@ public class BlockOracleGenerator {
                             "-" +
                             blockJSON.get("blockType");
             // check if file already exists, add numerals at the end if true
-            if (methodBlocks.containsKey(absoluteFileName)) {
-                log(
-                        "Key contained: " +
-                                absoluteFileName +
-                                " -> " +
-                                methodBlocks.get(absoluteFileName)
-                );
-                fileName =
-                        fileName +
-                                "-" +
-                                methodBlocks.get(absoluteFileName).toString() +
-                                ".json";
-                methodBlocks.put(
-                        absoluteFileName,
-                        methodBlocks.get(absoluteFileName) + 1
-                );
-            } else {
-                log("No key yet: " + absoluteFileName);
-                fileName = fileName + ".json";
-                methodBlocks.put(absoluteFileName, 1);
-            }
+//            if (methodBlocks.containsKey(absoluteFileName)) {
+//                log(
+//                        "Key contained: " +
+//                                absoluteFileName +
+//                                " -> " +
+//                                methodBlocks.get(absoluteFileName)
+//                );
+//                fileName =
+//                        fileName +
+//                                "-" +
+//                                methodBlocks.get(absoluteFileName).toString() +
+//                                ".json";
+//                methodBlocks.put(
+//                        absoluteFileName,
+//                        methodBlocks.get(absoluteFileName) + 1
+//                );
+//            } else {
+//                log("No key yet: " + absoluteFileName);
+//                fileName = fileName + ".json";
+//                methodBlocks.put(absoluteFileName, 1);
+//            }
 
-            FileWriter output = new FileWriter(fileName);
+            FileWriter output = new FileWriter(file.getName());
 
             // Writes the program to file
             output.write(response);
