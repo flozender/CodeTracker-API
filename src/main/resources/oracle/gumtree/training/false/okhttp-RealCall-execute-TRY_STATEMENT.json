@@ -15,7 +15,7 @@
       "parentCommitId": "cdc48ba8b0e4bdfccc208985bfef200220096d9d",
       "commitId": "1c98464839434a0fe7c7581cdae44bd3f2e6edd3",
       "commitTime": 1504037672,
-      "changeType": "catch block change",
+      "changeType": "body change",
       "elementFileBefore": "okhttp/src/main/java/okhttp3/RealCall.java",
       "elementNameBefore": "okhttp/src/main/java/okhttp3.RealCall.AsyncCall#execute()$try(147-167)",
       "elementFileAfter": "okhttp/src/main/java/okhttp3/RealCall.java",
@@ -25,17 +25,7 @@
       "parentCommitId": "cdc48ba8b0e4bdfccc208985bfef200220096d9d",
       "commitId": "1c98464839434a0fe7c7581cdae44bd3f2e6edd3",
       "commitTime": 1504037672,
-      "changeType": "body change",
-      "elementFileBefore": "okhttp/src/main/java/okhttp3/RealCall.java",
-      "elementNameBefore": "okhttp/src/main/java/okhttp3.RealCall.AsyncCall#execute()$try(147-167)",
-      "elementFileAfter": "okhttp/src/main/java/okhttp3/RealCall.java",
-      "elementNameAfter": "okhttp/src/main/java/okhttp3.RealCall.AsyncCall#execute()$try(147-167)"
-    },
-    {
-      "parentCommitId": "da4e249b7339c9d6e94535fcee63de0bada8f944",
-      "commitId": "7489193d5953bfba8c892e5aa98624e4ec73dbde",
-      "commitTime": 1502720968,
-      "changeType": "body change",
+      "changeType": "catch block change",
       "elementFileBefore": "okhttp/src/main/java/okhttp3/RealCall.java",
       "elementNameBefore": "okhttp/src/main/java/okhttp3.RealCall.AsyncCall#execute()$try(147-167)",
       "elementFileAfter": "okhttp/src/main/java/okhttp3/RealCall.java",
@@ -46,6 +36,16 @@
       "commitId": "7489193d5953bfba8c892e5aa98624e4ec73dbde",
       "commitTime": 1502720968,
       "changeType": "catch block change",
+      "elementFileBefore": "okhttp/src/main/java/okhttp3/RealCall.java",
+      "elementNameBefore": "okhttp/src/main/java/okhttp3.RealCall.AsyncCall#execute()$try(147-167)",
+      "elementFileAfter": "okhttp/src/main/java/okhttp3/RealCall.java",
+      "elementNameAfter": "okhttp/src/main/java/okhttp3.RealCall.AsyncCall#execute()$try(147-167)"
+    },
+    {
+      "parentCommitId": "da4e249b7339c9d6e94535fcee63de0bada8f944",
+      "commitId": "7489193d5953bfba8c892e5aa98624e4ec73dbde",
+      "commitTime": 1502720968,
+      "changeType": "body change",
       "elementFileBefore": "okhttp/src/main/java/okhttp3/RealCall.java",
       "elementNameBefore": "okhttp/src/main/java/okhttp3.RealCall.AsyncCall#execute()$try(147-167)",
       "elementFileAfter": "okhttp/src/main/java/okhttp3/RealCall.java",
@@ -122,15 +122,155 @@
       "elementNameAfter": "okhttp/src/main/java/okhttp3.RealCall.AsyncCall#execute()$try(126-145)"
     },
     {
-      "parentCommitId": "6aff563d5a730d49ced0663235b16331d6716f15",
-      "commitId": "fb700e20af6fa71a20656cd240df4df3c8f15976",
-      "commitTime": 1450904130,
+      "parentCommitId": "6a820cce4c655632ac78958f1c3aec8815589a6c",
+      "commitId": "0c1481a2d3d7482a3e0c4e63f8d99ba6cea9c24b",
+      "commitTime": 1445406113,
+      "changeType": "catch block change",
+      "elementFileBefore": "okhttp/src/main/java/com/squareup/okhttp/Call.java",
+      "elementNameBefore": "okhttp/src/main/java/com.squareup.okhttp.Call.AsyncCall#execute()$try(161-179)",
+      "elementFileAfter": "okhttp/src/main/java/com/squareup/okhttp/Call.java",
+      "elementNameAfter": "okhttp/src/main/java/com.squareup.okhttp.Call.AsyncCall#execute()$try(161-180)"
+    },
+    {
+      "parentCommitId": "7756c4e4fe1cd703cff07d218da2fecb30f916c6",
+      "commitId": "9631227619ffe9497c67d92d20428682e5df8862",
+      "commitTime": 1420096387,
+      "changeType": "body change",
+      "elementFileBefore": "okhttp/src/main/java/com/squareup/okhttp/Call.java",
+      "elementNameBefore": "okhttp/src/main/java/com.squareup.okhttp.Call.AsyncCall#execute()$try(155-173)",
+      "elementFileAfter": "okhttp/src/main/java/com/squareup/okhttp/Call.java",
+      "elementNameAfter": "okhttp/src/main/java/com.squareup.okhttp.Call.AsyncCall#execute()$try(161-179)"
+    },
+    {
+      "parentCommitId": "df9001cd69cb7fecd5e6144fad1d00a67a46394a",
+      "commitId": "e74e3f3bf744ef7f4d8ee724a7cf2347e486cfab",
+      "commitTime": 1419214915,
+      "changeType": "catch block change",
+      "elementFileBefore": "okhttp/src/main/java/com/squareup/okhttp/Call.java",
+      "elementNameBefore": "okhttp/src/main/java/com.squareup.okhttp.Call.AsyncCall#execute()$try(158-176)",
+      "elementFileAfter": "okhttp/src/main/java/com/squareup/okhttp/Call.java",
+      "elementNameAfter": "okhttp/src/main/java/com.squareup.okhttp.Call.AsyncCall#execute()$try(158-176)"
+    },
+    {
+      "parentCommitId": "5b69615ddb60275771f3296ebaba808b662f7388",
+      "commitId": "6184a7f5cf2a1d97072aaccb9fc00e08003848e3",
+      "commitTime": 1418063106,
+      "changeType": "body change",
+      "elementFileBefore": "okhttp/src/main/java/com/squareup/okhttp/Call.java",
+      "elementNameBefore": "okhttp/src/main/java/com.squareup.okhttp.Call.AsyncCall#execute()$try(160-179)",
+      "elementFileAfter": "okhttp/src/main/java/com/squareup/okhttp/Call.java",
+      "elementNameAfter": "okhttp/src/main/java/com.squareup.okhttp.Call.AsyncCall#execute()$try(158-176)"
+    },
+    {
+      "parentCommitId": "5b69615ddb60275771f3296ebaba808b662f7388",
+      "commitId": "6184a7f5cf2a1d97072aaccb9fc00e08003848e3",
+      "commitTime": 1418063106,
+      "changeType": "catch block change",
+      "elementFileBefore": "okhttp/src/main/java/com/squareup/okhttp/Call.java",
+      "elementNameBefore": "okhttp/src/main/java/com.squareup.okhttp.Call.AsyncCall#execute()$try(160-179)",
+      "elementFileAfter": "okhttp/src/main/java/com/squareup/okhttp/Call.java",
+      "elementNameAfter": "okhttp/src/main/java/com.squareup.okhttp.Call.AsyncCall#execute()$try(158-176)"
+    },
+    {
+      "parentCommitId": "c34957442026cff000b81b5ffe692ab06134c13c",
+      "commitId": "ff622aff0facbd9a77d630610b3e98c1842d223a",
+      "commitTime": 1417308891,
+      "changeType": "body change",
+      "elementFileBefore": "okhttp/src/main/java/com/squareup/okhttp/Call.java",
+      "elementNameBefore": "okhttp/src/main/java/com.squareup.okhttp.Call.AsyncCall#execute()$try(161-180)",
+      "elementFileAfter": "okhttp/src/main/java/com/squareup/okhttp/Call.java",
+      "elementNameAfter": "okhttp/src/main/java/com.squareup.okhttp.Call.AsyncCall#execute()$try(161-180)"
+    },
+    {
+      "parentCommitId": "125df557fbeb9c77eb17872acac2eb156428d2ed",
+      "commitId": "40c2e6aec09d139a4e96b45856020a5b324b01ef",
+      "commitTime": 1414338533,
+      "changeType": "catch block change",
+      "elementFileBefore": "okhttp/src/main/java/com/squareup/okhttp/Call.java",
+      "elementNameBefore": "okhttp/src/main/java/com.squareup.okhttp.Call.AsyncCall#execute()$try(159-179)",
+      "elementFileAfter": "okhttp/src/main/java/com/squareup/okhttp/Call.java",
+      "elementNameAfter": "okhttp/src/main/java/com.squareup.okhttp.Call.AsyncCall#execute()$try(159-178)"
+    },
+    {
+      "parentCommitId": "c9cc8365694e3efbf8eca82f6e08cde0ab7a466f",
+      "commitId": "36cff8b86438a3b0f3bd3e701b374a1404a9168d",
+      "commitTime": 1414276489,
+      "changeType": "catch block change",
+      "elementFileBefore": "okhttp/src/main/java/com/squareup/okhttp/Call.java",
+      "elementNameBefore": "okhttp/src/main/java/com.squareup.okhttp.Call.AsyncCall#execute()$try(151-166)",
+      "elementFileAfter": "okhttp/src/main/java/com/squareup/okhttp/Call.java",
+      "elementNameAfter": "okhttp/src/main/java/com.squareup.okhttp.Call.AsyncCall#execute()$try(155-175)"
+    },
+    {
+      "parentCommitId": "5468a730758736af9bb01da58b0414b02df38244",
+      "commitId": "83e42cb9288896f88c934faa116b89165b3b9689",
+      "commitTime": 1404107201,
+      "changeType": "finally block change",
+      "elementFileBefore": "okhttp/src/main/java/com/squareup/okhttp/Call.java",
+      "elementNameBefore": "okhttp/src/main/java/com.squareup.okhttp.Call.AsyncCall#execute()$try(142-157)",
+      "elementFileAfter": "okhttp/src/main/java/com/squareup/okhttp/Call.java",
+      "elementNameAfter": "okhttp/src/main/java/com.squareup.okhttp.Call.AsyncCall#execute()$try(142-157)"
+    },
+    {
+      "parentCommitId": "ac6ac338a3cdc877481e35e06b3f47a22aeec8f8",
+      "commitId": "aa7e7a751c8e0096e18f792f3a737ed21d265ead",
+      "commitTime": 1402443949,
+      "changeType": "body change",
+      "elementFileBefore": "okhttp/src/main/java/com/squareup/okhttp/Call.java",
+      "elementNameBefore": "okhttp/src/main/java/com.squareup.okhttp.Call.AsyncCall#execute()$try(142-157)",
+      "elementFileAfter": "okhttp/src/main/java/com/squareup/okhttp/Call.java",
+      "elementNameAfter": "okhttp/src/main/java/com.squareup.okhttp.Call.AsyncCall#execute()$try(142-157)"
+    },
+    {
+      "parentCommitId": "1a1cc18f26c381f405d62f5b9262b3113736d014",
+      "commitId": "f6a46b8992e486fb881b77c2fd533dc4d71dfd5b",
+      "commitTime": 1401197626,
+      "changeType": "catch block change",
+      "elementFileBefore": "okhttp/src/main/java/com/squareup/okhttp/Call.java",
+      "elementNameBefore": "okhttp/src/main/java/com.squareup.okhttp.Call.AsyncCall#execute()$try(142-157)",
+      "elementFileAfter": "okhttp/src/main/java/com/squareup/okhttp/Call.java",
+      "elementNameAfter": "okhttp/src/main/java/com.squareup.okhttp.Call.AsyncCall#execute()$try(142-157)"
+    },
+    {
+      "parentCommitId": "4f38d669f4c4db1fe9100f41ec54b27432cd61cd",
+      "commitId": "53b9f84cb694a6267373b1fdd6d2144a6f05b68b",
+      "commitTime": 1400530550,
+      "changeType": "catch block change",
+      "elementFileBefore": "okhttp/src/main/java/com/squareup/okhttp/Call.java",
+      "elementNameBefore": "okhttp/src/main/java/com.squareup.okhttp.Call.AsyncCall#execute()$try(142-163)",
+      "elementFileAfter": "okhttp/src/main/java/com/squareup/okhttp/Call.java",
+      "elementNameAfter": "okhttp/src/main/java/com.squareup.okhttp.Call.AsyncCall#execute()$try(142-157)"
+    },
+    {
+      "parentCommitId": "4f38d669f4c4db1fe9100f41ec54b27432cd61cd",
+      "commitId": "53b9f84cb694a6267373b1fdd6d2144a6f05b68b",
+      "commitTime": 1400530550,
+      "changeType": "body change",
+      "elementFileBefore": "okhttp/src/main/java/com/squareup/okhttp/Call.java",
+      "elementNameBefore": "okhttp/src/main/java/com.squareup.okhttp.Call.AsyncCall#execute()$try(142-163)",
+      "elementFileAfter": "okhttp/src/main/java/com/squareup/okhttp/Call.java",
+      "elementNameAfter": "okhttp/src/main/java/com.squareup.okhttp.Call.AsyncCall#execute()$try(142-157)"
+    },
+    {
+      "parentCommitId": "1873309de5ec1ecbfeb5ec31dd955a7e6e791aba",
+      "commitId": "c3e8a5d326f026ba6af20d0bf7da41c005ff1915",
+      "commitTime": 1398464501,
+      "changeType": "body change",
+      "elementFileBefore": "okhttp/src/main/java/com/squareup/okhttp/Call.java",
+      "elementNameBefore": "okhttp/src/main/java/com.squareup.okhttp.Call.AsyncCall#execute()$try(142-163)",
+      "elementFileAfter": "okhttp/src/main/java/com/squareup/okhttp/Call.java",
+      "elementNameAfter": "okhttp/src/main/java/com.squareup.okhttp.Call.AsyncCall#execute()$try(139-160)"
+    },
+    {
+      "parentCommitId": "f4c83e8eb86ac4afb224f91cd68bd9650351fe64",
+      "commitId": "63d4dfaaa622d4cce72a09cdeead267afa3453a6",
+      "commitTime": 1398449619,
       "changeType": "introduced",
-      "elementFileBefore": "okhttp/src/main/java/okhttp3/RealCall.java",
-      "elementNameBefore": "okhttp/src/main/java/okhttp3.RealCall.AsyncCall#execute()$try(124-143)",
-      "elementFileAfter": "okhttp/src/main/java/okhttp3/RealCall.java",
-      "elementNameAfter": "okhttp/src/main/java/okhttp3.RealCall.AsyncCall#execute()$try(124-143)",
-      "comment": "added with method"
+      "elementFileBefore": "okhttp/src/main/java/com/squareup/okhttp/Call.java",
+      "elementNameBefore": "okhttp/src/main/java/com.squareup.okhttp.Call.AsyncCall#execute()$try(141-162)",
+      "elementFileAfter": "okhttp/src/main/java/com/squareup/okhttp/Call.java",
+      "elementNameAfter": "okhttp/src/main/java/com.squareup.okhttp.Call.AsyncCall#execute()$try(141-162)",
+      "comment": "new block"
     }
   ],
   "oracleChanges": [

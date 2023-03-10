@@ -40,7 +40,7 @@
       "elementNameBefore": "stratosphere-runtime/src/main/java/org.apache.flink.runtime.jobmanager.splitassigner.LocatableInputSplitAssigner#registerGroupVertex(ExecutionGroupVertex)$if(77-81)",
       "elementFileAfter": "stratosphere-runtime/src/main/java/org/apache/flink/runtime/jobmanager/splitassigner/LocatableInputSplitAssigner.java",
       "elementNameAfter": "stratosphere-runtime/src/main/java/org.apache.flink.runtime.jobmanager.splitassigner.LocatableInputSplitAssigner#registerGroupVertex(ExecutionGroupVertex)$if(77-81)",
-      "comment": "added with method"
+      "comment": "new block"
     }
   ],
   "oracleChanges": [

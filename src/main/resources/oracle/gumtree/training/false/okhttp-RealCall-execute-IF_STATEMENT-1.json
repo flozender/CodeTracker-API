@@ -15,7 +15,7 @@
       "parentCommitId": "2d2adbf4e1598278d856b6c0918db222c7ae8cea",
       "commitId": "8ff37250310e8d2f9e73293199b3b6e42ec45b0f",
       "commitTime": 1452555628,
-      "changeType": "finally block change",
+      "changeType": "body change",
       "elementFileBefore": "okhttp/src/main/java/okhttp3/RealCall.java",
       "elementNameBefore": "okhttp/src/main/java/okhttp3.RealCall.AsyncCall#execute()$if(128-134)",
       "elementFileAfter": "okhttp/src/main/java/okhttp3/RealCall.java",
@@ -25,22 +25,62 @@
       "parentCommitId": "2d2adbf4e1598278d856b6c0918db222c7ae8cea",
       "commitId": "8ff37250310e8d2f9e73293199b3b6e42ec45b0f",
       "commitTime": 1452555628,
-      "changeType": "body change",
+      "changeType": "finally block change",
       "elementFileBefore": "okhttp/src/main/java/okhttp3/RealCall.java",
       "elementNameBefore": "okhttp/src/main/java/okhttp3.RealCall.AsyncCall#execute()$if(128-134)",
       "elementFileAfter": "okhttp/src/main/java/okhttp3/RealCall.java",
       "elementNameAfter": "okhttp/src/main/java/okhttp3.RealCall.AsyncCall#execute()$if(128-134)"
     },
     {
-      "parentCommitId": "6aff563d5a730d49ced0663235b16331d6716f15",
-      "commitId": "fb700e20af6fa71a20656cd240df4df3c8f15976",
-      "commitTime": 1450904130,
+      "parentCommitId": "5b69615ddb60275771f3296ebaba808b662f7388",
+      "commitId": "6184a7f5cf2a1d97072aaccb9fc00e08003848e3",
+      "commitTime": 1418063106,
+      "changeType": "body change",
+      "elementFileBefore": "okhttp/src/main/java/com/squareup/okhttp/Call.java",
+      "elementNameBefore": "okhttp/src/main/java/com.squareup.okhttp.Call.AsyncCall#execute()$if(162-169)",
+      "elementFileAfter": "okhttp/src/main/java/com/squareup/okhttp/Call.java",
+      "elementNameAfter": "okhttp/src/main/java/com.squareup.okhttp.Call.AsyncCall#execute()$if(160-166)"
+    },
+    {
+      "parentCommitId": "ac6ac338a3cdc877481e35e06b3f47a22aeec8f8",
+      "commitId": "aa7e7a751c8e0096e18f792f3a737ed21d265ead",
+      "commitTime": 1402443949,
+      "changeType": "finally block change",
+      "elementFileBefore": "okhttp/src/main/java/com/squareup/okhttp/Call.java",
+      "elementNameBefore": "okhttp/src/main/java/com.squareup.okhttp.Call.AsyncCall#execute()$if(144-150)",
+      "elementFileAfter": "okhttp/src/main/java/com/squareup/okhttp/Call.java",
+      "elementNameAfter": "okhttp/src/main/java/com.squareup.okhttp.Call.AsyncCall#execute()$if(144-151)"
+    },
+    {
+      "parentCommitId": "4f38d669f4c4db1fe9100f41ec54b27432cd61cd",
+      "commitId": "53b9f84cb694a6267373b1fdd6d2144a6f05b68b",
+      "commitTime": 1400530550,
+      "changeType": "body change",
+      "elementFileBefore": "okhttp/src/main/java/com/squareup/okhttp/Call.java",
+      "elementNameBefore": "okhttp/src/main/java/com.squareup.okhttp.Call.AsyncCall#execute()$if(144-153)",
+      "elementFileAfter": "okhttp/src/main/java/com/squareup/okhttp/Call.java",
+      "elementNameAfter": "okhttp/src/main/java/com.squareup.okhttp.Call.AsyncCall#execute()$if(144-150)"
+    },
+    {
+      "parentCommitId": "1873309de5ec1ecbfeb5ec31dd955a7e6e791aba",
+      "commitId": "c3e8a5d326f026ba6af20d0bf7da41c005ff1915",
+      "commitTime": 1398464501,
+      "changeType": "body change",
+      "elementFileBefore": "okhttp/src/main/java/com/squareup/okhttp/Call.java",
+      "elementNameBefore": "okhttp/src/main/java/com.squareup.okhttp.Call.AsyncCall#execute()$if(144-153)",
+      "elementFileAfter": "okhttp/src/main/java/com/squareup/okhttp/Call.java",
+      "elementNameAfter": "okhttp/src/main/java/com.squareup.okhttp.Call.AsyncCall#execute()$if(141-150)"
+    },
+    {
+      "parentCommitId": "f4c83e8eb86ac4afb224f91cd68bd9650351fe64",
+      "commitId": "63d4dfaaa622d4cce72a09cdeead267afa3453a6",
+      "commitTime": 1398449619,
       "changeType": "introduced",
-      "elementFileBefore": "okhttp/src/main/java/okhttp3/RealCall.java",
-      "elementNameBefore": "okhttp/src/main/java/okhttp3.RealCall.AsyncCall#execute()$if(126-132)",
-      "elementFileAfter": "okhttp/src/main/java/okhttp3/RealCall.java",
-      "elementNameAfter": "okhttp/src/main/java/okhttp3.RealCall.AsyncCall#execute()$if(126-132)",
-      "comment": "added with method"
+      "elementFileBefore": "okhttp/src/main/java/com/squareup/okhttp/Call.java",
+      "elementNameBefore": "okhttp/src/main/java/com.squareup.okhttp.Call.AsyncCall#execute()$if(143-152)",
+      "elementFileAfter": "okhttp/src/main/java/com/squareup/okhttp/Call.java",
+      "elementNameAfter": "okhttp/src/main/java/com.squareup.okhttp.Call.AsyncCall#execute()$if(143-152)",
+      "comment": "new block"
     }
   ],
   "oracleChanges": [

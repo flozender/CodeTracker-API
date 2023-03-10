@@ -20,17 +20,6 @@
       "elementNameBefore": "src/main/java/org.junit.runners.BlockJUnit4ClassRunner#methodBlock(FrameworkMethod)$try(262-271)",
       "elementFileAfter": "src/main/java/org/junit/runners/BlockJUnit4ClassRunner.java",
       "elementNameAfter": "src/main/java/org.junit.runners.BlockJUnit4ClassRunner#methodBlock(FrameworkMethod)$try(270-279)"
-    },
-    {
-      "parentCommitId": "f49fb25b6fbffcc7a68b28824ed3856ffa9d6fdd",
-      "commitId": "078e45bd31a9920e00633ad6ce658e22529304f2",
-      "commitTime": 1213638722,
-      "changeType": "introduced",
-      "elementFileBefore": "src/main/java/org/junit/internal/runners/BlockJUnit4ClassRunner.java",
-      "elementNameBefore": "src/main/java/org.junit.internal.runners.BlockJUnit4ClassRunner#childBlock(FrameworkMethod)$try(62-71)",
-      "elementFileAfter": "src/main/java/org/junit/internal/runners/BlockJUnit4ClassRunner.java",
-      "elementNameAfter": "src/main/java/org.junit.internal.runners.BlockJUnit4ClassRunner#childBlock(FrameworkMethod)$try(62-71)",
-      "comment": "added with method"
     }
   ],
   "oracleChanges": [

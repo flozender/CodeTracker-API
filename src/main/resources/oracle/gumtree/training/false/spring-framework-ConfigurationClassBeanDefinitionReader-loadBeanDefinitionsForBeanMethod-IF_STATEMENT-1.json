@@ -20,7 +20,7 @@
       "elementNameBefore": "org.springframework.context/src/main/java/org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader#loadBeanDefinitionsForModelMethod(ConfigurationClassMethod)$if(161-163)",
       "elementFileAfter": "org.springframework.context/src/main/java/org/springframework/context/annotation/ConfigurationClassBeanDefinitionReader.java",
       "elementNameAfter": "org.springframework.context/src/main/java/org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader#loadBeanDefinitionsForModelMethod(ConfigurationClassMethod)$if(161-163)",
-      "comment": "added with method"
+      "comment": "new block"
     }
   ],
   "oracleChanges": [

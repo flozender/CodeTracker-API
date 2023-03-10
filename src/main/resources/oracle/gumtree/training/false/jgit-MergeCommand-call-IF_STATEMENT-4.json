@@ -1,0 +1,39 @@
+{
+  "repositoryName": "jgit",
+  "repositoryWebURL": "https://github.com/eclipse/jgit.git",
+  "filePath": "org.eclipse.jgit/src/org/eclipse/jgit/api/MergeCommand.java",
+  "functionName": "call",
+  "functionKey": "org.eclipse.jgit/src/org.eclipse.jgit.api.MergeCommand#call()",
+  "functionStartLine": 225,
+  "blockType": "IF_STATEMENT",
+  "blockKey": "org.eclipse.jgit/src/org.eclipse.jgit.api.MergeCommand#call()$if(245-247)",
+  "blockStartLine": 245,
+  "blockEndLine": 247,
+  "startCommitId": "bd1a82502680b5de5bf86f6c4470185fd1602386",
+  "expectedChanges": [
+    {
+      "parentCommitId": "541ad72ac6a6529e20fb1b0694c592c0bcc98d38",
+      "commitId": "f3fb5824ba45197787bc4ffb81fafcd576c60291",
+      "commitTime": 1273497475,
+      "changeType": "introduced",
+      "elementFileBefore": "org.eclipse.jgit/src/org/eclipse/jgit/api/Git.java",
+      "elementNameBefore": "org.eclipse.jgit/src/org.eclipse.jgit.api.Git#Git(Repository)$if(91-92)",
+      "elementFileAfter": "org.eclipse.jgit/src/org/eclipse/jgit/api/Git.java",
+      "elementNameAfter": "org.eclipse.jgit/src/org.eclipse.jgit.api.Git#Git(Repository)$if(91-92)",
+      "comment": "added with method"
+    }
+  ],
+  "oracleChanges": [
+    {
+      "parentCommitId": "6ca9843f3ebbea152969a8b795efce1d4ff15dbf",
+      "commitId": "5b0e73b849d19c9f072c4c6738a5d5adae413112",
+      "commitTime": 1274712748,
+      "changeType": "introduced",
+      "elementFileBefore": "org.eclipse.jgit/src/org/eclipse/jgit/api/MergeCommand.java",
+      "elementNameBefore": "org.eclipse.jgit/src/org.eclipse.jgit.api.MergeCommand#call()$if(116-117)",
+      "elementFileAfter": "org.eclipse.jgit/src/org/eclipse/jgit/api/MergeCommand.java",
+      "elementNameAfter": "org.eclipse.jgit/src/org.eclipse.jgit.api.MergeCommand#call()$if(116-117)",
+      "comment": "added with method"
+    }
+  ]
+}
