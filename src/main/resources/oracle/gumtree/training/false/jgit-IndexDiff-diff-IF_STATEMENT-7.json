@@ -1,6 +1,6 @@
 {
   "repositoryName": "jgit",
-  "repositoryWebURL": "https://github.com/eclipse/jgit.git",
+  "repositoryWebURL": "https://github.com/flozender/jgit.git",
   "filePath": "org.eclipse.jgit/src/org/eclipse/jgit/lib/IndexDiff.java",
   "functionName": "diff",
   "functionKey": "org.eclipse.jgit/src/org.eclipse.jgit.lib.IndexDiff#diff(ProgressMonitor, int, int, String)",

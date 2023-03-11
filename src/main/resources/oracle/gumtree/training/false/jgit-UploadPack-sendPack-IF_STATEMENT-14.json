@@ -1,6 +1,6 @@
 {
   "repositoryName": "jgit",
-  "repositoryWebURL": "https://github.com/eclipse/jgit.git",
+  "repositoryWebURL": "https://github.com/flozender/jgit.git",
   "filePath": "org.eclipse.jgit/src/org/eclipse/jgit/transport/UploadPack.java",
   "functionName": "sendPack",
   "functionKey": "org.eclipse.jgit/src/org.eclipse.jgit.transport.UploadPack#sendPack(boolean, PackStatistics.Accumulator, Collection, List)",
