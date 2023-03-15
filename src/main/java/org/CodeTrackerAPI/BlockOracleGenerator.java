@@ -222,28 +222,27 @@ public class BlockOracleGenerator {
 
                     HistoryInfo<Block> firstChange = blockHistoryInfo.get(0);
 
-                    List<String> originalChanges = expectedChanges
+                    List<Map<String, String>> originalChanges = expectedChanges
                             .stream()
                             .filter(historyBlock -> historyBlock.get("commitId").equals(firstChange.getCommitId()))
-                            .map(historyBlock -> historyBlock.get("changeType"))
                             .collect(Collectors.toList());
 
-                    if (originalChanges.size() == 0 || !originalChanges.get(0).equals("introduced")) {
-                        createOracleEntry(
-                                repository,
-                                file,
-                                blockJSON,
-                                commitId,
-                                blockHistoryInfo,
-                                oracleType,
-                                false,
-                                validFiles,
-                                invalidFiles,
-                                invalidReportedFiles
-                        );
+                    if (originalChanges.size() == 0 || !originalChanges.get(0).get("changeType").equals("introduced")) {
+                        if (!originalChanges.get(0).get("comment").contains("Extract method")){
+                            createOracleEntry(
+                                    repository,
+                                    file,
+                                    blockJSON,
+                                    commitId,
+                                    blockHistoryInfo,
+                                    oracleType,
+                                    false,
+                                    validFiles,
+                                    invalidFiles,
+                                    invalidReportedFiles
+                            );
+                        }
                     }
-
-
                 } catch (Exception e) {
                     handleError(e, 5);
                 }
@@ -401,7 +400,7 @@ public class BlockOracleGenerator {
                 .replaceAll("\r\n", "")
                 .hashCode();
 
-        if (folderName == "false") {
+        if (folderName.equals("false")) {
             if (validFiles.containsKey(fileKey)) {
                 if (validFiles.get(fileKey) == hashCode) {
                     folderName = "valid";
