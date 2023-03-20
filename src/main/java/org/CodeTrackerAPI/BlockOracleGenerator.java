@@ -50,108 +50,8 @@ public class BlockOracleGenerator {
       handleError(e, 0);
       System.exit(1);
     }
-    File trueFolder = new File(
-      "src/main/resources/oracle/block/" + oracleType + "/true"
-    );
-    File falseFolder = new File(
-      "src/main/resources/oracle/block/" + oracleType + "/false"
-    );
-    File validFolder = new File(
-      "src/main/resources/oracle/block/" + oracleType + "/valid"
-    );
-    File invalidFolder = new File(
-      "src/main/resources/oracle/block/" + oracleType + "/invalid"
-    );
-    File invalidReportedFolder = new File(
-      "src/main/resources/oracle/block/" + oracleType + "/invalid/reported"
-    );
 
-    HashMap<String, Integer> validFiles = new HashMap<String, Integer>();
-    HashMap<String, Integer> invalidFiles = new HashMap<String, Integer>();
-    HashMap<String, Integer> invalidReportedFiles = new HashMap<String, Integer>();
-
-    for (File file : validFolder.listFiles()) {
-      if (!file.isFile()) {
-        continue;
-      }
-      ObjectMapper mapper = new ObjectMapper();
-      try {
-        String data = FileUtils.readFileToString(file, "UTF-8");
-        int hashCode = data
-          .replaceAll(" ", "")
-          .replaceAll("\r\n", "")
-          .hashCode();
-        Map<String, Object> blockJSON = mapper.readValue(
-          data,
-          new TypeReference<Map<String, Object>>() {}
-        );
-        String startCommitId = (String) blockJSON.get("startCommitId");
-        String blockKey = (String) blockJSON.get("blockKey");
-        validFiles.put(startCommitId + "-" + blockKey, hashCode);
-      } catch (Exception e) {
-        handleError(e, 1);
-      }
-    }
-
-    for (File file : invalidFolder.listFiles()) {
-      if (!file.isFile()) {
-        continue;
-      }
-      ObjectMapper mapper = new ObjectMapper();
-      try {
-        String data = FileUtils.readFileToString(file, "UTF-8");
-        int hashCode = data
-          .replaceAll(" ", "")
-          .replaceAll("\r\n", "")
-          .hashCode();
-        Map<String, Object> blockJSON = mapper.readValue(
-          data,
-          new TypeReference<Map<String, Object>>() {}
-        );
-        String startCommitId = (String) blockJSON.get("startCommitId");
-        String blockKey = (String) blockJSON.get("blockKey");
-        invalidFiles.put(startCommitId + "-" + blockKey, hashCode);
-      } catch (Exception e) {
-        handleError(e, 2);
-      }
-    }
-
-    for (File file : invalidReportedFolder.listFiles()) {
-      if (!file.isFile()) {
-        continue;
-      }
-      ObjectMapper mapper = new ObjectMapper();
-      try {
-        String data = FileUtils.readFileToString(file, "UTF-8");
-        int hashCode = data
-          .replaceAll(" ", "")
-          .replaceAll("\r\n", "")
-          .hashCode();
-        Map<String, Object> blockJSON = mapper.readValue(
-          data,
-          new TypeReference<Map<String, Object>>() {}
-        );
-        String startCommitId = (String) blockJSON.get("startCommitId");
-        String blockKey = (String) blockJSON.get("blockKey");
-        invalidReportedFiles.put(startCommitId + "-" + blockKey, hashCode);
-      } catch (Exception e) {
-        handleError(e, 3);
-      }
-    }
-
-    try {
-      FileUtils.cleanDirectory(
-        new File("src/main/resources/oracle/block/" + oracleType)
-      );
-      trueFolder.mkdirs();
-      falseFolder.mkdirs();
-      validFolder.mkdirs();
-      invalidFolder.mkdirs();
-      invalidReportedFolder.mkdirs();
-    } catch (Exception e) {
-      handleError(e, 4);
-    }
-    File folder = new File("src/main/resources/oracle/method/" + oracleType);
+    File folder = new File("src/main/resources/oracle/block/" + oracleType);
     File[] listOfFiles = folder.listFiles();
 
     for (File file : listOfFiles) {
@@ -169,61 +69,48 @@ public class BlockOracleGenerator {
         );
 
         String repoName = (String) methodJSON.get("repositoryName");
+        String repoOwner = methodJSON.get("repositoryWebURL").toString().split("/")[3];
         String repositoryWebURL = (String) methodJSON.get("repositoryWebURL");
         String commitId = (String) methodJSON.get("startCommitId");
         String filePath = (String) methodJSON.get("filePath");
-        String methodName = (String) methodJSON.get("functionName");
-        Integer lineNumber = (Integer) methodJSON.get("functionStartLine");
+        String blockTypeString = (String) methodJSON.get("blockType");
+        Integer blockStartLine = (Integer) methodJSON.get("blockStartLine");
         ArrayList<Map<String, String>> expectedChanges = (ArrayList<Map<String, String>>) methodJSON.get(
           "expectedChanges"
         );
+
+        int expectedChangesLength = expectedChanges.size();
+        if (!expectedChanges.get(expectedChangesLength - 1).get("comment").contains("Extract Method")){
+//          System.out.println("skipping " + file.getName());
+          continue;
+        }
+
+        System.out.println(">>>>> file: " + file.getName());
 
         GitService gitService = new GitServiceImpl();
 
         try (
           Repository repository = gitService.cloneIfNotExists(
-            "tmp/" + repoName,
-            repositoryWebURL
-          )
+                      "tmp/" +repoOwner+"/" +repoName,
+                      repositoryWebURL
+              )
         ) {
+
+
           CodeElementLocator locator = new CodeElementLocator(
             repository,
             commitId,
             filePath,
-            methodName,
-            lineNumber
+            CodeElementType.valueOf(blockTypeString).getName(),
+            blockStartLine
           );
           CodeElement codeElement = locator.locate();
 
           if (codeElement == null) {
             throw new Exception("Selected code element is invalid.");
           }
-          Method method = (Method) codeElement;
+          Block block = (Block) codeElement;
 
-          List<String> methodCommits = expectedChanges
-            .stream()
-            .map(historyObject -> historyObject.get("commitId"))
-            .collect(Collectors.toList());
-
-          Collections.reverse(methodCommits);
-
-          List<CompositeStatementObject> composites = method
-            .getUmlOperation()
-            .getBody()
-            .getCompositeStatement()
-            .getInnerNodes();
-
-          for (CompositeStatementObject composite : composites) {
-            Block block = Block.of(composite, method);
-
-            boolean isInvalid = block
-              .getComposite()
-              .getLocationInfo()
-              .getCodeElementType()
-              .equals(CodeElementType.BLOCK);
-            if (isInvalid) {
-              continue;
-            }
 
             BlockTracker blockTracker = CodeTracker
               .blockTracker()
@@ -247,70 +134,9 @@ public class BlockOracleGenerator {
 
             History<Block> blockHistory = blockTracker.track();
             List<HistoryInfo<Block>> blockHistoryInfo = blockHistory.getHistoryInfoList();
-            if (blockHistoryInfo.size() == 0) {
-              log(
-                "BlockHistoryInfo zero size: " +
-                repositoryWebURL +
-                " " +
-                block.getFilePath() +
-                " " +
-                block.getOperation().getName() +
-                " " +
-                block.getComposite().getLocationInfo().getCodeElementType() +
-                " " +
-                block.getComposite().getLocationInfo().getStartLine() +
-                " " +
-                block.getComposite().getLocationInfo().getEndLine() +
-                commitId
-              );
-            }
-            if (methodCommits.size() == 0) {
-              log(
-                "methodCommits zero size: " +
-                repositoryWebURL +
-                " " +
-                block.getFilePath() +
-                " " +
-                block.getOperation().getName() +
-                " " +
-                block.getComposite().getLocationInfo().getCodeElementType() +
-                " " +
-                block.getComposite().getLocationInfo().getStartLine() +
-                " " +
-                block.getComposite().getLocationInfo().getEndLine() +
-                commitId
-              );
-            }
-            HistoryInfo<Block> firstChange = blockHistoryInfo.get(0);
-            boolean validHistory = true;
-            // check if the block history reaches the method introduction commit
-            if (firstChange.getCommitId().equals(methodCommits.get(0))) {
-              //  Check if block history is a subset of method history
-              for (HistoryInfo<Block> historyInfo : blockHistoryInfo) {
-                if (!methodCommits.contains(historyInfo.getCommitId())) {
-                  validHistory = false;
-                }
-              }
-            } else {
-              validHistory = false;
-            }
 
-            createOracleEntry(
-              repository,
-              repoName,
-              repositoryWebURL,
-              filePath,
-              method,
-              block,
-              commitId,
-              blockHistoryInfo,
-              oracleType,
-              validHistory,
-              validFiles,
-              invalidFiles,
-              invalidReportedFiles
-            );
-          }
+            createOracleEntry(repository, methodJSON, file, block, blockHistoryInfo);
+
         } catch (Exception e) {
           handleError(e, 5);
         }
@@ -326,19 +152,11 @@ public class BlockOracleGenerator {
   }
 
   public static void createOracleEntry(
-    Repository repository,
-    String repositoryName,
-    String repositoryWebURL,
-    String filePath,
-    Method method,
-    CodeElement codeElement,
-    String commitId,
-    List<HistoryInfo<Block>> blockHistoryInfo,
-    String oracleType,
-    Boolean valid,
-    HashMap<String, Integer> validFiles,
-    HashMap<String, Integer> invalidFiles,
-    HashMap<String, Integer> invalidReportedFiles
+          Repository repository,
+          Map<String, Object> methodJSON,
+          File file,
+          Block block,
+          List<HistoryInfo<Block>> blockHistoryInfo
   ) {
     String changes = null;
     ArrayList<CTHBlockOracleComment> changeLog = new ArrayList<CTHBlockOracleComment>();
@@ -363,12 +181,6 @@ public class BlockOracleGenerator {
     ObjectMapper mapper = new ObjectMapper();
     mapper.setVisibility(PropertyAccessor.FIELD, JsonAutoDetect.Visibility.ANY);
     try {
-//      changeLog.sort(
-//        Comparator
-//          .comparing(CTHBlockOracleComment::getCommitTime)
-//          .thenComparing(CTHBlockOracleComment::getChangeType)
-//      );
-
       Collections.reverse(changeLog);
 
       ArrayList<Object> changeLogCasted = changeLog
@@ -400,131 +212,49 @@ public class BlockOracleGenerator {
     }
     String response =
       "{\"repositoryName\": \"" +
-      repositoryName +
+      methodJSON.get("repositoryName") +
       "\"," +
       "\"repositoryWebURL\": \"" +
-      repositoryWebURL +
+              methodJSON.get("repositoryWebURL") +
       "\"," +
       "\"filePath\": \"" +
-      filePath +
+              methodJSON.get("filePath") +
       "\",";
-
-    Block block = (Block) codeElement;
 
     response =
       response +
       "\"functionName\": \"" +
-      block.getOperation().getName() +
+              methodJSON.get("functionName") +
       "\"," +
       "\"functionKey\": \"" +
-      method.getName() +
+              methodJSON.get("functionKey") +
       "\"," +
       "\"functionStartLine\": " +
-      method.getLocation().getStartLine() +
+              methodJSON.get("functionStartLine") +
       "," +
       "\"blockType\": \"" +
-      codeElement.getLocation().getCodeElementType() +
+              methodJSON.get("blockType") +
       "\"," +
       "\"blockKey\": \"" +
-      codeElement.getName() +
+              methodJSON.get("blockKey") +
       "\"," +
       "\"blockStartLine\": " +
-      codeElement.getLocation().getStartLine() +
+              methodJSON.get("blockStartLine") +
       "," +
       "\"blockEndLine\": " +
-      codeElement.getLocation().getEndLine() +
+              methodJSON.get("blockEndLine") +
       "," +
       "\"startCommitId\": \"" +
-      commitId +
+              methodJSON.get("startCommitId") +
       "\"," +
       "\"expectedChanges\": " +
       changes +
       "}";
 
-    String folderName = valid ? "true" : "false";
-
-    String fileKey = commitId + "-" + codeElement.getName();
-    int hashCode = response
-      .replaceAll(" ", "")
-      .replaceAll("\r\n", "")
-      .hashCode();
-
-    if (folderName == "false") {
-      if (validFiles.containsKey(fileKey)) {
-        if (validFiles.get(fileKey) == hashCode) {
-          folderName = "valid";
-        }
-      } else if (invalidFiles.containsKey(fileKey)) {
-        if (invalidFiles.get(fileKey) == hashCode) {
-          folderName = "invalid";
-        }
-      } else if (invalidReportedFiles.containsKey(fileKey)) {
-        folderName = "invalid/reported";
-      }
-    }
 
     try {
       // Creates a Writer using FileWriter
-      String fileName =
-        "src/main/resources/oracle/block/" +
-        oracleType +
-        "/" +
-        folderName +
-        "/" +
-        repositoryName +
-        "-" +
-        block
-          .getOperation()
-          .getClassName()
-          .split("\\.")[block
-            .getOperation()
-            .getClassName()
-            .split("\\.")
-            .length -
-          1] +
-        "-" +
-        block.getOperation().getName() +
-        "-" +
-        codeElement.getLocation().getCodeElementType();
-
-      String absoluteFileName =
-        repositoryName +
-        "-" +
-        block
-          .getOperation()
-          .getClassName()
-          .split("\\.")[block
-            .getOperation()
-            .getClassName()
-            .split("\\.")
-            .length -
-          1] +
-        "-" +
-        block.getOperation().getName() +
-        "-" +
-        codeElement.getLocation().getCodeElementType();
-      // check if file already exists, add numerals at the end if true
-      if (methodBlocks.containsKey(absoluteFileName)) {
-        log(
-          "Key contained: " +
-          absoluteFileName +
-          " -> " +
-          methodBlocks.get(absoluteFileName)
-        );
-        fileName =
-          fileName +
-          "-" +
-          methodBlocks.get(absoluteFileName).toString() +
-          ".json";
-        methodBlocks.put(
-          absoluteFileName,
-          methodBlocks.get(absoluteFileName) + 1
-        );
-      } else {
-        log("No key yet: " + absoluteFileName);
-        fileName = fileName + ".json";
-        methodBlocks.put(absoluteFileName, 1);
-      }
+      String fileName = file.getPath();
 
       FileWriter output = new FileWriter(fileName);
 
