@@ -20,7 +20,7 @@
       "elementNameBefore": "org.eclipse.jgit/src/org.eclipse.jgit.transport.UploadPack#sendPack(boolean)$if(834-846)",
       "elementFileAfter": "org.eclipse.jgit/src/org/eclipse/jgit/transport/UploadPack.java",
       "elementNameAfter": "org.eclipse.jgit/src/org.eclipse.jgit.transport.UploadPack#sendPack(boolean)$if(834-846)",
-      "comment": "Extract Method private sendPack(sideband boolean) : void extracted from private sendPack() : void in class org.eclipse.jgit.transport.UploadPack"
+      "comment": "new block"
     }
   ]
 }
