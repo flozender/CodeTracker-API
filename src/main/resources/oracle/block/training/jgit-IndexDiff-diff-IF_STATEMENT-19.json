@@ -67,7 +67,7 @@
       "commitTime": 1280934200,
       "changeType": "expression change",
       "elementFileBefore": "org.eclipse.jgit/src/org/eclipse/jgit/lib/IndexDiff.java",
-      "elementNameBefore": "org.eclipse.jgit/src/org.eclipse.jgit.lib.IndexDiff#diff()$if(115-125)",
+      "elementNameBefore": "org.eclipse.jgit/src/org.eclipse.jgit.lib.IndexDiff#diff()$if(116-124)",
       "elementFileAfter": "org.eclipse.jgit/src/org/eclipse/jgit/lib/IndexDiff.java",
       "elementNameAfter": "org.eclipse.jgit/src/org.eclipse.jgit.lib.IndexDiff#diff()$if(189-199)"
     },
@@ -77,7 +77,7 @@
       "commitTime": 1280934200,
       "changeType": "body change",
       "elementFileBefore": "org.eclipse.jgit/src/org/eclipse/jgit/lib/IndexDiff.java",
-      "elementNameBefore": "org.eclipse.jgit/src/org.eclipse.jgit.lib.IndexDiff#diff()$if(115-125)",
+      "elementNameBefore": "org.eclipse.jgit/src/org.eclipse.jgit.lib.IndexDiff#diff()$if(116-124)",
       "elementFileAfter": "org.eclipse.jgit/src/org/eclipse/jgit/lib/IndexDiff.java",
       "elementNameAfter": "org.eclipse.jgit/src/org.eclipse.jgit.lib.IndexDiff#diff()$if(189-199)"
     },
@@ -87,9 +87,9 @@
       "commitTime": 1254268023,
       "changeType": "introduced",
       "elementFileBefore": "org.eclipse.jgit/src/org/eclipse/jgit/lib/IndexDiff.java",
-      "elementNameBefore": "org.eclipse.jgit/src/org.eclipse.jgit.lib.IndexDiff#diff()$if(109-119)",
+      "elementNameBefore": "org.eclipse.jgit/src/org.eclipse.jgit.lib.IndexDiff#diff()$if(110-118)",
       "elementFileAfter": "org.eclipse.jgit/src/org/eclipse/jgit/lib/IndexDiff.java",
-      "elementNameAfter": "org.eclipse.jgit/src/org.eclipse.jgit.lib.IndexDiff#diff()$if(109-119)",
+      "elementNameAfter": "org.eclipse.jgit/src/org.eclipse.jgit.lib.IndexDiff#diff()$if(110-118)",
       "comment": "Initial commit!"
     }
   ]

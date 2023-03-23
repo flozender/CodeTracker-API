@@ -25,22 +25,12 @@
       "parentCommitId": "f9c9fe52266c7a64a6a72eb90287b6e872c142e9",
       "commitId": "3271bcee2bc37b45da048cbd64c29c3cba1ea16b",
       "commitTime": 1297632743,
-      "changeType": "expression change",
-      "elementFileBefore": "org.eclipse.jgit/src/org/eclipse/jgit/transport/UploadPack.java",
-      "elementNameBefore": "org.eclipse.jgit/src/org.eclipse.jgit.transport.UploadPack#sendPack()$catch(677-679)",
-      "elementFileAfter": "org.eclipse.jgit/src/org/eclipse/jgit/transport/UploadPack.java",
-      "elementNameAfter": "org.eclipse.jgit/src/org.eclipse.jgit.transport.UploadPack#sendPack()$if(690-691)"
-    },
-    {
-      "parentCommitId": "0",
-      "commitId": "1a6964c8274c50f0253db75f010d78ef0e739343",
-      "commitTime": 1254268023,
       "changeType": "introduced",
       "elementFileBefore": "org.eclipse.jgit/src/org/eclipse/jgit/transport/UploadPack.java",
-      "elementNameBefore": "org.eclipse.jgit/src/org.eclipse.jgit.transport.UploadPack#sendPack()$catch(467-469)",
+      "elementNameBefore": "org.eclipse.jgit/src/org.eclipse.jgit.transport.UploadPack#sendPack()$if(690-691)",
       "elementFileAfter": "org.eclipse.jgit/src/org/eclipse/jgit/transport/UploadPack.java",
-      "elementNameAfter": "org.eclipse.jgit/src/org.eclipse.jgit.transport.UploadPack#sendPack()$catch(467-469)",
-      "comment": "Initial commit!"
+      "elementNameAfter": "org.eclipse.jgit/src/org.eclipse.jgit.transport.UploadPack#sendPack()$if(690-691)",
+      "comment": "new block"
     }
   ]
 }
