@@ -82,13 +82,6 @@ public class AttributeOracleGenerator {
           }
           Method method = (Method) codeElement;
 
-          List<String> methodCommits = expectedChanges
-            .stream()
-            .map(historyObject -> historyObject.get("commitId"))
-            .collect(Collectors.toList());
-
-          Collections.reverse(methodCommits);
-
           VariableDeclarationContainer operation = method.getUmlOperation();
 
           UMLModel umlModel = BaseTracker.getUMLModel(
