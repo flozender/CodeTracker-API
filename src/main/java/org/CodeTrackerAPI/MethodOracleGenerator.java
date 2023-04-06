@@ -81,24 +81,19 @@ public class MethodOracleGenerator {
                     History<Method> methodHistory = methodTracker.track();
 
                     List<History.HistoryInfo<Method>> methodHistoryInfo = methodHistory.getHistoryInfoList();
-                    History.HistoryInfo<Method> firstChange = methodHistoryInfo.get(0);
-                    List<Map<String, String>> originalChanges = expectedChanges
-                            .stream()
-                            .filter(historyBlock -> historyBlock.get("commitId").equals(firstChange.getCommitId()))
-                            .collect(Collectors.toList());
-                    if (originalChanges.size() == 0 || !originalChanges.get(0).get("changeType").equals("introduced") || expectedChanges.size() != methodHistoryInfo.size()) {
-                            createOracleEntry(
-                                    repository,
-                                    repoName,
-                                    repositoryWebURL,
-                                    filePath,
-                                    methodJSON,
-                                    commitId,
-                                    methodHistoryInfo,
-                                    oracleType,
-                                    file.getName()
-                            );
-                    }
+                    
+                    createOracleEntry(
+                            repository,
+                            repoName,
+                            repositoryWebURL,
+                            filePath,
+                            methodJSON,
+                            commitId,
+                            methodHistoryInfo,
+                            oracleType,
+                            file.getName()
+                    );
+
                 }
             } catch (Exception e) {
                 System.out.println("1 - " + e);
