@@ -31,7 +31,7 @@ import org.refactoringminer.util.GitServiceImpl;
 public class AttributeOracleGenerator {
 
   public static void main(String[] args) {
-    String oracleType = "test";
+    String oracleType = "training";
     File folder = new File("src/main/resources/oracle/method/" + oracleType);
     File[] listOfFiles = folder.listFiles();
 
@@ -121,16 +121,10 @@ public class AttributeOracleGenerator {
                     attribute.getLocationInfo().getStartLine()
                   )
                   .build();
-                GitRepository iRepository = new GitRepository(repository);
 
-                Attribute attr = Attribute.of(
-                        attribute,
-                        iRepository.getVersion(commitId)
-                );
                 History<Attribute> attributeHistory = attributeTracker.track();
 
                 List<History.HistoryInfo<Attribute>> attributeHistoryInfo = attributeHistory.getHistoryInfoList();
-                System.out.println("History is " + attributeHistoryInfo);
                 createOracleEntry(
                   repository,
                   repoName,
@@ -235,11 +229,6 @@ public class AttributeOracleGenerator {
       "\"filePath\": \"" +
       filePath +
       "\",";
-
-    Attribute attribute = Attribute.of(
-            umlAttribute,
-            iRepository.getVersion(commitId)
-    );
     
     String sourceFolder = Util.getPath(umlAttribute.getLocationInfo().getFilePath(), umlAttribute.getClassName());
     String className = umlAttribute.getClassName();
@@ -265,7 +254,7 @@ public class AttributeOracleGenerator {
     try {
       // Creates a Writer using FileWriter
       String fileName =
-        "src/main/resources/oracle/attribute/" +
+        "src/main/resources/oracle/new-attribute/" +
         oracleType +
         "/" +
         repositoryName +

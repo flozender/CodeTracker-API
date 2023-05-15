@@ -10,7 +10,6 @@
     {
       "parentCommitId": "79d78697826ec61757658efc8398c567b9d6fe5e",
       "commitId": "2c714e1fbcbb0ad619d4a86a6230e32a8358dce2",
-      "altCommitId": "932ad7dd2b82feeeada8eaff815430b47de47795",
       "commitTime": 1483442385,
       "changeType": "body change",
       "elementFileBefore": "pmd-java/src/main/java/net/sourceforge/pmd/lang/java/symboltable/SourceFileScope.java",
@@ -36,7 +35,8 @@
       "elementFileBefore": "pmd-java/src/main/java/net/sourceforge/pmd/lang/java/symboltable/SourceFileScope.java",
       "elementNameBefore": "pmd-java/src/main/java/net.sourceforge.pmd.lang.java.symboltable.SourceFileScope#getSubTypes(String, Scope)",
       "elementFileAfter": "pmd-java/src/main/java/net/sourceforge/pmd/lang/java/symboltable/SourceFileScope.java",
-      "elementNameAfter": "pmd-java/src/main/java/net.sourceforge.pmd.lang.java.symboltable.SourceFileScope#getSubTypes(String, Scope)"
+      "elementNameAfter": "pmd-java/src/main/java/net.sourceforge.pmd.lang.java.symboltable.SourceFileScope#getSubTypes(String, Scope)",
+      "comment": "Change Return Type Set<String> to Map<String,Node> in method private getSubTypes(qualifyingName String, subType Scope) : Map<String,Node> from class net.sourceforge.pmd.lang.java.symboltable.SourceFileScope"
     },
     {
       "parentCommitId": "70723b16bc36a1f34a64296b216033bf89660cd9",
@@ -56,7 +56,8 @@
       "elementFileBefore": "pmd-java/src/main/java/net/sourceforge/pmd/lang/java/symboltable/SourceFileScope.java",
       "elementNameBefore": "pmd-java/src/main/java/net.sourceforge.pmd.lang.java.symboltable.SourceFileScope#getSubTypes(String, Scope)",
       "elementFileAfter": "pmd-java/src/main/java/net/sourceforge/pmd/lang/java/symboltable/SourceFileScope.java",
-      "elementNameAfter": "pmd-java/src/main/java/net.sourceforge.pmd.lang.java.symboltable.SourceFileScope#getSubTypes(String, Scope)"
+      "elementNameAfter": "pmd-java/src/main/java/net.sourceforge.pmd.lang.java.symboltable.SourceFileScope#getSubTypes(String, Scope)",
+      "comment": "new method"
     }
   ]
 }
