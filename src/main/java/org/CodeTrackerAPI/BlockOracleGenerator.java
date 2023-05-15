@@ -169,6 +169,7 @@ public class BlockOracleGenerator {
         );
 
         String repoName = (String) methodJSON.get("repositoryName");
+        String repoOwner = methodJSON.get("repositoryWebURL").toString().split("/")[3];
         String repositoryWebURL = (String) methodJSON.get("repositoryWebURL");
         String commitId = (String) methodJSON.get("startCommitId");
         String filePath = (String) methodJSON.get("filePath");
@@ -182,7 +183,7 @@ public class BlockOracleGenerator {
 
         try (
           Repository repository = gitService.cloneIfNotExists(
-            "tmp/" + repoName,
+            "tmp/" + repoOwner + "/" + repoName,
             repositoryWebURL
           )
         ) {
