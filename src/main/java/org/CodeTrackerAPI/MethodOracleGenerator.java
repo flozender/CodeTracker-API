@@ -31,7 +31,7 @@ import org.refactoringminer.util.GitServiceImpl;
 public class MethodOracleGenerator {
 
     public static void main(String[] args) {
-        String oracleType = "training";
+        String oracleType = "test";
         File folder = new File("src/main/resources/oracle/method/" + oracleType);
         File[] listOfFiles = folder.listFiles();
 
