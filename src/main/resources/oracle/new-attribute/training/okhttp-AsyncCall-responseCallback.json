@@ -1,0 +1,22 @@
+{
+  "repositoryName": "okhttp",
+  "repositoryWebURL": "https://github.com/square/okhttp.git",
+  "startCommitId": "5224f3045ba9b171fce521777edf389f9206173c",
+  "filePath": "okhttp/src/main/java/okhttp3/RealCall.java",
+  "attributeName": "responseCallback",
+  "attributeKey": "okhttp/src/main/java/okhttp3.RealCall.AsyncCall@responseCallback:Callback(125)",
+  "attributeDeclarationLine": 125,
+  "expectedChanges": [
+    {
+      "parentCommitId": "6aff563d5a730d49ced0663235b16331d6716f15",
+      "commitId": "fb700e20af6fa71a20656cd240df4df3c8f15976",
+      "commitTime": 1450904130,
+      "changeType": "container change",
+      "elementFileBefore": "okhttp/src/main/java/okhttp3/Call.java",
+      "elementNameBefore": "okhttp/src/main/java/okhttp3.Call.AsyncCall@(final)(private)responseCallback:Callback(139)",
+      "elementFileAfter": "okhttp/src/main/java/okhttp3/RealCall.java",
+      "elementNameAfter": "okhttp/src/main/java/okhttp3.RealCall.AsyncCall@(final)(private)responseCallback:Callback(93)",
+      "comment": "Move Class okhttp3.Call.AsyncCall moved to okhttp3.RealCall.AsyncCall"
+    }
+  ]
+}
