@@ -41,17 +41,6 @@
       "comment": "Move Source Folder hibernate-search-engine to engine"
     },
     {
-      "parentCommitId": "b2f51e8de0a8730c51317a4263d2bd578941e0aa",
-      "commitId": "b569d66ddca5855b5ee9811171ed34a48544cad6",
-      "commitTime": 1340280556,
-      "changeType": "introduced",
-      "elementFileBefore": "hibernate-search-engine/src/main/java/org/hibernate/search/spatial/DistanceFilter.java",
-      "elementNameBefore": "hibernate-search-engine/src/main/java/org.hibernate.search.spatial.DistanceFilter@(private)radius:double(45)",
-      "elementFileAfter": "hibernate-search-engine/src/main/java/org/hibernate/search/spatial/DistanceFilter.java",
-      "elementNameAfter": "hibernate-search-engine/src/main/java/org.hibernate.search.spatial.DistanceFilter@(private)radius:double(45)",
-      "comment": "added with new class"
-    },
-    {
       "parentCommitId": "b84beccaa4d29c276f5386a966e37e9ea9ec2254",
       "commitId": "c45fbb6b6cfa5ac5bfb995267761aedff19d4b9b",
       "commitTime": 1340280556,
@@ -61,6 +50,17 @@
       "elementFileAfter": "hibernate-search-engine/src/main/java/org/hibernate/search/spatial/impl/DistanceFilter.java",
       "elementNameAfter": "hibernate-search-engine/src/main/java/org.hibernate.search.spatial.impl.DistanceFilter@(private)radius:double(45)",
       "comment": "Move Class org.hibernate.search.spatial.DistanceFilter moved to org.hibernate.search.spatial.impl.DistanceFilter"
+    },
+    {
+      "parentCommitId": "b2f51e8de0a8730c51317a4263d2bd578941e0aa",
+      "commitId": "b569d66ddca5855b5ee9811171ed34a48544cad6",
+      "commitTime": 1340280556,
+      "changeType": "introduced",
+      "elementFileBefore": "hibernate-search-engine/src/main/java/org/hibernate/search/spatial/DistanceFilter.java",
+      "elementNameBefore": "hibernate-search-engine/src/main/java/org.hibernate.search.spatial.DistanceFilter@(private)radius:double(45)",
+      "elementFileAfter": "hibernate-search-engine/src/main/java/org/hibernate/search/spatial/DistanceFilter.java",
+      "elementNameAfter": "hibernate-search-engine/src/main/java/org.hibernate.search.spatial.DistanceFilter@(private)radius:double(45)",
+      "comment": "added with new class"
     }
   ]
 }
