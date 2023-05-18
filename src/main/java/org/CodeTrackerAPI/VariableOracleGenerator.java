@@ -223,6 +223,7 @@ public class VariableOracleGenerator {
       filePath +
       "\",";
 
+    Variable variable = Variable.of(variableDeclaration, method);
 
     response =
       response +
@@ -239,7 +240,7 @@ public class VariableOracleGenerator {
       variableDeclaration.getVariableName() +
       "\"," +
       "\"variableKey\": \"" +
-      variableDeclaration +
+      variable.getName() +
       "\"," +
       "\"variableStartLine\": " +
       variableDeclaration.getLocationInfo().getStartLine() +
