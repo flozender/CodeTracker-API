@@ -1,12 +1,12 @@
 {
-  "repositoryName": "apache\\commons-lang",
+  "repositoryName": "commons-lang",
   "repositoryWebURL": "https://github.com/apache/commons-lang.git",
   "filePath": "src/main/java/org/apache/commons/lang3/RandomStringUtils.java",
   "functionName": "random",
   "functionKey": "src/main/java/org.apache.commons.lang3.RandomStringUtils#random(int, int, int, boolean, boolean, char[], Random)",
-  "functionStartLine": 348,
+  "functionStartLine": 315,
   "variableName": "builder",
-  "variableKey": "src/main/java/org.apache.commons.lang3.RandomStringUtils#random(int, int, int, boolean, boolean, char[], Random)$builder(385)",
+  "variableKey": "src/main/java/org.apache.commons.lang3.RandomStringUtils#random(int, int, int, boolean, boolean, char[], Random)$builder:StringBuilder(385)",
   "variableStartLine": 385,
   "startCommitId": "a36c903d4f1065bc59f5e6d2bb0f9d92a5e71d83",
   "expectedChanges": [
@@ -80,12 +80,23 @@
       "parentCommitId": "b0082bc60670ee42eaa135e8d89be2eb696103b2",
       "commitId": "c79adcc3f0b99cb838155909a989fbd7bd71e600",
       "commitTime": 1126346861,
-      "changeType": "introduced",
+      "changeType": "type change",
       "elementFileBefore": "src/java/org/apache/commons/lang/RandomStringUtils.java",
-      "elementNameBefore": "src/java/org.apache.commons.lang.RandomStringUtils#random(int, int, int, boolean, boolean, char[], Random)$buffer:char[](234)",
+      "elementNameBefore": "src/java/org.apache.commons.lang.RandomStringUtils#random(int, int, int, boolean, boolean, char[], Random)$buffer:StringBuffer(234)",
       "elementFileAfter": "src/java/org/apache/commons/lang/RandomStringUtils.java",
       "elementNameAfter": "src/java/org.apache.commons.lang.RandomStringUtils#random(int, int, int, boolean, boolean, char[], Random)$buffer:char[](234)",
-      "comment": "new variable"
+      "comment": "Change Variable Type buffer : StringBuffer to buffer : char[] in method public random(count int, start int, end int, letters boolean, numbers boolean, chars char[], random Random) : String from class org.apache.commons.lang.RandomStringUtils"
+    },
+    {
+      "parentCommitId": "0c7e480658f634a69fa6cff97783e1e1de2edc77",
+      "commitId": "d9bc18e804bf754b8cc11c4ce61a5dc1b9cda242",
+      "commitTime": 1044157573,
+      "changeType": "introduced",
+      "elementFileBefore": "src/java/org/apache/commons/lang/RandomStringUtils.java",
+      "elementNameBefore": "src/java/org.apache.commons.lang.RandomStringUtils#random(int, int, int, boolean, boolean, char[], Random)$buffer:StringBuffer(260)",
+      "elementFileAfter": "src/java/org/apache/commons/lang/RandomStringUtils.java",
+      "elementNameAfter": "src/java/org.apache.commons.lang.RandomStringUtils#random(int, int, int, boolean, boolean, char[], Random)$buffer:StringBuffer(260)",
+      "comment": "Extract Method public random(count int, start int, end int, letters boolean, numbers boolean, set char[], random Random) : String extracted from public random(count int, start int, end int, letters boolean, numbers boolean, set char[]) : String in class org.apache.commons.lang.RandomStringUtils"
     }
   ]
 }
