@@ -36,7 +36,7 @@ public class BlockOracleGenerator {
     System.out.println("Generating Block Oracle...");
     try {
       // Reset log file
-      File logFile = new File("src/main/resources/oracle/block/log.txt");
+      File logFile = new File("src/main/resources/oracle/new-block/log.txt");
       FileWriter logger = new FileWriter(logFile);
       logger.write(
         new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date()) +
@@ -51,19 +51,19 @@ public class BlockOracleGenerator {
       System.exit(1);
     }
     File trueFolder = new File(
-      "src/main/resources/oracle/block/" + oracleType + "/true"
+      "src/main/resources/oracle/new-block/" + oracleType + "/true"
     );
     File falseFolder = new File(
-      "src/main/resources/oracle/block/" + oracleType + "/false"
+      "src/main/resources/oracle/new-block/" + oracleType + "/false"
     );
     File validFolder = new File(
-      "src/main/resources/oracle/block/" + oracleType + "/valid"
+      "src/main/resources/oracle/new-block/" + oracleType + "/valid"
     );
     File invalidFolder = new File(
-      "src/main/resources/oracle/block/" + oracleType + "/invalid"
+      "src/main/resources/oracle/new-block/" + oracleType + "/invalid"
     );
     File invalidReportedFolder = new File(
-      "src/main/resources/oracle/block/" + oracleType + "/invalid/reported"
+      "src/main/resources/oracle/new-block/" + oracleType + "/invalid/reported"
     );
 
     HashMap<String, Integer> validFiles = new HashMap<String, Integer>();
@@ -141,7 +141,7 @@ public class BlockOracleGenerator {
 
     try {
       FileUtils.cleanDirectory(
-        new File("src/main/resources/oracle/block/" + oracleType)
+        new File("src/main/resources/oracle/new-block/" + oracleType)
       );
       trueFolder.mkdirs();
       falseFolder.mkdirs();
@@ -466,7 +466,7 @@ public class BlockOracleGenerator {
     try {
       // Creates a Writer using FileWriter
       String fileName =
-        "src/main/resources/oracle/block/" +
+        "src/main/resources/oracle/new-block/" +
         oracleType +
         "/" +
         folderName +
@@ -542,7 +542,7 @@ public class BlockOracleGenerator {
 
   public static void log(String message) {
     try {
-      File logFile = new File("src/main/resources/oracle/block/log.txt");
+      File logFile = new File("src/main/resources/oracle/new-block/log.txt");
       FileWriter logger = new FileWriter(logFile, true);
       logger.write(message + "\r\n");
       logger.close();
