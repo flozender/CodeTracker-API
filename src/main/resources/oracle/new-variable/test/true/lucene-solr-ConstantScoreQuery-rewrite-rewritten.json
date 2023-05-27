@@ -1,0 +1,36 @@
+{
+  "repositoryName": "lucene-solr",
+  "repositoryWebURL": "https://github.com/apache/lucene-solr.git",
+  "filePath": "lucene/core/src/java/org/apache/lucene/search/ConstantScoreQuery.java",
+  "functionName": "rewrite",
+  "functionKey": "lucene/core/src/java/org.apache.lucene.search.ConstantScoreQuery#rewrite(IndexReader)",
+  "functionStartLine": 48,
+  "variableName": "rewritten",
+  "variableKey": "lucene/core/src/java/org.apache.lucene.search.ConstantScoreQuery#rewrite(IndexReader)$rewritten:Query(50)",
+  "variableStartLine": 50,
+  "startCommitId": "38bf976cd4b9e324c21664bd7ae3d554df803705",
+  "expectedChanges": [
+    {
+      "parentCommitId": "0f7b913b07a2769ebf1ed5e8748fdda3ff077f7f",
+      "commitId": "82eff4eb4de76ff641ddd603d9b8558a4277644d",
+      "commitTime": 1423843143,
+      "changeType": "modifier change",
+      "elementFileBefore": "lucene/core/src/java/org/apache/lucene/search/ConstantScoreQuery.java",
+      "elementNameBefore": "lucene/core/src/java/org.apache.lucene.search.ConstantScoreQuery#rewrite(IndexReader)$rewritten:Query(89)",
+      "elementFileAfter": "lucene/core/src/java/org/apache/lucene/search/ConstantScoreQuery.java",
+      "elementNameAfter": "lucene/core/src/java/org.apache.lucene.search.ConstantScoreQuery#rewrite(IndexReader)$rewritten:Query(57)",
+      "comment": "Remove Variable Modifier final in variable rewritten : Query in method public rewrite(reader IndexReader) : Query from class org.apache.lucene.search.ConstantScoreQuery"
+    },
+    {
+      "parentCommitId": "26999c855f71ea9a92cf9b98057693b52f295865",
+      "commitId": "e45d67083e642ad21c9dc337637b53d55da94964",
+      "commitTime": 1382778752,
+      "changeType": "introduced",
+      "elementFileBefore": "lucene/core/src/java/org/apache/lucene/search/ConstantScoreQuery.java",
+      "elementNameBefore": "lucene/core/src/java/org.apache.lucene.search.ConstantScoreQuery#rewrite(IndexReader)$rewritten:Query(88)",
+      "elementFileAfter": "lucene/core/src/java/org/apache/lucene/search/ConstantScoreQuery.java",
+      "elementNameAfter": "lucene/core/src/java/org.apache.lucene.search.ConstantScoreQuery#rewrite(IndexReader)$rewritten:Query(88)",
+      "comment": "new variable"
+    }
+  ]
+}
