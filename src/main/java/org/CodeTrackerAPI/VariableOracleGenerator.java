@@ -331,7 +331,7 @@ public class VariableOracleGenerator {
 
   public static void log(String message) {
     try {
-      File logFile = new File("src/main/resources/oracle/new-attribute/log.txt");
+      File logFile = new File("src/main/resources/oracle/new-variable/log.txt");
       FileWriter logger = new FileWriter(logFile, true);
       logger.write(message + "\r\n");
       logger.close();
