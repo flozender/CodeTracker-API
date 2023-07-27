@@ -1,0 +1,28 @@
+2023-07-27 16:14:16 Started oracle generation
+Block test Data
+Data is written to file: src\main\resources\oracle\block\test\commons-io-FilenameUtils-wildcardMatch-DO_STATEMENT.json
+Data is written to file: src\main\resources\oracle\block\test\commons-io-FilenameUtils-wildcardMatch-IF_STATEMENT-1.json
+Data is written to file: src\main\resources\oracle\block\test\commons-io-FilenameUtils-wildcardMatch-IF_STATEMENT-10.json
+Data is written to file: src\main\resources\oracle\block\test\commons-io-FilenameUtils-wildcardMatch-IF_STATEMENT-11.json
+Data is written to file: src\main\resources\oracle\block\test\commons-io-FilenameUtils-wildcardMatch-IF_STATEMENT-12.json
+Data is written to file: src\main\resources\oracle\block\test\commons-io-FilenameUtils-wildcardMatch-IF_STATEMENT-3.json
+Data is written to file: src\main\resources\oracle\block\test\commons-io-FilenameUtils-wildcardMatch-IF_STATEMENT-5.json
+Data is written to file: src\main\resources\oracle\block\test\commons-io-FilenameUtils-wildcardMatch-IF_STATEMENT-6.json
+Data is written to file: src\main\resources\oracle\block\test\commons-io-FilenameUtils-wildcardMatch-IF_STATEMENT-7.json
+Data is written to file: src\main\resources\oracle\block\test\commons-io-FilenameUtils-wildcardMatch-IF_STATEMENT-8.json
+Data is written to file: src\main\resources\oracle\block\test\commons-io-FilenameUtils-wildcardMatch-IF_STATEMENT-9.json
+Data is written to file: src\main\resources\oracle\block\test\commons-io-FilenameUtils-wildcardMatch-IF_STATEMENT.json
+Data is written to file: src\main\resources\oracle\block\test\commons-io-FilenameUtils-wildcardMatch-WHILE_STATEMENT.json
+Data is written to file: src\main\resources\oracle\block\test\lucene-solr-QueryParserBase-addClause-IF_STATEMENT-1.json
+Data is written to file: src\main\resources\oracle\block\test\lucene-solr-QueryParserBase-addClause-IF_STATEMENT-2.json
+Data is written to file: src\main\resources\oracle\block\test\lucene-solr-QueryParserBase-addClause-IF_STATEMENT-3.json
+Data is written to file: src\main\resources\oracle\block\test\lucene-solr-QueryParserBase-addClause-IF_STATEMENT-4.json
+Data is written to file: src\main\resources\oracle\block\test\lucene-solr-QueryParserBase-addClause-IF_STATEMENT-5.json
+Data is written to file: src\main\resources\oracle\block\test\lucene-solr-QueryParserBase-addClause-IF_STATEMENT-6.json
+Data is written to file: src\main\resources\oracle\block\test\lucene-solr-QueryParserBase-addClause-IF_STATEMENT-7.json
+Data is written to file: src\main\resources\oracle\block\test\lucene-solr-QueryParserBase-addClause-IF_STATEMENT-8.json
+Data is written to file: src\main\resources\oracle\block\test\lucene-solr-QueryParserBase-addClause-IF_STATEMENT-9.json
+Data is written to file: src\main\resources\oracle\block\test\lucene-solr-QueryParserBase-addClause-IF_STATEMENT.json
+Data is written to file: src\main\resources\oracle\block\test\spring-boot-DefaultErrorAttributes-addErrorMessage-IF_STATEMENT-1.json
+Data is written to file: src\main\resources\oracle\block\test\spring-boot-DefaultErrorAttributes-addErrorMessage-IF_STATEMENT.json
+2023-07-27 16:16:34 Generation finished successfully.
