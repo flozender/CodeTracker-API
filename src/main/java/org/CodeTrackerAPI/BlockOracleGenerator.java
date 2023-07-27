@@ -36,7 +36,7 @@ public class BlockOracleGenerator {
     System.out.println("Generating Block Oracle...");
     try {
       // Reset log file
-      File logFile = new File("src/main/resources/oracle/block/log.txt");
+      File logFile = new File("src/main/resources/oracle/new-block/log.txt");
       FileWriter logger = new FileWriter(logFile);
       logger.write(
         new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date()) +
@@ -272,7 +272,7 @@ public class BlockOracleGenerator {
 
   public static void log(String message) {
     try {
-      File logFile = new File("src/main/resources/oracle/block/log.txt");
+      File logFile = new File("src/main/resources/oracle/new-block/log.txt");
       FileWriter logger = new FileWriter(logFile, true);
       logger.write(message + "\r\n");
       logger.close();

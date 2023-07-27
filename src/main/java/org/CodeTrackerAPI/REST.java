@@ -228,6 +228,9 @@ public class REST {
                     "\"functionStartLine\": " +
                     block.getOperation().getLocationInfo().getStartLine() +
                     "," +
+                    "\"blockKey\": \"" +
+                    codeElement.getName() +
+                    "\"," +
                     "\"blockStartLine\": " +
                     codeElement.getLocation().getStartLine() +
                     "," +
@@ -559,7 +562,7 @@ public class REST {
                     new File(
                       "src/main/resources/oracle/" +
                       oracleElementType +
-                      "/training/invalid/test-reported"
+                      "/training/invalid/reported"
                     );
                 } else {
                   dir =
@@ -884,9 +887,11 @@ public class REST {
             evolutionHook = change.getEvolutionHook().get().getElementBefore();
           }
         }
+        IRepository gitRepository = new GitRepository(repository);
 
         CTHAttribute currentElement = new CTHAttribute(
           historyInfo.getCommitId(),
+          gitRepository.getParentId(historyInfo.getCommitId()),
           LocalDateTime
             .ofEpochSecond(historyInfo.getCommitTime(), 0, ZoneOffset.UTC)
             .toString(),
@@ -1189,7 +1194,17 @@ public class REST {
   // CodeTracker History Method Element
   private static class CTHAttribute {
 
+    String parentCommitId;
     String commitId;
+    Long commitTime;
+    //entries for easy oracle corrections
+    String changeType;
+    String elementNameBefore;
+    String elementFileBefore;
+    String elementNameAfter;
+    String elementFileAfter;
+    String comment;
+
     String date;
     String before;
     Integer beforeLine;
@@ -1198,7 +1213,6 @@ public class REST {
     Integer afterLine;
     String afterPath;
     String committer;
-    Long commitTime;
     ArrayList<String> changes;
     String evolutionHook;
     Integer evolutionHookLine;
@@ -1206,8 +1220,11 @@ public class REST {
     String evolutionHookCommit;
     String type = "attribute";
 
+
+
     private CTHAttribute(
       String commitId,
+      String parentCommitId,
       String date,
       CodeElement before,
       CodeElement after,
@@ -1217,7 +1234,13 @@ public class REST {
       Boolean evolutionPresent,
       CodeElement evolutionHook
     ) {
+
+      this.parentCommitId = parentCommitId;
       this.commitId = commitId;
+      this.commitTime = commitTime;
+      this.changes = changes;
+      this.changeType = changes.get(0).split(": ", 2)[0].toLowerCase();
+      this.comment = changes.get(0).split(": ", 2)[1].replaceAll("\t", " ");
       this.date = date;
 
       this.before = before.getName();
@@ -1229,7 +1252,11 @@ public class REST {
       this.afterPath = after.getLocation().getFilePath();
 
       this.committer = committer;
-      this.changes = changes;
+
+      this.elementFileBefore = this.beforePath;
+      this.elementNameBefore = this.before;
+      this.elementFileAfter = this.afterPath;
+      this.elementNameAfter = this.after;
 
       if (evolutionPresent) {
         this.evolutionHook = evolutionHook.getName();
