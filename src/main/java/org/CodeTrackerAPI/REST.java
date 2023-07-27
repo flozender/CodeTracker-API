@@ -228,6 +228,9 @@ public class REST {
                     "\"functionStartLine\": " +
                     block.getOperation().getLocationInfo().getStartLine() +
                     "," +
+                    "\"blockKey\": \"" +
+                    codeElement.getName() +
+                    "\"," +
                     "\"blockStartLine\": " +
                     codeElement.getLocation().getStartLine() +
                     "," +
@@ -559,7 +562,7 @@ public class REST {
                     new File(
                       "src/main/resources/oracle/" +
                       oracleElementType +
-                      "/training/invalid/test-reported"
+                      "/training/invalid/reported"
                     );
                 } else {
                   dir =
