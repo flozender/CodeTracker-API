@@ -678,9 +678,10 @@ public class REST {
             evolutionHook = change.getEvolutionHook().get().getElementBefore();
           }
         }
-
+        IRepository gitRepository = new GitRepository(repository);
         CTHMethod currentElement = new CTHMethod(
           historyInfo.getCommitId(),
+          gitRepository.getParentId(historyInfo.getCommitId()),
           LocalDateTime
             .ofEpochSecond(historyInfo.getCommitTime(), 0, ZoneOffset.UTC)
             .toString(),
@@ -1037,6 +1038,7 @@ public class REST {
                 change.getEvolutionHook().get().getElementBefore();
             }
           }
+          
           CTHBlock currentElement = new CTHBlock(
             historyInfo.getCommitId(),
             gitRepository.getParentId(historyInfo.getCommitId()),
@@ -1081,6 +1083,14 @@ public class REST {
 
   // CodeTracker History Method Element
   private static class CTHMethod {
+    String parentCommitId;
+    //entries for easy oracle corrections
+    String changeType;
+    String elementFileBefore;
+    String elementNameBefore;
+    String elementFileAfter;
+    String elementNameAfter;
+    String comment;
 
     String commitId;
     String date;
@@ -1102,6 +1112,7 @@ public class REST {
 
     private CTHMethod(
       String commitId,
+      String parentCommitId,
       String date,
       CodeElement before,
       CodeElement after,
@@ -1111,7 +1122,16 @@ public class REST {
       Boolean evolutionPresent,
       CodeElement evolutionHook
     ) {
+      this.parentCommitId = parentCommitId;
       this.commitId = commitId;
+      this.commitTime = commitTime;
+      this.changes = changes;
+      this.changeType = changes.get(0).split(": ", 2)[0].toLowerCase();
+      try{
+        this.comment = changes.get(0).split(": ", 2)[1].replaceAll("\t", " ");
+      } catch(Exception e){
+        this.comment = null;
+      }
       this.date = date;
 
       this.before = before.getName();
@@ -1123,7 +1143,11 @@ public class REST {
       this.afterPath = after.getLocation().getFilePath();
 
       this.committer = committer;
-      this.changes = changes;
+      
+      this.elementFileBefore = this.beforePath;
+      this.elementNameBefore = this.before;
+      this.elementFileAfter = this.afterPath;
+      this.elementNameAfter = this.after;
 
       if (evolutionPresent) {
         this.evolutionHook =
