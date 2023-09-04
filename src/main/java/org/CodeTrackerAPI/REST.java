@@ -197,6 +197,12 @@ public class REST {
                     "\"," +
                     "\"functionStartLine\": " +
                     variable.getOperation().getLocationInfo().getStartLine() +
+                    "," +
+                    "\"variableKey\": \"" +
+                    variable.getName() +
+                    "\"," +
+                    "\"variableStartLine\": " +
+                    variable.getLocation().getStartLine() +
                     ",";
                   changes =
                     CTVariable(
@@ -786,9 +792,12 @@ public class REST {
             evolutionHook = change.getEvolutionHook().get().getElementBefore();
           }
         }
+        
+        IRepository gitRepository = new GitRepository(repository);
 
         CTHVariable currentElement = new CTHVariable(
           historyInfo.getCommitId(),
+          gitRepository.getParentId(historyInfo.getCommitId()),
           LocalDateTime
             .ofEpochSecond(historyInfo.getCommitTime(), 0, ZoneOffset.UTC)
             .toString(),
@@ -1161,8 +1170,17 @@ public class REST {
 
   // CodeTracker History Variable Element
   private static class CTHVariable {
-
+    String parentCommitId;
     String commitId;
+    Long commitTime;
+    String changeType;
+    String elementFileBefore;
+    String elementNameBefore;
+    String elementFileAfter;
+    String elementNameAfter;
+    String comment;
+
+
     String date;
     String before;
     Integer beforeLine;
@@ -1171,7 +1189,6 @@ public class REST {
     Integer afterLine;
     String afterPath;
     String committer;
-    Long commitTime;
     ArrayList<String> changes;
     String evolutionHook;
     Integer evolutionHookLine;
@@ -1181,6 +1198,7 @@ public class REST {
 
     private CTHVariable(
       String commitId,
+      String parentCommitId,
       String date,
       CodeElement before,
       CodeElement after,
@@ -1190,7 +1208,9 @@ public class REST {
       Boolean evolutionPresent,
       CodeElement evolutionHook
     ) {
+      this.parentCommitId = parentCommitId;
       this.commitId = commitId;
+      this.commitTime = commitTime;
       this.date = date;
 
       this.before = before.getName();
@@ -1200,7 +1220,13 @@ public class REST {
       this.after = after.getName();
       this.afterLine = after.getLocation().getStartLine();
       this.afterPath = after.getLocation().getFilePath();
-      System.out.println("ID: " + after.getIdentifierIgnoringVersion());
+
+      this.elementFileBefore = this.beforePath;
+      this.elementNameBefore = this.before;
+      this.elementFileAfter = this.afterPath;
+      this.elementNameAfter = this.after;
+      this.changeType = changes.get(0).split(": ", 2)[0].toLowerCase();
+      this.comment = changes.get(0).split(": ", 2)[1].replaceAll("\t", " ");
 
       this.committer = committer;
       this.changes = changes;
@@ -1215,13 +1241,12 @@ public class REST {
     }
   }
 
-  // CodeTracker History Method Element
+  // CodeTracker History Attribute Element
   private static class CTHAttribute {
-
+    //entries for easy oracle corrections
     String parentCommitId;
     String commitId;
     Long commitTime;
-    //entries for easy oracle corrections
     String changeType;
     String elementNameBefore;
     String elementFileBefore;
