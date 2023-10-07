@@ -1226,7 +1226,12 @@ public class REST {
       this.elementFileAfter = this.afterPath;
       this.elementNameAfter = this.after;
       this.changeType = changes.get(0).split(": ", 2)[0].toLowerCase();
-      this.comment = changes.get(0).split(": ", 2)[1].replaceAll("\t", " ");
+      try{
+        this.comment = changes.get(0).split(": ", 2)[1].replaceAll("\t", " ");
+      } catch(Exception e){
+        this.comment = null;
+      }
+
 
       this.committer = committer;
       this.changes = changes;
@@ -1248,10 +1253,10 @@ public class REST {
     String commitId;
     Long commitTime;
     String changeType;
-    String elementNameBefore;
     String elementFileBefore;
-    String elementNameAfter;
+    String elementNameBefore;
     String elementFileAfter;
+    String elementNameAfter;
     String comment;
 
     String date;
@@ -1289,7 +1294,11 @@ public class REST {
       this.commitTime = commitTime;
       this.changes = changes;
       this.changeType = changes.get(0).split(": ", 2)[0].toLowerCase();
-      this.comment = changes.get(0).split(": ", 2)[1].replaceAll("\t", " ");
+      try{
+        this.comment = changes.get(0).split(": ", 2)[1].replaceAll("\t", " ");
+      } catch(Exception e){
+        this.comment = null;
+      }
       this.date = date;
 
       this.before = before.getName();
@@ -1319,8 +1328,17 @@ public class REST {
   // CodeTracker History Block Element
   private static class CTHBlock {
 
-    String commitId;
+    //entries for easy oracle corrections
     String parentCommitId;
+    String commitId;
+    Long commitTime;
+    String changeType;
+    String elementFileBefore;
+    String elementNameBefore;
+    String elementFileAfter;
+    String elementNameAfter;
+    String comment;
+
     String date;
     String before;
     Integer beforeLine;
@@ -1329,7 +1347,6 @@ public class REST {
     Integer afterLine;
     String afterPath;
     String committer;
-    Long commitTime;
     ArrayList<String> changes;
     String evolutionHook;
     Integer evolutionHookLine;
@@ -1349,9 +1366,19 @@ public class REST {
       Boolean evolutionPresent,
       CodeElement evolutionHook
     ) {
-      this.commitId = commitId;
+
       this.parentCommitId = parentCommitId;
+      this.commitId = commitId;
+      this.commitTime = commitTime;
+      this.changes = changes;
+      this.changeType = changes.get(0).split(": ", 2)[0].toLowerCase();
+      try{
+        this.comment = changes.get(0).split(": ", 2)[1].replaceAll("\t", " ");
+      } catch(Exception e){
+        this.comment = null;
+      }
       this.date = date;
+
 
       this.before = before.getName();
       this.beforeLine = before.getLocation().getStartLine();
@@ -1361,9 +1388,12 @@ public class REST {
       this.afterLine = after.getLocation().getStartLine();
       this.afterPath = after.getLocation().getFilePath();
 
+      this.elementFileBefore = this.beforePath;
+      this.elementNameBefore = this.before;
+      this.elementFileAfter = this.afterPath;
+      this.elementNameAfter = this.after;
+
       this.committer = committer;
-      this.commitTime = commitTime;
-      this.changes = changes;
 
       if (evolutionPresent) {
         this.evolutionHook =
