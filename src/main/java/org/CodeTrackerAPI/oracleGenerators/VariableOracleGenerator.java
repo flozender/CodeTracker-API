@@ -1,21 +1,21 @@
-package org.CodeTrackerAPI;
+package org.CodeTrackerAPI.oracleGenerators;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.PropertyAccessor;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import gr.uom.java.xmi.LocationInfo.CodeElementType;
-import gr.uom.java.xmi.decomposition.CompositeStatementObject;
 import gr.uom.java.xmi.decomposition.VariableDeclaration;
-import org.CodeTrackerAPI.REST.CTHBlockOracle;
-import org.CodeTrackerAPI.REST.CTHBlockOracleComment;
+import org.CodeTrackerAPI.changeHistory.OracleChange;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.exception.ExceptionUtils;
-import org.codetracker.api.*;
+import org.codetracker.api.CodeElement;
+import org.codetracker.api.CodeTracker;
+import org.codetracker.api.History;
 import org.codetracker.api.History.HistoryInfo;
+import org.codetracker.api.VariableTracker;
 import org.codetracker.change.Change;
-import org.codetracker.element.Block;
 import org.codetracker.element.Method;
 import org.codetracker.element.Variable;
 import org.codetracker.util.CodeElementLocator;
@@ -155,12 +155,12 @@ public class VariableOracleGenerator {
     String oracleType) {
 
     String changes = null;
-    ArrayList<CTHBlockOracleComment> changeLog = new ArrayList<CTHBlockOracleComment>();
+    ArrayList<OracleChange> changeLog = new ArrayList<OracleChange>();
     IRepository gitRepository = new GitRepository(repository);
 
     for (HistoryInfo<Variable> historyInfo : variableHistoryInfo) {
       for (Change change : historyInfo.getChangeList()) {
-        CTHBlockOracleComment currentElement = new CTHBlockOracleComment(
+        OracleChange currentElement = new OracleChange(
           gitRepository.getParentId(historyInfo.getCommitId()),
           historyInfo.getCommitId(),
           historyInfo.getCommitTime(),
@@ -176,6 +176,7 @@ public class VariableOracleGenerator {
 
     ObjectMapper mapper = new ObjectMapper();
     mapper.setVisibility(PropertyAccessor.FIELD, JsonAutoDetect.Visibility.ANY);
+    mapper.setSerializationInclusion(JsonInclude.Include.NON_NULL);
     try {
 //      changeLog.sort(
 //        Comparator
@@ -185,30 +186,7 @@ public class VariableOracleGenerator {
 
       Collections.reverse(changeLog);
 
-      ArrayList<Object> changeLogCasted = changeLog
-        .stream()
-        .map(change -> {
-          // if comment is the same as the title, no comment in object
-          if (
-            change.getChangeType().equals(change.getComment().toLowerCase())
-          ) {
-            return new CTHBlockOracle(
-              change.parentCommitId,
-              change.commitId,
-              change.commitTime,
-              change.changeType,
-              change.elementNameBefore,
-              change.elementFileBefore,
-              change.elementNameAfter,
-              change.elementFileAfter
-            );
-          }
-          return change;
-        })
-        .collect(Collectors.toCollection(ArrayList::new));
-
-      String json = mapper.writeValueAsString(changeLogCasted);
-      changes = json;
+      changes = mapper.writeValueAsString(changeLog);
     } catch (JsonProcessingException e) {
       handleError(e, 7);
     }

@@ -1,24 +1,25 @@
-package org.CodeTrackerAPI;
+package org.CodeTrackerAPI.oracleGenerators;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.PropertyAccessor;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import gr.uom.java.xmi.*;
+import gr.uom.java.xmi.UMLAttribute;
+import gr.uom.java.xmi.UMLClass;
+import gr.uom.java.xmi.UMLModel;
+import gr.uom.java.xmi.VariableDeclarationContainer;
 import gr.uom.java.xmi.decomposition.AbstractCodeFragment;
-import gr.uom.java.xmi.decomposition.CompositeStatementObject;
-import java.io.File;
-import java.io.FileWriter;
-import java.util.*;
-import java.util.stream.Collectors;
+import org.CodeTrackerAPI.changeHistory.OracleChange;
 import org.apache.commons.io.FileUtils;
 import org.codetracker.BaseTracker;
-import org.codetracker.api.*;
+import org.codetracker.api.AttributeTracker;
+import org.codetracker.api.CodeElement;
+import org.codetracker.api.CodeTracker;
+import org.codetracker.api.History;
 import org.codetracker.change.Change;
 import org.codetracker.element.Attribute;
-import org.codetracker.element.BaseCodeElement;
-import org.codetracker.element.Block;
 import org.codetracker.element.Method;
 import org.codetracker.util.CodeElementLocator;
 import org.codetracker.util.GitRepository;
@@ -28,9 +29,16 @@ import org.eclipse.jgit.lib.Repository;
 import org.refactoringminer.api.GitService;
 import org.refactoringminer.util.GitServiceImpl;
 
+import java.io.File;
+import java.io.FileWriter;
+import java.util.*;
+import java.util.stream.Collectors;
+
 public class AttributeOracleGenerator {
 
   public static void main(String[] args) {
+    System.out.println("Generating Attribute Oracle...");
+
     String oracleType = "test";
     File folder = new File("src/main/resources/oracle/method/" + oracleType);
     File[] listOfFiles = folder.listFiles();
@@ -40,7 +48,6 @@ public class AttributeOracleGenerator {
       if (!file.isFile()) {
         continue;
       }
-      System.out.println("FILE IS " + file);
       ObjectMapper mapper = new ObjectMapper();
       try {
         String data = FileUtils.readFileToString(file, "UTF-8");
@@ -172,12 +179,12 @@ public class AttributeOracleGenerator {
 
 
     String changes = null;
-    ArrayList<REST.CTHBlockOracleComment> changeLog = new ArrayList<REST.CTHBlockOracleComment>();
+    ArrayList<OracleChange> changeLog = new ArrayList<OracleChange>();
     IRepository gitRepository = new GitRepository(repository);
 
     for (History.HistoryInfo<Attribute> historyInfo : attributeHistoryInfo) {
       for (Change change : historyInfo.getChangeList()) {
-        REST.CTHBlockOracleComment currentElement = new REST.CTHBlockOracleComment(
+        OracleChange currentElement = new OracleChange(
           gitRepository.getParentId(historyInfo.getCommitId()),
           historyInfo.getCommitId(),
           historyInfo.getCommitTime(),
@@ -193,39 +200,17 @@ public class AttributeOracleGenerator {
 
     ObjectMapper mapper = new ObjectMapper();
     mapper.setVisibility(PropertyAccessor.FIELD, JsonAutoDetect.Visibility.ANY);
+    mapper.setSerializationInclusion(JsonInclude.Include.NON_NULL);
     try {
       changeLog.sort(
         Comparator
-          .comparing(REST.CTHBlockOracleComment::getCommitTime)
-          .thenComparing(REST.CTHBlockOracleComment::getChangeType)
+          .comparing(OracleChange::getCommitTime)
+          .thenComparing(OracleChange::getChangeType)
       );
 
       Collections.reverse(changeLog);
 
-      ArrayList<Object> changeLogCasted = changeLog
-        .stream()
-        .map(change -> {
-          // if comment is the same as the title, no comment in object
-          if (
-            change.getChangeType().equals(change.getComment().toLowerCase())
-          ) {
-            return new REST.CTHBlockOracle(
-              change.parentCommitId,
-              change.commitId,
-              change.commitTime,
-              change.changeType,
-              change.elementNameBefore,
-              change.elementFileBefore,
-              change.elementNameAfter,
-              change.elementFileAfter
-            );
-          }
-          return change;
-        })
-        .collect(Collectors.toCollection(ArrayList::new));
-
-      String json = mapper.writeValueAsString(changeLogCasted);
-      changes = json;
+      changes = mapper.writeValueAsString(changeLog);
     } catch (JsonProcessingException e) {
       System.err.println("2 - " +e);
     }
