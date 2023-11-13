@@ -1,21 +1,20 @@
-package org.CodeTrackerAPI;
+package org.CodeTrackerAPI.oracleGenerators;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.PropertyAccessor;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import gr.uom.java.xmi.LocationInfo.CodeElementType;
 import gr.uom.java.xmi.decomposition.CompositeStatementObject;
-import java.io.File;
-import java.io.FileWriter;
-import java.text.SimpleDateFormat;
-import java.util.*;
-import java.util.stream.Collectors;
-import org.CodeTrackerAPI.REST.*;
+import org.CodeTrackerAPI.changeHistory.OracleChange;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.exception.ExceptionUtils;
-import org.codetracker.api.*;
+import org.codetracker.api.BlockTracker;
+import org.codetracker.api.CodeElement;
+import org.codetracker.api.CodeTracker;
+import org.codetracker.api.History;
 import org.codetracker.api.History.HistoryInfo;
 import org.codetracker.change.Change;
 import org.codetracker.element.Block;
@@ -26,6 +25,12 @@ import org.codetracker.util.IRepository;
 import org.eclipse.jgit.lib.Repository;
 import org.refactoringminer.api.GitService;
 import org.refactoringminer.util.GitServiceImpl;
+
+import java.io.File;
+import java.io.FileWriter;
+import java.text.SimpleDateFormat;
+import java.util.*;
+import java.util.stream.Collectors;
 
 public class BlockOracleGenerator {
 
@@ -70,7 +75,7 @@ public class BlockOracleGenerator {
     HashMap<String, Integer> invalidFiles = new HashMap<String, Integer>();
     HashMap<String, Integer> invalidReportedFiles = new HashMap<String, Integer>();
 
-    for (File file : validFolder.listFiles()) {
+    for (File file : Objects.requireNonNull(validFolder.listFiles())) {
       if (!file.isFile()) {
         continue;
       }
@@ -154,6 +159,7 @@ public class BlockOracleGenerator {
     File folder = new File("src/main/resources/oracle/method/" + oracleType);
     File[] listOfFiles = folder.listFiles();
 
+    assert listOfFiles != null;
     for (File file : listOfFiles) {
       if (!file.isFile()) {
         continue;
@@ -341,19 +347,24 @@ public class BlockOracleGenerator {
     HashMap<String, Integer> invalidReportedFiles
   ) {
     String changes = null;
-    ArrayList<CTHBlockOracleComment> changeLog = new ArrayList<CTHBlockOracleComment>();
+    ArrayList<OracleChange> changeLog = new ArrayList<OracleChange>();
     IRepository gitRepository = new GitRepository(repository);
 
     for (HistoryInfo<Block> historyInfo : blockHistoryInfo) {
       for (Change change : historyInfo.getChangeList()) {
-        CTHBlockOracleComment currentElement = new CTHBlockOracleComment(
+        String comment = change.toString().replaceAll("\t", " ");
+        if (change.getType().getTitle().equals(comment.toLowerCase())){
+          comment = null;
+        }
+
+        OracleChange currentElement = new OracleChange(
           gitRepository.getParentId(historyInfo.getCommitId()),
           historyInfo.getCommitId(),
           historyInfo.getCommitTime(),
           change.getType().getTitle(),
           historyInfo.getElementBefore(),
           historyInfo.getElementAfter(),
-          change.toString().replaceAll("\t", " ")
+          comment
         );
 
         changeLog.add(currentElement);
@@ -362,6 +373,8 @@ public class BlockOracleGenerator {
 
     ObjectMapper mapper = new ObjectMapper();
     mapper.setVisibility(PropertyAccessor.FIELD, JsonAutoDetect.Visibility.ANY);
+    mapper.setSerializationInclusion(JsonInclude.Include.NON_NULL);
+
     try {
 //      changeLog.sort(
 //        Comparator
@@ -371,30 +384,7 @@ public class BlockOracleGenerator {
 
       Collections.reverse(changeLog);
 
-      ArrayList<Object> changeLogCasted = changeLog
-        .stream()
-        .map(change -> {
-          // if comment is the same as the title, no comment in object
-          if (
-            change.getChangeType().equals(change.getComment().toLowerCase())
-          ) {
-            return new CTHBlockOracle(
-              change.parentCommitId,
-              change.commitId,
-              change.commitTime,
-              change.changeType,
-              change.elementNameBefore,
-              change.elementFileBefore,
-              change.elementNameAfter,
-              change.elementFileAfter
-            );
-          }
-          return change;
-        })
-        .collect(Collectors.toCollection(ArrayList::new));
-
-      String json = mapper.writeValueAsString(changeLogCasted);
-      changes = json;
+      changes = mapper.writeValueAsString(changeLog);
     } catch (JsonProcessingException e) {
       handleError(e, 7);
     }
@@ -449,7 +439,7 @@ public class BlockOracleGenerator {
       .replaceAll("\r\n", "")
       .hashCode();
 
-    if (folderName == "false") {
+    if (folderName.equals("false")) {
       if (validFiles.containsKey(fileKey)) {
         if (validFiles.get(fileKey) == hashCode) {
           folderName = "valid";
@@ -555,7 +545,7 @@ public class BlockOracleGenerator {
     System.out.println("Case " + number.toString() + " - Failed: " + e);
     e.printStackTrace();
     String stacktrace = ExceptionUtils.getStackTrace(e);
-    log("Case " + number.toString() + " - Failed: " + e);
+    log("Case " + number + " - Failed: " + e);
     log(stacktrace);
   }
 }
